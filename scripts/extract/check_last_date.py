@@ -1,5 +1,3 @@
-from utils import get_source_file_path
-
 import requests
 import pandas as pd
 import datetime
@@ -9,13 +7,14 @@ import os
 ### Variables ###
 
 version = 2
-filename = "dates.csv"
 
 ### Methods ###
 
 
 def last_date_checked(list_of_dates):
-    return datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
+    last_date = datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
+    print(f"Last date read: {last_date.strftime("%Y-%m-%d")}")
+    return last_date
 
 
 def unchecked_dates(last_date_checked):
@@ -25,7 +24,7 @@ def unchecked_dates(last_date_checked):
 
 def new_parliament_sitting_dates(unchecked_dates):
     new_dates = []
-
+    print("Checking for dates:")
     for date in unchecked_dates:
         url = f"https://sprs.parl.gov.sg/search/getHansardReport/?sittingDate={date.strftime('%d-%m-%Y')}"
         response = requests.get(url)
@@ -53,15 +52,14 @@ def prepare_df_to_append(new_sitting_dates, version=2):
 ### Main Run ###
 
 
-def check_last_date():
-    seeds_date = get_source_file_path()
+def check_last_date(seeds_date_filepath):
 
-    df = pd.read_csv(seeds_date)
+    df = pd.read_csv(seeds_date_filepath)
 
     unchecked_dates_df = unchecked_dates(last_date_checked(df["Sitting_Date"]))
     new_sitting_dates_list = new_parliament_sitting_dates(unchecked_dates_df)
 
     append_df = prepare_df_to_append(new_sitting_dates_list, version)
-    append_df.to_csv(seeds_date, mode="a", index=False, header=False)
+    append_df.to_csv(seeds_date_filepath, mode="a", index=False, header=False)
 
     return 0
