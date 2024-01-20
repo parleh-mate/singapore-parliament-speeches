@@ -5,6 +5,7 @@ import extract.parl_json as parl_json
 import transform
 import load
 import load.sittings as load_sittings
+import load.attendance as load_attendance
 
 # 1.
 # Check for new dates
@@ -48,6 +49,7 @@ def get_json(date_list):
     return 0
 
 # 4.
+# Create sittings by date
 
 def sittings(date_list):
 
@@ -60,6 +62,18 @@ def sittings(date_list):
 
     return 0
 
+# 5.
+# Create attendance by date
+
+def attendance(date_list):
+
+    for date in date_list:
+
+        attendance_list = transform.get_json(date, 'attendanceList')
+        attendance_df = load_attendance.dataframe(date, attendance_list)
+
+        load.save_df('attendance', date, attendance_df)
+
 # Main Run
 
 root_path = get_root_path()
@@ -70,7 +84,7 @@ seed_dates_path = join_path(
 
 while(True):
     try:
-        choice = int(input("Enter the part of the code to execute (1, 2, 3, 4): "))
+        choice = int(input("Enter the part of the code to execute (1, 2, 3, 4, 5): "))
         if choice == 0:
             break
         elif choice == 1:
@@ -81,6 +95,8 @@ while(True):
             get_json(dates_to_process(seed_dates_path))
         elif choice == 4:
             sittings(dates_to_process(seed_dates_path))
+        elif choice == 5:
+            attendance(dates_to_process(seed_dates_path))
         else:
             continue
 
