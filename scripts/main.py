@@ -7,6 +7,7 @@ import load
 import load.sittings as load_sittings
 import load.attendance as load_attendance
 import load.topics as load_topics
+import load.speeches as load_speeches
 
 # 1.
 # Check for new dates
@@ -84,9 +85,22 @@ def topics(date_list):
 
     for date in date_list:
         topics_list = transform.get_json(date, 'takesSectionVOList')
+        
         topics_df = load_topics.dataframe(date, topics_list)
-
         load.save_df('topics', date, topics_df)
+
+    return 0
+
+# 7.
+# Create speeches by date
+
+def speeches(date_list):
+
+    for date in date_list:
+        topics_list = transform.get_json(date, 'takesSectionVOList')
+
+        speeches_df = load_speeches.dataframe(date, topics_list)
+        load.save_df('speeches', date, speeches_df)
 
     return 0
 
@@ -100,7 +114,7 @@ seed_dates_path = join_path(
 
 while(True):
     try:
-        choice = int(input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6): "))
+        choice = int(input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7): "))
         if choice == 0:
             break
         elif choice == 1:
@@ -115,6 +129,8 @@ while(True):
             attendance(dates_to_process(seed_dates_path))
         elif choice == 6:
             topics(dates_to_process(seed_dates_path))
+        elif choice == 7:
+            speeches(dates_to_process(seed_dates_path))
         else:
             continue
 
