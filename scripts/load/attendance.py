@@ -1,11 +1,11 @@
 import pandas as pd
-import transform.attendance as transform_attendance
+import transform.attendance as attendance
 
 def dataframe(date_yyyymmdd, attendance_list):
 
-    cleaned_member_names = [transform_attendance.clean_mp_name(attendance["mpName"]) for attendance in attendance_list]
-    original_member_names = [attendance["mpName"] for attendance in attendance_list]
-    attendance_bool = [attendance["attendance"] for attendance in attendance_list]
+    cleaned_member_names = [attendance.clean_mp_name(obj["mpName"]) for obj in attendance_list]
+    original_member_names = [obj["mpName"] for obj in attendance_list]
+    attendance_bool = [obj["attendance"] for obj in attendance_list]
 
     attendance_df = pd.DataFrame(
         {
