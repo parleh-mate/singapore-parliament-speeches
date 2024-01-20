@@ -1,2 +1,2 @@
-Sitting_CID,Sitting_Date,Parliament Session Str,Parliament_Number,Session_Number,Volume_Number,Sitting_Number
-013-001-094-013,2016-04-06T12:00:00,FIRST SESSION,13,1,94,13
+Sitting_CID,Sitting_Date,Sitting_DateTime,Parliament_Number,Session_Number,Volume_Number,Sitting_Number
+013-001-094-013,2016-04-06,2016-04-06T12:00:00,13,1,94,13

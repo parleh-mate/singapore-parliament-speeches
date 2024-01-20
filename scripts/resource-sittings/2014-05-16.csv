@@ -1,2 +1,2 @@
-Sitting_CID,Sitting_Date,Parliament Session Str,Parliament_Number,Session_Number,Volume_Number,Sitting_Number
-012-002-092-001,2014-05-16T20:30:00,PART I OF SECOND SESSION,12,2,92,1
+Sitting_CID,Sitting_Date,Sitting_DateTime,Parliament_Number,Session_Number,Volume_Number,Sitting_Number
+012-002-092-001,2014-05-16,2014-05-16T20:30:00,12,2,92,1
