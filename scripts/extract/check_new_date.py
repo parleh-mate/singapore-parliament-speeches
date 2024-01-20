@@ -13,7 +13,7 @@ version = 2
 
 def last_date_checked(list_of_dates):
     last_date = datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
-    print(f"Last date read: {last_date.strftime("%Y-%m-%d")}")
+    print(f"Last date read: {last_date.strftime('%Y-%m-%d')}")
     return last_date
 
 
@@ -53,7 +53,6 @@ def prepare_df_to_append(new_sitting_dates, version=2):
 
 
 def process(seeds_date_filepath):
-
     df = pd.read_csv(seeds_date_filepath)
 
     unchecked_dates_df = unchecked_dates(last_date_checked(df["Sitting_Date"]))
