@@ -1,8 +1,8 @@
 import pandas as pd
 import transform.topics as topics
 
-def dataframe(date_yyyymmdd, topics_list):
 
+def dataframe(date_yyyymmdd, topics_list):
     titles = [section["title"] for section in topics_list]
     subtitles = [section["subTitle"] for section in topics_list]
     section_types = [section["sectionType"] for section in topics_list]
@@ -20,7 +20,7 @@ def dataframe(date_yyyymmdd, topics_list):
             "Title": titles,
             "Subtitle": subtitles,
             "Section_Type": section_types,
-            "Question_Count": question_counts
+            "Question_Count": question_counts,
         }
     )
 

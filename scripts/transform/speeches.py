@@ -2,11 +2,12 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import transform
 
+
 def speech_cid(row):
     return f"{row['Topic_CID']}-S-{row['Speech_Order']:05}"
 
-def topic_dataframe(content, topic_cid, index):
 
+def topic_dataframe(content, topic_cid, index):
     soup = BeautifulSoup(content, "html.parser")
     speakers, texts, sequences = process_content(soup)
     print(f"Topic: {topic_cid}, Index (of Topic List): {index}")
@@ -19,14 +20,14 @@ def topic_dataframe(content, topic_cid, index):
             "Original_MP_Name": cleaned_speakers,
             "MP_Name": speakers,
             "Text": texts,
-            "Seq": sequences
+            "Seq": sequences,
         }
     )
 
     return temp_df
 
-def process_content(soup):
 
+def process_content(soup):
     speakers = []
     texts = []
     sequences = []

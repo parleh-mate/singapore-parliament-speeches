@@ -7,5 +7,6 @@ def get_root_path():
 
     return root_directory
 
+
 def join_path(root_path, file_path):
     return os.path.join(root_path, file_path)

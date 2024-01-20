@@ -1,8 +1,8 @@
 import pandas as pd
 import transform.sittings as sittings
 
-def dataframe(metadata):
 
+def dataframe(metadata):
     sitting_df = pd.DataFrame(
         {
             "Sitting_CID": [sittings.cid(metadata)],
