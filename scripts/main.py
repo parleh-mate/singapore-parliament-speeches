@@ -1,39 +1,88 @@
 from utils import get_root_path, join_path
 import extract
-from extract.check_last_date import check_last_date
+import extract.check_new_date as check_new_date
 import extract.parl_json as parl_json
+import transform
+import load
+import load.sittings as load_sittings
 
 # 1.
 # Check for new dates
 
-seed_dates_path = join_path(
-    join_path(get_root_path(), "seeds"),
-    "dates.csv")
+def check_new_dates(seed_dates_path):
 
-check_last_date(seed_dates_path)
+    check_new_date.process(seed_dates_path)
+
+    return 0
 
 # 2.
 # Get dates to be processed
 
-date_df = extract.get_dates_file(seed_dates_path)
-date_list = extract.dates_to_process(date_df)
+def dates_to_process(seed_dates_path):
 
-print(f"Dates to be processed: {date_list}\n")
+    date_df = extract.get_dates_file(seed_dates_path)
+    date_list = extract.dates_to_process(date_df)
+
+    print(f"Dates to be processed: {date_list}\n")
+
+    return date_list
 
 # 3.
 # Get JSON files for dates
 
-for date in date_list:
-    url = parl_json.parliament_url(
-        parl_json.date_yyyymmdd_to_ddmmyyyy(date)
-        )
-    
-    response = parl_json.get_json(url)
+def get_json(date_list):
 
-    filepath = join_path(
-        join_path(get_root_path(), "resource-json"),
-        f"{date}.json")
+    for date in date_list:
+        url = parl_json.parliament_url(
+            parl_json.date_yyyymmdd_to_ddmmyyyy(date)
+            )
+        
+        response = parl_json.get_json(url)
 
-    parl_json.save_json(response.json(), filepath)
+        filepath = join_path(
+            join_path(get_root_path(), "resource-json"),
+            f"{date}.json")
+
+        parl_json.save_json(response.json(), filepath)
+
+    return 0
 
 # 4.
+
+def sittings(date_list):
+
+    for date in date_list:
+
+        metadata = transform.get_json(date, 'metadata')
+        sittings_df = load_sittings.dataframe(metadata)
+
+        load.save_df('sittings', date, sittings_df)
+
+    return 0
+
+# Main Run
+
+root_path = get_root_path()
+
+seed_dates_path = join_path(
+    join_path(root_path, "seeds"),
+    "dates.csv")
+
+while(True):
+    try:
+        choice = int(input("Enter the part of the code to execute (1, 2, 3, 4): "))
+        if choice == 0:
+            break
+        elif choice == 1:
+            check_new_dates(seed_dates_path)
+        elif choice == 2:
+            dates_to_process(seed_dates_path)
+        elif choice == 3:
+            get_json(dates_to_process(seed_dates_path))
+        elif choice == 4:
+            sittings(dates_to_process(seed_dates_path))
+        else:
+            continue
+
+    except ValueError:
+        print("Invalid input. Please enter a number.")

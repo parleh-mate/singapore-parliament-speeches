@@ -25,7 +25,7 @@ def get_json(url):
 def save_json(response_json, filepath):
     with open(filepath, 'w') as file:
         json.dump(response_json, file)
-        print(f"JSON saved to: {filepath}")
+        print(f"JSON saved to: {filepath}\n")
 
     return 0
 

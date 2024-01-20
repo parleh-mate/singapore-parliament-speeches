@@ -52,7 +52,7 @@ def prepare_df_to_append(new_sitting_dates, version=2):
 ### Main Run ###
 
 
-def check_last_date(seeds_date_filepath):
+def process(seeds_date_filepath):
 
     df = pd.read_csv(seeds_date_filepath)
 
