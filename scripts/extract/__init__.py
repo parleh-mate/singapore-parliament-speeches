@@ -2,6 +2,8 @@ import requests
 import json
 import datetime
 import pandas as pd
+import pandas_gbq
+import seeds
 
 ### Methods ###
 
@@ -16,3 +18,15 @@ def dates_to_process(date_df):
     date_list = list(filtered_df["Sitting_Date"])
 
     return date_list
+
+def read_gbq_table(dataset, model):
+
+    sql = f"""
+    SELECT *
+    FROM `{seeds.project_id}.{dataset}.{model}`
+    """
+
+    df = pandas_gbq.read_gbq(sql, 
+                             project_id=seeds.project_id)
+
+    return df

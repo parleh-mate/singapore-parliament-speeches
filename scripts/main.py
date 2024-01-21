@@ -125,6 +125,7 @@ def incrementals(date_list):
     for type, model in type_model:
         new_df = load_models.incremental_facts(date_list, type)
         load.save_incremental_model(model, new_df)
+        load.save_incremental_model_gbq('raw', type, new_df)
 
     return 0
 
@@ -137,12 +138,13 @@ def aggregated():
     seed_members_path = join_path(join_path(root_path, "seeds"), "member.csv")
 
     dim_members_df = transform_members.transform(
-        pd.read_csv(load.get_model_filename("fact_attendance")),
+        extract.read_gbq_table('raw', 'attendance'),
         pd.read_csv(seed_members_path),
     )
 
     transform_members.validate(dim_members_df)
     load.save_aggregated_model("dim_members", dim_members_df)
+    load.save_aggregated_model_gbq('dim', 'members', dim_members_df)
 
     return 0
 
