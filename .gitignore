@@ -1,5 +1,6 @@
 # Ignore test file
 scripts/test.py
+keys
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
