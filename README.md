@@ -30,7 +30,7 @@ The raw data which is generated includes the following:
 
 # How to contribute
 
-If you are interested to contribute, please reach out to singapore.parliament.speeches@gmail.com. 
+If you are interested to contribute, please reach out to jeremyjchia@gmail.com. 
 
 # References
 * *Dritsa, K., Thoma, A., Pavlopoulos, I., & Louridas, P. (2022). A Greek Parliament Proceedings Dataset for Computational Linguistics and Political Analysis. Advances in Neural Information Processing Systems, 35, 28874-28888.*
