@@ -8,6 +8,7 @@ import load.sittings as load_sittings
 import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
+import load.models as load_models
 
 # 1.
 # Check for new dates
@@ -108,10 +109,21 @@ def speeches(date_list):
 
 
 # 8.
-# Create facts incrementally
+# Create facts/dim incrementally
 
 
-def facts(date_list):
+def incrementals(date_list):
+    type_model = [
+        ("sittings", "fact_sittings"),
+        ("attendance", "fact_attendance"),
+        ("topics", "dim_topics"),
+        ("speeches", "fact_speeches"),
+    ]
+
+    for type, model in type_model:
+        new_df = load_models.incremental_facts(date_list, type)
+        load.save_incremental_model(model, new_df)
+
     return 0
 
 
@@ -124,7 +136,7 @@ seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 while True:
     try:
         choice = int(
-            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7): ")
+            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
         )
         if choice == 0:
             break
@@ -142,6 +154,8 @@ while True:
             topics(dates_to_process(seed_dates_path))
         elif choice == 7:
             speeches(dates_to_process(seed_dates_path))
+        elif choice == 8:
+            incrementals(dates_to_process(seed_dates_path))
         else:
             continue
 
