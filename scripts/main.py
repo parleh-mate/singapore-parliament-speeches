@@ -58,96 +58,76 @@ def get_json(date_list):
 # Create sittings by date
 
 
-def sittings(date_list):
+def sittings(date_list, debug=True):
     for date in date_list:
         metadata = transform.get_json(date, "metadata")
         sittings_df = load_sittings.dataframe(metadata)
 
-        load.save_df("sittings", date, sittings_df)
+        if debug == True:
+            load.save_df("sittings", date, sittings_df)
 
-    return 0
+        if debug == False:
+            load.save_incremental_model_gbq("raw", "sittings", sittings_df)
+
+    return sittings_df
 
 
 # 5.
 # Create attendance by date
 
 
-def attendance(date_list):
+def attendance(date_list, debug=True):
     for date in date_list:
         attendance_list = transform.get_json(date, "attendanceList")
         attendance_df = load_attendance.dataframe(date, attendance_list)
 
-        load.save_df("attendance", date, attendance_df)
+        if debug == True:
+            load.save_df("attendance", date, attendance_df)
 
-    return 0
+        if debug == False:
+            load.save_incremental_model_gbq("raw", "attendance", attendance_df)
+
+    return attendance_df
 
 
 # 6.
 # Create topics by date
 
 
-def topics(date_list):
+def topics(date_list, debug=True):
     for date in date_list:
         topics_list = transform.get_json(date, "takesSectionVOList")
-
         topics_df = load_topics.dataframe(date, topics_list)
-        load.save_df("topics", date, topics_df)
 
-    return 0
+        if debug == True:
+            load.save_df("topics", date, topics_df)
+
+        if debug == False:
+            load.save_incremental_model_gbq("raw", "topics", topics_df)
+
+    return topics_df
 
 
 # 7.
 # Create speeches by date
 
 
-def speeches(date_list):
+def speeches(date_list, debug=True):
     for date in date_list:
         topics_list = transform.get_json(date, "takesSectionVOList")
-
         speeches_df = load_speeches.dataframe(date, topics_list)
-        load.save_df("speeches", date, speeches_df)
 
-    return 0
+        if debug == True:
+            load.save_df("speeches", date, speeches_df)
+
+        if debug == False:
+            load.save_incremental_model_gbq("raw", "speeches", speeches_df)
+
+    return speeches_df
 
 
 # 8.
-# Create facts/dim incrementally
-
-
-def incrementals(date_list):
-    type_model = [
-        ("sittings", "fact_sittings"),
-        ("attendance", "fact_attendance"),
-        ("topics", "dim_topics"),
-        ("speeches", "fact_speeches"),
-    ]
-
-    for type, model in type_model:
-        new_df = load_models.incremental_facts(date_list, type)
-        load.save_incremental_model(model, new_df)
-        load.save_incremental_model_gbq("raw", type, new_df)
-
-    return 0
-
-
-# 9.
-# Create dim_members (aggregated dim)
-
-
-def aggregated():
-    seed_members_path = join_path(join_path(root_path, "seeds"), "member.csv")
-
-    dim_members_df = transform_members.transform(
-        extract.read_gbq_table("raw", "attendance"),
-        pd.read_csv(seed_members_path),
-    )
-
-    transform_members.validate(dim_members_df)
-    load.save_aggregated_model("dim_members", dim_members_df)
-    load.save_aggregated_model_gbq("dim", "members", dim_members_df)
-
-    return 0
-
+# Run all the above in production.
 
 # Main Run
 
@@ -158,7 +138,7 @@ seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 while True:
     try:
         choice = int(
-            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8, 9): ")
+            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
         )
         if choice == 0:
             break
@@ -169,17 +149,19 @@ while True:
         elif choice == 3:
             get_json(dates_to_process(seed_dates_path))
         elif choice == 4:
-            sittings(dates_to_process(seed_dates_path))
+            sittings(dates_to_process(seed_dates_path), debug=True)
         elif choice == 5:
-            attendance(dates_to_process(seed_dates_path))
+            attendance(dates_to_process(seed_dates_path), debug=True)
         elif choice == 6:
-            topics(dates_to_process(seed_dates_path))
+            topics(dates_to_process(seed_dates_path), debug=True)
         elif choice == 7:
-            speeches(dates_to_process(seed_dates_path))
+            speeches(dates_to_process(seed_dates_path), debug=True)
         elif choice == 8:
-            incrementals(dates_to_process(seed_dates_path))
-        elif choice == 9:
-            aggregated()
+            process_dates = dates_to_process(seed_dates_path)
+            sittings(process_dates, debug=False)
+            attendance(process_dates, debug=False)
+            topics(process_dates, debug=False)
+            speeches(process_dates, debug=False)
         else:
             continue
 
