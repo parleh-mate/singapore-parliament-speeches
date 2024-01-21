@@ -24,7 +24,7 @@ The raw data which is generated includes the following:
 | model | description |
 |-------|-------------|
 |attendance|By member, by sitting date, whether the member attended the parliamentary sitting or not.|
-|sittings|By sitting date, the associated parliamentary sitting information (parliament number, session number, etc.)
+|sittings|By sitting date, the associated parliamentary sitting information (parliament number, session number, etc.)|
 |topics|Each row represents one topic which was discussed during the parliamentary sitting.|
 |speeches|Each row represents one paragraph of text, based on the hansard, during the parliamentary sitting. This text corresponds to a speech (or part of a speech) made by a Member of Parliament on a given topic.|
 
