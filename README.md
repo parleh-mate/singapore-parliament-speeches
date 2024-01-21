@@ -1,5 +1,5 @@
 # Structured dataset for Singapore's Parliament Speeches
-This project aims to make parliament speeches from Singapore's Parliament Hansard structured and accessible. 
+This project aims to make parliament speeches from Singapore's Parliament Hansard structured and accessible.
 
 A structured format is an enabler. There are applications in computational linguistic analysis, classification, and political science *(Dritsa et. al., 2022)*. Further empirical research on parliamentary discourse and its wider societal impact in recent times is ever more important, given the decisive role of parlimanets and their rapidly changing relations with the public and media *(Erjavec et. al., 2023)*.
 
@@ -30,7 +30,7 @@ The raw data which is generated includes the following:
 
 # How to contribute
 
-If you are interested to contribute, please reach out to jeremyjchia@gmail.com. 
+If you are interested to contribute, please reach out to jeremyjchia@gmail.com.
 
 # References
 * *Dritsa, K., Thoma, A., Pavlopoulos, I., & Louridas, P. (2022). A Greek Parliament Proceedings Dataset for Computational Linguistics and Political Analysis. Advances in Neural Information Processing Systems, 35, 28874-28888.*
