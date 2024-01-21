@@ -1,8 +1,10 @@
+import pandas as pd
 from utils import get_root_path, join_path
 import extract
 import extract.check_new_date as check_new_date
 import extract.parl_json as parl_json
 import transform
+import transform.members as transform_members
 import load
 import load.sittings as load_sittings
 import load.attendance as load_attendance
@@ -126,6 +128,23 @@ def incrementals(date_list):
 
     return 0
 
+# 9.
+# Create dim_members (aggregated dim)
+
+def aggregated():
+
+    seed_members_path = join_path(join_path(root_path, "seeds"), "member.csv")
+
+    dim_members_df = transform_members.transform(
+        pd.read_csv(load.get_model_filename('fact_attendance')),
+        pd.read_csv(seed_members_path)
+    )
+
+    transform_members.validate(dim_members_df)
+    load.save_aggregated_model('dim_members', dim_members_df)
+
+    return 0
+
 
 # Main Run
 
@@ -136,7 +155,7 @@ seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 while True:
     try:
         choice = int(
-            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
+            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8, 9): ")
         )
         if choice == 0:
             break
@@ -156,6 +175,8 @@ while True:
             speeches(dates_to_process(seed_dates_path))
         elif choice == 8:
             incrementals(dates_to_process(seed_dates_path))
+        elif choice == 9:
+            aggregated()
         else:
             continue
 

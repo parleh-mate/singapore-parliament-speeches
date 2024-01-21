@@ -26,6 +26,15 @@ def save_df(type, date_yyyymmdd, df):
 
     return 0
 
+def save_aggregated_model(model, df):
+    filepath = get_model_filename(model)
+
+    df.to_csv(filepath, index=False, mode="w")
+
+    print(f"CSV saved to: {filepath}\n")
+
+    return 0
+
 
 def save_incremental_model(model, new_df):
     filepath = get_model_filename(model)
