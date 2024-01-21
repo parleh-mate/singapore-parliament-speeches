@@ -1,36 +1,36 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2013-07-09,2013-07-09-T-001,1,Revision of Question Time,Motion,OS,
-2013-07-09,2013-07-09-T-002,2,Rate-rigging Activities at Banks in Singapore,,OA,
-2013-07-09,2013-07-09-T-003,3,Illegal Protest at Merlion Park by Malaysians,,OA,
-2013-07-09,2013-07-09-T-004,4,Campaigning by Foreign Politicians,,OA,
-2013-07-09,2013-07-09-T-005,5,Government Support for Shelters for Women Victims of Domestic Violence,,OA,
-2013-07-09,2013-07-09-T-006,6,Cases Filed with Tribunal for Maintenance of Parents,,OA,
-2013-07-09,2013-07-09-T-007,7,Town Councils' Role in Cleanliness of Hawker Centres ,,OA,
-2013-07-09,2013-07-09-T-008,8,Review of Tourist Guide Regulatory Framework,,OA,
-2013-07-09,2013-07-09-T-009,9,Progress of ASEAN Framework Agreement on Services,,OA,
-2013-07-09,2013-07-09-T-010,10,Encouraging HDB Rental Flat Tenants towards Home Ownership,,OA,
-2013-07-09,2013-07-09-T-011,11,Controlling Population of Stray Animals,,OA,
-2013-07-09,2013-07-09-T-012,12,Award of Contracts for City Direct Public Bus Services,,OA,
-2013-07-09,2013-07-09-T-013,13,Express Bus Terminal for Long-haul Coaches,,OA,
-2013-07-09,2013-07-09-T-014,14,Expanding Use of MediSave for Scans and for Elderly Patients,,OA,
-2013-07-09,2013-07-09-T-015,15,Regulation of Paramedic Services,,OA,
-2013-07-09,2013-07-09-T-016,16,National Emergency Response Plan to Deal with MERS,,OA,
-2013-07-09,2013-07-09-T-017,17,Use of HDB Rooftop Space,,OA,
-2013-07-09,2013-07-09-T-018,18,Annual Government Funding for Community Leaders Forum,,OA,
-2013-07-09,2013-07-09-T-019,19,Encouraging Property Owners to Construct Pedestrian Linkages between Buildings,,OA,
-2013-07-09,2013-07-09-T-020,20,Development Plans for Pulau Ubin,,OA,
-2013-07-09,2013-07-09-T-021,21,Impact of Insolvency of Main Contractor for MRT Downtown Line,,OA,
-2013-07-09,2013-07-09-T-022,22,Adjournment,,OS,
-2013-07-09,2013-07-09-T-023,23,Free Pre-Peak Hour Travel on MRT Trains,Considerations for free travel,WANA,
-2013-07-09,2013-07-09-T-024,24,Emergency Response to MRT Disruption along North East Line in June 2013,,WANA,
-2013-07-09,2013-07-09-T-025,25,Benefits and Allowances for Non-Singaporean Academic Staff at Universities,,WANA,
-2013-07-09,2013-07-09-T-026,26,Use of Past Reserves since 2002,,WANA,
-2013-07-09,2013-07-09-T-027,27,Lifting Participation Rates in Arts Courses at Grassroots Organisations,,WANA,
-2013-07-09,2013-07-09-T-028,28,Financial Literacy among Elderly Singaporeans,,WANA,
-2013-07-09,2013-07-09-T-029,29,Investigations into Claims of Police Brutality for Bus Drivers on Strike,,WANA,
-2013-07-09,2013-07-09-T-030,30,Bukit Brown Cemetery as a UNESCO Heritage Site,,WANA,
-2013-07-09,2013-07-09-T-031,31,Implementation of Cultural Donation Matching Fund,,WANA,
-2013-07-09,2013-07-09-T-032,32,Incidence of Hit-and-Run Accidents,,WANA,
-2013-07-09,2013-07-09-T-033,33,Punishment for Conmen Passing off as HDB Contractors,,WANA,
-2013-07-09,2013-07-09-T-034,34,Average Waiting Time for Foreign Spouses for Citizenship,,WANA,
-2013-07-09,2013-07-09-T-035,35,Request for Public Bus Service Plying between Potong Pasir and Orchard Road,,WA,
+topic_id,date,topic_order,title,section_type
+2013-07-09-T-001,2013-07-09,1,Revision of Question Time,OS
+2013-07-09-T-002,2013-07-09,2,Rate-rigging Activities at Banks in Singapore,OA
+2013-07-09-T-003,2013-07-09,3,Illegal Protest at Merlion Park by Malaysians,OA
+2013-07-09-T-004,2013-07-09,4,Campaigning by Foreign Politicians,OA
+2013-07-09-T-005,2013-07-09,5,Government Support for Shelters for Women Victims of Domestic Violence,OA
+2013-07-09-T-006,2013-07-09,6,Cases Filed with Tribunal for Maintenance of Parents,OA
+2013-07-09-T-007,2013-07-09,7,Town Councils' Role in Cleanliness of Hawker Centres ,OA
+2013-07-09-T-008,2013-07-09,8,Review of Tourist Guide Regulatory Framework,OA
+2013-07-09-T-009,2013-07-09,9,Progress of ASEAN Framework Agreement on Services,OA
+2013-07-09-T-010,2013-07-09,10,Encouraging HDB Rental Flat Tenants towards Home Ownership,OA
+2013-07-09-T-011,2013-07-09,11,Controlling Population of Stray Animals,OA
+2013-07-09-T-012,2013-07-09,12,Award of Contracts for City Direct Public Bus Services,OA
+2013-07-09-T-013,2013-07-09,13,Express Bus Terminal for Long-haul Coaches,OA
+2013-07-09-T-014,2013-07-09,14,Expanding Use of MediSave for Scans and for Elderly Patients,OA
+2013-07-09-T-015,2013-07-09,15,Regulation of Paramedic Services,OA
+2013-07-09-T-016,2013-07-09,16,National Emergency Response Plan to Deal with MERS,OA
+2013-07-09-T-017,2013-07-09,17,Use of HDB Rooftop Space,OA
+2013-07-09-T-018,2013-07-09,18,Annual Government Funding for Community Leaders Forum,OA
+2013-07-09-T-019,2013-07-09,19,Encouraging Property Owners to Construct Pedestrian Linkages between Buildings,OA
+2013-07-09-T-020,2013-07-09,20,Development Plans for Pulau Ubin,OA
+2013-07-09-T-021,2013-07-09,21,Impact of Insolvency of Main Contractor for MRT Downtown Line,OA
+2013-07-09-T-022,2013-07-09,22,Adjournment,OS
+2013-07-09-T-023,2013-07-09,23,Free Pre-Peak Hour Travel on MRT Trains,WANA
+2013-07-09-T-024,2013-07-09,24,Emergency Response to MRT Disruption along North East Line in June 2013,WANA
+2013-07-09-T-025,2013-07-09,25,Benefits and Allowances for Non-Singaporean Academic Staff at Universities,WANA
+2013-07-09-T-026,2013-07-09,26,Use of Past Reserves since 2002,WANA
+2013-07-09-T-027,2013-07-09,27,Lifting Participation Rates in Arts Courses at Grassroots Organisations,WANA
+2013-07-09-T-028,2013-07-09,28,Financial Literacy among Elderly Singaporeans,WANA
+2013-07-09-T-029,2013-07-09,29,Investigations into Claims of Police Brutality for Bus Drivers on Strike,WANA
+2013-07-09-T-030,2013-07-09,30,Bukit Brown Cemetery as a UNESCO Heritage Site,WANA
+2013-07-09-T-031,2013-07-09,31,Implementation of Cultural Donation Matching Fund,WANA
+2013-07-09-T-032,2013-07-09,32,Incidence of Hit-and-Run Accidents,WANA
+2013-07-09-T-033,2013-07-09,33,Punishment for Conmen Passing off as HDB Contractors,WANA
+2013-07-09-T-034,2013-07-09,34,Average Waiting Time for Foreign Spouses for Citizenship,WANA
+2013-07-09-T-035,2013-07-09,35,Request for Public Bus Service Plying between Potong Pasir and Orchard Road,WA

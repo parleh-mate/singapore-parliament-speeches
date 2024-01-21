@@ -1,16 +1,16 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2017-03-01,2017-03-01-T-001,1,Time Allocation for Committee of Supply,Announcement by Mdm Speaker,OS,
-2017-03-01,2017-03-01-T-002,2,Smuggling of SAF Uniforms through Batam,,OA,
-2017-03-01,2017-03-01-T-003,3,Ban on Domestic Trade in Ivory,,OA,
-2017-03-01,2017-03-01-T-004,4,Link between Better Air Quality and Reduction in Healthcare Costs,,OA,
-2017-03-01,2017-03-01-T-005,5,Purchase Limits of Singapore Saving Bonds,,OA,
-2017-03-01,2017-03-01-T-006,6,Correction of Information on Gov Factually Website,,OA,
-2017-03-01,2017-03-01-T-007,7,Support for Single-parent Families Including for Single Fathers,,OA,
-2017-03-01,2017-03-01-T-008,8,Income Eligibility Criterion for Rental Housing,,OA,
-2017-03-01,2017-03-01-T-009,9,Debate on Annual Budget Statement,,OS,
-2017-03-01,2017-03-01-T-010,10,Time Limit for Minister's Speech,Suspension of Standing Orders,OS,
-2017-03-01,2017-03-01-T-011,11,Debate on Annual Budget Statement,,OS,
-2017-03-01,2017-03-01-T-012,12,Exempted Business,Motion,OS,
-2017-03-01,2017-03-01-T-013,13,Debate on Annual Budget Statement,,OS,
-2017-03-01,2017-03-01-T-014,14,Adjournment of Debate,,OS,
-2017-03-01,2017-03-01-T-015,15,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2017-03-01-T-001,2017-03-01,1,Time Allocation for Committee of Supply,OS
+2017-03-01-T-002,2017-03-01,2,Smuggling of SAF Uniforms through Batam,OA
+2017-03-01-T-003,2017-03-01,3,Ban on Domestic Trade in Ivory,OA
+2017-03-01-T-004,2017-03-01,4,Link between Better Air Quality and Reduction in Healthcare Costs,OA
+2017-03-01-T-005,2017-03-01,5,Purchase Limits of Singapore Saving Bonds,OA
+2017-03-01-T-006,2017-03-01,6,Correction of Information on Gov Factually Website,OA
+2017-03-01-T-007,2017-03-01,7,Support for Single-parent Families Including for Single Fathers,OA
+2017-03-01-T-008,2017-03-01,8,Income Eligibility Criterion for Rental Housing,OA
+2017-03-01-T-009,2017-03-01,9,Debate on Annual Budget Statement,OS
+2017-03-01-T-010,2017-03-01,10,Time Limit for Minister's Speech,OS
+2017-03-01-T-011,2017-03-01,11,Debate on Annual Budget Statement,OS
+2017-03-01-T-012,2017-03-01,12,Exempted Business,OS
+2017-03-01-T-013,2017-03-01,13,Debate on Annual Budget Statement,OS
+2017-03-01-T-014,2017-03-01,14,Adjournment of Debate,OS
+2017-03-01-T-015,2017-03-01,15,Adjournment,OS

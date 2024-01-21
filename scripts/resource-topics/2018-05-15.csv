@@ -1,3 +1,3 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2018-05-15,2018-05-15-T-001,1,Debate on President's Address,Second allotted day,OS,
-2018-05-15,2018-05-15-T-002,2,Adjournment of Debate,,OS,
+topic_id,date,topic_order,title,section_type
+2018-05-15-T-001,2018-05-15,1,Debate on President's Address,OS
+2018-05-15-T-002,2018-05-15,2,Adjournment of Debate,OS

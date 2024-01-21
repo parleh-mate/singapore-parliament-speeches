@@ -1,30 +1,30 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-04-06,2020-04-06-T-001,1,Extended COVID-19 Measures in Parliament,Announcement by Mr Speaker,OS,
-2020-04-06,2020-04-06-T-002,2,Assistance for Needy Students on School Meals Programme and for Home-Based Learning during COVID-19 Outbreak,,OA,
-2020-04-06,2020-04-06-T-003,3,Impact of COVID-19 Restrictions on Singapore’s Economy and Robustness of National Stockpile of Essential Items,,OA,
-2020-04-06,2020-04-06-T-004,4,Entry into Singapore for Foreign Spouses of Singapore Citizens in Light of COVID-19 Travel Restrictions,,OA,
-2020-04-06,2020-04-06-T-005,5,Assessment of COVID-19’s Impact on Low-income and Other Vulnerable Persons and Households,,OA,
-2020-04-06,2020-04-06-T-006,6,Update on SMEs that have Benefited from Support and Stabilisation Package,,OA,
-2020-04-06,2020-04-06-T-007,7,Investigation into Alleged Bullying Case at Mee Toh School,,OA,
-2020-04-06,2020-04-06-T-008,8,"Plans to Tackle Transmission of HIV, Hepatitis B and Hepatitis C in Prisons",,OA,
-2020-04-06,2020-04-06-T-009,9,Additional Support Measures in Response to Elevated Safe Distancing Measures,Statement by Deputy Prime Minister and Minister for Finance,OS,
-2020-04-06,2020-04-06-T-010,10,Additional Support Measures in Response to COVID-19 Pandemic,Debate on Ministerial Statement,OS,
-2020-04-06,2020-04-06-T-011,11,Exempted Business,,OS,
-2020-04-06,2020-04-06-T-012,12,Additional Support Measures in Response to COVID-19 Pandemic,Debate on Ministerial Statement,OS,
-2020-04-06,2020-04-06-T-013,13,Adjournment of Debate,,OS,
-2020-04-06,2020-04-06-T-014,14,Adjournment,,OS,
-2020-04-06,2020-04-06-T-015,15,Default Arrangement for Fathers Taking Paternity Leave in Any Combination Within 12 Months After Birth of Child without Mutual Agreement from Employer,,WA,1
-2020-04-06,2020-04-06-T-016,16,Number of Transnational Households with at Least One Singapore Citizen Spouse by Monthly Household Income,,WA,1
-2020-04-06,2020-04-06-T-017,17,Factors that Led to Higher Percentage of Eligible Fathers in Public Sector Taking Paternity Leave Compared to Private Sector,,WA,1
-2020-04-06,2020-04-06-T-018,18,Effect of Malaysia’s Lockdown on Public Transport Operations in Singapore and Measures to Minimise Disruptions and Ensure  Optimisation of Resources and Cost Efficiency,,WA,1
-2020-04-06,2020-04-06-T-019,19,Private Bus Operations and Ridership in 2018 and 2019 and Their Contribution to Total Carbon Emissions and Measures to Achieve Goals of Land Transport Masterplan 2040,,WA,1
-2020-04-06,2020-04-06-T-020,20,Average and Median Waiting Times between Adult Rape Victim First Approaching Police Station and Filing of First Information Report in Each of Last Five Years,,WA,1
-2020-04-06,2020-04-06-T-021,21,Number of COVID-19 Tests Performed and Daily Updates on National Health Statistics for Comparison,,WA,1
-2020-04-06,2020-04-06-T-022,22,Community Improvement Projects Committee Funding Applied for and Allocated to Each Grassroots Adviser and/or Citizens’ Consultative Committee from FY2016 to Date,,WA,1
-2020-04-06,2020-04-06-T-023,23,Adequacy of Estimated $100 Billion for Coastal Defences over Next 100 Years in View of Rise in Sea Level from Melting of Antarctica,,WA,1
-2020-04-06,2020-04-06-T-024,24,Recurring Dengue Clusters in Specific Estates/Areas in Bukit Batok East over Last Five Years and Efforts in Place to Contain Its Spread,,WA,1
-2020-04-06,2020-04-06-T-025,25,Applications Received for Letter of Consent to Employ LTVP/LTVP+ Holder in Restricted Occupations and Number Approved and Approval Criteria in Each of Last Five Years,,WA,1
-2020-04-06,2020-04-06-T-026,26,Flexible Work Arrangements for Frontline Workers and Employer Support for Better Work-life Harmony,,WA,1
-2020-04-06,2020-04-06-T-027,27,Tripartite Standard on Gender-Equal Workplace Practices to Require Companies to Adopt Regular Audits of Employee Wages to Ensure Gender Parity and Adequate Female Representation in Key Positions,,WA,1
-2020-04-06,2020-04-06-T-028,28,Breakdown of Number of People Who Have Stayed in Crisis Shelters in Last Three Years and Their Profiles,,WA,1
-2020-04-06,2020-04-06-T-029,29,Gender Composition on Corporate Boards and Update on Council of Board Diversity’s Latest Findings and Plans to Achieve Its 20-20 Vision,,WA,2
+topic_id,date,topic_order,title,section_type
+2020-04-06-T-001,2020-04-06,1,Extended COVID-19 Measures in Parliament,OS
+2020-04-06-T-002,2020-04-06,2,Assistance for Needy Students on School Meals Programme and for Home-Based Learning during COVID-19 Outbreak,OA
+2020-04-06-T-003,2020-04-06,3,Impact of COVID-19 Restrictions on Singapore’s Economy and Robustness of National Stockpile of Essential Items,OA
+2020-04-06-T-004,2020-04-06,4,Entry into Singapore for Foreign Spouses of Singapore Citizens in Light of COVID-19 Travel Restrictions,OA
+2020-04-06-T-005,2020-04-06,5,Assessment of COVID-19’s Impact on Low-income and Other Vulnerable Persons and Households,OA
+2020-04-06-T-006,2020-04-06,6,Update on SMEs that have Benefited from Support and Stabilisation Package,OA
+2020-04-06-T-007,2020-04-06,7,Investigation into Alleged Bullying Case at Mee Toh School,OA
+2020-04-06-T-008,2020-04-06,8,"Plans to Tackle Transmission of HIV, Hepatitis B and Hepatitis C in Prisons",OA
+2020-04-06-T-009,2020-04-06,9,Additional Support Measures in Response to Elevated Safe Distancing Measures,OS
+2020-04-06-T-010,2020-04-06,10,Additional Support Measures in Response to COVID-19 Pandemic,OS
+2020-04-06-T-011,2020-04-06,11,Exempted Business,OS
+2020-04-06-T-012,2020-04-06,12,Additional Support Measures in Response to COVID-19 Pandemic,OS
+2020-04-06-T-013,2020-04-06,13,Adjournment of Debate,OS
+2020-04-06-T-014,2020-04-06,14,Adjournment,OS
+2020-04-06-T-015,2020-04-06,15,Default Arrangement for Fathers Taking Paternity Leave in Any Combination Within 12 Months After Birth of Child without Mutual Agreement from Employer,WA
+2020-04-06-T-016,2020-04-06,16,Number of Transnational Households with at Least One Singapore Citizen Spouse by Monthly Household Income,WA
+2020-04-06-T-017,2020-04-06,17,Factors that Led to Higher Percentage of Eligible Fathers in Public Sector Taking Paternity Leave Compared to Private Sector,WA
+2020-04-06-T-018,2020-04-06,18,Effect of Malaysia’s Lockdown on Public Transport Operations in Singapore and Measures to Minimise Disruptions and Ensure  Optimisation of Resources and Cost Efficiency,WA
+2020-04-06-T-019,2020-04-06,19,Private Bus Operations and Ridership in 2018 and 2019 and Their Contribution to Total Carbon Emissions and Measures to Achieve Goals of Land Transport Masterplan 2040,WA
+2020-04-06-T-020,2020-04-06,20,Average and Median Waiting Times between Adult Rape Victim First Approaching Police Station and Filing of First Information Report in Each of Last Five Years,WA
+2020-04-06-T-021,2020-04-06,21,Number of COVID-19 Tests Performed and Daily Updates on National Health Statistics for Comparison,WA
+2020-04-06-T-022,2020-04-06,22,Community Improvement Projects Committee Funding Applied for and Allocated to Each Grassroots Adviser and/or Citizens’ Consultative Committee from FY2016 to Date,WA
+2020-04-06-T-023,2020-04-06,23,Adequacy of Estimated $100 Billion for Coastal Defences over Next 100 Years in View of Rise in Sea Level from Melting of Antarctica,WA
+2020-04-06-T-024,2020-04-06,24,Recurring Dengue Clusters in Specific Estates/Areas in Bukit Batok East over Last Five Years and Efforts in Place to Contain Its Spread,WA
+2020-04-06-T-025,2020-04-06,25,Applications Received for Letter of Consent to Employ LTVP/LTVP+ Holder in Restricted Occupations and Number Approved and Approval Criteria in Each of Last Five Years,WA
+2020-04-06-T-026,2020-04-06,26,Flexible Work Arrangements for Frontline Workers and Employer Support for Better Work-life Harmony,WA
+2020-04-06-T-027,2020-04-06,27,Tripartite Standard on Gender-Equal Workplace Practices to Require Companies to Adopt Regular Audits of Employee Wages to Ensure Gender Parity and Adequate Female Representation in Key Positions,WA
+2020-04-06-T-028,2020-04-06,28,Breakdown of Number of People Who Have Stayed in Crisis Shelters in Last Three Years and Their Profiles,WA
+2020-04-06-T-029,2020-04-06,29,Gender Composition on Corporate Boards and Update on Council of Board Diversity’s Latest Findings and Plans to Achieve Its 20-20 Vision,WA

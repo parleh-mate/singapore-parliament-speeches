@@ -1,10 +1,10 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-03-08,2019-03-08-T-001,1,Estimates of Expenditure for The Financial Year 1 April 2019 to 31 March 2020,Committee of Supply – Paper Cmd 19 of 2019,OS,
-2019-03-08,2019-03-08-T-002,2,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",,OS,
-2019-03-08,2019-03-08-T-003,3,Supply Bill,,BP,
-2019-03-08,2019-03-08-T-004,4,Supplementary Supply (FY 2018) Bill,,BP,
-2019-03-08,2019-03-08-T-005,5,Acknowledgement to the Chair,,OS,
-2019-03-08,2019-03-08-T-006,6,Criminal Procedure Code (Amendment) Bill,,BP,
-2019-03-08,2019-03-08-T-007,7,Adjournment,,OS,
-2019-03-08,2019-03-08-T-008,8,Time Taken to Conclude a Divorce at Family Justice Courts and Syariah Court,,WA,1
-2019-03-08,2019-03-08-T-009,9,Number of Singaporeans above Age 65 Who Have Made Use of SkillsFuture Credits,,WA,1
+topic_id,date,topic_order,title,section_type
+2019-03-08-T-001,2019-03-08,1,Estimates of Expenditure for The Financial Year 1 April 2019 to 31 March 2020,OS
+2019-03-08-T-002,2019-03-08,2,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",OS
+2019-03-08-T-003,2019-03-08,3,Supply Bill,BP
+2019-03-08-T-004,2019-03-08,4,Supplementary Supply (FY 2018) Bill,BP
+2019-03-08-T-005,2019-03-08,5,Acknowledgement to the Chair,OS
+2019-03-08-T-006,2019-03-08,6,Criminal Procedure Code (Amendment) Bill,BP
+2019-03-08-T-007,2019-03-08,7,Adjournment,OS
+2019-03-08-T-008,2019-03-08,8,Time Taken to Conclude a Divorce at Family Justice Courts and Syariah Court,WA
+2019-03-08-T-009,2019-03-08,9,Number of Singaporeans above Age 65 Who Have Made Use of SkillsFuture Credits,WA

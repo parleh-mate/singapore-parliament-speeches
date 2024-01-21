@@ -1,11 +1,11 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-03-13,2014-03-13-T-001,1,Estimates of Expenditure for the Financial Year 1 April 2014 to 31 March 2015,Committee of Supply – Paper Cmd 1 of 2014,OS,
-2014-03-13,2014-03-13-T-002,2,Committee of Supply – Head I (Ministry of Social and Family Development),,OS,
-2014-03-13,2014-03-13-T-003,3,Supply Bill,,BP,
-2014-03-13,2014-03-13-T-004,4,Supplementary Supply (FY 2013) Bill,,BP,
-2014-03-13,2014-03-13-T-005,5,Acknowledgement to the Chair,,OS,
-2014-03-13,2014-03-13-T-006,6,Plant Varieties Protection (Amendment) Bill,,BP,
-2014-03-13,2014-03-13-T-007,7,Protection from Harassment Bill,,BP,
-2014-03-13,2014-03-13-T-008,8,Time Limit for Minister's Speech,Suspension of Standing Orders,OS,
-2014-03-13,2014-03-13-T-009,9,Protection from Harassment Bill,,BP,
-2014-03-13,2014-03-13-T-010,10,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2014-03-13-T-001,2014-03-13,1,Estimates of Expenditure for the Financial Year 1 April 2014 to 31 March 2015,OS
+2014-03-13-T-002,2014-03-13,2,Committee of Supply – Head I (Ministry of Social and Family Development),OS
+2014-03-13-T-003,2014-03-13,3,Supply Bill,BP
+2014-03-13-T-004,2014-03-13,4,Supplementary Supply (FY 2013) Bill,BP
+2014-03-13-T-005,2014-03-13,5,Acknowledgement to the Chair,OS
+2014-03-13-T-006,2014-03-13,6,Plant Varieties Protection (Amendment) Bill,BP
+2014-03-13-T-007,2014-03-13,7,Protection from Harassment Bill,BP
+2014-03-13-T-008,2014-03-13,8,Time Limit for Minister's Speech,OS
+2014-03-13-T-009,2014-03-13,9,Protection from Harassment Bill,BP
+2014-03-13-T-010,2014-03-13,10,Adjournment,OS

@@ -1,39 +1,39 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2017-02-07,2017-02-07-T-001,1,Fair Process for Termination Due to Poor Performance and Recourse for Employees,,OA,
-2017-02-07,2017-02-07-T-002,2,Pricing Mechanism under Build-to-Order Flats and Sale of Balance Flats Exercises,,OA,
-2017-02-07,2017-02-07-T-003,3,Rate and Reasons for Rejection by Applicants Invited to Select Flats in BTO or Sale of Balance Flats Exercise,,OA,
-2017-02-07,2017-02-07-T-004,4,Proposal to Use Old Parking Coupons at Pro-rated Rates,,OA,
-2017-02-07,2017-02-07-T-005,5,Number of Occupants in Senior Group Homes,,OA,
-2017-02-07,2017-02-07-T-006,6,Installation of Passenger Safety Features for Taxis and Private Hire Cars,,OA,
-2017-02-07,2017-02-07-T-007,7,"Impact of Merged Career Tracks for Graduate and Non-graduate Civil Servants on Starting Salary, Career Progression and Exposure",,OA,
-2017-02-07,2017-02-07-T-008,8,Online Banking Licences for Internet Companies that Provide Mobile Payment Solutions,,OA,
-2017-02-07,2017-02-07-T-009,9,Healthcare Subsidies for Long-Term Visit Pass Holders Married to Singapore Citizens,,OA,
-2017-02-07,2017-02-07-T-010,10,Price Changes for Natural Gas Supplied to Singapore,,OA,
-2017-02-07,2017-02-07-T-011,11,Funds Disbursed under Young Entrepreneurs Scheme for Schools Programme,,OA,
-2017-02-07,2017-02-07-T-012,12,Salary Payment for Workers Engaged by Private Vendors in Government Contracts,,OA,
-2017-02-07,2017-02-07-T-013,13,Allowance for ITE and Polytechnic Student Interns,,OA,
-2017-02-07,2017-02-07-T-014,14,Students with Tattoos,,OA,
-2017-02-07,2017-02-07-T-015,15,Impact of Growing Practice of Hiring Freelancers on Wages and Retirement Adequacy,,OA,
-2017-02-07,2017-02-07-T-016,16,Effectiveness of Matching and Retraining under Professional Conversion Programme,,OA,
-2017-02-07,2017-02-07-T-017,17,Longer Grace Period for Some Car Parks with Electronic Parking Systems during Peak Hours,,OA,
-2017-02-07,2017-02-07-T-018,18,Number of Complaints of Defects and Design Flaws for New Executive Condominiums,,OA,
-2017-02-07,2017-02-07-T-019,19,Number of Homeless Individuals,,OA,
-2017-02-07,2017-02-07-T-020,20,Spin-off Deals from Africa-Singapore Business Forum,,OA,
-2017-02-07,2017-02-07-T-021,21,International Enterprise Singapore Board (Amendment) Bill,,BP,
-2017-02-07,2017-02-07-T-022,22,Parks and Trees (Amendment) Bill,,BP,
-2017-02-07,2017-02-07-T-023,23,Road Traffic (Amendment) Bill,,BP,
-2017-02-07,2017-02-07-T-024,24,Extension of a Sitting,In Parliament,OS,
-2017-02-07,2017-02-07-T-025,25,Road Traffic (Amendment) Bill,,BP,
-2017-02-07,2017-02-07-T-026,26,Adjournment ,,OS,
-2017-02-07,2017-02-07-T-027,27,Rejection Rates for SME Working Capital Loan Programme,,WANA,
-2017-02-07,2017-02-07-T-028,28,Impact of Checkpoint Toll Charges on Inflation and Food Prices,,WANA,
-2017-02-07,2017-02-07-T-029,29,Impact of Private Car Hire Growth on Taxi Drivers' Incomes,,WANA,
-2017-02-07,2017-02-07-T-030,30,Facilitating Claims for Injuries from Use of Personal Mobility Devices,,WANA,
-2017-02-07,2017-02-07-T-031,31,Investment Concerns Given recent Political Developments in US and Uncertainties in Europe,,WANA,
-2017-02-07,2017-02-07-T-032,32,Government Tenders for Public Opinion Polls,,WANA,
-2017-02-07,2017-02-07-T-033,33,Persons Appointed as Non-Resident Ambassadors from 2011 to 2016,,WA,
-2017-02-07,2017-02-07-T-034,34,Criteria for Application of Massage Establishment Licence in Residential Areas,,WA,
-2017-02-07,2017-02-07-T-035,35,K2 Enrollment in Full-day Childcare,,WA,
-2017-02-07,2017-02-07-T-036,36,Criteria to Operate Spa with no Massage Services in Residential Areas,,WA,
-2017-02-07,2017-02-07-T-037,37,Update on Certified Early Childhood Educators in Singapore,,WA,
-2017-02-07,2017-02-07-T-038,38,Primary 1 Students Enrolled in After-school Care and School-based Student Care Centres,,WA,
+topic_id,date,topic_order,title,section_type
+2017-02-07-T-001,2017-02-07,1,Fair Process for Termination Due to Poor Performance and Recourse for Employees,OA
+2017-02-07-T-002,2017-02-07,2,Pricing Mechanism under Build-to-Order Flats and Sale of Balance Flats Exercises,OA
+2017-02-07-T-003,2017-02-07,3,Rate and Reasons for Rejection by Applicants Invited to Select Flats in BTO or Sale of Balance Flats Exercise,OA
+2017-02-07-T-004,2017-02-07,4,Proposal to Use Old Parking Coupons at Pro-rated Rates,OA
+2017-02-07-T-005,2017-02-07,5,Number of Occupants in Senior Group Homes,OA
+2017-02-07-T-006,2017-02-07,6,Installation of Passenger Safety Features for Taxis and Private Hire Cars,OA
+2017-02-07-T-007,2017-02-07,7,"Impact of Merged Career Tracks for Graduate and Non-graduate Civil Servants on Starting Salary, Career Progression and Exposure",OA
+2017-02-07-T-008,2017-02-07,8,Online Banking Licences for Internet Companies that Provide Mobile Payment Solutions,OA
+2017-02-07-T-009,2017-02-07,9,Healthcare Subsidies for Long-Term Visit Pass Holders Married to Singapore Citizens,OA
+2017-02-07-T-010,2017-02-07,10,Price Changes for Natural Gas Supplied to Singapore,OA
+2017-02-07-T-011,2017-02-07,11,Funds Disbursed under Young Entrepreneurs Scheme for Schools Programme,OA
+2017-02-07-T-012,2017-02-07,12,Salary Payment for Workers Engaged by Private Vendors in Government Contracts,OA
+2017-02-07-T-013,2017-02-07,13,Allowance for ITE and Polytechnic Student Interns,OA
+2017-02-07-T-014,2017-02-07,14,Students with Tattoos,OA
+2017-02-07-T-015,2017-02-07,15,Impact of Growing Practice of Hiring Freelancers on Wages and Retirement Adequacy,OA
+2017-02-07-T-016,2017-02-07,16,Effectiveness of Matching and Retraining under Professional Conversion Programme,OA
+2017-02-07-T-017,2017-02-07,17,Longer Grace Period for Some Car Parks with Electronic Parking Systems during Peak Hours,OA
+2017-02-07-T-018,2017-02-07,18,Number of Complaints of Defects and Design Flaws for New Executive Condominiums,OA
+2017-02-07-T-019,2017-02-07,19,Number of Homeless Individuals,OA
+2017-02-07-T-020,2017-02-07,20,Spin-off Deals from Africa-Singapore Business Forum,OA
+2017-02-07-T-021,2017-02-07,21,International Enterprise Singapore Board (Amendment) Bill,BP
+2017-02-07-T-022,2017-02-07,22,Parks and Trees (Amendment) Bill,BP
+2017-02-07-T-023,2017-02-07,23,Road Traffic (Amendment) Bill,BP
+2017-02-07-T-024,2017-02-07,24,Extension of a Sitting,OS
+2017-02-07-T-025,2017-02-07,25,Road Traffic (Amendment) Bill,BP
+2017-02-07-T-026,2017-02-07,26,Adjournment ,OS
+2017-02-07-T-027,2017-02-07,27,Rejection Rates for SME Working Capital Loan Programme,WANA
+2017-02-07-T-028,2017-02-07,28,Impact of Checkpoint Toll Charges on Inflation and Food Prices,WANA
+2017-02-07-T-029,2017-02-07,29,Impact of Private Car Hire Growth on Taxi Drivers' Incomes,WANA
+2017-02-07-T-030,2017-02-07,30,Facilitating Claims for Injuries from Use of Personal Mobility Devices,WANA
+2017-02-07-T-031,2017-02-07,31,Investment Concerns Given recent Political Developments in US and Uncertainties in Europe,WANA
+2017-02-07-T-032,2017-02-07,32,Government Tenders for Public Opinion Polls,WANA
+2017-02-07-T-033,2017-02-07,33,Persons Appointed as Non-Resident Ambassadors from 2011 to 2016,WA
+2017-02-07-T-034,2017-02-07,34,Criteria for Application of Massage Establishment Licence in Residential Areas,WA
+2017-02-07-T-035,2017-02-07,35,K2 Enrollment in Full-day Childcare,WA
+2017-02-07-T-036,2017-02-07,36,Criteria to Operate Spa with no Massage Services in Residential Areas,WA
+2017-02-07-T-037,2017-02-07,37,Update on Certified Early Childhood Educators in Singapore,WA
+2017-02-07-T-038,2017-02-07,38,Primary 1 Students Enrolled in After-school Care and School-based Student Care Centres,WA

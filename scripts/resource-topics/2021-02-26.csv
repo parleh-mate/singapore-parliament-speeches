@@ -1,31 +1,31 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2021-02-26,2021-02-26-T-001,1,Environmental Impact Study for Sungei Kadut Eco-district,Initial update on clearing of forested area at Kranji site,OA,
-2021-02-26,2021-02-26-T-002,2,Environmental Impact Assessments for Industrial Developments,,OA,
-2021-02-26,2021-02-26-T-003,3,Debate on Annual Budget Statement,,OS,
-2021-02-26,2021-02-26-T-004,4,Commencement Time of Committee of Supply,Announcement by Mr Speaker,OS,
-2021-02-26,2021-02-26-T-005,5,Estimates of Expenditure for the Financial Year 1 April 2021 to 31 March 2022,Committee of Supply - Paper Cmd 5 of 2021,OS,
-2021-02-26,2021-02-26-T-006,6,Committee of Supply – Head U (Prime Minister's Office),Good governance,OS,
-2021-02-26,2021-02-26-T-007,7,Committee of Supply – Head M (Ministry of Finance),Good governance,OS,
-2021-02-26,2021-02-26-T-008,8,Committee of Supply Reporting Progress,,OS,
-2021-02-26,2021-02-26-T-009,9,Adjournment,,OS,
-2021-02-26,2021-02-26-T-010,10,Reasons for Government's Requests to Facebook for Information on Accounts in 2020,,WANA,
-2021-02-26,2021-02-26-T-011,11,Education for Singapore-based Businesses Venturing Overseas on Doing Business in Countries Facing Economic Sanctions,,WANA,
-2021-02-26,2021-02-26-T-012,12,Number of Male Pre-school Teachers,,WANA,
-2021-02-26,2021-02-26-T-013,13,Application for Waiver of Resale Levy by Seniors and Single Parents with Dependants,,WANA,
-2021-02-26,2021-02-26-T-014,14,Access to Government Documents in National Archives,,WANA,
-2021-02-26,2021-02-26-T-015,15,Making Public Consultations Conducted by REACH,,WANA,
-2021-02-26,2021-02-26-T-016,16,Ensuring Safety Record of Vendors Engaged by Schools to Conduct Activities for Students,,WANA,
-2021-02-26,2021-02-26-T-017,17,One-stop Platform for Family Members or Legal Representatives of Deceased Persons to Obtain Legal Documents,,WA,
-2021-02-26,2021-02-26-T-018,18,Protocol for Law Enforcement Officers in Apprehending Suspects,,WA,
-2021-02-26,2021-02-26-T-019,19,Educating Cyclists on Section 11A of Road Traffic (Bicycles) Rules and Enforcement Efforts to Improve Road Safety,,WA,
-2021-02-26,2021-02-26-T-020,20,Provision of Medical Certificates to Husbands Accompanying Wives for In-vitro Fertilisation Treatments at Public Hospital,,WA,
-2021-02-26,2021-02-26-T-021,21,"Postpartum Complications, Infant Health and Mental Health Issues during COVID-19 Pandemic",,WA,
-2021-02-26,2021-02-26-T-022,22,Update on Government's Review on Mental Health Strategy,,WA,
-2021-02-26,2021-02-26-T-023,23,Co-Payment in Integrated Shield Plans for Specific Hospital Categories and Breakdown of Average Claims Made through Full Riders of Integrated Shield Plans,,WA,
-2021-02-26,2021-02-26-T-024,24,Lowering Legal Vehicular Noise Limits in Residential Areas,,WA,
-2021-02-26,2021-02-26-T-025,25,Notions of Respect and Consent Taught in Sexuality Education Curriculum in Light of Sexual Harassment and Assault Cases Involving Young People,,WA,
-2021-02-26,2021-02-26-T-026,26,Study Relationship between Imposing Moratorium on Declawing Cats and Debarking Dogs versus Pet Euthanasia,,WA,
-2021-02-26,2021-02-26-T-027,27,Rationale for Maximum Weight Limit of Commercial Vehicles in HDB Carparks,,WA,
-2021-02-26,2021-02-26-T-028,28,Statistics on Residents who Aspire for Better Housing in HDB Sample Household Survey 2018,,WA,
-2021-02-26,2021-02-26-T-029,29,Frequency of Maintenance Checks Conducted on Senior Fitness Corners and Playgrounds in Public Estates and Plans to Utilise Inclusive Design for Persons with Different Abilities and Needs,,WA,
-2021-02-26,2021-02-26-T-030,30,Clarification by Deputy Prime Minister and Minister for Finance,,WS,
+topic_id,date,topic_order,title,section_type
+2021-02-26-T-001,2021-02-26,1,Environmental Impact Study for Sungei Kadut Eco-district,OA
+2021-02-26-T-002,2021-02-26,2,Environmental Impact Assessments for Industrial Developments,OA
+2021-02-26-T-003,2021-02-26,3,Debate on Annual Budget Statement,OS
+2021-02-26-T-004,2021-02-26,4,Commencement Time of Committee of Supply,OS
+2021-02-26-T-005,2021-02-26,5,Estimates of Expenditure for the Financial Year 1 April 2021 to 31 March 2022,OS
+2021-02-26-T-006,2021-02-26,6,Committee of Supply – Head U (Prime Minister's Office),OS
+2021-02-26-T-007,2021-02-26,7,Committee of Supply – Head M (Ministry of Finance),OS
+2021-02-26-T-008,2021-02-26,8,Committee of Supply Reporting Progress,OS
+2021-02-26-T-009,2021-02-26,9,Adjournment,OS
+2021-02-26-T-010,2021-02-26,10,Reasons for Government's Requests to Facebook for Information on Accounts in 2020,WANA
+2021-02-26-T-011,2021-02-26,11,Education for Singapore-based Businesses Venturing Overseas on Doing Business in Countries Facing Economic Sanctions,WANA
+2021-02-26-T-012,2021-02-26,12,Number of Male Pre-school Teachers,WANA
+2021-02-26-T-013,2021-02-26,13,Application for Waiver of Resale Levy by Seniors and Single Parents with Dependants,WANA
+2021-02-26-T-014,2021-02-26,14,Access to Government Documents in National Archives,WANA
+2021-02-26-T-015,2021-02-26,15,Making Public Consultations Conducted by REACH,WANA
+2021-02-26-T-016,2021-02-26,16,Ensuring Safety Record of Vendors Engaged by Schools to Conduct Activities for Students,WANA
+2021-02-26-T-017,2021-02-26,17,One-stop Platform for Family Members or Legal Representatives of Deceased Persons to Obtain Legal Documents,WA
+2021-02-26-T-018,2021-02-26,18,Protocol for Law Enforcement Officers in Apprehending Suspects,WA
+2021-02-26-T-019,2021-02-26,19,Educating Cyclists on Section 11A of Road Traffic (Bicycles) Rules and Enforcement Efforts to Improve Road Safety,WA
+2021-02-26-T-020,2021-02-26,20,Provision of Medical Certificates to Husbands Accompanying Wives for In-vitro Fertilisation Treatments at Public Hospital,WA
+2021-02-26-T-021,2021-02-26,21,"Postpartum Complications, Infant Health and Mental Health Issues during COVID-19 Pandemic",WA
+2021-02-26-T-022,2021-02-26,22,Update on Government's Review on Mental Health Strategy,WA
+2021-02-26-T-023,2021-02-26,23,Co-Payment in Integrated Shield Plans for Specific Hospital Categories and Breakdown of Average Claims Made through Full Riders of Integrated Shield Plans,WA
+2021-02-26-T-024,2021-02-26,24,Lowering Legal Vehicular Noise Limits in Residential Areas,WA
+2021-02-26-T-025,2021-02-26,25,Notions of Respect and Consent Taught in Sexuality Education Curriculum in Light of Sexual Harassment and Assault Cases Involving Young People,WA
+2021-02-26-T-026,2021-02-26,26,Study Relationship between Imposing Moratorium on Declawing Cats and Debarking Dogs versus Pet Euthanasia,WA
+2021-02-26-T-027,2021-02-26,27,Rationale for Maximum Weight Limit of Commercial Vehicles in HDB Carparks,WA
+2021-02-26-T-028,2021-02-26,28,Statistics on Residents who Aspire for Better Housing in HDB Sample Household Survey 2018,WA
+2021-02-26-T-029,2021-02-26,29,Frequency of Maintenance Checks Conducted on Senior Fitness Corners and Playgrounds in Public Estates and Plans to Utilise Inclusive Design for Persons with Different Abilities and Needs,WA
+2021-02-26-T-030,2021-02-26,30,Clarification by Deputy Prime Minister and Minister for Finance,WS

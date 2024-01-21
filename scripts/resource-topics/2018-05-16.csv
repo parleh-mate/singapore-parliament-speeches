@@ -1,5 +1,5 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2018-05-16,2018-05-16-T-001,1,Debate on President's Address,Third allotted day,OS,
-2018-05-16,2018-05-16-T-002,2,Time Limit for Prime Minister's Speech,Suspension of Standing Orders,OS,
-2018-05-16,2018-05-16-T-003,3,Debate on President's Address,Third allotted day,OS,
-2018-05-16,2018-05-16-T-004,4,Adjournment of Debate,,OS,
+topic_id,date,topic_order,title,section_type
+2018-05-16-T-001,2018-05-16,1,Debate on President's Address,OS
+2018-05-16-T-002,2018-05-16,2,Time Limit for Prime Minister's Speech,OS
+2018-05-16-T-003,2018-05-16,3,Debate on President's Address,OS
+2018-05-16-T-004,2018-05-16,4,Adjournment of Debate,OS

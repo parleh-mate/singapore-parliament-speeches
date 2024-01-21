@@ -1,7 +1,7 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-02-27,2019-02-27-T-001,1,Time Allocation for Committee of Supply,Announcement by Mr Speaker,OS,
-2019-02-27,2019-02-27-T-002,2,Debate on Annual Budget Statement,,OS,
-2019-02-27,2019-02-27-T-003,3,Adjournment of Debate,,OS,
-2019-02-27,2019-02-27-T-004,4,Adjournment,,OS,
-2019-02-27,2019-02-27-T-005,5,Impact of Chronic Stress,,WA,
-2019-02-27,2019-02-27-T-006,6,Singapore's Plastic Waste for Recycling,,WA,
+topic_id,date,topic_order,title,section_type
+2019-02-27-T-001,2019-02-27,1,Time Allocation for Committee of Supply,OS
+2019-02-27-T-002,2019-02-27,2,Debate on Annual Budget Statement,OS
+2019-02-27-T-003,2019-02-27,3,Adjournment of Debate,OS
+2019-02-27-T-004,2019-02-27,4,Adjournment,OS
+2019-02-27-T-005,2019-02-27,5,Impact of Chronic Stress,WA
+2019-02-27-T-006,2019-02-27,6,Singapore's Plastic Waste for Recycling,WA

@@ -1,9 +1,9 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2013-02-08,2013-02-08-T-001,1,Refining the COE System,,OA,
-2013-02-08,2013-02-08-T-002,2,A Sustainable Population for a Dynamic Singapore,Motion,OS,
-2013-02-08,2013-02-08-T-003,3,Time Limit for Deputy Prime Minister's Speech,Suspension of Standing Orders,OS,
-2013-02-08,2013-02-08-T-004,4,A Sustainable Population for a Dynamic Singapore,,OS,
-2013-02-08,2013-02-08-T-005,5,Time Limit for Prime Minister's and Deputy Prime Minister's Speeches,Suspension of Standing Orders,OS,
-2013-02-08,2013-02-08-T-006,6,A Sustainable Population for a Dynamic Singapore,,OS,
-2013-02-08,2013-02-08-T-007,7,Adjournment,,OS,
-2013-02-08,2013-02-08-T-008,8,Installation of Noise Barriers along Key Expressways,,WA,
+topic_id,date,topic_order,title,section_type
+2013-02-08-T-001,2013-02-08,1,Refining the COE System,OA
+2013-02-08-T-002,2013-02-08,2,A Sustainable Population for a Dynamic Singapore,OS
+2013-02-08-T-003,2013-02-08,3,Time Limit for Deputy Prime Minister's Speech,OS
+2013-02-08-T-004,2013-02-08,4,A Sustainable Population for a Dynamic Singapore,OS
+2013-02-08-T-005,2013-02-08,5,Time Limit for Prime Minister's and Deputy Prime Minister's Speeches,OS
+2013-02-08-T-006,2013-02-08,6,A Sustainable Population for a Dynamic Singapore,OS
+2013-02-08-T-007,2013-02-08,7,Adjournment,OS
+2013-02-08-T-008,2013-02-08,8,Installation of Noise Barriers along Key Expressways,WA

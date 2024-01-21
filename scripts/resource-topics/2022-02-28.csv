@@ -1,28 +1,28 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2022-02-28,2022-02-28-T-001,1,Impact of Surge in COVID-19 Infections amongst Bus Drivers on Public Bus Transport,,OA,
-2022-02-28,2022-02-28-T-002,2,Profile of Persons whose COVID-19 Vaccination Status Had Lapsed on 14 February 2022,,OA,
-2022-02-28,2022-02-28-T-003,3,Measures to Reduce Negative Impact on Intertidal Habitats Like Changi Beach due to Increased Human Traffic,,OA,
-2022-02-28,2022-02-28-T-004,4,Proposal for Prohibition against Attendance Bonus which is a Disincentive for Employees Taking Medical Leave,,OA,
-2022-02-28,2022-02-28-T-005,5,Number of Foreign Remote Employees Hired by Companies Based in Singapore and Breakdown by Industries,,OA,
-2022-02-28,2022-02-28-T-006,6,Update on JTC's Solar Deployment Scheme and Proposal for Landlord-to-tenant Solar Energy Purchasing Guidelines,,OA,
-2022-02-28,2022-02-28-T-007,7,Safe Management Measures for Full-Time National Servicemen and COVID-19 Cases in Camps,,OA,
-2022-02-28,2022-02-28-T-008,8,Supply Bill,,BI,
-2022-02-28,2022-02-28-T-009,9,Second Supplementary Supply (FY 2021) Bill,,BI,
-2022-02-28,2022-02-28-T-010,10,Proceedings on Ministerial Statement,Suspension of Standing Order,OS,
-2022-02-28,2022-02-28-T-011,11,The Situation in Ukraine and its Implications,Statement for Minister for Foreign Affairs,OS,
-2022-02-28,2022-02-28-T-012,12,Debate on Annual Budget Statement,,OS,
-2022-02-28,2022-02-28-T-013,13,Exempted Business,Business Motion,OS,
-2022-02-28,2022-02-28-T-014,14,Debate on Annual Budget Statement,,OS,
-2022-02-28,2022-02-28-T-015,15,Adjournment of Debate,,OS,
-2022-02-28,2022-02-28-T-016,16,Adjournment,,OS,
-2022-02-28,2022-02-28-T-017,17,Body Mass Index Data in Students' Report Books and Measures to Assist Students with Weight and Body Image Issues,,WANA,
-2022-02-28,2022-02-28-T-018,18,Recovery Areas within Dormitories for Migrant Workers Infected with COVID-19,,WANA,
-2022-02-28,2022-02-28-T-019,19,Grants to Support Banks in Developing Green and Sustainability-linked Liabilities Frameworks,,WA,
-2022-02-28,2022-02-28-T-020,20,Standardise Service Commitments to Feedback from Residents across Government Agencies and Statutory Boards,,WA,
-2022-02-28,2022-02-28-T-021,21,Data on Take-up Rates on Reverse Mortgage Tie-Up between CPF and DBS,,WA,
-2022-02-28,2022-02-28-T-022,22,Enhance Public Safety on Buses in Light of Incident where Bus Driver was Assaulted by Intoxicated Passengers,,WA,
-2022-02-28,2022-02-28-T-023,23,Estimated Utilisation Rates of Unsheltered Bicycle Parking Racks at or Near Transport Facilities,,WA,
-2022-02-28,2022-02-28-T-024,24,Contingency Measures at Changi Airport's Air Cargo Processing Facilities to Minimise Disruption when Ground Staff are Infected with COVID-19,,WA,
-2022-02-28,2022-02-28-T-025,25,Findings on Need and Demand for Night-time Childcare in Low-income Families Area,,WA,
-2022-02-28,2022-02-28-T-026,26,Policy for Patients under MediSave 700 Scheme to be Treated at Only One Hospital,,WA,
-2022-02-28,2022-02-28-T-027,27,Proposal to Study Effects of Ban on Third Party Puppy and Kitten Sales under Lucy's Law in England,,WA,
+topic_id,date,topic_order,title,section_type
+2022-02-28-T-001,2022-02-28,1,Impact of Surge in COVID-19 Infections amongst Bus Drivers on Public Bus Transport,OA
+2022-02-28-T-002,2022-02-28,2,Profile of Persons whose COVID-19 Vaccination Status Had Lapsed on 14 February 2022,OA
+2022-02-28-T-003,2022-02-28,3,Measures to Reduce Negative Impact on Intertidal Habitats Like Changi Beach due to Increased Human Traffic,OA
+2022-02-28-T-004,2022-02-28,4,Proposal for Prohibition against Attendance Bonus which is a Disincentive for Employees Taking Medical Leave,OA
+2022-02-28-T-005,2022-02-28,5,Number of Foreign Remote Employees Hired by Companies Based in Singapore and Breakdown by Industries,OA
+2022-02-28-T-006,2022-02-28,6,Update on JTC's Solar Deployment Scheme and Proposal for Landlord-to-tenant Solar Energy Purchasing Guidelines,OA
+2022-02-28-T-007,2022-02-28,7,Safe Management Measures for Full-Time National Servicemen and COVID-19 Cases in Camps,OA
+2022-02-28-T-008,2022-02-28,8,Supply Bill,BI
+2022-02-28-T-009,2022-02-28,9,Second Supplementary Supply (FY 2021) Bill,BI
+2022-02-28-T-010,2022-02-28,10,Proceedings on Ministerial Statement,OS
+2022-02-28-T-011,2022-02-28,11,The Situation in Ukraine and its Implications,OS
+2022-02-28-T-012,2022-02-28,12,Debate on Annual Budget Statement,OS
+2022-02-28-T-013,2022-02-28,13,Exempted Business,OS
+2022-02-28-T-014,2022-02-28,14,Debate on Annual Budget Statement,OS
+2022-02-28-T-015,2022-02-28,15,Adjournment of Debate,OS
+2022-02-28-T-016,2022-02-28,16,Adjournment,OS
+2022-02-28-T-017,2022-02-28,17,Body Mass Index Data in Students' Report Books and Measures to Assist Students with Weight and Body Image Issues,WANA
+2022-02-28-T-018,2022-02-28,18,Recovery Areas within Dormitories for Migrant Workers Infected with COVID-19,WANA
+2022-02-28-T-019,2022-02-28,19,Grants to Support Banks in Developing Green and Sustainability-linked Liabilities Frameworks,WA
+2022-02-28-T-020,2022-02-28,20,Standardise Service Commitments to Feedback from Residents across Government Agencies and Statutory Boards,WA
+2022-02-28-T-021,2022-02-28,21,Data on Take-up Rates on Reverse Mortgage Tie-Up between CPF and DBS,WA
+2022-02-28-T-022,2022-02-28,22,Enhance Public Safety on Buses in Light of Incident where Bus Driver was Assaulted by Intoxicated Passengers,WA
+2022-02-28-T-023,2022-02-28,23,Estimated Utilisation Rates of Unsheltered Bicycle Parking Racks at or Near Transport Facilities,WA
+2022-02-28-T-024,2022-02-28,24,Contingency Measures at Changi Airport's Air Cargo Processing Facilities to Minimise Disruption when Ground Staff are Infected with COVID-19,WA
+2022-02-28-T-025,2022-02-28,25,Findings on Need and Demand for Night-time Childcare in Low-income Families Area,WA
+2022-02-28-T-026,2022-02-28,26,Policy for Patients under MediSave 700 Scheme to be Treated at Only One Hospital,WA
+2022-02-28-T-027,2022-02-28,27,Proposal to Study Effects of Ban on Third Party Puppy and Kitten Sales under Lucy's Law in England,WA

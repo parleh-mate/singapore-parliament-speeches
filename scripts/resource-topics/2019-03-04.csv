@@ -1,12 +1,12 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-03-04,2019-03-04-T-001,1,Risks Associated with Buying Health Products Sold Online,,OA,
-2019-03-04,2019-03-04-T-002,2,Prevention of Spillage on Roads by Trucks that Carry Sand,,OA,
-2019-03-04,2019-03-04-T-003,3,Estimates of Expenditure for The Financial Year 1 April 2019 to 31 March 2020,Committee of Supply – Paper Cmd 19 of 2019,OS,
-2019-03-04,2019-03-04-T-004,4,Committee of Supply – Head R (Ministry of Law),,OS,
-2019-03-04,2019-03-04-T-005,5,Committee of  Supply - Head V (Ministry of Trade and Industry),,OS,
-2019-03-04,2019-03-04-T-006,6,Committee of Supply - Head Q (Ministry of Communications and Information),,OS,
-2019-03-04,2019-03-04-T-007,7,Committee of Supply – Head K (Ministry of Education),,OS,
-2019-03-04,2019-03-04-T-008,8,Committee of Supply Reporting Progress,,OS,
-2019-03-04,2019-03-04-T-009,9,Adjournment,,OS,
-2019-03-04,2019-03-04-T-010,10,Incorporating Counselling of Victims and Witnesses of Traumatic Events in Psychological Preparedness and Training in Community Emergency Exercises,,WA,
-2019-03-04,2019-03-04-T-011,11,"Response to Government Support for Professional Conversion Programme, Career Support Programme and Special Employment Credit",,WA,
+topic_id,date,topic_order,title,section_type
+2019-03-04-T-001,2019-03-04,1,Risks Associated with Buying Health Products Sold Online,OA
+2019-03-04-T-002,2019-03-04,2,Prevention of Spillage on Roads by Trucks that Carry Sand,OA
+2019-03-04-T-003,2019-03-04,3,Estimates of Expenditure for The Financial Year 1 April 2019 to 31 March 2020,OS
+2019-03-04-T-004,2019-03-04,4,Committee of Supply – Head R (Ministry of Law),OS
+2019-03-04-T-005,2019-03-04,5,Committee of  Supply - Head V (Ministry of Trade and Industry),OS
+2019-03-04-T-006,2019-03-04,6,Committee of Supply - Head Q (Ministry of Communications and Information),OS
+2019-03-04-T-007,2019-03-04,7,Committee of Supply – Head K (Ministry of Education),OS
+2019-03-04-T-008,2019-03-04,8,Committee of Supply Reporting Progress,OS
+2019-03-04-T-009,2019-03-04,9,Adjournment,OS
+2019-03-04-T-010,2019-03-04,10,Incorporating Counselling of Victims and Witnesses of Traumatic Events in Psychological Preparedness and Training in Community Emergency Exercises,WA
+2019-03-04-T-011,2019-03-04,11,"Response to Government Support for Professional Conversion Programme, Career Support Programme and Special Employment Credit",WA

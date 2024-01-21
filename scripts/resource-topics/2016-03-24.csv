@@ -1,41 +1,41 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2016-03-24,2016-03-24-T-001,1,Estimates Committee,Announcement by Speaker,OS,
-2016-03-24,2016-03-24-T-002,2,Nominated Members of Parliament,Announcement by Speaker,OS,
-2016-03-24,2016-03-24-T-003,3,Administration of Oaths,,OS,
-2016-03-24,2016-03-24-T-004,4,Number of Single Parents who Have Successfully Applied for HDB Flats under ASSIST,,OA,
-2016-03-24,2016-03-24-T-005,5,Less Stringent Criteria for Rental and Purchase of HDB Flats for Families Affected by Divorce or With School-going Children,,OA,
-2016-03-24,2016-03-24-T-006,6,Number of Long-Term Visit Pass Plus Granted after Introduction of Scheme,,OA,
-2016-03-24,2016-03-24-T-007,7,Environmental Audits on Firms that Attract GIC or Temasek Holdings' Interest,,OA,
-2016-03-24,2016-03-24-T-008,8,Foreign Worker Representation in Tech and IT Sector,,OA,
-2016-03-24,2016-03-24-T-009,9,Singaporeans Offered Lower Grade Jobs to Free Up Quota for Foreign Workers for Higher Level Jobs,,OA,
-2016-03-24,2016-03-24-T-010,10,Punishment for SAF Officers Involved in Exercises that Lead to Deaths or Injuries,,OA,
-2016-03-24,2016-03-24-T-011,11,Compensation for National Servicemen Injured During Service Period,,OA,
-2016-03-24,2016-03-24-T-012,12,Quality of Upcoming New Jobs in Tech and IT Sector,,OA,
-2016-03-24,2016-03-24-T-013,13,Monies Disbursed from Malay/Muslim Community Development Fund,,OA,
-2016-03-24,2016-03-24-T-014,14,Homes for Adults with Intellectual Disabilities,Capacity and waiting time,OA,
-2016-03-24,2016-03-24-T-015,15,Approach in Tackling Homeless Cases,,OA,
-2016-03-24,2016-03-24-T-016,16,Reviewing Grant for Families to Hire Foreign Domestic Workers for Care of Disabled Elderly,,OA,
-2016-03-24,2016-03-24-T-017,17,Criteria for Disbursement of Opportunity Fund Grant to Schools,,OA,
-2016-03-24,2016-03-24-T-018,18,Number of Allied Educators in Primary and Secondary Schools,,OA,
-2016-03-24,2016-03-24-T-019,19,Lift Replacement by Town Councils,,OA,
-2016-03-24,2016-03-24-T-020,20,Annual Budget Statement,,OS,
-2016-03-24,2016-03-24-T-021,21,Adjournment,,OS,
-2016-03-24,2016-03-24-T-022,22,Lift Upgrading Programme for Previously Ineligible Flats,,WANA,
-2016-03-24,2016-03-24-T-023,23,CPF Special or Retirement Account Funds for Mortgage Arrears,,WANA,
-2016-03-24,2016-03-24-T-024,24,Labour Crunch in Maritime Industry,,WANA,
-2016-03-24,2016-03-24-T-025,25,Separating Clients' Deposits and Payments to Prevent Unlawful Withdrawal of Funds,,WANA,
-2016-03-24,2016-03-24-T-026,26,Upgrading of Private Estates above 30 Years Old,,WANA,
-2016-03-24,2016-03-24-T-027,27,Repairs and Maintenance Schedule for Nature Parks,,WANA,
-2016-03-24,2016-03-24-T-028,28,Difference between Parking Fees for Surface and Multi-storey Car Parks,,WANA,
-2016-03-24,2016-03-24-T-029,29,Feedback from Public Consultation on Fresh Start Housing Scheme,,WANA,
-2016-03-24,2016-03-24-T-030,30,Ensuring Quality of Works Done for Home Improvement Programme,,WANA,
-2016-03-24,2016-03-24-T-031,31,Role of District Mayors After Transfer of Functions to Social Service Offices,,WA,
-2016-03-24,2016-03-24-T-032,32,Extension of Operating Hours of MRT Station Pedestrian Walkways,,WA,
-2016-03-24,2016-03-24-T-033,33,Review Full-day Bus Lane Implementation,,WA,
-2016-03-24,2016-03-24-T-034,34,Illegal Parking at Taxi Stands,,WA,
-2016-03-24,2016-03-24-T-035,35,Justification for Building Sheltered Pedestrian Overhead Bridges,,WA,
-2016-03-24,2016-03-24-T-036,36,Reason for Delay in Completion of Sheltered Linkway at Woodleigh Close,,WA,
-2016-03-24,2016-03-24-T-037,37,Breakdown of Account Balances by Gender of CPF Members,,WA,
-2016-03-24,2016-03-24-T-038,38,Property Pledges by CPF Members to Allow for Fund Withdrawal Beyond Basic Retirement Sum,,WA,
-2016-03-24,2016-03-24-T-039,39,Productivity Growth of Government over 10 Years,,WA,
-2016-03-24,2016-03-24-T-040,40,Appeals for Public Rental Flats and Interim Rental Housing,,WA,
+topic_id,date,topic_order,title,section_type
+2016-03-24-T-001,2016-03-24,1,Estimates Committee,OS
+2016-03-24-T-002,2016-03-24,2,Nominated Members of Parliament,OS
+2016-03-24-T-003,2016-03-24,3,Administration of Oaths,OS
+2016-03-24-T-004,2016-03-24,4,Number of Single Parents who Have Successfully Applied for HDB Flats under ASSIST,OA
+2016-03-24-T-005,2016-03-24,5,Less Stringent Criteria for Rental and Purchase of HDB Flats for Families Affected by Divorce or With School-going Children,OA
+2016-03-24-T-006,2016-03-24,6,Number of Long-Term Visit Pass Plus Granted after Introduction of Scheme,OA
+2016-03-24-T-007,2016-03-24,7,Environmental Audits on Firms that Attract GIC or Temasek Holdings' Interest,OA
+2016-03-24-T-008,2016-03-24,8,Foreign Worker Representation in Tech and IT Sector,OA
+2016-03-24-T-009,2016-03-24,9,Singaporeans Offered Lower Grade Jobs to Free Up Quota for Foreign Workers for Higher Level Jobs,OA
+2016-03-24-T-010,2016-03-24,10,Punishment for SAF Officers Involved in Exercises that Lead to Deaths or Injuries,OA
+2016-03-24-T-011,2016-03-24,11,Compensation for National Servicemen Injured During Service Period,OA
+2016-03-24-T-012,2016-03-24,12,Quality of Upcoming New Jobs in Tech and IT Sector,OA
+2016-03-24-T-013,2016-03-24,13,Monies Disbursed from Malay/Muslim Community Development Fund,OA
+2016-03-24-T-014,2016-03-24,14,Homes for Adults with Intellectual Disabilities,OA
+2016-03-24-T-015,2016-03-24,15,Approach in Tackling Homeless Cases,OA
+2016-03-24-T-016,2016-03-24,16,Reviewing Grant for Families to Hire Foreign Domestic Workers for Care of Disabled Elderly,OA
+2016-03-24-T-017,2016-03-24,17,Criteria for Disbursement of Opportunity Fund Grant to Schools,OA
+2016-03-24-T-018,2016-03-24,18,Number of Allied Educators in Primary and Secondary Schools,OA
+2016-03-24-T-019,2016-03-24,19,Lift Replacement by Town Councils,OA
+2016-03-24-T-020,2016-03-24,20,Annual Budget Statement,OS
+2016-03-24-T-021,2016-03-24,21,Adjournment,OS
+2016-03-24-T-022,2016-03-24,22,Lift Upgrading Programme for Previously Ineligible Flats,WANA
+2016-03-24-T-023,2016-03-24,23,CPF Special or Retirement Account Funds for Mortgage Arrears,WANA
+2016-03-24-T-024,2016-03-24,24,Labour Crunch in Maritime Industry,WANA
+2016-03-24-T-025,2016-03-24,25,Separating Clients' Deposits and Payments to Prevent Unlawful Withdrawal of Funds,WANA
+2016-03-24-T-026,2016-03-24,26,Upgrading of Private Estates above 30 Years Old,WANA
+2016-03-24-T-027,2016-03-24,27,Repairs and Maintenance Schedule for Nature Parks,WANA
+2016-03-24-T-028,2016-03-24,28,Difference between Parking Fees for Surface and Multi-storey Car Parks,WANA
+2016-03-24-T-029,2016-03-24,29,Feedback from Public Consultation on Fresh Start Housing Scheme,WANA
+2016-03-24-T-030,2016-03-24,30,Ensuring Quality of Works Done for Home Improvement Programme,WANA
+2016-03-24-T-031,2016-03-24,31,Role of District Mayors After Transfer of Functions to Social Service Offices,WA
+2016-03-24-T-032,2016-03-24,32,Extension of Operating Hours of MRT Station Pedestrian Walkways,WA
+2016-03-24-T-033,2016-03-24,33,Review Full-day Bus Lane Implementation,WA
+2016-03-24-T-034,2016-03-24,34,Illegal Parking at Taxi Stands,WA
+2016-03-24-T-035,2016-03-24,35,Justification for Building Sheltered Pedestrian Overhead Bridges,WA
+2016-03-24-T-036,2016-03-24,36,Reason for Delay in Completion of Sheltered Linkway at Woodleigh Close,WA
+2016-03-24-T-037,2016-03-24,37,Breakdown of Account Balances by Gender of CPF Members,WA
+2016-03-24-T-038,2016-03-24,38,Property Pledges by CPF Members to Allow for Fund Withdrawal Beyond Basic Retirement Sum,WA
+2016-03-24-T-039,2016-03-24,39,Productivity Growth of Government over 10 Years,WA
+2016-03-24-T-040,2016-03-24,40,Appeals for Public Rental Flats and Interim Rental Housing,WA

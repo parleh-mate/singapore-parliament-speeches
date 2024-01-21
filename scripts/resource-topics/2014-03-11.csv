@@ -1,9 +1,9 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-03-11,2014-03-11-T-001,1,Estimates of Expenditure for the Financial Year 1 April 2014 to 31 March 2015,Committee of Supply – Paper Cmd 1 of 2014,OS,
-2014-03-11,2014-03-11-T-002,2,Committee of Supply – Head L (Ministry of the Environment and Water Resources),,OS,
-2014-03-11,2014-03-11-T-003,3,Committee of Supply – Head W (Ministry of Transport),,OS,
-2014-03-11,2014-03-11-T-004,4,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",,OS,
-2014-03-11,2014-03-11-T-005,5,Extension of a Sitting,In Parliament,OS,
-2014-03-11,2014-03-11-T-006,6,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",,OS,
-2014-03-11,2014-03-11-T-007,7,Committee of Supply Reporting Progress,,OS,
-2014-03-11,2014-03-11-T-008,8,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2014-03-11-T-001,2014-03-11,1,Estimates of Expenditure for the Financial Year 1 April 2014 to 31 March 2015,OS
+2014-03-11-T-002,2014-03-11,2,Committee of Supply – Head L (Ministry of the Environment and Water Resources),OS
+2014-03-11-T-003,2014-03-11,3,Committee of Supply – Head W (Ministry of Transport),OS
+2014-03-11-T-004,2014-03-11,4,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",OS
+2014-03-11-T-005,2014-03-11,5,Extension of a Sitting,OS
+2014-03-11-T-006,2014-03-11,6,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",OS
+2014-03-11-T-007,2014-03-11,7,Committee of Supply Reporting Progress,OS
+2014-03-11-T-008,2014-03-11,8,Adjournment,OS

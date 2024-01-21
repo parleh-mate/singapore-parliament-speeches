@@ -1,6 +1,6 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-05-27,2014-05-27-T-001,1,Debate on President's Address,Second Allotted Day,OS,
-2014-05-27,2014-05-27-T-002,2,Exempted Business,,OS,
-2014-05-27,2014-05-27-T-003,3,Debate on President's Address,,OS,
-2014-05-27,2014-05-27-T-004,4,Adjournment of Debate,,OS,
-2014-05-27,2014-05-27-T-005,5,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2014-05-27-T-001,2014-05-27,1,Debate on President's Address,OS
+2014-05-27-T-002,2014-05-27,2,Exempted Business,OS
+2014-05-27-T-003,2014-05-27,3,Debate on President's Address,OS
+2014-05-27-T-004,2014-05-27,4,Adjournment of Debate,OS
+2014-05-27-T-005,2014-05-27,5,Adjournment,OS

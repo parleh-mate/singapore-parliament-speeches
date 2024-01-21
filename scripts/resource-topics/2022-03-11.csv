@@ -1,14 +1,14 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2022-03-11,2022-03-11-T-001,1,Update on Review to Extend Working Mother's Child Relief and Parenthood Tax Rebate to Single Unwed Parents,,OA,
-2022-03-11,2022-03-11-T-002,2,Tax Treatment of Revenue of Sale of Non-fungible Tokens,,OA,
-2022-03-11,2022-03-11-T-003,3,Extension of Temporary Electricity Contracting Support Scheme,,OA,
-2022-03-11,2022-03-11-T-004,4,Supply Bill,,BP,
-2022-03-11,2022-03-11-T-005,5,Second Supplementary Supply (2021) Bill,,BP,
-2022-03-11,2022-03-11-T-006,6,Acknowledgement to the Chair ,,OS,
-2022-03-11,2022-03-11-T-007,7,COVID-19 (Temporary Measures) (Amendment) Bill,,BP,
-2022-03-11,2022-03-11-T-008,8,Gambling Control Bill,,BP,
-2022-03-11,2022-03-11-T-009,9,Gambling Regulatory Authority of Singapore Bill,,BP,
-2022-03-11,2022-03-11-T-010,10,Adjournment,,OS,
-2022-03-11,2022-03-11-T-011,11,Details of SAF's COVID-19 Rapid Containment Plans at Military Camps and Their Effectiveness,,WA,
-2022-03-11,2022-03-11-T-012,12,Requests from Households for Additional Antigen Rapid Test Kits in Past Year,,WA,
-2022-03-11,2022-03-11-T-013,13,Statistics on Enforcement Actions against Employers for Compelling Work Permit Holders to Work on Rest Days without Prior Written Agreement between 2016 and 2020,,WA,
+topic_id,date,topic_order,title,section_type
+2022-03-11-T-001,2022-03-11,1,Update on Review to Extend Working Mother's Child Relief and Parenthood Tax Rebate to Single Unwed Parents,OA
+2022-03-11-T-002,2022-03-11,2,Tax Treatment of Revenue of Sale of Non-fungible Tokens,OA
+2022-03-11-T-003,2022-03-11,3,Extension of Temporary Electricity Contracting Support Scheme,OA
+2022-03-11-T-004,2022-03-11,4,Supply Bill,BP
+2022-03-11-T-005,2022-03-11,5,Second Supplementary Supply (2021) Bill,BP
+2022-03-11-T-006,2022-03-11,6,Acknowledgement to the Chair ,OS
+2022-03-11-T-007,2022-03-11,7,COVID-19 (Temporary Measures) (Amendment) Bill,BP
+2022-03-11-T-008,2022-03-11,8,Gambling Control Bill,BP
+2022-03-11-T-009,2022-03-11,9,Gambling Regulatory Authority of Singapore Bill,BP
+2022-03-11-T-010,2022-03-11,10,Adjournment,OS
+2022-03-11-T-011,2022-03-11,11,Details of SAF's COVID-19 Rapid Containment Plans at Military Camps and Their Effectiveness,WA
+2022-03-11-T-012,2022-03-11,12,Requests from Households for Additional Antigen Rapid Test Kits in Past Year,WA
+2022-03-11-T-013,2022-03-11,13,Statistics on Enforcement Actions against Employers for Compelling Work Permit Holders to Work on Rest Days without Prior Written Agreement between 2016 and 2020,WA

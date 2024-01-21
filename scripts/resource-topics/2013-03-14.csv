@@ -1,7 +1,7 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2013-03-14,2013-03-14-T-001,1,Estimates of Expenditure for the Financial Year 1 April 2013 to 31 March 2014,Committee of Supply – Paper Cmd 3 of 2013,OS,
-2013-03-14,2013-03-14-T-002,2,Committee of Supply – Head I (Ministry of Social and Family Development),,OS,
-2013-03-14,2013-03-14-T-003,3,Committee of Supply – Head S (Ministry of Manpower),,OS,
-2013-03-14,2013-03-14-T-004,4,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",,OS,
-2013-03-14,2013-03-14-T-005,5,Committee of Supply Reporting Progress,,OS,
-2013-03-14,2013-03-14-T-006,6,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2013-03-14-T-001,2013-03-14,1,Estimates of Expenditure for the Financial Year 1 April 2013 to 31 March 2014,OS
+2013-03-14-T-002,2013-03-14,2,Committee of Supply – Head I (Ministry of Social and Family Development),OS
+2013-03-14-T-003,2013-03-14,3,Committee of Supply – Head S (Ministry of Manpower),OS
+2013-03-14-T-004,2013-03-14,4,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",OS
+2013-03-14-T-005,2013-03-14,5,Committee of Supply Reporting Progress,OS
+2013-03-14-T-006,2013-03-14,6,Adjournment,OS

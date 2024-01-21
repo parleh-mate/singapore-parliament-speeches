@@ -1,39 +1,39 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-10-14,2020-10-14-T-001,1,Basis for Latest Increase in Electricity Tariffs and Gas Prices,,OA,
-2020-10-14,2020-10-14-T-002,2,Development Support and Learning Support Programmes at Non-Anchor Operator Pre-schools,,OA,
-2020-10-14,2020-10-14-T-003,3,SkillsFuture Programme Attendees Who have Procured Work Related to Their Course,,OA,
-2020-10-14,2020-10-14-T-004,4,SGUnited Traineeship Applications and Matches,,OA,
-2020-10-14,2020-10-14-T-005,5,Policy Considerations for Long-term Population Growth,,OA,
-2020-10-14,2020-10-14-T-006,6,Pricing Policy of HDB's BTO Flats,,OA,
-2020-10-14,2020-10-14-T-007,7,Career Pathways of Local Madrasah Graduates,,OA,
-2020-10-14,2020-10-14-T-008,8,Rationale to Link Workfare Special Payment to MediSave Contributions,,OA,
-2020-10-14,2020-10-14-T-009,9,Keeping Singapore's Workforce Competitive In Light of Remote Workers From the Region Willing to Work For Less Pay,,OA,
-2020-10-14,2020-10-14-T-010,10,Companies Who Reduce Headcount of Existing Employees While Leveraging JGI to Recruit New Workers,,OA,
-2020-10-14,2020-10-14-T-011,11,Update on GPFirst Programme at Changi General Hospital,,OA,
-2020-10-14,2020-10-14-T-012,12,Take-up Rate for 2-room HDB Flexi Flats in First Half of 2020,,OA,
-2020-10-14,2020-10-14-T-013,13,Number of Singles Who Have Bought HDB Resale Flats,,OA,
-2020-10-14,2020-10-14-T-014,14,Determination of Maximum Permissible Noise Levels for Construction Work,,OA,
-2020-10-14,2020-10-14-T-015,15,Third Supplementary Supply and Budget Adjustments (FY 2020) Bill,,BI,
-2020-10-14,2020-10-14-T-016,16,Overview of Government's Strategy to Emerge Stronger from the COVID-19 Pandemic,Debate on Ministerial Statement,OS,
-2020-10-14,2020-10-14-T-017,17,Adjournment of Debate,,OS,
-2020-10-14,2020-10-14-T-018,18,Adjournment,,OS,
-2020-10-14,2020-10-14-T-019,19,Towards Full Participation of Persons with Disabilities in Singapore Society,,OS,
-2020-10-14,2020-10-14-T-020,20,"Update on Plan to Provide 28,000 Electric Vehicle Charging Points by 2030",,WANA,1
-2020-10-14,2020-10-14-T-021,21,Regular Cyclical Maintenance for HDB Rental Flats beyond Typical Repair Works,,WANA,1
-2020-10-14,2020-10-14-T-022,22,Addressing Bed Bug Infestations and Excessive Hoarding Problems at HDB Rental Blocks,,WANA,1
-2020-10-14,2020-10-14-T-023,23,Review of Pilot Pre-Implantation Genetic Screening Programme,,WANA,1
-2020-10-14,2020-10-14-T-024,24,Prevention of Scam Cases Since Inter-Ministry Committee on Scams was Formed,,WANA,1
-2020-10-14,2020-10-14-T-025,25,Data on Current Estimated Potential (CEP) of Public Officers within Five Years of Joining Public Service,,WA,1
-2020-10-14,2020-10-14-T-026,26,Percentage of Ex-offenders Finding Employment within Three Months after Serving Sentences,,WA,1
-2020-10-14,2020-10-14-T-027,27,Availability of Future-ready Counsellors and Psychologists to Help Cope with Potential Increase in Mental Illness Cases,,WA,1
-2020-10-14,2020-10-14-T-028,28,Progress on Development and Clinical Trial of COVID-19 Vaccine and Plans for Mass Vaccination for Singaporeans,,WA,1
-2020-10-14,2020-10-14-T-029,29,Criteria Used in Selection of Disease for Inclusion under Chronic Disease Management Programme,,WA,1
-2020-10-14,2020-10-14-T-030,30,Littering Cases Reported in Past Three Years and Measures to Address Problem,,WA,1
-2020-10-14,2020-10-14-T-031,31,Proposal for Students to Learn Alongside Differently Abled or Special Needs Students,,WA,1
-2020-10-14,2020-10-14-T-032,32,Number of Rejected Applications for COVID-19 Support Grant due to Income Criterion,,WA,1
-2020-10-14,2020-10-14-T-033,33,Extension of COE Renewal in Light of COVID-19 Crisis,,WA,1
-2020-10-14,2020-10-14-T-034,34,Merging Workforce Singapore (WSG) and Employment and Employability Institute (e2i) to Optimise Efficiency of Resources,,WA,1
-2020-10-14,2020-10-14-T-035,35,Plans to Harness Technology in Built Environment Industry,,WA,1
-2020-10-14,2020-10-14-T-036,36,Requests for Deferment of Loan Payment Received by HDB since Start of Circuit Breaker Period and Proportion Approved,,WA,1
-2020-10-14,2020-10-14-T-037,37,Statistics on Wife Retaining Matrimonial Flat or Allocated Rental Flat by HDB Following Divorce,,WA,1
-2020-10-14,2020-10-14-T-038,38,Ratio of Total Number of Dwelling Units to Pavilions and Total Number of Void Decks to Blocks in Current and New HDB Developments,,WA,1
+topic_id,date,topic_order,title,section_type
+2020-10-14-T-001,2020-10-14,1,Basis for Latest Increase in Electricity Tariffs and Gas Prices,OA
+2020-10-14-T-002,2020-10-14,2,Development Support and Learning Support Programmes at Non-Anchor Operator Pre-schools,OA
+2020-10-14-T-003,2020-10-14,3,SkillsFuture Programme Attendees Who have Procured Work Related to Their Course,OA
+2020-10-14-T-004,2020-10-14,4,SGUnited Traineeship Applications and Matches,OA
+2020-10-14-T-005,2020-10-14,5,Policy Considerations for Long-term Population Growth,OA
+2020-10-14-T-006,2020-10-14,6,Pricing Policy of HDB's BTO Flats,OA
+2020-10-14-T-007,2020-10-14,7,Career Pathways of Local Madrasah Graduates,OA
+2020-10-14-T-008,2020-10-14,8,Rationale to Link Workfare Special Payment to MediSave Contributions,OA
+2020-10-14-T-009,2020-10-14,9,Keeping Singapore's Workforce Competitive In Light of Remote Workers From the Region Willing to Work For Less Pay,OA
+2020-10-14-T-010,2020-10-14,10,Companies Who Reduce Headcount of Existing Employees While Leveraging JGI to Recruit New Workers,OA
+2020-10-14-T-011,2020-10-14,11,Update on GPFirst Programme at Changi General Hospital,OA
+2020-10-14-T-012,2020-10-14,12,Take-up Rate for 2-room HDB Flexi Flats in First Half of 2020,OA
+2020-10-14-T-013,2020-10-14,13,Number of Singles Who Have Bought HDB Resale Flats,OA
+2020-10-14-T-014,2020-10-14,14,Determination of Maximum Permissible Noise Levels for Construction Work,OA
+2020-10-14-T-015,2020-10-14,15,Third Supplementary Supply and Budget Adjustments (FY 2020) Bill,BI
+2020-10-14-T-016,2020-10-14,16,Overview of Government's Strategy to Emerge Stronger from the COVID-19 Pandemic,OS
+2020-10-14-T-017,2020-10-14,17,Adjournment of Debate,OS
+2020-10-14-T-018,2020-10-14,18,Adjournment,OS
+2020-10-14-T-019,2020-10-14,19,Towards Full Participation of Persons with Disabilities in Singapore Society,OS
+2020-10-14-T-020,2020-10-14,20,"Update on Plan to Provide 28,000 Electric Vehicle Charging Points by 2030",WANA
+2020-10-14-T-021,2020-10-14,21,Regular Cyclical Maintenance for HDB Rental Flats beyond Typical Repair Works,WANA
+2020-10-14-T-022,2020-10-14,22,Addressing Bed Bug Infestations and Excessive Hoarding Problems at HDB Rental Blocks,WANA
+2020-10-14-T-023,2020-10-14,23,Review of Pilot Pre-Implantation Genetic Screening Programme,WANA
+2020-10-14-T-024,2020-10-14,24,Prevention of Scam Cases Since Inter-Ministry Committee on Scams was Formed,WANA
+2020-10-14-T-025,2020-10-14,25,Data on Current Estimated Potential (CEP) of Public Officers within Five Years of Joining Public Service,WA
+2020-10-14-T-026,2020-10-14,26,Percentage of Ex-offenders Finding Employment within Three Months after Serving Sentences,WA
+2020-10-14-T-027,2020-10-14,27,Availability of Future-ready Counsellors and Psychologists to Help Cope with Potential Increase in Mental Illness Cases,WA
+2020-10-14-T-028,2020-10-14,28,Progress on Development and Clinical Trial of COVID-19 Vaccine and Plans for Mass Vaccination for Singaporeans,WA
+2020-10-14-T-029,2020-10-14,29,Criteria Used in Selection of Disease for Inclusion under Chronic Disease Management Programme,WA
+2020-10-14-T-030,2020-10-14,30,Littering Cases Reported in Past Three Years and Measures to Address Problem,WA
+2020-10-14-T-031,2020-10-14,31,Proposal for Students to Learn Alongside Differently Abled or Special Needs Students,WA
+2020-10-14-T-032,2020-10-14,32,Number of Rejected Applications for COVID-19 Support Grant due to Income Criterion,WA
+2020-10-14-T-033,2020-10-14,33,Extension of COE Renewal in Light of COVID-19 Crisis,WA
+2020-10-14-T-034,2020-10-14,34,Merging Workforce Singapore (WSG) and Employment and Employability Institute (e2i) to Optimise Efficiency of Resources,WA
+2020-10-14-T-035,2020-10-14,35,Plans to Harness Technology in Built Environment Industry,WA
+2020-10-14-T-036,2020-10-14,36,Requests for Deferment of Loan Payment Received by HDB since Start of Circuit Breaker Period and Proportion Approved,WA
+2020-10-14-T-037,2020-10-14,37,Statistics on Wife Retaining Matrimonial Flat or Allocated Rental Flat by HDB Following Divorce,WA
+2020-10-14-T-038,2020-10-14,38,Ratio of Total Number of Dwelling Units to Pavilions and Total Number of Void Decks to Blocks in Current and New HDB Developments,WA

@@ -1,43 +1,43 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2023-05-10,2023-05-10-T-001,1,Obituary for the Late Mr Palaniappan s/o Arumugum ,,OS,
-2023-05-10,2023-05-10-T-002,2,Impact on Patient Waiting Times and Service Standards with Shift to Capitation Model in Financing Public Healthcare Clusters,,OA,
-2023-05-10,2023-05-10-T-003,3, Number of Fatalities and Injuries from Falls onto LRT Tracks,,OA,
-2023-05-10,2023-05-10-T-004,4,Criteria Used for Occupations Placed on Non-Traditional Sources Occupation List,,OA,
-2023-05-10,2023-05-10-T-005,5,Suspicious Property Transaction Reports Filed and Cases Linked to Money Laundering,,OA,
-2023-05-10,2023-05-10-T-006,6,Family Service Centres with Dedicated Headcount for Community Work,,OA,
-2023-05-10,2023-05-10-T-007,7,Attracting Polytechnic Graduates to Work in Banking and Finance Sector and Take-up of Places in Apprenticeship Programmes for Them,,OA,
-2023-05-10,2023-05-10-T-008,8,Government Agencies that Receive the Most Cases from Municipal Services Office,,OA,
-2023-05-10,2023-05-10-T-009,9,Supplementing LRT Train Journeys During Peak Times with Increased Frequency in Bus Services,,OA,
-2023-05-10,2023-05-10-T-010,10,Data on Amounts and Sources of Wealth Inflows into Singapore,,OA,
-2023-05-10,2023-05-10-T-011,11,Further Measures to Moderate Rise in Consumer Price Index,,OA,
-2023-05-10,2023-05-10-T-012,12,Flouting of Guidelines for Use of Light-emitting Wreaths and Inflatables at Funeral Wakes,,OA,
-2023-05-10,2023-05-10-T-013,13,Guidelines for Standards Relating to Full-time National Servicemen's Accommodation in Camps,,OA,
-2023-05-10,2023-05-10-T-014,14,Campaign to Remind Pedestrians not to Use Mobile Phones and Electronic Devices While on the Roads,,OA,
-2023-05-10,2023-05-10-T-015,15,Revision of MediSave Limit to Allow Cancer Patients to Pay for Non-subsidised Drugs,,OA,
-2023-05-10,2023-05-10-T-016,16,Government's Response to Recent Academic Papers on Social Mobility,,OA,
-2023-05-10,2023-05-10-T-017,17,Supporting Healthcare,Motion,OS,
-2023-05-10,2023-05-10-T-018,18,Adjournment,,OS,
-2023-05-10,2023-05-10-T-019,19,Prevalence of Cycling to Work and Proposal for Installing Cycling Lanes on Routes to Central Business District,,WANA,
-2023-05-10,2023-05-10-T-020,20,Progress of Negotiation between ASEAN and China for Code of Conduct for South China Sea,,WANA,
-2023-05-10,2023-05-10-T-021,21,Impact of Tight Labour Market and Strong Singapore Dollar on Singapore's Competitiveness in Securing Investments,,WANA,
-2023-05-10,2023-05-10-T-022,22,Singapore's Response to Situation in Sudan,,WANA,
-2023-05-10,2023-05-10-T-023,23,Rationale for Latest Round of Property Cooling Measures Given Still-high Prices and Rising Interest Rates,,WANA,
-2023-05-10,2023-05-10-T-024,24,Tightening Processes Involving Decoupling by Families or Couples Wishing to Buy An Additional Property,,WANA,
-2023-05-10,2023-05-10-T-025,25,Extending Subsidy to Cover Public Officers' Treatment at Registered TCM Clinics,,WA,
-2023-05-10,2023-05-10-T-026,26,Estimated Number of Singaporeans Qualified for Election as President,,WA,
-2023-05-10,2023-05-10-T-027,27,Tenants of Private Property Leases by Residency Status,,WA,
-2023-05-10,2023-05-10-T-028,28,"Vulnerable Group Persons Hired in Government Project Tenders with ""Set aside"" Clauses",,WA,
-2023-05-10,2023-05-10-T-029,29,Projected Manufacturing Outlook for Rest of 2023 Given Contraction in First Quarter,,WA,
-2023-05-10,2023-05-10-T-030,30,Open Market Value of Cars Registered under Categories A and B COEs,,WA,
-2023-05-10,2023-05-10-T-031,31,Effect of New Public Transport Fare Adjustment Formula on Commuters' Transport Cost,,WA,
-2023-05-10,2023-05-10-T-032,32,Trial to Power Up Raffles Lighthouse with Tidal Energy,,WA,
-2023-05-10,2023-05-10-T-033,33,Replacement of Diesel Powered Harbour Crafts with Electric Ferries,,WA,
-2023-05-10,2023-05-10-T-034,34,School Places for All Students with Special Educational Needs,,WA,
-2023-05-10,2023-05-10-T-035,35,Percentage of New Admissions to Children and Young Persons Homes Living in Public Rental Flats,,WA,
-2023-05-10,2023-05-10-T-036,36,Top Three Concerns of Families with School-going Children Living in Rental Housing,,WA,
-2023-05-10,2023-05-10-T-037,37,Safety of Over-the-counter HSA-approved Traditional Chinese Medicine Products,,WA,
-2023-05-10,2023-05-10-T-038,38,Purchase of Million-dollar Resale HDB Flats by Ex-private Property Owners,,WA,
-2023-05-10,2023-05-10-T-039,39,Framework and Indicators to Guide Levels of Additional Buyer's Stamp Duty,,WA,
-2023-05-10,2023-05-10-T-040,40,"Evaluation, Proceeds and Costs of Pasar Malam Tenders",,WA,
-2023-05-10,2023-05-10-T-041,41,Food Safety and Hygiene for Migrant Workers Staying in Dormitories,,WA,
-2023-05-10,2023-05-10-T-042,42,Clarification by Minister for Health,,WS,
+topic_id,date,topic_order,title,section_type
+2023-05-10-T-001,2023-05-10,1,Obituary for the Late Mr Palaniappan s/o Arumugum ,OS
+2023-05-10-T-002,2023-05-10,2,Impact on Patient Waiting Times and Service Standards with Shift to Capitation Model in Financing Public Healthcare Clusters,OA
+2023-05-10-T-003,2023-05-10,3, Number of Fatalities and Injuries from Falls onto LRT Tracks,OA
+2023-05-10-T-004,2023-05-10,4,Criteria Used for Occupations Placed on Non-Traditional Sources Occupation List,OA
+2023-05-10-T-005,2023-05-10,5,Suspicious Property Transaction Reports Filed and Cases Linked to Money Laundering,OA
+2023-05-10-T-006,2023-05-10,6,Family Service Centres with Dedicated Headcount for Community Work,OA
+2023-05-10-T-007,2023-05-10,7,Attracting Polytechnic Graduates to Work in Banking and Finance Sector and Take-up of Places in Apprenticeship Programmes for Them,OA
+2023-05-10-T-008,2023-05-10,8,Government Agencies that Receive the Most Cases from Municipal Services Office,OA
+2023-05-10-T-009,2023-05-10,9,Supplementing LRT Train Journeys During Peak Times with Increased Frequency in Bus Services,OA
+2023-05-10-T-010,2023-05-10,10,Data on Amounts and Sources of Wealth Inflows into Singapore,OA
+2023-05-10-T-011,2023-05-10,11,Further Measures to Moderate Rise in Consumer Price Index,OA
+2023-05-10-T-012,2023-05-10,12,Flouting of Guidelines for Use of Light-emitting Wreaths and Inflatables at Funeral Wakes,OA
+2023-05-10-T-013,2023-05-10,13,Guidelines for Standards Relating to Full-time National Servicemen's Accommodation in Camps,OA
+2023-05-10-T-014,2023-05-10,14,Campaign to Remind Pedestrians not to Use Mobile Phones and Electronic Devices While on the Roads,OA
+2023-05-10-T-015,2023-05-10,15,Revision of MediSave Limit to Allow Cancer Patients to Pay for Non-subsidised Drugs,OA
+2023-05-10-T-016,2023-05-10,16,Government's Response to Recent Academic Papers on Social Mobility,OA
+2023-05-10-T-017,2023-05-10,17,Supporting Healthcare,OS
+2023-05-10-T-018,2023-05-10,18,Adjournment,OS
+2023-05-10-T-019,2023-05-10,19,Prevalence of Cycling to Work and Proposal for Installing Cycling Lanes on Routes to Central Business District,WANA
+2023-05-10-T-020,2023-05-10,20,Progress of Negotiation between ASEAN and China for Code of Conduct for South China Sea,WANA
+2023-05-10-T-021,2023-05-10,21,Impact of Tight Labour Market and Strong Singapore Dollar on Singapore's Competitiveness in Securing Investments,WANA
+2023-05-10-T-022,2023-05-10,22,Singapore's Response to Situation in Sudan,WANA
+2023-05-10-T-023,2023-05-10,23,Rationale for Latest Round of Property Cooling Measures Given Still-high Prices and Rising Interest Rates,WANA
+2023-05-10-T-024,2023-05-10,24,Tightening Processes Involving Decoupling by Families or Couples Wishing to Buy An Additional Property,WANA
+2023-05-10-T-025,2023-05-10,25,Extending Subsidy to Cover Public Officers' Treatment at Registered TCM Clinics,WA
+2023-05-10-T-026,2023-05-10,26,Estimated Number of Singaporeans Qualified for Election as President,WA
+2023-05-10-T-027,2023-05-10,27,Tenants of Private Property Leases by Residency Status,WA
+2023-05-10-T-028,2023-05-10,28,"Vulnerable Group Persons Hired in Government Project Tenders with ""Set aside"" Clauses",WA
+2023-05-10-T-029,2023-05-10,29,Projected Manufacturing Outlook for Rest of 2023 Given Contraction in First Quarter,WA
+2023-05-10-T-030,2023-05-10,30,Open Market Value of Cars Registered under Categories A and B COEs,WA
+2023-05-10-T-031,2023-05-10,31,Effect of New Public Transport Fare Adjustment Formula on Commuters' Transport Cost,WA
+2023-05-10-T-032,2023-05-10,32,Trial to Power Up Raffles Lighthouse with Tidal Energy,WA
+2023-05-10-T-033,2023-05-10,33,Replacement of Diesel Powered Harbour Crafts with Electric Ferries,WA
+2023-05-10-T-034,2023-05-10,34,School Places for All Students with Special Educational Needs,WA
+2023-05-10-T-035,2023-05-10,35,Percentage of New Admissions to Children and Young Persons Homes Living in Public Rental Flats,WA
+2023-05-10-T-036,2023-05-10,36,Top Three Concerns of Families with School-going Children Living in Rental Housing,WA
+2023-05-10-T-037,2023-05-10,37,Safety of Over-the-counter HSA-approved Traditional Chinese Medicine Products,WA
+2023-05-10-T-038,2023-05-10,38,Purchase of Million-dollar Resale HDB Flats by Ex-private Property Owners,WA
+2023-05-10-T-039,2023-05-10,39,Framework and Indicators to Guide Levels of Additional Buyer's Stamp Duty,WA
+2023-05-10-T-040,2023-05-10,40,"Evaluation, Proceeds and Costs of Pasar Malam Tenders",WA
+2023-05-10-T-041,2023-05-10,41,Food Safety and Hygiene for Migrant Workers Staying in Dormitories,WA
+2023-05-10-T-042,2023-05-10,42,Clarification by Minister for Health,WS

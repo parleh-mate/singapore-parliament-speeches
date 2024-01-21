@@ -1,9 +1,9 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2018-03-21,2018-03-21-T-001,1,Appeals for Exemption from Studying Mother Tongue Language,,OA,
-2018-03-21,2018-03-21-T-002,2,Measures to Attract Legal Talent to Singapore Judiciary,,OA,
-2018-03-21,2018-03-21-T-003,3,Public Order and Safety (Special Powers) Bill,,BP,
-2018-03-21,2018-03-21-T-004,4,Time Limit for Minister's Speech,Suspension of Standing Orders,OS,
-2018-03-21,2018-03-21-T-005,5,Public Order and Safety (Special Powers) Bill,,BP,
-2018-03-21,2018-03-21-T-006,6,Films (Amendment) Bill,,BP,
-2018-03-21,2018-03-21-T-007,7,Adjournment,,OS,
-2018-03-21,2018-03-21-T-008,8,Smoking and Alcohol Consumption by Spectators and Players in the Vicinity of Sports Stadiums,,WA,
+topic_id,date,topic_order,title,section_type
+2018-03-21-T-001,2018-03-21,1,Appeals for Exemption from Studying Mother Tongue Language,OA
+2018-03-21-T-002,2018-03-21,2,Measures to Attract Legal Talent to Singapore Judiciary,OA
+2018-03-21-T-003,2018-03-21,3,Public Order and Safety (Special Powers) Bill,BP
+2018-03-21-T-004,2018-03-21,4,Time Limit for Minister's Speech,OS
+2018-03-21-T-005,2018-03-21,5,Public Order and Safety (Special Powers) Bill,BP
+2018-03-21-T-006,2018-03-21,6,Films (Amendment) Bill,BP
+2018-03-21-T-007,2018-03-21,7,Adjournment,OS
+2018-03-21-T-008,2018-03-21,8,Smoking and Alcohol Consumption by Spectators and Players in the Vicinity of Sports Stadiums,WA

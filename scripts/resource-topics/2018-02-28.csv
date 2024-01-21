@@ -1,15 +1,15 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2018-02-28,2018-02-28-T-001,1,Time Allocation for Committee of Supply,Announcement by Mr Speaker,OS,
-2018-02-28,2018-02-28-T-002,2,Information on Government's Factually Website,,OA,
-2018-02-28,2018-02-28-T-003,3,Current Gamblers on Legal Online Gambling Sites Operated by Singapore Pools and Singapore Turf Club,,OA,
-2018-02-28,2018-02-28-T-004,4,Measures at Checkpoints to Deter Wildlife Trafficking,,OA,
-2018-02-28,2018-02-28-T-005,5,Effectiveness of National Recycling Programme,,OA,
-2018-02-28,2018-02-28-T-006,6,Aviation (Miscellaneous Amendments) Bill,,BI,
-2018-02-28,2018-02-28-T-007,7,Criminal Justice Reform Bill,,BI,
-2018-02-28,2018-02-28-T-008,8,Evidence (Amendment) Bill,,BI,
-2018-02-28,2018-02-28-T-009,9,Debate on Annual Budget Statement,,OS,
-2018-02-28,2018-02-28-T-010,10,Clarification by Government Whip,,OS,
-2018-02-28,2018-02-28-T-011,11,Debate on Annual Budget Statement,,OS,
-2018-02-28,2018-02-28-T-012,12,Adjournment of Debate,,OS,
-2018-02-28,2018-02-28-T-013,13,Adjournment,,OS,
-2018-02-28,2018-02-28-T-014,14,Average Cost of Constructing a Signalised Pedestrian Crossing,,WA,
+topic_id,date,topic_order,title,section_type
+2018-02-28-T-001,2018-02-28,1,Time Allocation for Committee of Supply,OS
+2018-02-28-T-002,2018-02-28,2,Information on Government's Factually Website,OA
+2018-02-28-T-003,2018-02-28,3,Current Gamblers on Legal Online Gambling Sites Operated by Singapore Pools and Singapore Turf Club,OA
+2018-02-28-T-004,2018-02-28,4,Measures at Checkpoints to Deter Wildlife Trafficking,OA
+2018-02-28-T-005,2018-02-28,5,Effectiveness of National Recycling Programme,OA
+2018-02-28-T-006,2018-02-28,6,Aviation (Miscellaneous Amendments) Bill,BI
+2018-02-28-T-007,2018-02-28,7,Criminal Justice Reform Bill,BI
+2018-02-28-T-008,2018-02-28,8,Evidence (Amendment) Bill,BI
+2018-02-28-T-009,2018-02-28,9,Debate on Annual Budget Statement,OS
+2018-02-28-T-010,2018-02-28,10,Clarification by Government Whip,OS
+2018-02-28-T-011,2018-02-28,11,Debate on Annual Budget Statement,OS
+2018-02-28-T-012,2018-02-28,12,Adjournment of Debate,OS
+2018-02-28-T-013,2018-02-28,13,Adjournment,OS
+2018-02-28-T-014,2018-02-28,14,Average Cost of Constructing a Signalised Pedestrian Crossing,WA

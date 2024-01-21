@@ -1,24 +1,24 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2021-03-02,2021-03-02-T-001,1,Programmes and Channels Available to Primary School Students to Learn and Raise the Alert on Domestic Violence,,OA,
-2021-03-02,2021-03-02-T-002,2,Long-Term Visit Pass and LTVP Plus Holders in Workforce,,OA,
-2021-03-02,2021-03-02-T-003,3,HDB Flats Sold Under Open Booking Scheme,,OA,
-2021-03-02,2021-03-02-T-004,4,HDB Flats Resold to HDB in Past Five Years,,OA,
-2021-03-02,2021-03-02-T-005,5,Increasing Number of Patients and Subsidy for Pre-Implantation Genetic Screening,,OA,
-2021-03-02,2021-03-02-T-006,6,Update on Singapore Community Wakaf,,OA,
-2021-03-02,2021-03-02-T-007,7,Follow-up Actions After NParks-funded Study on Feral Pigeons,,OA,
-2021-03-02,2021-03-02-T-008,8,Estimates of Expenditure for the Financial Year 1 April 2021 to 31 March 2022,Committee of Supply - Paper Cmd 5 of 2021,OS,
-2021-03-02,2021-03-02-T-009,9,Committee of Supply – Head R (Ministry of Law),Securing our place in the world,OS,
-2021-03-02,2021-03-02-T-010,10,Committee of Supply – Head E (Judicature),Securing our place in the world,OS,
-2021-03-02,2021-03-02-T-011,11,Committee of Supply – Head V (Ministry of Trade and Industry),Creating a future-ready economy and workforce,OS,
-2021-03-02,2021-03-02-T-012,12,Committee of Supply – Head Q (Ministry of Communications and Information) ,Creating a future-ready economy and workforce,OS,
-2021-03-02,2021-03-02-T-013,13,Committee of Supply – Head S (Ministry of Manpower),Creating a future-ready economy and workforce,OS,
-2021-03-02,2021-03-02-T-014,14,Exempted Business,Committee of Supply,OS,
-2021-03-02,2021-03-02-T-015,15,Committee of Supply – Head S (Ministry of Manpower),Creating a future-ready economy and workforce,OS,
-2021-03-02,2021-03-02-T-016,16,Committee of Supply Reporting Progress,,OS,
-2021-03-02,2021-03-02-T-017,17,Adjournment,,OS,
-2021-03-02,2021-03-02-T-018,18,Plans to Amend Community Disputes Resolution Act or Introduce Legislative Measures to Assist Resolution of Neighbourly Disputes Before Community Disputes Resolution Tribunals,,WA,
-2021-03-02,2021-03-02-T-019,19,"Annual Visitorship to Haw Par Villa, Progress of Upgrading Works and Plans for Conservation",,WA,
-2021-03-02,2021-03-02-T-020,20,Studies on Technology and Social Media's Impact on Domestic Violence or Abuse in Society in Context of Global Pandemic,,WA,
-2021-03-02,2021-03-02-T-021,21,Requirement for Employers of Foreign Domestic Workers to Obtain Documented Consent from FWDs for Deployment Outside Their Contract,,WA,
-2021-03-02,2021-03-02-T-022,22,Study on Possibility of Introducing Mandatory Labelling Scheme for Shark Products,,WA,
-2021-03-02,2021-03-02-T-023,23,Making Mediation Before Community Mediation Centre Mandatory Measure in Resolution of Neighbourly Disputes between Dwellers or Owners of HDB Flats,,WA,
+topic_id,date,topic_order,title,section_type
+2021-03-02-T-001,2021-03-02,1,Programmes and Channels Available to Primary School Students to Learn and Raise the Alert on Domestic Violence,OA
+2021-03-02-T-002,2021-03-02,2,Long-Term Visit Pass and LTVP Plus Holders in Workforce,OA
+2021-03-02-T-003,2021-03-02,3,HDB Flats Sold Under Open Booking Scheme,OA
+2021-03-02-T-004,2021-03-02,4,HDB Flats Resold to HDB in Past Five Years,OA
+2021-03-02-T-005,2021-03-02,5,Increasing Number of Patients and Subsidy for Pre-Implantation Genetic Screening,OA
+2021-03-02-T-006,2021-03-02,6,Update on Singapore Community Wakaf,OA
+2021-03-02-T-007,2021-03-02,7,Follow-up Actions After NParks-funded Study on Feral Pigeons,OA
+2021-03-02-T-008,2021-03-02,8,Estimates of Expenditure for the Financial Year 1 April 2021 to 31 March 2022,OS
+2021-03-02-T-009,2021-03-02,9,Committee of Supply – Head R (Ministry of Law),OS
+2021-03-02-T-010,2021-03-02,10,Committee of Supply – Head E (Judicature),OS
+2021-03-02-T-011,2021-03-02,11,Committee of Supply – Head V (Ministry of Trade and Industry),OS
+2021-03-02-T-012,2021-03-02,12,Committee of Supply – Head Q (Ministry of Communications and Information) ,OS
+2021-03-02-T-013,2021-03-02,13,Committee of Supply – Head S (Ministry of Manpower),OS
+2021-03-02-T-014,2021-03-02,14,Exempted Business,OS
+2021-03-02-T-015,2021-03-02,15,Committee of Supply – Head S (Ministry of Manpower),OS
+2021-03-02-T-016,2021-03-02,16,Committee of Supply Reporting Progress,OS
+2021-03-02-T-017,2021-03-02,17,Adjournment,OS
+2021-03-02-T-018,2021-03-02,18,Plans to Amend Community Disputes Resolution Act or Introduce Legislative Measures to Assist Resolution of Neighbourly Disputes Before Community Disputes Resolution Tribunals,WA
+2021-03-02-T-019,2021-03-02,19,"Annual Visitorship to Haw Par Villa, Progress of Upgrading Works and Plans for Conservation",WA
+2021-03-02-T-020,2021-03-02,20,Studies on Technology and Social Media's Impact on Domestic Violence or Abuse in Society in Context of Global Pandemic,WA
+2021-03-02-T-021,2021-03-02,21,Requirement for Employers of Foreign Domestic Workers to Obtain Documented Consent from FWDs for Deployment Outside Their Contract,WA
+2021-03-02-T-022,2021-03-02,22,Study on Possibility of Introducing Mandatory Labelling Scheme for Shark Products,WA
+2021-03-02-T-023,2021-03-02,23,Making Mediation Before Community Mediation Centre Mandatory Measure in Resolution of Neighbourly Disputes between Dwellers or Owners of HDB Flats,WA

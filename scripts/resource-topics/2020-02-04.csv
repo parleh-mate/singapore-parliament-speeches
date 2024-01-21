@@ -1,27 +1,27 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-02-04,2020-02-04-T-001,1,Measures to Prevent Unauthorised Entry into Singapore as Piracies Spike in Singapore Straits,,OA,
-2020-02-04,2020-02-04-T-002,2,Take-up Rate for Adults Following Launch of National Adult Immunisation Schedule,,OA,
-2020-02-04,2020-02-04-T-003,3,Written Contracts for Workers Covered under Employment of Foreign Manpower Act,,OA,
-2020-02-04,2020-02-04-T-004,4,Catalyst Role for Singapore in Addressing Climate Change Issues,,OA,
-2020-02-04,2020-02-04-T-005,5,Assessment of Climate Risk in Monetary Authority of Singapore’s Annual Industry-Wide Stress Test,,OA,
-2020-02-04,2020-02-04-T-006,6,Public Service's Response to TAFEP Guideline on Mental Health Declaration,,OA,
-2020-02-04,2020-02-04-T-007,7,Government Strategy for Growing Economy and Good Jobs without Over-reliance on Foreign Manpower,,OA,
-2020-02-04,2020-02-04-T-008,8,Personal Data Disclosure in the Case of Ms Sua Li Li,,OA,
-2020-02-04,2020-02-04-T-009,9,Consular Support for Singaporeans Arrested or Charged with Offences in Foreign Countries,,OA,
-2020-02-04,2020-02-04-T-010,10,Trend of Singaporeans being Declared Bankrupt and Average Time to Exit Bankruptcy,,OA,
-2020-02-04,2020-02-04-T-011,11,Analysis that Supported Development of SecureMyBike Project in Admiralty that was Eventually Discontinued,,OA,
-2020-02-04,2020-02-04-T-012,12,Building Control (Amendment) Bill,,BI,
-2020-02-04,2020-02-04-T-013,13,Singapore Convention on Mediation Bill,,BP,
-2020-02-04,2020-02-04-T-014,14,Active Mobility (Amendment) Bill,,BP,
-2020-02-04,2020-02-04-T-015,15,Shared Mobility Enterprises (Control and Licensing) Bill,,BP,
-2020-02-04,2020-02-04-T-016,16,Adjournment,,OS,
-2020-02-04,2020-02-04-T-017,17,Imposing Legal Obligations on Food Delivery Companies to Ensure their Drivers Comply with Active Mobility and Road Traffic Regulations,,WANA,
-2020-02-04,2020-02-04-T-018,18,Priority for BTO Flats in Mature Estates for First-time Applicants whose Parents or In-laws Live in the Estate,,WANA,
-2020-02-04,2020-02-04-T-019,19,Demolition of Kallang Squash Centre and Impact on Availability of Venue for Hosting International Squash Tournaments and Training for Elite Players,,WANA,
-2020-02-04,2020-02-04-T-020,20,Breakdown of Number of Families Consisting of Singaporean Citizens Married to Non-resident Spouses with Citizen and Non-resident Children,,WA,
-2020-02-04,2020-02-04-T-021,21,Government Expenditure on Singapore Bicentennial Activities and Outcomes Achieved,,WA,
-2020-02-04,2020-02-04-T-022,22,"Changes in Protocol for SPF, SCDF and IMH Following Decriminalisation of Attempted Suicide in Singapore",,WA,
-2020-02-04,2020-02-04-T-023,23,Publishing Absolute and Percentage Change in Total Carbon Emissions for Facilities that Paid Carbon Tax to Provide Clarity on Emission Impact of Carbon Tax,,WA,
-2020-02-04,2020-02-04-T-024,24,Plans to Study Effectiveness of Pilot Household Services Scheme,,WA,
-2020-02-04,2020-02-04-T-025,25,Number of Cases of Employment-related Disputes Not Covered Under Employment Act and Outcomes of These Cases,,WA,
-2020-02-04,2020-02-04-T-026,26,Review Requirement for Singaporean Staff of Companies Tendering for Government Contract to be Members of Trade Unions,,WA,
+topic_id,date,topic_order,title,section_type
+2020-02-04-T-001,2020-02-04,1,Measures to Prevent Unauthorised Entry into Singapore as Piracies Spike in Singapore Straits,OA
+2020-02-04-T-002,2020-02-04,2,Take-up Rate for Adults Following Launch of National Adult Immunisation Schedule,OA
+2020-02-04-T-003,2020-02-04,3,Written Contracts for Workers Covered under Employment of Foreign Manpower Act,OA
+2020-02-04-T-004,2020-02-04,4,Catalyst Role for Singapore in Addressing Climate Change Issues,OA
+2020-02-04-T-005,2020-02-04,5,Assessment of Climate Risk in Monetary Authority of Singapore’s Annual Industry-Wide Stress Test,OA
+2020-02-04-T-006,2020-02-04,6,Public Service's Response to TAFEP Guideline on Mental Health Declaration,OA
+2020-02-04-T-007,2020-02-04,7,Government Strategy for Growing Economy and Good Jobs without Over-reliance on Foreign Manpower,OA
+2020-02-04-T-008,2020-02-04,8,Personal Data Disclosure in the Case of Ms Sua Li Li,OA
+2020-02-04-T-009,2020-02-04,9,Consular Support for Singaporeans Arrested or Charged with Offences in Foreign Countries,OA
+2020-02-04-T-010,2020-02-04,10,Trend of Singaporeans being Declared Bankrupt and Average Time to Exit Bankruptcy,OA
+2020-02-04-T-011,2020-02-04,11,Analysis that Supported Development of SecureMyBike Project in Admiralty that was Eventually Discontinued,OA
+2020-02-04-T-012,2020-02-04,12,Building Control (Amendment) Bill,BI
+2020-02-04-T-013,2020-02-04,13,Singapore Convention on Mediation Bill,BP
+2020-02-04-T-014,2020-02-04,14,Active Mobility (Amendment) Bill,BP
+2020-02-04-T-015,2020-02-04,15,Shared Mobility Enterprises (Control and Licensing) Bill,BP
+2020-02-04-T-016,2020-02-04,16,Adjournment,OS
+2020-02-04-T-017,2020-02-04,17,Imposing Legal Obligations on Food Delivery Companies to Ensure their Drivers Comply with Active Mobility and Road Traffic Regulations,WANA
+2020-02-04-T-018,2020-02-04,18,Priority for BTO Flats in Mature Estates for First-time Applicants whose Parents or In-laws Live in the Estate,WANA
+2020-02-04-T-019,2020-02-04,19,Demolition of Kallang Squash Centre and Impact on Availability of Venue for Hosting International Squash Tournaments and Training for Elite Players,WANA
+2020-02-04-T-020,2020-02-04,20,Breakdown of Number of Families Consisting of Singaporean Citizens Married to Non-resident Spouses with Citizen and Non-resident Children,WA
+2020-02-04-T-021,2020-02-04,21,Government Expenditure on Singapore Bicentennial Activities and Outcomes Achieved,WA
+2020-02-04-T-022,2020-02-04,22,"Changes in Protocol for SPF, SCDF and IMH Following Decriminalisation of Attempted Suicide in Singapore",WA
+2020-02-04-T-023,2020-02-04,23,Publishing Absolute and Percentage Change in Total Carbon Emissions for Facilities that Paid Carbon Tax to Provide Clarity on Emission Impact of Carbon Tax,WA
+2020-02-04-T-024,2020-02-04,24,Plans to Study Effectiveness of Pilot Household Services Scheme,WA
+2020-02-04-T-025,2020-02-04,25,Number of Cases of Employment-related Disputes Not Covered Under Employment Act and Outcomes of These Cases,WA
+2020-02-04-T-026,2020-02-04,26,Review Requirement for Singaporean Staff of Companies Tendering for Government Contract to be Members of Trade Unions,WA

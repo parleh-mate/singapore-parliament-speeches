@@ -1,8 +1,8 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2015-03-11,2015-03-11-T-001,1,Estimates of Expenditure for the Financial Year 1 April 2015 to 31 March 2016,Committee of Supply – Paper Cmd 1 of 2015,OS,
-2015-03-11,2015-03-11-T-002,2,Head T – Ministry of National Development,Committee of Supply,OS,
-2015-03-11,2015-03-11-T-003,3,Head W – Ministry of Transport,Committee of Supply,OS,
-2015-03-11,2015-03-11-T-004,4,Head L – Ministry of the Environment and Water Resources,Committee of Supply,OS,
-2015-03-11,2015-03-11-T-005,5,"Head X – Ministry of Culture, Community and Youth",Committee of Supply,OS,
-2015-03-11,2015-03-11-T-006,6,Committee of Supply Reporting Progress,,OS,
-2015-03-11,2015-03-11-T-007,7,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2015-03-11-T-001,2015-03-11,1,Estimates of Expenditure for the Financial Year 1 April 2015 to 31 March 2016,OS
+2015-03-11-T-002,2015-03-11,2,Head T – Ministry of National Development,OS
+2015-03-11-T-003,2015-03-11,3,Head W – Ministry of Transport,OS
+2015-03-11-T-004,2015-03-11,4,Head L – Ministry of the Environment and Water Resources,OS
+2015-03-11-T-005,2015-03-11,5,"Head X – Ministry of Culture, Community and Youth",OS
+2015-03-11-T-006,2015-03-11,6,Committee of Supply Reporting Progress,OS
+2015-03-11-T-007,2015-03-11,7,Adjournment,OS

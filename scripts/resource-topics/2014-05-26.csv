@@ -1,5 +1,5 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-05-26,2014-05-26-T-001,1,Radiation Protection (Amendment) Bill,,BI,
-2014-05-26,2014-05-26-T-002,2,Debate on President's Address,First Allotted Day,OS,
-2014-05-26,2014-05-26-T-003,3,Adjournment of Debate,,OS,
-2014-05-26,2014-05-26-T-004,4,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2014-05-26-T-001,2014-05-26,1,Radiation Protection (Amendment) Bill,BI
+2014-05-26-T-002,2014-05-26,2,Debate on President's Address,OS
+2014-05-26-T-003,2014-05-26,3,Adjournment of Debate,OS
+2014-05-26-T-004,2014-05-26,4,Adjournment,OS

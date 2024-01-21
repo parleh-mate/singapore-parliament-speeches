@@ -1,31 +1,31 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2016-01-29,2016-01-29-T-001,1,Recourse for Defects in BTO HDB Flats,,OA,
-2016-01-29,2016-01-29-T-002,2,Demand and Supply of Heavy Vehicle Parking Lots,,OA,
-2016-01-29,2016-01-29-T-003,3,Replacement of MRT Parts and Systems,,OA,
-2016-01-29,2016-01-29-T-004,4,Pedestrian Safety on Footpaths Open to Cyclists,,OA,
-2016-01-29,2016-01-29-T-005,5,Waiting Time for Professional Assessment of Persons with Disabilities,,OA,
-2016-01-29,2016-01-29-T-006,6,Impact of Exposure to Haze,,OA,
-2016-01-29,2016-01-29-T-007,7,Ambulance Evacuation for Accident Victims and Seriously Ill Patients,,OA,
-2016-01-29,2016-01-29-T-008,8,Construction of Ramps at Main Entrances of Selected HDB flats,,OA,
-2016-01-29,2016-01-29-T-009,9,Proper Maintenance of Perimeter Areas Accessible by Public,,OA,
-2016-01-29,2016-01-29-T-010,10,Free Parking at NParks Facilities,,OA,
-2016-01-29,2016-01-29-T-011,11,Installation of Gondolas in High-rise Residential Developments,,OA,
-2016-01-29,2016-01-29-T-012,12,Inconsistent MRT Fare-pricing along Downtown Line,,OA,
-2016-01-29,2016-01-29-T-013,13,Breakdown of Patents Developed by Government Research Institutes and Autonomous Universities,,OA,
-2016-01-29,2016-01-29-T-014,14,Registration of Criminals (Amendment) Bill,,BI,
-2016-01-29,2016-01-29-T-015,15,Debate on President's Address,Fifth Allotted Day,OS,
-2016-01-29,2016-01-29-T-016,16,Non-Constituency Member,Motion,OS,
-2016-01-29,2016-01-29-T-017,17,Extension of a Sitting,Business Motion,OS,
-2016-01-29,2016-01-29-T-018,18,Non-Constituency Member,Motion,OS,
-2016-01-29,2016-01-29-T-019,19,Adjournment,,OS,
-2016-01-29,2016-01-29-T-020,20,Early Voting by Postal Ballot in General Elections,,WA,
-2016-01-29,2016-01-29-T-021,21,Mid-Career PMEs Hired by Ministries and Statutory Boards,,WA,
-2016-01-29,2016-01-29-T-022,22,Applications for Off-peak Bus/MRT Travel Pass,,WA,
-2016-01-29,2016-01-29-T-023,23,Breakdown of Local and Foreign PMEs in Singapore by Industry and Sector,,WA,
-2016-01-29,2016-01-29-T-024,24,Unemployment Rate of Singaporean and Singaporean PR PMEs,,WA,
-2016-01-29,2016-01-29-T-025,25,NWC Dollar Quantum Payouts for Low-wage Workers,,WA,
-2016-01-29,2016-01-29-T-026,26,Career Support Progrmme,,WA,
-2016-01-29,2016-01-29-T-027,27,Salaries Due to Employees of Liquidated Companies,,WA,
-2016-01-29,2016-01-29-T-028,28,Resale Levy on New HDB Flat Buyers,,WA,
-2016-01-29,2016-01-29-T-029,29,Water Supply Disruption in Clementi Town,,WA,
-2016-01-29,2016-01-29-T-030,30,Plans for Wet Market in Simei,,WA,
+topic_id,date,topic_order,title,section_type
+2016-01-29-T-001,2016-01-29,1,Recourse for Defects in BTO HDB Flats,OA
+2016-01-29-T-002,2016-01-29,2,Demand and Supply of Heavy Vehicle Parking Lots,OA
+2016-01-29-T-003,2016-01-29,3,Replacement of MRT Parts and Systems,OA
+2016-01-29-T-004,2016-01-29,4,Pedestrian Safety on Footpaths Open to Cyclists,OA
+2016-01-29-T-005,2016-01-29,5,Waiting Time for Professional Assessment of Persons with Disabilities,OA
+2016-01-29-T-006,2016-01-29,6,Impact of Exposure to Haze,OA
+2016-01-29-T-007,2016-01-29,7,Ambulance Evacuation for Accident Victims and Seriously Ill Patients,OA
+2016-01-29-T-008,2016-01-29,8,Construction of Ramps at Main Entrances of Selected HDB flats,OA
+2016-01-29-T-009,2016-01-29,9,Proper Maintenance of Perimeter Areas Accessible by Public,OA
+2016-01-29-T-010,2016-01-29,10,Free Parking at NParks Facilities,OA
+2016-01-29-T-011,2016-01-29,11,Installation of Gondolas in High-rise Residential Developments,OA
+2016-01-29-T-012,2016-01-29,12,Inconsistent MRT Fare-pricing along Downtown Line,OA
+2016-01-29-T-013,2016-01-29,13,Breakdown of Patents Developed by Government Research Institutes and Autonomous Universities,OA
+2016-01-29-T-014,2016-01-29,14,Registration of Criminals (Amendment) Bill,BI
+2016-01-29-T-015,2016-01-29,15,Debate on President's Address,OS
+2016-01-29-T-016,2016-01-29,16,Non-Constituency Member,OS
+2016-01-29-T-017,2016-01-29,17,Extension of a Sitting,OS
+2016-01-29-T-018,2016-01-29,18,Non-Constituency Member,OS
+2016-01-29-T-019,2016-01-29,19,Adjournment,OS
+2016-01-29-T-020,2016-01-29,20,Early Voting by Postal Ballot in General Elections,WA
+2016-01-29-T-021,2016-01-29,21,Mid-Career PMEs Hired by Ministries and Statutory Boards,WA
+2016-01-29-T-022,2016-01-29,22,Applications for Off-peak Bus/MRT Travel Pass,WA
+2016-01-29-T-023,2016-01-29,23,Breakdown of Local and Foreign PMEs in Singapore by Industry and Sector,WA
+2016-01-29-T-024,2016-01-29,24,Unemployment Rate of Singaporean and Singaporean PR PMEs,WA
+2016-01-29-T-025,2016-01-29,25,NWC Dollar Quantum Payouts for Low-wage Workers,WA
+2016-01-29-T-026,2016-01-29,26,Career Support Progrmme,WA
+2016-01-29-T-027,2016-01-29,27,Salaries Due to Employees of Liquidated Companies,WA
+2016-01-29-T-028,2016-01-29,28,Resale Levy on New HDB Flat Buyers,WA
+2016-01-29-T-029,2016-01-29,29,Water Supply Disruption in Clementi Town,WA
+2016-01-29-T-030,2016-01-29,30,Plans for Wet Market in Simei,WA

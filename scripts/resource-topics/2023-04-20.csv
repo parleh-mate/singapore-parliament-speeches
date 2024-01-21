@@ -1,8 +1,8 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2023-04-20,2023-04-20-T-001,1,Family Justice Reform Bill,,BI,
-2023-04-20,2023-04-20-T-002,2,Debate on President's Address,Fourth allotted day,OS,
-2023-04-20,2023-04-20-T-003,3,Time Limit for Minister's Speech,Suspension of Standing Orders,OS,
-2023-04-20,2023-04-20-T-004,4,Debate on President's Address ,,OS,
-2023-04-20,2023-04-20-T-005,5,Adjournment of Debate,,OS,
-2023-04-20,2023-04-20-T-006,6,Personal Explanation,,OS,
-2023-04-20,2023-04-20-T-007,7,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2023-04-20-T-001,2023-04-20,1,Family Justice Reform Bill,BI
+2023-04-20-T-002,2023-04-20,2,Debate on President's Address,OS
+2023-04-20-T-003,2023-04-20,3,Time Limit for Minister's Speech,OS
+2023-04-20-T-004,2023-04-20,4,Debate on President's Address ,OS
+2023-04-20-T-005,2023-04-20,5,Adjournment of Debate,OS
+2023-04-20-T-006,2023-04-20,6,Personal Explanation,OS
+2023-04-20-T-007,2023-04-20,7,Adjournment,OS

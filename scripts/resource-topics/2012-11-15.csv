@@ -1,33 +1,33 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2012-11-15,2012-11-15-T-001,1,Lift Upgrading Programme's Cost and Benefit to Each Household,,OA,
-2012-11-15,2012-11-15-T-002,2,Bomb Shelters in HDB Flats,,OA,
-2012-11-15,2012-11-15-T-003,3,Strategic Review of National Wages Council,,OA,
-2012-11-15,2012-11-15-T-004,4,Strategies to Help At-risk Youths,,OA,
-2012-11-15,2012-11-15-T-005,5,Schedule of Work Stages in Lift Upgrading Programme,,OA,
-2012-11-15,2012-11-15-T-006,6,Rationale for Recent ERP Rate Increases,At six gantries leading to CTE and ECP,OA,
-2012-11-15,2012-11-15-T-007,7,Budgeting for Infrastructure Projects,Internal assessment to reduce downward pressure on sub-contractors' fees,OA,
-2012-11-15,2012-11-15-T-008,8,Enhancing Consumer Awareness of Investment Schemes through Investor Alert List ,Investors affected by gold buy-back scheme,OA,
-2012-11-15,2012-11-15-T-009,9,Renewal of Permanent Residency Status,,OA,
-2012-11-15,2012-11-15-T-010,10,Update on MRT Downtown Line 2 Construction,,OA,
-2012-11-15,2012-11-15-T-011,11,Replacement of MRT Circle Line Power Cables,,OA,
-2012-11-15,2012-11-15-T-012,12,Vehicle Inspections,,OA,
-2012-11-15,2012-11-15-T-013,13,International Labour Guidelines in Public Sector Contracts,,OA,
-2012-11-15,2012-11-15-T-014,14,Solar-Powered Lightings at HDB Blocks,,OA,
-2012-11-15,2012-11-15-T-015,15,Holistic Education for ITE and Polytechnic Students,,OA,
-2012-11-15,2012-11-15-T-016,16,Residents' Profile when Singapore's Population Reaches Six Million,"Impact on property prices, infrastructure and quality of life",OA,
-2012-11-15,2012-11-15-T-017,17,Publication of Academic Performance Broken Down by Ethnic Groups,,OA,
-2012-11-15,2012-11-15-T-018,18,Solar-Powered Lighting for Households and Commercial Premises,,OA,
-2012-11-15,2012-11-15-T-019,19,Singapore Accountancy Commission Bill,,BI,
-2012-11-15,2012-11-15-T-020,20,Securities and Futures (Amendment) Bill,,BP,
-2012-11-15,2012-11-15-T-021,21,Financial Advisers (Amendment) Bill,,BP,
-2012-11-15,2012-11-15-T-022,22,Casino Control (Amendment) Bill,,BP,
-2012-11-15,2012-11-15-T-023,23,Adjournment of Debate,,OS,
-2012-11-15,2012-11-15-T-024,24,Adjournment,,OS,
-2012-11-15,2012-11-15-T-025,25,Enhanced Regulatory Regime for Fund Management Companies,,WANA,1
-2012-11-15,2012-11-15-T-026,26,Strong Singapore Dollar and Impact on Non-Imported Inflation,,WANA,1
-2012-11-15,2012-11-15-T-027,27,Impact of Imported Shows at Integrated Resorts on Local Productions,,WANA,1
-2012-11-15,2012-11-15-T-028,28,Radio Airtime for Local Music,,WANA,1
-2012-11-15,2012-11-15-T-029,29,Sharp Increases in Price of Industrial Space in Singapore,,WA,1
-2012-11-15,2012-11-15-T-030,30,Rise in Sea Level off Singapore,,WA,1
-2012-11-15,2012-11-15-T-031,31,Pay Increments for Healthcare Support Staff,,WA,1
-2012-11-15,2012-11-15-T-032,32,Update on Plans to Promote Eco-friendly Transport,,WA,1
+topic_id,date,topic_order,title,section_type
+2012-11-15-T-001,2012-11-15,1,Lift Upgrading Programme's Cost and Benefit to Each Household,OA
+2012-11-15-T-002,2012-11-15,2,Bomb Shelters in HDB Flats,OA
+2012-11-15-T-003,2012-11-15,3,Strategic Review of National Wages Council,OA
+2012-11-15-T-004,2012-11-15,4,Strategies to Help At-risk Youths,OA
+2012-11-15-T-005,2012-11-15,5,Schedule of Work Stages in Lift Upgrading Programme,OA
+2012-11-15-T-006,2012-11-15,6,Rationale for Recent ERP Rate Increases,OA
+2012-11-15-T-007,2012-11-15,7,Budgeting for Infrastructure Projects,OA
+2012-11-15-T-008,2012-11-15,8,Enhancing Consumer Awareness of Investment Schemes through Investor Alert List ,OA
+2012-11-15-T-009,2012-11-15,9,Renewal of Permanent Residency Status,OA
+2012-11-15-T-010,2012-11-15,10,Update on MRT Downtown Line 2 Construction,OA
+2012-11-15-T-011,2012-11-15,11,Replacement of MRT Circle Line Power Cables,OA
+2012-11-15-T-012,2012-11-15,12,Vehicle Inspections,OA
+2012-11-15-T-013,2012-11-15,13,International Labour Guidelines in Public Sector Contracts,OA
+2012-11-15-T-014,2012-11-15,14,Solar-Powered Lightings at HDB Blocks,OA
+2012-11-15-T-015,2012-11-15,15,Holistic Education for ITE and Polytechnic Students,OA
+2012-11-15-T-016,2012-11-15,16,Residents' Profile when Singapore's Population Reaches Six Million,OA
+2012-11-15-T-017,2012-11-15,17,Publication of Academic Performance Broken Down by Ethnic Groups,OA
+2012-11-15-T-018,2012-11-15,18,Solar-Powered Lighting for Households and Commercial Premises,OA
+2012-11-15-T-019,2012-11-15,19,Singapore Accountancy Commission Bill,BI
+2012-11-15-T-020,2012-11-15,20,Securities and Futures (Amendment) Bill,BP
+2012-11-15-T-021,2012-11-15,21,Financial Advisers (Amendment) Bill,BP
+2012-11-15-T-022,2012-11-15,22,Casino Control (Amendment) Bill,BP
+2012-11-15-T-023,2012-11-15,23,Adjournment of Debate,OS
+2012-11-15-T-024,2012-11-15,24,Adjournment,OS
+2012-11-15-T-025,2012-11-15,25,Enhanced Regulatory Regime for Fund Management Companies,WANA
+2012-11-15-T-026,2012-11-15,26,Strong Singapore Dollar and Impact on Non-Imported Inflation,WANA
+2012-11-15-T-027,2012-11-15,27,Impact of Imported Shows at Integrated Resorts on Local Productions,WANA
+2012-11-15-T-028,2012-11-15,28,Radio Airtime for Local Music,WANA
+2012-11-15-T-029,2012-11-15,29,Sharp Increases in Price of Industrial Space in Singapore,WA
+2012-11-15-T-030,2012-11-15,30,Rise in Sea Level off Singapore,WA
+2012-11-15-T-031,2012-11-15,31,Pay Increments for Healthcare Support Staff,WA
+2012-11-15-T-032,2012-11-15,32,Update on Plans to Promote Eco-friendly Transport,WA

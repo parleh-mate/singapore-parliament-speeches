@@ -1,24 +1,24 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-09-09,2014-09-09-T-001,1,Rationale for Vehicle Entry Permit Fees for Foreign-registered Cars,,OA,
-2014-09-09,2014-09-09-T-002,2,Matching Toll Charges at Causeway and Second Link,,OA,
-2014-09-09,2014-09-09-T-003,3,Clinical Trials for Sanofi Dengue Vaccine,,OA,
-2014-09-09,2014-09-09-T-004,4,Special Parade Preview Shows for Singapore's 50th National Day in 2015,,OA,
-2014-09-09,2014-09-09-T-005,5,Appeals from Senior Citizens Not Eligible for GST Vouchers Due to Their Residential Address,,OA,
-2014-09-09,2014-09-09-T-006,6,Diminished Impact of Pioneer Generation Package on Elderly Pensioners,,OA,
-2014-09-09,2014-09-09-T-007,7,Graduate Compensation for Non-graduate Preschool Teachers ,,OA,
-2014-09-09,2014-09-09-T-008,8,Availability of Qualified Infant Care Personnel,,OA,
-2014-09-09,2014-09-09-T-009,9,Effectiveness of Moneylenders Licensing Regime in Reducing Harassment Cases,,OA,
-2014-09-09,2014-09-09-T-010,10,Setting Up Community Dispute Resolution Tribunal,,OA,
-2014-09-09,2014-09-09-T-011,11,Revisions to ERP Rates,,OA,
-2014-09-09,2014-09-09-T-012,12,Preventing Major Underground Gas Leaks,,OA,
-2014-09-09,2014-09-09-T-013,13,Singapore's Position on Kidnapping of 200 Girls by Rebels in Nigeria,,OA,
-2014-09-09,2014-09-09-T-014,14,Housing Grants for Married Children to Buy HDB Flats Near Parents ,,OA,
-2014-09-09,2014-09-09-T-015,15,Window Grilles for HDB Rental Flats,,OA,
-2014-09-09,2014-09-09-T-016,16,Take-up Rates for Childcare and Paternity Leave Schemes in Civil Service,,OA,
-2014-09-09,2014-09-09-T-017,17,Clarification by Senior Minister of State for Manpower,,OS,
-2014-09-09,2014-09-09-T-018,18,Applied Study in Polytechnics and Institute of Technical Education Review (ASPIRE),,OS,
-2014-09-09,2014-09-09-T-019,19,Extension of a Sitting,Motion,OS,
-2014-09-09,2014-09-09-T-020,20,Applied Study in Polytechnics and Institute of Technical Education Review (ASPIRE),,OS,
-2014-09-09,2014-09-09-T-021,21,Adjournment,,OS,
-2014-09-09,2014-09-09-T-022,22,Conditions of Foreign Worker Quarters Set Up at Construction Sites,,WANA,
-2014-09-09,2014-09-09-T-023,23,Progress of Sleeper Replacements for MRT Tracks,,WA,
+topic_id,date,topic_order,title,section_type
+2014-09-09-T-001,2014-09-09,1,Rationale for Vehicle Entry Permit Fees for Foreign-registered Cars,OA
+2014-09-09-T-002,2014-09-09,2,Matching Toll Charges at Causeway and Second Link,OA
+2014-09-09-T-003,2014-09-09,3,Clinical Trials for Sanofi Dengue Vaccine,OA
+2014-09-09-T-004,2014-09-09,4,Special Parade Preview Shows for Singapore's 50th National Day in 2015,OA
+2014-09-09-T-005,2014-09-09,5,Appeals from Senior Citizens Not Eligible for GST Vouchers Due to Their Residential Address,OA
+2014-09-09-T-006,2014-09-09,6,Diminished Impact of Pioneer Generation Package on Elderly Pensioners,OA
+2014-09-09-T-007,2014-09-09,7,Graduate Compensation for Non-graduate Preschool Teachers ,OA
+2014-09-09-T-008,2014-09-09,8,Availability of Qualified Infant Care Personnel,OA
+2014-09-09-T-009,2014-09-09,9,Effectiveness of Moneylenders Licensing Regime in Reducing Harassment Cases,OA
+2014-09-09-T-010,2014-09-09,10,Setting Up Community Dispute Resolution Tribunal,OA
+2014-09-09-T-011,2014-09-09,11,Revisions to ERP Rates,OA
+2014-09-09-T-012,2014-09-09,12,Preventing Major Underground Gas Leaks,OA
+2014-09-09-T-013,2014-09-09,13,Singapore's Position on Kidnapping of 200 Girls by Rebels in Nigeria,OA
+2014-09-09-T-014,2014-09-09,14,Housing Grants for Married Children to Buy HDB Flats Near Parents ,OA
+2014-09-09-T-015,2014-09-09,15,Window Grilles for HDB Rental Flats,OA
+2014-09-09-T-016,2014-09-09,16,Take-up Rates for Childcare and Paternity Leave Schemes in Civil Service,OA
+2014-09-09-T-017,2014-09-09,17,Clarification by Senior Minister of State for Manpower,OS
+2014-09-09-T-018,2014-09-09,18,Applied Study in Polytechnics and Institute of Technical Education Review (ASPIRE),OS
+2014-09-09-T-019,2014-09-09,19,Extension of a Sitting,OS
+2014-09-09-T-020,2014-09-09,20,Applied Study in Polytechnics and Institute of Technical Education Review (ASPIRE),OS
+2014-09-09-T-021,2014-09-09,21,Adjournment,OS
+2014-09-09-T-022,2014-09-09,22,Conditions of Foreign Worker Quarters Set Up at Construction Sites,WANA
+2014-09-09-T-023,2014-09-09,23,Progress of Sleeper Replacements for MRT Tracks,WA

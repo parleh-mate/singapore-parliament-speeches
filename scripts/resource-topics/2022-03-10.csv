@@ -1,28 +1,28 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2022-03-10,2022-03-10-T-001,1,Number of Lifts Installed at Pedestrian Overhead Bridges,,OA,
-2022-03-10,2022-03-10-T-002,2,Cases of Stray Animal Abuse in Past Three Years,,OA,
-2022-03-10,2022-03-10-T-003,3,"Impact of Increase in Paternity Leave on Employability, Productivity and Family Relationships of Employees",,OA,
-2022-03-10,2022-03-10-T-004,4,Strengthening Singaporean Core in Nursing Profession,,OA,
-2022-03-10,2022-03-10-T-005,5,Ensuring that Recent Increase in Petrol Prices Is Not Profiteering,,OA,
-2022-03-10,2022-03-10-T-006,6,Space Allocation Criteria for Heavy Vehicle Parking Lots for Each Town,,OA,
-2022-03-10,2022-03-10-T-007,7,Expected Hospital Bed Occupancy Rates over Next Five Years,,OA,
-2022-03-10,2022-03-10-T-008,8,Help for SMEs Adversely Affected by Increased Fuel and Energy Costs Due to Conflict in Ukraine,,OA,
-2022-03-10,2022-03-10-T-009,9,Estimates of Expenditure for the Financial Year 1 April 2022 to 31 March 2023,Committee of Supply – Paper Cmd 12 of 2022,OS,
-2022-03-10,2022-03-10-T-010,10,Committee of Supply – Head I (Ministry of Social and Family Development),Fostering a resilient and caring society,OS,
-2022-03-10,2022-03-10-T-011,11,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",Fostering a resilient and caring society,OS,
-2022-03-10,2022-03-10-T-012,12,"Committee of Supply – Heads B, C, D, E, F, G and Z",,OS,
-2022-03-10,2022-03-10-T-013,13,"Committee of Supply – Total Sums for Main Estimates, Development Estimates and Resolutions",,OS,
-2022-03-10,2022-03-10-T-014,14,Exempted Business,,OS,
-2022-03-10,2022-03-10-T-015,15,Clarification by Minister for Education,,OS,
-2022-03-10,2022-03-10-T-016,16,Adjournment,,OS,
-2022-03-10,2022-03-10-T-017,17,Improving Sick Bay Facilities in Preschools to Allow Them to Safe-keep Sick Children Until End of School Day,,WANA,
-2022-03-10,2022-03-10-T-018,18,Action under Section 43 of Environmental Public Health Act for Cases of Second-hand Smoke Drifting from a Home into Public Areas,,WANA,
-2022-03-10,2022-03-10-T-019,19,Annual Number of Applications Received under Financial Schemes of Community Development Councils in Past Five Years,,WANA,
-2022-03-10,2022-03-10-T-020,20,Study on Possibility of Pilot Exercise to Allow Ex-offenders to Obtain Security Officer Licence under Strict Transparent Rules,,WA,
-2022-03-10,2022-03-10-T-021,21,Systematic Tracking of Time Between Prison Inmate Lodging Medical Complaint and Receiving Medical Attention,,WA,
-2022-03-10,2022-03-10-T-022,22,Breakdown on Resignation of Teachers between First and 10th Year of Service in Past Five Years,,WA,
-2022-03-10,2022-03-10-T-023,23,Criteria for Setting up of New Family Service Centres,,WA,
-2022-03-10,2022-03-10-T-024,24,Central Pool of Relief Manpower under Early Childhood Development Agency to Provide Help to Preschools Affected by Rise in COVID-19 Infections,,WA,
-2022-03-10,2022-03-10-T-025,25,Average Waiting Time for Enrolment of Newly Diagnosed Special Needs Children in Government-funded Early Intervention Programme,,WA,
-2022-03-10,2022-03-10-T-026,26,Data on Increase in Daily Volume of Patient Visits to Polyclinics and Public Health Preparedness Clinics from Surge of COVID-19 Infections,,WA,
-2022-03-10,2022-03-10-T-027,27,Clarification by Parliamentary Secretary to Minister for Social and Family Development,,WS,
+topic_id,date,topic_order,title,section_type
+2022-03-10-T-001,2022-03-10,1,Number of Lifts Installed at Pedestrian Overhead Bridges,OA
+2022-03-10-T-002,2022-03-10,2,Cases of Stray Animal Abuse in Past Three Years,OA
+2022-03-10-T-003,2022-03-10,3,"Impact of Increase in Paternity Leave on Employability, Productivity and Family Relationships of Employees",OA
+2022-03-10-T-004,2022-03-10,4,Strengthening Singaporean Core in Nursing Profession,OA
+2022-03-10-T-005,2022-03-10,5,Ensuring that Recent Increase in Petrol Prices Is Not Profiteering,OA
+2022-03-10-T-006,2022-03-10,6,Space Allocation Criteria for Heavy Vehicle Parking Lots for Each Town,OA
+2022-03-10-T-007,2022-03-10,7,Expected Hospital Bed Occupancy Rates over Next Five Years,OA
+2022-03-10-T-008,2022-03-10,8,Help for SMEs Adversely Affected by Increased Fuel and Energy Costs Due to Conflict in Ukraine,OA
+2022-03-10-T-009,2022-03-10,9,Estimates of Expenditure for the Financial Year 1 April 2022 to 31 March 2023,OS
+2022-03-10-T-010,2022-03-10,10,Committee of Supply – Head I (Ministry of Social and Family Development),OS
+2022-03-10-T-011,2022-03-10,11,"Committee of Supply – Head X (Ministry of Culture, Community and Youth)",OS
+2022-03-10-T-012,2022-03-10,12,"Committee of Supply – Heads B, C, D, E, F, G and Z",OS
+2022-03-10-T-013,2022-03-10,13,"Committee of Supply – Total Sums for Main Estimates, Development Estimates and Resolutions",OS
+2022-03-10-T-014,2022-03-10,14,Exempted Business,OS
+2022-03-10-T-015,2022-03-10,15,Clarification by Minister for Education,OS
+2022-03-10-T-016,2022-03-10,16,Adjournment,OS
+2022-03-10-T-017,2022-03-10,17,Improving Sick Bay Facilities in Preschools to Allow Them to Safe-keep Sick Children Until End of School Day,WANA
+2022-03-10-T-018,2022-03-10,18,Action under Section 43 of Environmental Public Health Act for Cases of Second-hand Smoke Drifting from a Home into Public Areas,WANA
+2022-03-10-T-019,2022-03-10,19,Annual Number of Applications Received under Financial Schemes of Community Development Councils in Past Five Years,WANA
+2022-03-10-T-020,2022-03-10,20,Study on Possibility of Pilot Exercise to Allow Ex-offenders to Obtain Security Officer Licence under Strict Transparent Rules,WA
+2022-03-10-T-021,2022-03-10,21,Systematic Tracking of Time Between Prison Inmate Lodging Medical Complaint and Receiving Medical Attention,WA
+2022-03-10-T-022,2022-03-10,22,Breakdown on Resignation of Teachers between First and 10th Year of Service in Past Five Years,WA
+2022-03-10-T-023,2022-03-10,23,Criteria for Setting up of New Family Service Centres,WA
+2022-03-10-T-024,2022-03-10,24,Central Pool of Relief Manpower under Early Childhood Development Agency to Provide Help to Preschools Affected by Rise in COVID-19 Infections,WA
+2022-03-10-T-025,2022-03-10,25,Average Waiting Time for Enrolment of Newly Diagnosed Special Needs Children in Government-funded Early Intervention Programme,WA
+2022-03-10-T-026,2022-03-10,26,Data on Increase in Daily Volume of Patient Visits to Polyclinics and Public Health Preparedness Clinics from Surge of COVID-19 Infections,WA
+2022-03-10-T-027,2022-03-10,27,Clarification by Parliamentary Secretary to Minister for Social and Family Development,WS

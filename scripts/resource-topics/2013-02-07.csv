@@ -1,16 +1,16 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2013-02-07,2013-02-07-T-001,1,Services and Facilities for the Disabled,,OA,
-2013-02-07,2013-02-07-T-002,2,Revising Limits for Home Ownership Plus Education (HOPE) Scheme,,OA,
-2013-02-07,2013-02-07-T-003,3,Initiatives and Resources for Community Engagement Masterplan,,OA,
-2013-02-07,2013-02-07-T-004,4,MediShield Coverage for Congenital Illness for Persons Diagnosed before March 2013,,OA,
-2013-02-07,2013-02-07-T-005,5,Elderly-friendly Road Safety Features,,OA,
-2013-02-07,2013-02-07-T-006,6,Visitorship at Museums,,OA,
-2013-02-07,2013-02-07-T-007,7,A Sustainable Population for A Dynamic Singapore,Motion,OS,
-2013-02-07,2013-02-07-T-008,8,Time Limit for Minister Tan Chuan-Jin's Speech,Suspension of Standing Orders,OS,
-2013-02-07,2013-02-07-T-009,9,A Sustainable Population for A Dynamic Singapore,,OS,
-2013-02-07,2013-02-07-T-010,10,Extension of a Sitting,In Parliament,OS,
-2013-02-07,2013-02-07-T-011,11,A Sustainable Population for A Dynamic Singapore,,OS,
-2013-02-07,2013-02-07-T-012,12,Adjournment of Debate,,OS,
-2013-02-07,2013-02-07-T-013,13,Adjournment,,OS,
-2013-02-07,2013-02-07-T-014,14,Installation of Lightings at Walkway Bridge Across Kallang River Connecting St Andrews Village and Potong Pasir,,WA,
-2013-02-07,2013-02-07-T-015,15,"Schools Offering and Annual Cohorts Taking Full Literature at ""O"" And ""N(A)"" Levels",,WA,
+topic_id,date,topic_order,title,section_type
+2013-02-07-T-001,2013-02-07,1,Services and Facilities for the Disabled,OA
+2013-02-07-T-002,2013-02-07,2,Revising Limits for Home Ownership Plus Education (HOPE) Scheme,OA
+2013-02-07-T-003,2013-02-07,3,Initiatives and Resources for Community Engagement Masterplan,OA
+2013-02-07-T-004,2013-02-07,4,MediShield Coverage for Congenital Illness for Persons Diagnosed before March 2013,OA
+2013-02-07-T-005,2013-02-07,5,Elderly-friendly Road Safety Features,OA
+2013-02-07-T-006,2013-02-07,6,Visitorship at Museums,OA
+2013-02-07-T-007,2013-02-07,7,A Sustainable Population for A Dynamic Singapore,OS
+2013-02-07-T-008,2013-02-07,8,Time Limit for Minister Tan Chuan-Jin's Speech,OS
+2013-02-07-T-009,2013-02-07,9,A Sustainable Population for A Dynamic Singapore,OS
+2013-02-07-T-010,2013-02-07,10,Extension of a Sitting,OS
+2013-02-07-T-011,2013-02-07,11,A Sustainable Population for A Dynamic Singapore,OS
+2013-02-07-T-012,2013-02-07,12,Adjournment of Debate,OS
+2013-02-07-T-013,2013-02-07,13,Adjournment,OS
+2013-02-07-T-014,2013-02-07,14,Installation of Lightings at Walkway Bridge Across Kallang River Connecting St Andrews Village and Potong Pasir,WA
+2013-02-07-T-015,2013-02-07,15,"Schools Offering and Annual Cohorts Taking Full Literature at ""O"" And ""N(A)"" Levels",WA

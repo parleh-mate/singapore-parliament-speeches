@@ -1,23 +1,23 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2013-02-06,2013-02-06-T-001,1,New Childcare Centres and Childcare Fees,,OA,
-2013-02-06,2013-02-06-T-002,2,Impact of Government's Cross-carriage Measure on Competitiveness of Broadcast and Content Market,,OA,
-2013-02-06,2013-02-06-T-003,3,Broadband Speed,,OA,
-2013-02-06,2013-02-06-T-004,4,Auditing Medical Examinations for Foreign Workers,,OA,
-2013-02-06,2013-02-06-T-005,5,Psychological Tests for Foreign Domestic Workers,,OA,
-2013-02-06,2013-02-06-T-006,6,Promoting Interest amongst Youths for Policy Formulation,Proposal for a Youth Parliament,OA,
-2013-02-06,2013-02-06-T-007,7,Policy on Naming Rights for Sports Hub Facilities,,OA,
-2013-02-06,2013-02-06-T-008,8,Assessing Quality of Financial and Investment Courses,,OA,
-2013-02-06,2013-02-06-T-009,9,Appointment of Former Cabinet Minister to Hong Kong Economic Development Commission,,OA,
-2013-02-06,2013-02-06-T-010,10,Effectiveness of Public Transport Operator's Early Travel Discount Scheme,,OA,
-2013-02-06,2013-02-06-T-011,11,Campaign on Good Driving Habits,,OA,
-2013-02-06,2013-02-06-T-012,12,Curbing False Claims in Advertisements for Body Detoxication,,OA,
-2013-02-06,2013-02-06-T-013,13,Effectiveness of Foreign Sports Talent Scheme in Retaining New Citizens,,OA,
-2013-02-06,2013-02-06-T-014,14,Housing Developers (Control and Licensing) (Amendment) Bill,,BI,
-2013-02-06,2013-02-06-T-015,15,A Sustainable Population for A Dynamic Singapore,,OS,
-2013-02-06,2013-02-06-T-016,16,Extension of a Sitting,In Parliament,OS,
-2013-02-06,2013-02-06-T-017,17,A Sustainable Population for A Dynamic Singapore,,OS,
-2013-02-06,2013-02-06-T-018,18,Adjournment of Debate,,OS,
-2013-02-06,2013-02-06-T-019,19,Adjournment,,OS,
-2013-02-06,2013-02-06-T-020,20,Licences for Private Bus Operators,,WANA,
-2013-02-06,2013-02-06-T-021,21,Surveillance Cameras in Potong Pasir HDB Blocks,,WA,
-2013-02-06,2013-02-06-T-022,22,Funding Cap under Revitalisation of Shops Scheme,,WA,
+topic_id,date,topic_order,title,section_type
+2013-02-06-T-001,2013-02-06,1,New Childcare Centres and Childcare Fees,OA
+2013-02-06-T-002,2013-02-06,2,Impact of Government's Cross-carriage Measure on Competitiveness of Broadcast and Content Market,OA
+2013-02-06-T-003,2013-02-06,3,Broadband Speed,OA
+2013-02-06-T-004,2013-02-06,4,Auditing Medical Examinations for Foreign Workers,OA
+2013-02-06-T-005,2013-02-06,5,Psychological Tests for Foreign Domestic Workers,OA
+2013-02-06-T-006,2013-02-06,6,Promoting Interest amongst Youths for Policy Formulation,OA
+2013-02-06-T-007,2013-02-06,7,Policy on Naming Rights for Sports Hub Facilities,OA
+2013-02-06-T-008,2013-02-06,8,Assessing Quality of Financial and Investment Courses,OA
+2013-02-06-T-009,2013-02-06,9,Appointment of Former Cabinet Minister to Hong Kong Economic Development Commission,OA
+2013-02-06-T-010,2013-02-06,10,Effectiveness of Public Transport Operator's Early Travel Discount Scheme,OA
+2013-02-06-T-011,2013-02-06,11,Campaign on Good Driving Habits,OA
+2013-02-06-T-012,2013-02-06,12,Curbing False Claims in Advertisements for Body Detoxication,OA
+2013-02-06-T-013,2013-02-06,13,Effectiveness of Foreign Sports Talent Scheme in Retaining New Citizens,OA
+2013-02-06-T-014,2013-02-06,14,Housing Developers (Control and Licensing) (Amendment) Bill,BI
+2013-02-06-T-015,2013-02-06,15,A Sustainable Population for A Dynamic Singapore,OS
+2013-02-06-T-016,2013-02-06,16,Extension of a Sitting,OS
+2013-02-06-T-017,2013-02-06,17,A Sustainable Population for A Dynamic Singapore,OS
+2013-02-06-T-018,2013-02-06,18,Adjournment of Debate,OS
+2013-02-06-T-019,2013-02-06,19,Adjournment,OS
+2013-02-06-T-020,2013-02-06,20,Licences for Private Bus Operators,WANA
+2013-02-06-T-021,2013-02-06,21,Surveillance Cameras in Potong Pasir HDB Blocks,WA
+2013-02-06-T-022,2013-02-06,22,Funding Cap under Revitalisation of Shops Scheme,WA

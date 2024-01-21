@@ -1,22 +1,22 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2016-11-10,2016-11-10-T-001,1,Revision of Question Time,Suspension of Standing Orders,OS,
-2016-11-10,2016-11-10-T-002,2,Impact on Singapore of Phase Three of US Rebalancing Strategy,,OA,
-2016-11-10,2016-11-10-T-003,3,Genetic Screening for Women Seeking Fertility Treatment,,OA,
-2016-11-10,2016-11-10-T-004,4,Reduction in Hawker Stall Rent for Hawkers who Fall Ill,,OA,
-2016-11-10,2016-11-10-T-005,5,Decisions on Tree-cutting and Replanting Activities within Estates,,OA,
-2016-11-10,2016-11-10-T-006,6,Policy on Students Getting Hurt on School Premises,,OA,
-2016-11-10,2016-11-10-T-007,7,Selective Relaxation on Total Debt Servicing Ratio Restrictions,,OA,
-2016-11-10,2016-11-10-T-008,8,Interest in Singapore Savings Bond,,OA,
-2016-11-10,2016-11-10-T-009,9,Income Tax (Amendment No 3) Bill,,BP,
-2016-11-10,2016-11-10-T-010,10,Telecommunications (Amendment) Bill,,BP,
-2016-11-10,2016-11-10-T-011,11,Fire Safety (Amendment) Bill,,BP,
-2016-11-10,2016-11-10-T-012,12,National Registration (Amendment) Bill,,BP,
-2016-11-10,2016-11-10-T-013,13,Child Development Co-Savings (Amendment No 2) Bill,,BP,
-2016-11-10,2016-11-10-T-014,14,Merchant Shipping (Maritime Labour Convention) (Amendment) Bill,,BP,
-2016-11-10,2016-11-10-T-015,15,Grants to IMF's Poverty Reduction and Growth Trust,Motion,OS,
-2016-11-10,2016-11-10-T-016,16,Grants to IMF's Catastrophe Containment and Relief Trust,Motion,OS,
-2016-11-10,2016-11-10-T-017,17,Subscription to the International Development Association,Motion,OS,
-2016-11-10,2016-11-10-T-018,18,Government Securities,Motion,OS,
-2016-11-10,2016-11-10-T-019,19,Adjournment,,OS,
-2016-11-10,2016-11-10-T-020,20,Impact on Singapore-China Relations due to Singapore's Official Stand on Trans-Pacific Partnership and Initiative on South China Sea,,WANA,
-2016-11-10,2016-11-10-T-021,21,Analysis of Entrepreneurial Success and Failures in Singapore,,WANA,
+topic_id,date,topic_order,title,section_type
+2016-11-10-T-001,2016-11-10,1,Revision of Question Time,OS
+2016-11-10-T-002,2016-11-10,2,Impact on Singapore of Phase Three of US Rebalancing Strategy,OA
+2016-11-10-T-003,2016-11-10,3,Genetic Screening for Women Seeking Fertility Treatment,OA
+2016-11-10-T-004,2016-11-10,4,Reduction in Hawker Stall Rent for Hawkers who Fall Ill,OA
+2016-11-10-T-005,2016-11-10,5,Decisions on Tree-cutting and Replanting Activities within Estates,OA
+2016-11-10-T-006,2016-11-10,6,Policy on Students Getting Hurt on School Premises,OA
+2016-11-10-T-007,2016-11-10,7,Selective Relaxation on Total Debt Servicing Ratio Restrictions,OA
+2016-11-10-T-008,2016-11-10,8,Interest in Singapore Savings Bond,OA
+2016-11-10-T-009,2016-11-10,9,Income Tax (Amendment No 3) Bill,BP
+2016-11-10-T-010,2016-11-10,10,Telecommunications (Amendment) Bill,BP
+2016-11-10-T-011,2016-11-10,11,Fire Safety (Amendment) Bill,BP
+2016-11-10-T-012,2016-11-10,12,National Registration (Amendment) Bill,BP
+2016-11-10-T-013,2016-11-10,13,Child Development Co-Savings (Amendment No 2) Bill,BP
+2016-11-10-T-014,2016-11-10,14,Merchant Shipping (Maritime Labour Convention) (Amendment) Bill,BP
+2016-11-10-T-015,2016-11-10,15,Grants to IMF's Poverty Reduction and Growth Trust,OS
+2016-11-10-T-016,2016-11-10,16,Grants to IMF's Catastrophe Containment and Relief Trust,OS
+2016-11-10-T-017,2016-11-10,17,Subscription to the International Development Association,OS
+2016-11-10-T-018,2016-11-10,18,Government Securities,OS
+2016-11-10-T-019,2016-11-10,19,Adjournment,OS
+2016-11-10-T-020,2016-11-10,20,Impact on Singapore-China Relations due to Singapore's Official Stand on Trans-Pacific Partnership and Initiative on South China Sea,WANA
+2016-11-10-T-021,2016-11-10,21,Analysis of Entrepreneurial Success and Failures in Singapore,WANA

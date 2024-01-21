@@ -1,11 +1,11 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2017-03-08,2017-03-08-T-001,1,Setting up of Drone Port,,OA,
-2017-03-08,2017-03-08-T-002,2,Presidential Council for Minority Rights' Assent to Bills,,OA,
-2017-03-08,2017-03-08-T-003,3,Estimates of Expenditure for the Financial Year 1 April 2017 to 31 March 2018,Committee of Supply − Paper Cmd 8 of 2017,OS,
-2017-03-08,2017-03-08-T-004,4,Committee of Supply − Head W (Ministry of Transport),,OS,
-2017-03-08,2017-03-08-T-005,5,Committee of Supply − Head L (Ministry of the Environment and Water resources),,OS,
-2017-03-08,2017-03-08-T-006,6,Committee of Supply − Head I (Ministry of Social and Family Development)  ,,OS,
-2017-03-08,2017-03-08-T-007,7,Committee of supply Reporting Progress,,OS,
-2017-03-08,2017-03-08-T-008,8,Adjournment,,OS,
-2017-03-08,2017-03-08-T-009,9,Annual Breakdown of New Jobs Created from 2011 to 2016,,WA,
-2017-03-08,2017-03-08-T-010,10,Use of Video-conferencing Facilities for Enforcement of Maintenance Orders Applications,,WA,
+topic_id,date,topic_order,title,section_type
+2017-03-08-T-001,2017-03-08,1,Setting up of Drone Port,OA
+2017-03-08-T-002,2017-03-08,2,Presidential Council for Minority Rights' Assent to Bills,OA
+2017-03-08-T-003,2017-03-08,3,Estimates of Expenditure for the Financial Year 1 April 2017 to 31 March 2018,OS
+2017-03-08-T-004,2017-03-08,4,Committee of Supply − Head W (Ministry of Transport),OS
+2017-03-08-T-005,2017-03-08,5,Committee of Supply − Head L (Ministry of the Environment and Water resources),OS
+2017-03-08-T-006,2017-03-08,6,Committee of Supply − Head I (Ministry of Social and Family Development)  ,OS
+2017-03-08-T-007,2017-03-08,7,Committee of supply Reporting Progress,OS
+2017-03-08-T-008,2017-03-08,8,Adjournment,OS
+2017-03-08-T-009,2017-03-08,9,Annual Breakdown of New Jobs Created from 2011 to 2016,WA
+2017-03-08-T-010,2017-03-08,10,Use of Video-conferencing Facilities for Enforcement of Maintenance Orders Applications,WA

@@ -1,37 +1,37 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2013-11-12,2013-11-12-T-001,1,Late-term Abortions,,OA,
-2013-11-12,2013-11-12-T-002,2,World Economic Forum's Gender Gap Report 2013,,OA,
-2013-11-12,2013-11-12-T-003,3,Art Pieces Displayed in Public Areas,,OA,
-2013-11-12,2013-11-12-T-004,4,Practice Training Requirement for Trainee Lawyers,Inclusion of QFLP firms,OA,
-2013-11-12,2013-11-12-T-005,5,Disruption in National Service for Tertiary Education,,OA,
-2013-11-12,2013-11-12-T-006,6,Stating Preferred Vocations for National Service,,OA,
-2013-11-12,2013-11-12-T-007,7,Accreditation under Baby Friendly Hospital Initiative,,OA,
-2013-11-12,2013-11-12-T-008,8,Core Components of Character and Citizenship Education Syllabus,,OA,
-2013-11-12,2013-11-12-T-009,9,Opportunities for Students to Interact with Peers of Other Nationalities,,OA,
-2013-11-12,2013-11-12-T-010,10,Recent Changes to Taxi Fares,,OA,
-2013-11-12,2013-11-12-T-011,11,Renewal of Employment Passes for Foreign Workers,Number of passes not granted renewal and breakdown by industry,OA,
-2013-11-12,2013-11-12-T-012,12,Coverage of Home Protection Scheme,,OA,
-2013-11-12,2013-11-12-T-013,13,Mortgage Arrears Due to CPF Withdrawal Limits,,OA,
-2013-11-12,2013-11-12-T-014,14,Stabilising Property Prices,Impact of latest cooling measures,OA,
-2013-11-12,2013-11-12-T-015,15,Heavy Vehicles on Roads near Schools and High Pedestrian Traffic Areas,,OA,
-2013-11-12,2013-11-12-T-016,16,Conditions for Waiving Ethnic Integration Policy for HDB Flats,,OA,
-2013-11-12,2013-11-12-T-017,17,Review of Data by Ranbaxy Laboratories,,OA,
-2013-11-12,2013-11-12-T-018,18,Central Provident Fund (Amendment) Bill,,BP,
-2013-11-12,2013-11-12-T-019,19,"Employment, Parental Leave and Other Measures Bill ",,BP,
-2013-11-12,2013-11-12-T-020,20,Adjournment,,OS,
-2013-11-12,2013-11-12-T-021,21,Easing the Cost of Healthcare for Singaporeans,,OS,
-2013-11-12,2013-11-12-T-022,22,Lifting Needy Families Out of Poverty Cycle,,WANA,
-2013-11-12,2013-11-12-T-023,23,Suara Musyawarah Committee Report,Update on implementation of report's recommendations,WANA,
-2013-11-12,2013-11-12-T-024,24,Students Accepted into Secondary Schools via Direct School Admission Scheme,,WANA,
-2013-11-12,2013-11-12-T-025,25,Impact of Tightened Foreign Workers Inflow on Arts and Creative Industries,,WANA,
-2013-11-12,2013-11-12-T-026,26,Alleviating Overcrowding at Front of Buses,,WANA,
-2013-11-12,2013-11-12-T-027,27,Noise Reduction Measures at Lorong 8 Toa Payoh,,WANA,
-2013-11-12,2013-11-12-T-028,28,Coordinating Repair and Redecoration Works at HDB Estates,,WANA,
-2013-11-12,2013-11-12-T-029,29,Flood-Proofing Walkways and Footpaths,,WANA,
-2013-11-12,2013-11-12-T-030,30,Labelling of Infant Formula Sold in Singapore,,WANA,
-2013-11-12,2013-11-12-T-031,31,Priority in Allocation of Season Car Park Lots,,WANA,
-2013-11-12,2013-11-12-T-032,32,Impact of Tightened Foreign Worker Inflow on Pace of Public Infrastructure Developments,,WANA,
-2013-11-12,2013-11-12-T-033,33,Greater Access to LawNet Database for Singaporeans,,WA,
-2013-11-12,2013-11-12-T-034,34,Rodents in Sennett Estate,,WA,
-2013-11-12,2013-11-12-T-035,35,Keeping Singapore Statutes Online Current,,WA,
-2013-11-12,2013-11-12-T-036,36,Poverty Line in Singapore,,WA,
+topic_id,date,topic_order,title,section_type
+2013-11-12-T-001,2013-11-12,1,Late-term Abortions,OA
+2013-11-12-T-002,2013-11-12,2,World Economic Forum's Gender Gap Report 2013,OA
+2013-11-12-T-003,2013-11-12,3,Art Pieces Displayed in Public Areas,OA
+2013-11-12-T-004,2013-11-12,4,Practice Training Requirement for Trainee Lawyers,OA
+2013-11-12-T-005,2013-11-12,5,Disruption in National Service for Tertiary Education,OA
+2013-11-12-T-006,2013-11-12,6,Stating Preferred Vocations for National Service,OA
+2013-11-12-T-007,2013-11-12,7,Accreditation under Baby Friendly Hospital Initiative,OA
+2013-11-12-T-008,2013-11-12,8,Core Components of Character and Citizenship Education Syllabus,OA
+2013-11-12-T-009,2013-11-12,9,Opportunities for Students to Interact with Peers of Other Nationalities,OA
+2013-11-12-T-010,2013-11-12,10,Recent Changes to Taxi Fares,OA
+2013-11-12-T-011,2013-11-12,11,Renewal of Employment Passes for Foreign Workers,OA
+2013-11-12-T-012,2013-11-12,12,Coverage of Home Protection Scheme,OA
+2013-11-12-T-013,2013-11-12,13,Mortgage Arrears Due to CPF Withdrawal Limits,OA
+2013-11-12-T-014,2013-11-12,14,Stabilising Property Prices,OA
+2013-11-12-T-015,2013-11-12,15,Heavy Vehicles on Roads near Schools and High Pedestrian Traffic Areas,OA
+2013-11-12-T-016,2013-11-12,16,Conditions for Waiving Ethnic Integration Policy for HDB Flats,OA
+2013-11-12-T-017,2013-11-12,17,Review of Data by Ranbaxy Laboratories,OA
+2013-11-12-T-018,2013-11-12,18,Central Provident Fund (Amendment) Bill,BP
+2013-11-12-T-019,2013-11-12,19,"Employment, Parental Leave and Other Measures Bill ",BP
+2013-11-12-T-020,2013-11-12,20,Adjournment,OS
+2013-11-12-T-021,2013-11-12,21,Easing the Cost of Healthcare for Singaporeans,OS
+2013-11-12-T-022,2013-11-12,22,Lifting Needy Families Out of Poverty Cycle,WANA
+2013-11-12-T-023,2013-11-12,23,Suara Musyawarah Committee Report,WANA
+2013-11-12-T-024,2013-11-12,24,Students Accepted into Secondary Schools via Direct School Admission Scheme,WANA
+2013-11-12-T-025,2013-11-12,25,Impact of Tightened Foreign Workers Inflow on Arts and Creative Industries,WANA
+2013-11-12-T-026,2013-11-12,26,Alleviating Overcrowding at Front of Buses,WANA
+2013-11-12-T-027,2013-11-12,27,Noise Reduction Measures at Lorong 8 Toa Payoh,WANA
+2013-11-12-T-028,2013-11-12,28,Coordinating Repair and Redecoration Works at HDB Estates,WANA
+2013-11-12-T-029,2013-11-12,29,Flood-Proofing Walkways and Footpaths,WANA
+2013-11-12-T-030,2013-11-12,30,Labelling of Infant Formula Sold in Singapore,WANA
+2013-11-12-T-031,2013-11-12,31,Priority in Allocation of Season Car Park Lots,WANA
+2013-11-12-T-032,2013-11-12,32,Impact of Tightened Foreign Worker Inflow on Pace of Public Infrastructure Developments,WANA
+2013-11-12-T-033,2013-11-12,33,Greater Access to LawNet Database for Singaporeans,WA
+2013-11-12-T-034,2013-11-12,34,Rodents in Sennett Estate,WA
+2013-11-12-T-035,2013-11-12,35,Keeping Singapore Statutes Online Current,WA
+2013-11-12-T-036,2013-11-12,36,Poverty Line in Singapore,WA

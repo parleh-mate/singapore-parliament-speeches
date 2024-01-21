@@ -1,25 +1,25 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2018-07-11,2018-07-11-T-001,1,Wage Growth Moving in Tandem with Productivity Gains,,OA,
-2018-07-11,2018-07-11-T-002,2,Feedback on Short-term Home Rentals and Prior Approval by Property Owners,,OA,
-2018-07-11,2018-07-11-T-003,3,Young People who Leave Education System after Major Examinations,,OA,
-2018-07-11,2018-07-11-T-004,4,Anticipated Changes in Timeline and Planning for Jurong Lake District,Delays and changes due to adjustments to High-Speed Rail project,OA,
-2018-07-11,2018-07-11-T-005,5,Government Approval for Industry-changing Mergers and Acquisitions before Announcement,,OA,
-2018-07-11,2018-07-11-T-006,6,Eligibility Conditions for Divorcees with Shared Care of Children to Purchase Subsidised HDB Flats,,OA,
-2018-07-11,2018-07-11-T-007,7,ITE Students Eligible for Financial Assistance,,OA,
-2018-07-11,2018-07-11-T-008,8,Specialised Transportation of Seniors to Care Centres,,OA,
-2018-07-11,2018-07-11-T-009,9,Primary Sources of Infection for Tuberculosis in Singapore,,OA,
-2018-07-11,2018-07-11-T-010,10,Measures to Reduce Traffic Accidents Involving Animals in Mandai Area,,OA,
-2018-07-11,2018-07-11-T-011,11,Update on Whether ERP is Required to Manage Traffic Congestion,,OA,
-2018-07-11,2018-07-11-T-012,12,Self-driving Vehicles Being Tested on Public Roads,,OA,
-2018-07-11,2018-07-11-T-013,13,Measures to Keep Cost of Food at Coffee Shops Affordable,,OA,
-2018-07-11,2018-07-11-T-014,14,Use of SkillsFuture Credit for Younger ITE Graduates to Upgrade Themselves,,OA,
-2018-07-11,2018-07-11-T-015,15,Average and Median Salaries of Early Childhood Educators,,OA,
-2018-07-11,2018-07-11-T-016,16,Denial of Lift Upgrading due to Funding Limit,,OA,
-2018-07-11,2018-07-11-T-017,17,Education for Our Future,Motion,OS,
-2018-07-11,2018-07-11-T-018,18,Education for Our Future,,OS,
-2018-07-11,2018-07-11-T-019,19,Extension of a Sitting,,OS,
-2018-07-11,2018-07-11-T-020,20,Education for Our Future,,OS,
-2018-07-11,2018-07-11-T-021,21,Adjournment,,OS,
-2018-07-11,2018-07-11-T-022,22,Compensation for Degree and Non-Degree Holders in Civil Service,,WA,
-2018-07-11,2018-07-11-T-023,23,Resolution of Neighbour Disputes over Cigarette Smoke,,WA,
-2018-07-11,2018-07-11-T-024,24,Update on Utilisation of Adapt and Grow Programmes,,WA,
+topic_id,date,topic_order,title,section_type
+2018-07-11-T-001,2018-07-11,1,Wage Growth Moving in Tandem with Productivity Gains,OA
+2018-07-11-T-002,2018-07-11,2,Feedback on Short-term Home Rentals and Prior Approval by Property Owners,OA
+2018-07-11-T-003,2018-07-11,3,Young People who Leave Education System after Major Examinations,OA
+2018-07-11-T-004,2018-07-11,4,Anticipated Changes in Timeline and Planning for Jurong Lake District,OA
+2018-07-11-T-005,2018-07-11,5,Government Approval for Industry-changing Mergers and Acquisitions before Announcement,OA
+2018-07-11-T-006,2018-07-11,6,Eligibility Conditions for Divorcees with Shared Care of Children to Purchase Subsidised HDB Flats,OA
+2018-07-11-T-007,2018-07-11,7,ITE Students Eligible for Financial Assistance,OA
+2018-07-11-T-008,2018-07-11,8,Specialised Transportation of Seniors to Care Centres,OA
+2018-07-11-T-009,2018-07-11,9,Primary Sources of Infection for Tuberculosis in Singapore,OA
+2018-07-11-T-010,2018-07-11,10,Measures to Reduce Traffic Accidents Involving Animals in Mandai Area,OA
+2018-07-11-T-011,2018-07-11,11,Update on Whether ERP is Required to Manage Traffic Congestion,OA
+2018-07-11-T-012,2018-07-11,12,Self-driving Vehicles Being Tested on Public Roads,OA
+2018-07-11-T-013,2018-07-11,13,Measures to Keep Cost of Food at Coffee Shops Affordable,OA
+2018-07-11-T-014,2018-07-11,14,Use of SkillsFuture Credit for Younger ITE Graduates to Upgrade Themselves,OA
+2018-07-11-T-015,2018-07-11,15,Average and Median Salaries of Early Childhood Educators,OA
+2018-07-11-T-016,2018-07-11,16,Denial of Lift Upgrading due to Funding Limit,OA
+2018-07-11-T-017,2018-07-11,17,Education for Our Future,OS
+2018-07-11-T-018,2018-07-11,18,Education for Our Future,OS
+2018-07-11-T-019,2018-07-11,19,Extension of a Sitting,OS
+2018-07-11-T-020,2018-07-11,20,Education for Our Future,OS
+2018-07-11-T-021,2018-07-11,21,Adjournment,OS
+2018-07-11-T-022,2018-07-11,22,Compensation for Degree and Non-Degree Holders in Civil Service,WA
+2018-07-11-T-023,2018-07-11,23,Resolution of Neighbour Disputes over Cigarette Smoke,WA
+2018-07-11-T-024,2018-07-11,24,Update on Utilisation of Adapt and Grow Programmes,WA

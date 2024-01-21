@@ -1,28 +1,28 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2016-04-04,2016-04-04-T-001,1,Take-up Rate for Digital TV Assistance Scheme,,OA,
-2016-04-04,2016-04-04-T-002,2,Criteria for Set-up of Public Library,,OA,
-2016-04-04,2016-04-04-T-003,3,Support for Sports Not Affiliated with National Sports Associations,,OA,
-2016-04-04,2016-04-04-T-004,4,Framework for Healthcare Institutions in line with Counter-terrorism Plans,,OA,
-2016-04-04,2016-04-04-T-005,5,Use of Medisave for Terminal Illnesses and End-stage Diseases,,OA,
-2016-04-04,2016-04-04-T-006,6,Disciplinary Actions and Preventive Measures Related to Hepatitis C Outbreak at SGH,,OA,
-2016-04-04,2016-04-04-T-007,7,Supply Bill,,BI,
-2016-04-04,2016-04-04-T-008,8,Final Supply (FY 2015) Bill,,BI,
-2016-04-04,2016-04-04-T-009,9,Choice of Court Agreements Bill,,BI,
-2016-04-04,2016-04-04-T-010,10,Debate on Annual Budget Statement,,OS,
-2016-04-04,2016-04-04-T-011,11,"Visit of Dato Roselan Mohd Daud, Brunei's Deputy Minister at the Prime Minister's Office ",Presence in gallery,OS,
-2016-04-04,2016-04-04-T-012,12,Debate on Annual Budget Statement,,OS,
-2016-04-04,2016-04-04-T-013,13,Adjournment of Debate,,OS,
-2016-04-04,2016-04-04-T-014,14,Adjournment,,OS,
-2016-04-04,2016-04-04-T-015,15,Information on Specifications of Cars Manufactured Abroad,,WANA,
-2016-04-04,2016-04-04-T-016,16,Eligibility of Tax Rebate for Electric Cars,,WANA,
-2016-04-04,2016-04-04-T-017,17,Trial of Electric Vehicle Car-sharing Programme,,WANA,
-2016-04-04,2016-04-04-T-018,18,Pioneer Generation and Other Subsidies for Elderly Patients not Physically Present to Collect Medications,,WANA,
-2016-04-04,2016-04-04-T-019,19,Priority Seats for the Elderly and Pregnant Women on Public Transport Systems,,WA,
-2016-04-04,2016-04-04-T-020,20,Vehicles and Stations under Car-sharing Scheme,,WA,
-2016-04-04,2016-04-04-T-021,21,Subsidies for Diabetes and Cervical Cancer Tests at Polyclinics and GP Clinics,,WA,
-2016-04-04,2016-04-04-T-022,22,Statistics on ElderShield Premium Payers and Payouts,,WA,
-2016-04-04,2016-04-04-T-023,23,Use of Caregivers Training Grant,,WA,
-2016-04-04,2016-04-04-T-024,24,Enforcement Action against Unlicensed Tour Guides,,WA,
-2016-04-04,2016-04-04-T-025,25,Detentions under Section 160 of Women's Charter,,WA,
-2016-04-04,2016-04-04-T-026,26,Maternity Leave for Single Mothers,,WA,
-2016-04-04,2016-04-04-T-027,27,Review of Additional Housing Grant,,WA,
+topic_id,date,topic_order,title,section_type
+2016-04-04-T-001,2016-04-04,1,Take-up Rate for Digital TV Assistance Scheme,OA
+2016-04-04-T-002,2016-04-04,2,Criteria for Set-up of Public Library,OA
+2016-04-04-T-003,2016-04-04,3,Support for Sports Not Affiliated with National Sports Associations,OA
+2016-04-04-T-004,2016-04-04,4,Framework for Healthcare Institutions in line with Counter-terrorism Plans,OA
+2016-04-04-T-005,2016-04-04,5,Use of Medisave for Terminal Illnesses and End-stage Diseases,OA
+2016-04-04-T-006,2016-04-04,6,Disciplinary Actions and Preventive Measures Related to Hepatitis C Outbreak at SGH,OA
+2016-04-04-T-007,2016-04-04,7,Supply Bill,BI
+2016-04-04-T-008,2016-04-04,8,Final Supply (FY 2015) Bill,BI
+2016-04-04-T-009,2016-04-04,9,Choice of Court Agreements Bill,BI
+2016-04-04-T-010,2016-04-04,10,Debate on Annual Budget Statement,OS
+2016-04-04-T-011,2016-04-04,11,"Visit of Dato Roselan Mohd Daud, Brunei's Deputy Minister at the Prime Minister's Office ",OS
+2016-04-04-T-012,2016-04-04,12,Debate on Annual Budget Statement,OS
+2016-04-04-T-013,2016-04-04,13,Adjournment of Debate,OS
+2016-04-04-T-014,2016-04-04,14,Adjournment,OS
+2016-04-04-T-015,2016-04-04,15,Information on Specifications of Cars Manufactured Abroad,WANA
+2016-04-04-T-016,2016-04-04,16,Eligibility of Tax Rebate for Electric Cars,WANA
+2016-04-04-T-017,2016-04-04,17,Trial of Electric Vehicle Car-sharing Programme,WANA
+2016-04-04-T-018,2016-04-04,18,Pioneer Generation and Other Subsidies for Elderly Patients not Physically Present to Collect Medications,WANA
+2016-04-04-T-019,2016-04-04,19,Priority Seats for the Elderly and Pregnant Women on Public Transport Systems,WA
+2016-04-04-T-020,2016-04-04,20,Vehicles and Stations under Car-sharing Scheme,WA
+2016-04-04-T-021,2016-04-04,21,Subsidies for Diabetes and Cervical Cancer Tests at Polyclinics and GP Clinics,WA
+2016-04-04-T-022,2016-04-04,22,Statistics on ElderShield Premium Payers and Payouts,WA
+2016-04-04-T-023,2016-04-04,23,Use of Caregivers Training Grant,WA
+2016-04-04-T-024,2016-04-04,24,Enforcement Action against Unlicensed Tour Guides,WA
+2016-04-04-T-025,2016-04-04,25,Detentions under Section 160 of Women's Charter,WA
+2016-04-04-T-026,2016-04-04,26,Maternity Leave for Single Mothers,WA
+2016-04-04-T-027,2016-04-04,27,Review of Additional Housing Grant,WA

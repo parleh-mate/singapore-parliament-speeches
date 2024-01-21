@@ -1,42 +1,42 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-08-06,2019-08-06-T-001,1,Advice to Singaporeans Working in Hong Kong Given Recent Street Protests There,,OA,
-2019-08-06,2019-08-06-T-002,2,Imposing Criminal Liability on Employers,,OA,
-2019-08-06,2019-08-06-T-003,3,Professional Conversion Programmes for Mainstream Teachers Interested in New Career as Pre-school Educators,,OA,
-2019-08-06,2019-08-06-T-004,4,Plans to Support Workers in Economic Slowdown and Effectiveness of Past Plans,,OA,
-2019-08-06,2019-08-06-T-005,5,Selection and Appointment of Members in Committee on Future Asatizah,,OA,
-2019-08-06,2019-08-06-T-006,6,Likelihood of Ban on Single-use Plastics for Singapore,,OA,
-2019-08-06,2019-08-06-T-007,7,Companies Prosecuted for Illegal Discharge of Wastewater into Public Sewage System,,OA,
-2019-08-06,2019-08-06-T-008,8,Extension of Duration of Bicentennial Exhibition,,OA,
-2019-08-06,2019-08-06-T-009,9,Reasons for Repetitive Findings of IT Lapses in Government Agencies,,OA,
-2019-08-06,2019-08-06-T-010,10,Achieving Goal of 80% Green Mark Buildings by 2030,,OA,
-2019-08-06,2019-08-06-T-011,11,Safe Usage of Park Connector Networks by Cyclists and PMD Riders,,OA,
-2019-08-06,2019-08-06-T-012,12,Fire-rated Doors for HDB Rental Flats Given Recent Boon Lay Fire,,OA,
-2019-08-06,2019-08-06-T-013,13,Grants for Fees for Faith-based Pre-schools Run by Non-profit Organisations,,OA,
-2019-08-06,2019-08-06-T-014,14,Assessment of Risk for Unlisted Assets in Portfolios of GIC and Temasek Holdings,,OA,
-2019-08-06,2019-08-06-T-015,15,Process for Granting Clinical Privileges to Medical Professionals,Ensuring clinical competence for high-risk and specialised procedures in private practice settings,OA,
-2019-08-06,2019-08-06-T-016,16,Comprehensive Audits of Healthcare Institutions Seeking External Accreditation for Continuous Improvement,,OA,
-2019-08-06,2019-08-06-T-017,17,Support for Broadcast of Research-based Children’s Educational Programming on Free-to-air Television Channels,,OA,
-2019-08-06,2019-08-06-T-018,18,CareShield Life and Long-Term Care Bill,,BI,
-2019-08-06,2019-08-06-T-019,19,Home Team Science and Technology Agency Bill,,BP,
-2019-08-06,2019-08-06-T-020,20,Point-to-Point Passenger Transport Industry Bill,,BP,
-2019-08-06,2019-08-06-T-021,21,Adjournment,,OS,
-2019-08-06,2019-08-06-T-022,22,Reason for Low Take-up Rate of Business and Institution of Public Character Partnership Scheme that Recognise Employee Volunteering Hours,,WANA,
-2019-08-06,2019-08-06-T-023,23,Number of Patients Suffering from Bedsores or Pressure Injury in Community Hospitals,,WANA,
-2019-08-06,2019-08-06-T-024,24,Prosecution for Sale of Illegal Weight Loss Products,,WANA,
-2019-08-06,2019-08-06-T-025,25,"Removal of 3,000-tonne Heap of Scrap Rubber Materials Left at Sarimbun Recycling Park",,WANA,
-2019-08-06,2019-08-06-T-026,26,Findings from Project to Measure Singapore’s Carbon Footprint,,WANA,
-2019-08-06,2019-08-06-T-027,27,Export of Singapore’s Recyclable Waste,,WANA,
-2019-08-06,2019-08-06-T-028,28,Violence Against Persons of Minority Sexual Orientations or Gender Identities,,WANA,
-2019-08-06,2019-08-06-T-029,29,Trends of Persons of Minority Sexual Orientations or Gender Identities Seeking Mental Healthcare,,WANA,
-2019-08-06,2019-08-06-T-030,30,Recourse for Victims When PMD Riders Speed Off After Incident,,WANA,
-2019-08-06,2019-08-06-T-031,31,Consideration to Make Government Financial Statements Available Online,,WA,
-2019-08-06,2019-08-06-T-032,32,Statistics on Divorcees Who Failed to Comply with Court Orders to Sell Their Matrimonial Flats Within Stipulated Time,,WA,
-2019-08-06,2019-08-06-T-033,33,Statistics on Children Below Seven Years Old and Between Seven and 12 Years Old Contracting HFMD in the Past Five Years,,WA,
-2019-08-06,2019-08-06-T-034,34,"Amount of Cash Paid by Singaporeans and Permanent Residents after Account Subsidies, MediShield Life and Medisave Deductions",,WA,
-2019-08-06,2019-08-06-T-035,35,Number of Free Trade Agreements and Studies on Their Economic and Social Benefits,,WA,
-2019-08-06,2019-08-06-T-036,36,Percentage of Households Switching Suppliers in Open Electricity Market,,WA,
-2019-08-06,2019-08-06-T-037,37,Average Per-undergraduate Student Annual Expenditure on Teaching and Education Services,,WA,
-2019-08-06,2019-08-06-T-038,38,Time from Lodgement of Claim at Tripartite Alliance for Dispute Management and Referral to Employment Claims Tribunal,,WA,
-2019-08-06,2019-08-06-T-039,39,Rationale for Setting Seven Days as Minimum Legal Entitlement for Annual Leave,,WA,
-2019-08-06,2019-08-06-T-040,40,Childcare Centres' Utilisation of Annual Closure Days for Each of Past Five Years,,WA,
-2019-08-06,2019-08-06-T-041,41,Usage of Government-paid Paternity Leave and Shared Parental Leave by Fathers in Past Five Years,,WA,
+topic_id,date,topic_order,title,section_type
+2019-08-06-T-001,2019-08-06,1,Advice to Singaporeans Working in Hong Kong Given Recent Street Protests There,OA
+2019-08-06-T-002,2019-08-06,2,Imposing Criminal Liability on Employers,OA
+2019-08-06-T-003,2019-08-06,3,Professional Conversion Programmes for Mainstream Teachers Interested in New Career as Pre-school Educators,OA
+2019-08-06-T-004,2019-08-06,4,Plans to Support Workers in Economic Slowdown and Effectiveness of Past Plans,OA
+2019-08-06-T-005,2019-08-06,5,Selection and Appointment of Members in Committee on Future Asatizah,OA
+2019-08-06-T-006,2019-08-06,6,Likelihood of Ban on Single-use Plastics for Singapore,OA
+2019-08-06-T-007,2019-08-06,7,Companies Prosecuted for Illegal Discharge of Wastewater into Public Sewage System,OA
+2019-08-06-T-008,2019-08-06,8,Extension of Duration of Bicentennial Exhibition,OA
+2019-08-06-T-009,2019-08-06,9,Reasons for Repetitive Findings of IT Lapses in Government Agencies,OA
+2019-08-06-T-010,2019-08-06,10,Achieving Goal of 80% Green Mark Buildings by 2030,OA
+2019-08-06-T-011,2019-08-06,11,Safe Usage of Park Connector Networks by Cyclists and PMD Riders,OA
+2019-08-06-T-012,2019-08-06,12,Fire-rated Doors for HDB Rental Flats Given Recent Boon Lay Fire,OA
+2019-08-06-T-013,2019-08-06,13,Grants for Fees for Faith-based Pre-schools Run by Non-profit Organisations,OA
+2019-08-06-T-014,2019-08-06,14,Assessment of Risk for Unlisted Assets in Portfolios of GIC and Temasek Holdings,OA
+2019-08-06-T-015,2019-08-06,15,Process for Granting Clinical Privileges to Medical Professionals,OA
+2019-08-06-T-016,2019-08-06,16,Comprehensive Audits of Healthcare Institutions Seeking External Accreditation for Continuous Improvement,OA
+2019-08-06-T-017,2019-08-06,17,Support for Broadcast of Research-based Children’s Educational Programming on Free-to-air Television Channels,OA
+2019-08-06-T-018,2019-08-06,18,CareShield Life and Long-Term Care Bill,BI
+2019-08-06-T-019,2019-08-06,19,Home Team Science and Technology Agency Bill,BP
+2019-08-06-T-020,2019-08-06,20,Point-to-Point Passenger Transport Industry Bill,BP
+2019-08-06-T-021,2019-08-06,21,Adjournment,OS
+2019-08-06-T-022,2019-08-06,22,Reason for Low Take-up Rate of Business and Institution of Public Character Partnership Scheme that Recognise Employee Volunteering Hours,WANA
+2019-08-06-T-023,2019-08-06,23,Number of Patients Suffering from Bedsores or Pressure Injury in Community Hospitals,WANA
+2019-08-06-T-024,2019-08-06,24,Prosecution for Sale of Illegal Weight Loss Products,WANA
+2019-08-06-T-025,2019-08-06,25,"Removal of 3,000-tonne Heap of Scrap Rubber Materials Left at Sarimbun Recycling Park",WANA
+2019-08-06-T-026,2019-08-06,26,Findings from Project to Measure Singapore’s Carbon Footprint,WANA
+2019-08-06-T-027,2019-08-06,27,Export of Singapore’s Recyclable Waste,WANA
+2019-08-06-T-028,2019-08-06,28,Violence Against Persons of Minority Sexual Orientations or Gender Identities,WANA
+2019-08-06-T-029,2019-08-06,29,Trends of Persons of Minority Sexual Orientations or Gender Identities Seeking Mental Healthcare,WANA
+2019-08-06-T-030,2019-08-06,30,Recourse for Victims When PMD Riders Speed Off After Incident,WANA
+2019-08-06-T-031,2019-08-06,31,Consideration to Make Government Financial Statements Available Online,WA
+2019-08-06-T-032,2019-08-06,32,Statistics on Divorcees Who Failed to Comply with Court Orders to Sell Their Matrimonial Flats Within Stipulated Time,WA
+2019-08-06-T-033,2019-08-06,33,Statistics on Children Below Seven Years Old and Between Seven and 12 Years Old Contracting HFMD in the Past Five Years,WA
+2019-08-06-T-034,2019-08-06,34,"Amount of Cash Paid by Singaporeans and Permanent Residents after Account Subsidies, MediShield Life and Medisave Deductions",WA
+2019-08-06-T-035,2019-08-06,35,Number of Free Trade Agreements and Studies on Their Economic and Social Benefits,WA
+2019-08-06-T-036,2019-08-06,36,Percentage of Households Switching Suppliers in Open Electricity Market,WA
+2019-08-06-T-037,2019-08-06,37,Average Per-undergraduate Student Annual Expenditure on Teaching and Education Services,WA
+2019-08-06-T-038,2019-08-06,38,Time from Lodgement of Claim at Tripartite Alliance for Dispute Management and Referral to Employment Claims Tribunal,WA
+2019-08-06-T-039,2019-08-06,39,Rationale for Setting Seven Days as Minimum Legal Entitlement for Annual Leave,WA
+2019-08-06-T-040,2019-08-06,40,Childcare Centres' Utilisation of Annual Closure Days for Each of Past Five Years,WA
+2019-08-06-T-041,2019-08-06,41,Usage of Government-paid Paternity Leave and Shared Parental Leave by Fathers in Past Five Years,WA

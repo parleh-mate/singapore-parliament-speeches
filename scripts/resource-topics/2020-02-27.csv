@@ -1,10 +1,10 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-02-27,2020-02-27-T-001,1,Time Allocation for Committee of Supply,Announcement by Mr Speaker,OS,
-2020-02-27,2020-02-27-T-002,2,Exempt Taxi Drivers who have Taken Medical Assessments for Personal Licence from Retaking Same Tests for Vocational Licence within Same Year,,OA,
-2020-02-27,2020-02-27-T-003,3,Prevalence of and Enforcement against Jaywalking,,OA,
-2020-02-27,2020-02-27-T-004,4,Extending Mandatory Time-frame for When Government-Paid Paternity Leave can be Consumed to 24 Months,,OA,
-2020-02-27,2020-02-27-T-005,5,Debate on Annual Budget Statement,,OS,
-2020-02-27,2020-02-27-T-006,6,Adjournment of Debate,,OS,
-2020-02-27,2020-02-27-T-007,7,Adjournment,,OS,
-2020-02-27,2020-02-27-T-008,8,"Data on Number of Registered Electric Cars, Hybrid Car and Petrol Car in Past Three Years",,WA,
-2020-02-27,2020-02-27-T-009,9,Number of Cars Registered under Vehicle Emission Schemes from January 2018,,WA,
+topic_id,date,topic_order,title,section_type
+2020-02-27-T-001,2020-02-27,1,Time Allocation for Committee of Supply,OS
+2020-02-27-T-002,2020-02-27,2,Exempt Taxi Drivers who have Taken Medical Assessments for Personal Licence from Retaking Same Tests for Vocational Licence within Same Year,OA
+2020-02-27-T-003,2020-02-27,3,Prevalence of and Enforcement against Jaywalking,OA
+2020-02-27-T-004,2020-02-27,4,Extending Mandatory Time-frame for When Government-Paid Paternity Leave can be Consumed to 24 Months,OA
+2020-02-27-T-005,2020-02-27,5,Debate on Annual Budget Statement,OS
+2020-02-27-T-006,2020-02-27,6,Adjournment of Debate,OS
+2020-02-27-T-007,2020-02-27,7,Adjournment,OS
+2020-02-27-T-008,2020-02-27,8,"Data on Number of Registered Electric Cars, Hybrid Car and Petrol Car in Past Three Years",WA
+2020-02-27-T-009,2020-02-27,9,Number of Cars Registered under Vehicle Emission Schemes from January 2018,WA

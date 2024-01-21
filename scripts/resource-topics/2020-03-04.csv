@@ -1,26 +1,26 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-03-04,2020-03-04-T-001,1,Reviewing 80:20 Fundraising Rule for Charities,,OA,
-2020-03-04,2020-03-04-T-002,2,Steps to Avoid Discrimination on Basis of Descent for Primary School Admission,,OA,
-2020-03-04,2020-03-04-T-003,3,Delinking Childcare Subsidies from Mother's Employment Status,,OA,
-2020-03-04,2020-03-04-T-004,4,Resilience of Singapore's Economy and Supply Chain,In light of COVID-19,OA,
-2020-03-04,2020-03-04-T-005,5,Estimates of Expenditure for the Financial Year 1 April 2020 to 31 March 2021,Committee of Supply – Paper Cmd 24 of 2020,OS,
-2020-03-04,2020-03-04-T-006,6,Committee of Supply – Head K (Ministry of Education),,OS,
-2020-03-04,2020-03-04-T-007,7,Committee of Supply – Head L (Ministry of the Environment and Water Resources),,OS,
-2020-03-04,2020-03-04-T-008,8,Committee of Supply – Head T (Ministry of National Development),,OS,
-2020-03-04,2020-03-04-T-009,9,Extension of a Sitting,Business motion,OS,
-2020-03-04,2020-03-04-T-010,10,Committee of Supply – Head T (Ministry of National Development),,OS,
-2020-03-04,2020-03-04-T-011,11,Committee of Supply Reporting Progress,,OS,
-2020-03-04,2020-03-04-T-012,12,Adjournment,,OS,
-2020-03-04,2020-03-04-T-013,13,Consideration to Incentivise Fathers to Take Government-Paid Paternity Leave,,WA,
-2020-03-04,2020-03-04-T-014,14,Conduct Independent Environmental Assessments and Release Regular Reports to Public during Construction of Cross Island MRT Line,,WA,
-2020-03-04,2020-03-04-T-015,15,Number of Applications Made under Guardianship of Infants Acts in Last Five Years,,WA,
-2020-03-04,2020-03-04-T-016,16,Consideration to Formulate Regulations Binding on Artificial Intelligence Systems Deployed Locally,,WA,
-2020-03-04,2020-03-04-T-017,17,Measures to Assist Self-Employed Tourist Excursion Bus Owners Impacted by COVID-19,,WA,
-2020-03-04,2020-03-04-T-018,18,Consideration to Evaluate Battery-Swapping as Alternative to Charging for Electric Vehicles Charging Points,,WA,
-2020-03-04,2020-03-04-T-019,19,Percentages of Public Sector Buildings Certified as BCA Green Mark Gold Plus and BCA Green Mark Gold,,WA,
-2020-03-04,2020-03-04-T-020,20,Steps Taken to Encourage Schools and Centralised Institutes to Achieve at Least BCA Green Mark Gold Certification,,WA,
-2020-03-04,2020-03-04-T-021,21,Consideration to Create a Singapore Carbon Agreement,,WA,
-2020-03-04,2020-03-04-T-022,22,Efforts Made to Investigate Open Cases against Four Companies under Transboundary Haze Pollution Act Initiated in 2015,,WA,
-2020-03-04,2020-03-04-T-023,23,Number of Foreign Domestic Workers Repatriated Back to Their Home Countries before Finishing a Two-Year Contract,,WA,
-2020-03-04,2020-03-04-T-024,24,Arrangements to Ensure Workers Subjected to Stay-Home Notices are Effectively Segregated in Dormitories,,WA,
-2020-03-04,2020-03-04-T-025,25,Support for Children Aged Below Seven with Developmental Needs to Secure Preschool Placements,,WA,
+topic_id,date,topic_order,title,section_type
+2020-03-04-T-001,2020-03-04,1,Reviewing 80:20 Fundraising Rule for Charities,OA
+2020-03-04-T-002,2020-03-04,2,Steps to Avoid Discrimination on Basis of Descent for Primary School Admission,OA
+2020-03-04-T-003,2020-03-04,3,Delinking Childcare Subsidies from Mother's Employment Status,OA
+2020-03-04-T-004,2020-03-04,4,Resilience of Singapore's Economy and Supply Chain,OA
+2020-03-04-T-005,2020-03-04,5,Estimates of Expenditure for the Financial Year 1 April 2020 to 31 March 2021,OS
+2020-03-04-T-006,2020-03-04,6,Committee of Supply – Head K (Ministry of Education),OS
+2020-03-04-T-007,2020-03-04,7,Committee of Supply – Head L (Ministry of the Environment and Water Resources),OS
+2020-03-04-T-008,2020-03-04,8,Committee of Supply – Head T (Ministry of National Development),OS
+2020-03-04-T-009,2020-03-04,9,Extension of a Sitting,OS
+2020-03-04-T-010,2020-03-04,10,Committee of Supply – Head T (Ministry of National Development),OS
+2020-03-04-T-011,2020-03-04,11,Committee of Supply Reporting Progress,OS
+2020-03-04-T-012,2020-03-04,12,Adjournment,OS
+2020-03-04-T-013,2020-03-04,13,Consideration to Incentivise Fathers to Take Government-Paid Paternity Leave,WA
+2020-03-04-T-014,2020-03-04,14,Conduct Independent Environmental Assessments and Release Regular Reports to Public during Construction of Cross Island MRT Line,WA
+2020-03-04-T-015,2020-03-04,15,Number of Applications Made under Guardianship of Infants Acts in Last Five Years,WA
+2020-03-04-T-016,2020-03-04,16,Consideration to Formulate Regulations Binding on Artificial Intelligence Systems Deployed Locally,WA
+2020-03-04-T-017,2020-03-04,17,Measures to Assist Self-Employed Tourist Excursion Bus Owners Impacted by COVID-19,WA
+2020-03-04-T-018,2020-03-04,18,Consideration to Evaluate Battery-Swapping as Alternative to Charging for Electric Vehicles Charging Points,WA
+2020-03-04-T-019,2020-03-04,19,Percentages of Public Sector Buildings Certified as BCA Green Mark Gold Plus and BCA Green Mark Gold,WA
+2020-03-04-T-020,2020-03-04,20,Steps Taken to Encourage Schools and Centralised Institutes to Achieve at Least BCA Green Mark Gold Certification,WA
+2020-03-04-T-021,2020-03-04,21,Consideration to Create a Singapore Carbon Agreement,WA
+2020-03-04-T-022,2020-03-04,22,Efforts Made to Investigate Open Cases against Four Companies under Transboundary Haze Pollution Act Initiated in 2015,WA
+2020-03-04-T-023,2020-03-04,23,Number of Foreign Domestic Workers Repatriated Back to Their Home Countries before Finishing a Two-Year Contract,WA
+2020-03-04-T-024,2020-03-04,24,Arrangements to Ensure Workers Subjected to Stay-Home Notices are Effectively Segregated in Dormitories,WA
+2020-03-04-T-025,2020-03-04,25,Support for Children Aged Below Seven with Developmental Needs to Secure Preschool Placements,WA

@@ -1,14 +1,14 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2017-03-10,2017-03-10-T-001,1,Temasek Holdings' CEO Succession Plans,,OA,
-2017-03-10,2017-03-10-T-002,2,Medisave Withdrawal Limit,,OA,
-2017-03-10,2017-03-10-T-003,3,Utilisation of CHAS Blue Card Subsidies,,OA,
-2017-03-10,2017-03-10-T-004,4,Stamp Duties (Amendment) Bill,,BI,
-2017-03-10,2017-03-10-T-005,5,Stamp Duties (Amendment) Bill,,BP,
-2017-03-10,2017-03-10-T-006,6,Companies (Amendment) Bill ,,BP,
-2017-03-10,2017-03-10-T-007,7,Limited Liability Partnerships (Amendment) Bill,,BP,
-2017-03-10,2017-03-10-T-008,8,Trustees (Amendment) Bill,,BP,
-2017-03-10,2017-03-10-T-009,9,Town Councils (Amendment) Bill,,BP,
-2017-03-10,2017-03-10-T-010,10,Time Limit for Minister's Speech,Suspension of Standing Orders,OS,
-2017-03-10,2017-03-10-T-011,11,Town Councils (Amendment) Bill,,BP,
-2017-03-10,2017-03-10-T-012,12,Adjournment,,OS,
-2017-03-10,2017-03-10-T-013,13,HDB Lifts Able to Accommodate Standard-size Ambulance Stretchers in Emergencies,,WA,
+topic_id,date,topic_order,title,section_type
+2017-03-10-T-001,2017-03-10,1,Temasek Holdings' CEO Succession Plans,OA
+2017-03-10-T-002,2017-03-10,2,Medisave Withdrawal Limit,OA
+2017-03-10-T-003,2017-03-10,3,Utilisation of CHAS Blue Card Subsidies,OA
+2017-03-10-T-004,2017-03-10,4,Stamp Duties (Amendment) Bill,BI
+2017-03-10-T-005,2017-03-10,5,Stamp Duties (Amendment) Bill,BP
+2017-03-10-T-006,2017-03-10,6,Companies (Amendment) Bill ,BP
+2017-03-10-T-007,2017-03-10,7,Limited Liability Partnerships (Amendment) Bill,BP
+2017-03-10-T-008,2017-03-10,8,Trustees (Amendment) Bill,BP
+2017-03-10-T-009,2017-03-10,9,Town Councils (Amendment) Bill,BP
+2017-03-10-T-010,2017-03-10,10,Time Limit for Minister's Speech,OS
+2017-03-10-T-011,2017-03-10,11,Town Councils (Amendment) Bill,BP
+2017-03-10-T-012,2017-03-10,12,Adjournment,OS
+2017-03-10-T-013,2017-03-10,13,HDB Lifts Able to Accommodate Standard-size Ambulance Stretchers in Emergencies,WA

@@ -1,46 +1,46 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-09-03,2019-09-03-T-001,1,Tapping Past Reserves for Land Reclamation Works,,OA,
-2019-09-03,2019-09-03-T-002,2,"SMEs, Regional Headquarters and Workforce Averting Side Effects of US-China Trade Standoff",,OA,
-2019-09-03,2019-09-03-T-003,3,Support for Global Education Programme for ITE and Polytechnic Students to Gain Regional Exposure,,OA,
-2019-09-03,2019-09-03-T-004,4,Programmes to Support Companies to Adopt More Age-friendly Work Practices,,OA,
-2019-09-03,2019-09-03-T-005,5,Adoption Rate of Cashless Transactions in Singapore,,OA,
-2019-09-03,2019-09-03-T-006,6,Statistics and Further Measures on High-rise Littering,,OA,
-2019-09-03,2019-09-03-T-007,7,Size and Usage of Endowment Funds of Autonomous Universities in Past Five Years,,OA,
-2019-09-03,2019-09-03-T-008,8,Foreign Domestic Workers Borrowing from Licensed Moneylenders,,OA,
-2019-09-03,2019-09-03-T-009,9,Streamlining Public Hospitals' Admission Process,,OA,
-2019-09-03,2019-09-03-T-010,10,Application Form for NDP 2020 Tickets to Include Questions for Applicants to Indicate Preference for Eco-friendly Items for Funpack,,OA,
-2019-09-03,2019-09-03-T-011,11,Investment in Amaravati City Following Change in Stance of government of India,,OA,
-2019-09-03,2019-09-03-T-012,12,Variable Capital Companies (Miscellaneous Amendments) Bill,,BP,
-2019-09-03,2019-09-03-T-013,13,Work Injury Compensation Bill,,BP,
-2019-09-03,2019-09-03-T-014,14,Children and Young Persons (Amendment) Bill,,BP,
-2019-09-03,2019-09-03-T-015,15,Extension of a Sitting,Business Motion,OS,
-2019-09-03,2019-09-03-T-016,16,Children and Young Persons (Amendment) Bill,,BP,
-2019-09-03,2019-09-03-T-017,17,Adjournment of Debate,,OS,
-2019-09-03,2019-09-03-T-018,18, Adjournment,,OS,
-2019-09-03,2019-09-03-T-019,19,Appeals for Lease Buyback Scheme from Persons who Have Not Yet Fully Paid Up Housing Loan,,WANA,
-2019-09-03,2019-09-03-T-020,20,Foreign Workers with Injuries or Occupational Diseases Sustained at Work who Filed Claim under Work Injury Compensation Act,,WANA,
-2019-09-03,2019-09-03-T-021,21,Additional Housing Grants and Priority for Adults with Special Needs to Live Near Care-givers,,WANA,
-2019-09-03,2019-09-03-T-022,22,Legal Tools to Prevent Taking of Videos or Footage of Security Officials Attending to Crisis,,WANA,
-2019-09-03,2019-09-03-T-023,23,Transnational Families Living under Public Rental Scheme,,WANA,
-2019-09-03,2019-09-03-T-024,24,Penalties for Illegal Smuggling of Pet Birds,,WANA,
-2019-09-03,2019-09-03-T-025,25,Former School Sites Returned to Singapore Land Authority in Past 10 Years,,WANA,
-2019-09-03,2019-09-03-T-026,26,Review of Government Electronic Business Policy to Encourage Growth of Nascent SMEs,,WANA,
-2019-09-03,2019-09-03-T-027,27,Variation of Existing Outsourced Services Contracts to Factor in Cost Increases from Changes in CPF Contribution Rates,,WANA,
-2019-09-03,2019-09-03-T-028,28,Review of Punishment for Sale of Non-compliant PMDs,,WANA,
-2019-09-03,2019-09-03-T-029,29,Review of Punishment for PMD Users Causing Injuries to Pedestrians,,WANA,
-2019-09-03,2019-09-03-T-030,30,Additional Measures to Tackle Spam SMSes from Illegal Moneylenders and Sports Betting Syndicates,,WANA,
-2019-09-03,2019-09-03-T-031,31,Update on Amendment to Protocol to the Convention on Limitation of Liability to Maritime Claims,,WANA,
-2019-09-03,2019-09-03-T-032,32,Steps to Ensure Tourists and Foreign Visitors are Familiar with PMD Riding Regulations,,WANA,
-2019-09-03,2019-09-03-T-033,33,Requirement for Advertisements for Car Loans to Include Effective Interest Rate Calculation,,WANA,
-2019-09-03,2019-09-03-T-034,34,Rationale for Reduction in Childcare Leave When Child Turns Seven Years Old,,WA,
-2019-09-03,2019-09-03-T-035,35,Plans to Improve Regulation Regime of Credit Rating Agencies in Singapore to EU Equivalent Status,,WA,
-2019-09-03,2019-09-03-T-036,36,Measures to Reduce Overly Conservative Budgeting,,WA,
-2019-09-03,2019-09-03-T-037,37,Overstayers Arrested in 2018,,WA,
-2019-09-03,2019-09-03-T-038,38,Provision of Sensitivity Training to Police and Other First Responders to Victims of Violence,,WA,
-2019-09-03,2019-09-03-T-039,39,Granting of Long Term Visit Pass/Long Term Visit Pass-Plus to Single Non-Singaporean Mothers of Singapore Citizen Children under Age 21,,WA,
-2019-09-03,2019-09-03-T-040,40,Care-givers Usage of Care-givers' Training Grant,,WA,
-2019-09-03,2019-09-03-T-041,41,Amount of Food Waste Generated in Singapore,,WA,
-2019-09-03,2019-09-03-T-042,42,Hiring of Male Domestic Workers,,WA,
-2019-09-03,2019-09-03-T-043,43,Audit of Insurance Companies' Coverage of Employees with Disabilities,,WA,
-2019-09-03,2019-09-03-T-044,44,Utilisation Rate of Government-paid Childcare Leave by Eligible Employees,,WA,
-2019-09-03,2019-09-03-T-045,45,Take-up Rate of Parent-care Leave by Public Servants,,WA,
+topic_id,date,topic_order,title,section_type
+2019-09-03-T-001,2019-09-03,1,Tapping Past Reserves for Land Reclamation Works,OA
+2019-09-03-T-002,2019-09-03,2,"SMEs, Regional Headquarters and Workforce Averting Side Effects of US-China Trade Standoff",OA
+2019-09-03-T-003,2019-09-03,3,Support for Global Education Programme for ITE and Polytechnic Students to Gain Regional Exposure,OA
+2019-09-03-T-004,2019-09-03,4,Programmes to Support Companies to Adopt More Age-friendly Work Practices,OA
+2019-09-03-T-005,2019-09-03,5,Adoption Rate of Cashless Transactions in Singapore,OA
+2019-09-03-T-006,2019-09-03,6,Statistics and Further Measures on High-rise Littering,OA
+2019-09-03-T-007,2019-09-03,7,Size and Usage of Endowment Funds of Autonomous Universities in Past Five Years,OA
+2019-09-03-T-008,2019-09-03,8,Foreign Domestic Workers Borrowing from Licensed Moneylenders,OA
+2019-09-03-T-009,2019-09-03,9,Streamlining Public Hospitals' Admission Process,OA
+2019-09-03-T-010,2019-09-03,10,Application Form for NDP 2020 Tickets to Include Questions for Applicants to Indicate Preference for Eco-friendly Items for Funpack,OA
+2019-09-03-T-011,2019-09-03,11,Investment in Amaravati City Following Change in Stance of government of India,OA
+2019-09-03-T-012,2019-09-03,12,Variable Capital Companies (Miscellaneous Amendments) Bill,BP
+2019-09-03-T-013,2019-09-03,13,Work Injury Compensation Bill,BP
+2019-09-03-T-014,2019-09-03,14,Children and Young Persons (Amendment) Bill,BP
+2019-09-03-T-015,2019-09-03,15,Extension of a Sitting,OS
+2019-09-03-T-016,2019-09-03,16,Children and Young Persons (Amendment) Bill,BP
+2019-09-03-T-017,2019-09-03,17,Adjournment of Debate,OS
+2019-09-03-T-018,2019-09-03,18, Adjournment,OS
+2019-09-03-T-019,2019-09-03,19,Appeals for Lease Buyback Scheme from Persons who Have Not Yet Fully Paid Up Housing Loan,WANA
+2019-09-03-T-020,2019-09-03,20,Foreign Workers with Injuries or Occupational Diseases Sustained at Work who Filed Claim under Work Injury Compensation Act,WANA
+2019-09-03-T-021,2019-09-03,21,Additional Housing Grants and Priority for Adults with Special Needs to Live Near Care-givers,WANA
+2019-09-03-T-022,2019-09-03,22,Legal Tools to Prevent Taking of Videos or Footage of Security Officials Attending to Crisis,WANA
+2019-09-03-T-023,2019-09-03,23,Transnational Families Living under Public Rental Scheme,WANA
+2019-09-03-T-024,2019-09-03,24,Penalties for Illegal Smuggling of Pet Birds,WANA
+2019-09-03-T-025,2019-09-03,25,Former School Sites Returned to Singapore Land Authority in Past 10 Years,WANA
+2019-09-03-T-026,2019-09-03,26,Review of Government Electronic Business Policy to Encourage Growth of Nascent SMEs,WANA
+2019-09-03-T-027,2019-09-03,27,Variation of Existing Outsourced Services Contracts to Factor in Cost Increases from Changes in CPF Contribution Rates,WANA
+2019-09-03-T-028,2019-09-03,28,Review of Punishment for Sale of Non-compliant PMDs,WANA
+2019-09-03-T-029,2019-09-03,29,Review of Punishment for PMD Users Causing Injuries to Pedestrians,WANA
+2019-09-03-T-030,2019-09-03,30,Additional Measures to Tackle Spam SMSes from Illegal Moneylenders and Sports Betting Syndicates,WANA
+2019-09-03-T-031,2019-09-03,31,Update on Amendment to Protocol to the Convention on Limitation of Liability to Maritime Claims,WANA
+2019-09-03-T-032,2019-09-03,32,Steps to Ensure Tourists and Foreign Visitors are Familiar with PMD Riding Regulations,WANA
+2019-09-03-T-033,2019-09-03,33,Requirement for Advertisements for Car Loans to Include Effective Interest Rate Calculation,WANA
+2019-09-03-T-034,2019-09-03,34,Rationale for Reduction in Childcare Leave When Child Turns Seven Years Old,WA
+2019-09-03-T-035,2019-09-03,35,Plans to Improve Regulation Regime of Credit Rating Agencies in Singapore to EU Equivalent Status,WA
+2019-09-03-T-036,2019-09-03,36,Measures to Reduce Overly Conservative Budgeting,WA
+2019-09-03-T-037,2019-09-03,37,Overstayers Arrested in 2018,WA
+2019-09-03-T-038,2019-09-03,38,Provision of Sensitivity Training to Police and Other First Responders to Victims of Violence,WA
+2019-09-03-T-039,2019-09-03,39,Granting of Long Term Visit Pass/Long Term Visit Pass-Plus to Single Non-Singaporean Mothers of Singapore Citizen Children under Age 21,WA
+2019-09-03-T-040,2019-09-03,40,Care-givers Usage of Care-givers' Training Grant,WA
+2019-09-03-T-041,2019-09-03,41,Amount of Food Waste Generated in Singapore,WA
+2019-09-03-T-042,2019-09-03,42,Hiring of Male Domestic Workers,WA
+2019-09-03-T-043,2019-09-03,43,Audit of Insurance Companies' Coverage of Employees with Disabilities,WA
+2019-09-03-T-044,2019-09-03,44,Utilisation Rate of Government-paid Childcare Leave by Eligible Employees,WA
+2019-09-03-T-045,2019-09-03,45,Take-up Rate of Parent-care Leave by Public Servants,WA

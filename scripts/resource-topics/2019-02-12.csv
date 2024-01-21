@@ -1,37 +1,37 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-02-12,2019-02-12-T-001,1,Preventive Measures Implemented Following Data Leak Involving Persons with HIV,,OA,
-2019-02-12,2019-02-12-T-002,2,Proposal for Legislation to Deal with Foreign Interference of Singapore’s Election and Politics ,,OA,
-2019-02-12,2019-02-12-T-003,3,Review of Public Agencies Exemption Provisions in Personal Data Protection Act ,In response to recent data breaches,OA,
-2019-02-12,2019-02-12-T-004,4,Preventive Actions Following Power Failure of 26 January 2019,,OA,
-2019-02-12,2019-02-12-T-005,5,Study on Retail Electricity Market Liberalisation’s Benefits to Households,,OA,
-2019-02-12,2019-02-12-T-006,6,Identification of Industrial Area along Bukit Batok Street 23 as Funeral Parlour Site,,OA,
-2019-02-12,2019-02-12-T-007,7,Feedback on Pollution Produced by Burning of Joss Paper and Incense,,OA,
-2019-02-12,2019-02-12-T-008,8,Safeguards to Ensure Religious Teachers Accredited under Asatizah Recognition Scheme Do Not Hold Radical Views,,OA,
-2019-02-12,2019-02-12-T-009,9,Process and Cost of Mediation for Accidents Involving Personal Mobility Devices,,OA,
-2019-02-12,2019-02-12-T-010,10,Actions against Use of PMDs on Roads in Private Landed Estates,,OA,
-2019-02-12,2019-02-12-T-011,11,Approval Rate for HDB Non-concessionary Housing Loans,,OA,
-2019-02-12,2019-02-12-T-012,12,Extending HDB's Deferred Downpayment Scheme to 4-room and 5-room BTO Flats,,OA,
-2019-02-12,2019-02-12-T-013,13,Efforts to Reflect Women’s Contributions to Nation-building in Singapore Bicentennial Celebration,,OA,
-2019-02-12,2019-02-12-T-014,14,Unauthorised Possession and Disclosure of Information from HIV Registry,Statement by Minister for Health,OS,
-2019-02-12,2019-02-12-T-015,15,Singapore Food Agency Bill,,BP,
-2019-02-12,2019-02-12-T-016,16,National Parks Board (Amendment) Bill,,BP,
-2019-02-12,2019-02-12-T-017,17,Extension of a Sitting,Business Motion ,OS,
-2019-02-12,2019-02-12-T-018,18,National Parks Board (Amendment) Bill,,BP,
-2019-02-12,2019-02-12-T-019,19,Adjournment,,OS,
-2019-02-12,2019-02-12-T-020,20,Meeting Needs of Special Needs Students Admitted to ITEs,,WANA,
-2019-02-12,2019-02-12-T-021,21,Programmes to Include Deaf Students in Schools,,WANA,
-2019-02-12,2019-02-12-T-022,22,Cool Climate Solutions for Singapore in Light of Rapidly Rising Global Temperatures,,WANA,
-2019-02-12,2019-02-12-T-023,23,Effectiveness of Differential Fares Scheme in Spreading Out MRT Commuter Load,,WANA,
-2019-02-12,2019-02-12-T-024,24,Cost of Ensuring Maritime Safety in Singapore Waters,,WANA,
-2019-02-12,2019-02-12-T-025,25,Top Three Causes of Death among Elderly Persons Aged 65 years and Above,,WANA,
-2019-02-12,2019-02-12-T-026,26,Update on Roadmap and Industry Transformation Map for Singapore's Energy and Chemicals Sector,,WANA,
-2019-02-12,2019-02-12-T-027,27,Integrating Platforms to Facilitate Donations through Smart Nation Initiatives,,WANA,
-2019-02-12,2019-02-12-T-028,28,Review on Number of Open Visits for Inmates with Children,,WA,
-2019-02-12,2019-02-12-T-029,29,Regulations and Frameworks Involving Firework Displays,,WA,
-2019-02-12,2019-02-12-T-030,30,Progress on Project E-learning Mental Health First Aid Programme,,WA,
-2019-02-12,2019-02-12-T-031,31,Success Rate of Appeals to use Medisave Beyond Annual Withdrawal Limits,,WA,
-2019-02-12,2019-02-12-T-032,32,Measures in Place to Promote Safe Use of Park Connectors,,WA,
-2019-02-12,2019-02-12-T-033,33,Update on New Hawker Centre in Bukit Batok,,WA,
-2019-02-12,2019-02-12-T-034,34,"Basis for Admission of Students into Normal (Technical), Normal (Academic) and Express Streams",,WA,
-2019-02-12,2019-02-12-T-035,35,Update on Removal of EM3 Stream in Primary School,,WA,
-2019-02-12,2019-02-12-T-036,36,"Value of Unpaid Salaries in 2016, 2017 and 2018",,WA,
+topic_id,date,topic_order,title,section_type
+2019-02-12-T-001,2019-02-12,1,Preventive Measures Implemented Following Data Leak Involving Persons with HIV,OA
+2019-02-12-T-002,2019-02-12,2,Proposal for Legislation to Deal with Foreign Interference of Singapore’s Election and Politics ,OA
+2019-02-12-T-003,2019-02-12,3,Review of Public Agencies Exemption Provisions in Personal Data Protection Act ,OA
+2019-02-12-T-004,2019-02-12,4,Preventive Actions Following Power Failure of 26 January 2019,OA
+2019-02-12-T-005,2019-02-12,5,Study on Retail Electricity Market Liberalisation’s Benefits to Households,OA
+2019-02-12-T-006,2019-02-12,6,Identification of Industrial Area along Bukit Batok Street 23 as Funeral Parlour Site,OA
+2019-02-12-T-007,2019-02-12,7,Feedback on Pollution Produced by Burning of Joss Paper and Incense,OA
+2019-02-12-T-008,2019-02-12,8,Safeguards to Ensure Religious Teachers Accredited under Asatizah Recognition Scheme Do Not Hold Radical Views,OA
+2019-02-12-T-009,2019-02-12,9,Process and Cost of Mediation for Accidents Involving Personal Mobility Devices,OA
+2019-02-12-T-010,2019-02-12,10,Actions against Use of PMDs on Roads in Private Landed Estates,OA
+2019-02-12-T-011,2019-02-12,11,Approval Rate for HDB Non-concessionary Housing Loans,OA
+2019-02-12-T-012,2019-02-12,12,Extending HDB's Deferred Downpayment Scheme to 4-room and 5-room BTO Flats,OA
+2019-02-12-T-013,2019-02-12,13,Efforts to Reflect Women’s Contributions to Nation-building in Singapore Bicentennial Celebration,OA
+2019-02-12-T-014,2019-02-12,14,Unauthorised Possession and Disclosure of Information from HIV Registry,OS
+2019-02-12-T-015,2019-02-12,15,Singapore Food Agency Bill,BP
+2019-02-12-T-016,2019-02-12,16,National Parks Board (Amendment) Bill,BP
+2019-02-12-T-017,2019-02-12,17,Extension of a Sitting,OS
+2019-02-12-T-018,2019-02-12,18,National Parks Board (Amendment) Bill,BP
+2019-02-12-T-019,2019-02-12,19,Adjournment,OS
+2019-02-12-T-020,2019-02-12,20,Meeting Needs of Special Needs Students Admitted to ITEs,WANA
+2019-02-12-T-021,2019-02-12,21,Programmes to Include Deaf Students in Schools,WANA
+2019-02-12-T-022,2019-02-12,22,Cool Climate Solutions for Singapore in Light of Rapidly Rising Global Temperatures,WANA
+2019-02-12-T-023,2019-02-12,23,Effectiveness of Differential Fares Scheme in Spreading Out MRT Commuter Load,WANA
+2019-02-12-T-024,2019-02-12,24,Cost of Ensuring Maritime Safety in Singapore Waters,WANA
+2019-02-12-T-025,2019-02-12,25,Top Three Causes of Death among Elderly Persons Aged 65 years and Above,WANA
+2019-02-12-T-026,2019-02-12,26,Update on Roadmap and Industry Transformation Map for Singapore's Energy and Chemicals Sector,WANA
+2019-02-12-T-027,2019-02-12,27,Integrating Platforms to Facilitate Donations through Smart Nation Initiatives,WANA
+2019-02-12-T-028,2019-02-12,28,Review on Number of Open Visits for Inmates with Children,WA
+2019-02-12-T-029,2019-02-12,29,Regulations and Frameworks Involving Firework Displays,WA
+2019-02-12-T-030,2019-02-12,30,Progress on Project E-learning Mental Health First Aid Programme,WA
+2019-02-12-T-031,2019-02-12,31,Success Rate of Appeals to use Medisave Beyond Annual Withdrawal Limits,WA
+2019-02-12-T-032,2019-02-12,32,Measures in Place to Promote Safe Use of Park Connectors,WA
+2019-02-12-T-033,2019-02-12,33,Update on New Hawker Centre in Bukit Batok,WA
+2019-02-12-T-034,2019-02-12,34,"Basis for Admission of Students into Normal (Technical), Normal (Academic) and Express Streams",WA
+2019-02-12-T-035,2019-02-12,35,Update on Removal of EM3 Stream in Primary School,WA
+2019-02-12-T-036,2019-02-12,36,"Value of Unpaid Salaries in 2016, 2017 and 2018",WA

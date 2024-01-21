@@ -1,22 +1,22 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2022-03-09,2022-03-09-T-001,1,Comparison of Proportion of Gainfully Employed Special Needs Adults Pre- and During COVID-19 Pandemic,,OA,
-2022-03-09,2022-03-09-T-002,2,Update on Application Made against Attorney-General by 17 Prisoners Awaiting Capital Punishment,,OA,
-2022-03-09,2022-03-09-T-003,3,Placing Primary School Students Taking Subjects at Foundation Level in Same Class as Other Students to Ensure Social Mixing,,OA,
-2022-03-09,2022-03-09-T-004,4,Construction Projects with Permission to Work on Weekends,,OA,
-2022-03-09,2022-03-09-T-005,5,Town Councils' Enforcement Actions against Unlawful Parking in Common Areas by Foreign-registered Vehicles,,OA,
-2022-03-09,2022-03-09-T-006,6,Ratio of Singaporeans to Foreigners in Autonomous Universities for Faculty Members,,OA,
-2022-03-09,2022-03-09-T-007,7,Applications to Import Embryos Back to Singapore for Assisted Reproductive Technology Procedures,,OA,
-2022-03-09,2022-03-09-T-008,8,Estimates of Expenditure for the Financial Year 1 April 2022 to 31 March 2023,Committee of Supply – Paper Cmd 12 of 2022,OS,
-2022-03-09,2022-03-09-T-009,9,Committee of Supply – Head W (Ministry of Transport),Creating an inclusive and sustainable home,OS,
-2022-03-09,2022-03-09-T-010,10,Committee of Supply – Head O (Ministry of Health),Fostering a resilient and caring society,OS,
-2022-03-09,2022-03-09-T-011,11,Committee of Supply – Head I (Ministry of Social and Family Development),Fostering a resilient and caring society,OS,
-2022-03-09,2022-03-09-T-012,12,Committee of Supply Reporting Progress,,OS,
-2022-03-09,2022-03-09-T-013,13,Adjournment,,OS,
-2022-03-09,2022-03-09-T-014,14,Update on Rollout of Video-recording of Statements from Suspects,,WA,
-2022-03-09,2022-03-09-T-015,15,Plans for Continued Education and Training for Special Needs Children after 18 Years of Age,,WA,
-2022-03-09,2022-03-09-T-016,16,Creating More Inclusive Environments in Public Schools Beyond Special Education Schools,,WA,
-2022-03-09,2022-03-09-T-017,17,Profile of Students Admitted to Gifted Education Programme in Past Five Years,,WA,
-2022-03-09,2022-03-09-T-018,18,Mean and Median Numbers of Dwelling Units Served by Each Family Service Centre,,WA,
-2022-03-09,2022-03-09-T-019,19,Support Schemes and Respite Care Options for Families with Special Needs Children,,WA,
-2022-03-09,2022-03-09-T-020,20,Expansion of Enhanced Pilot for Private Intervention Providers Programme,,WA,
-2022-03-09,2022-03-09-T-021,21,Penalties on Employers for Failure to Comply with Advisory on Work and Leave Arrangements for COVID-19-positive Employees,,WA,
+topic_id,date,topic_order,title,section_type
+2022-03-09-T-001,2022-03-09,1,Comparison of Proportion of Gainfully Employed Special Needs Adults Pre- and During COVID-19 Pandemic,OA
+2022-03-09-T-002,2022-03-09,2,Update on Application Made against Attorney-General by 17 Prisoners Awaiting Capital Punishment,OA
+2022-03-09-T-003,2022-03-09,3,Placing Primary School Students Taking Subjects at Foundation Level in Same Class as Other Students to Ensure Social Mixing,OA
+2022-03-09-T-004,2022-03-09,4,Construction Projects with Permission to Work on Weekends,OA
+2022-03-09-T-005,2022-03-09,5,Town Councils' Enforcement Actions against Unlawful Parking in Common Areas by Foreign-registered Vehicles,OA
+2022-03-09-T-006,2022-03-09,6,Ratio of Singaporeans to Foreigners in Autonomous Universities for Faculty Members,OA
+2022-03-09-T-007,2022-03-09,7,Applications to Import Embryos Back to Singapore for Assisted Reproductive Technology Procedures,OA
+2022-03-09-T-008,2022-03-09,8,Estimates of Expenditure for the Financial Year 1 April 2022 to 31 March 2023,OS
+2022-03-09-T-009,2022-03-09,9,Committee of Supply – Head W (Ministry of Transport),OS
+2022-03-09-T-010,2022-03-09,10,Committee of Supply – Head O (Ministry of Health),OS
+2022-03-09-T-011,2022-03-09,11,Committee of Supply – Head I (Ministry of Social and Family Development),OS
+2022-03-09-T-012,2022-03-09,12,Committee of Supply Reporting Progress,OS
+2022-03-09-T-013,2022-03-09,13,Adjournment,OS
+2022-03-09-T-014,2022-03-09,14,Update on Rollout of Video-recording of Statements from Suspects,WA
+2022-03-09-T-015,2022-03-09,15,Plans for Continued Education and Training for Special Needs Children after 18 Years of Age,WA
+2022-03-09-T-016,2022-03-09,16,Creating More Inclusive Environments in Public Schools Beyond Special Education Schools,WA
+2022-03-09-T-017,2022-03-09,17,Profile of Students Admitted to Gifted Education Programme in Past Five Years,WA
+2022-03-09-T-018,2022-03-09,18,Mean and Median Numbers of Dwelling Units Served by Each Family Service Centre,WA
+2022-03-09-T-019,2022-03-09,19,Support Schemes and Respite Care Options for Families with Special Needs Children,WA
+2022-03-09-T-020,2022-03-09,20,Expansion of Enhanced Pilot for Private Intervention Providers Programme,WA
+2022-03-09-T-021,2022-03-09,21,Penalties on Employers for Failure to Comply with Advisory on Work and Leave Arrangements for COVID-19-positive Employees,WA

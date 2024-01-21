@@ -1,9 +1,9 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2018-03-05,2018-03-05-T-001,1,Parking Places (Amendment) Bill,,BI,
-2018-03-05,2018-03-05-T-002,2,Estimates of Expenditure for the Financial Year 1 April 2018 to 31 March 2019,Committee of Supply – Paper Cmd 13 of 2018,OS,
-2018-03-05,2018-03-05-T-003,3,Committee of Supply – Head S (Ministry of Manpower),,OS,
-2018-03-05,2018-03-05-T-004,4,Committee of Supply – Head K (Ministry of Education),,OS,
-2018-03-05,2018-03-05-T-005,5,Committee of Supply – Head Q (Ministry of Communications and Information),,OS,
-2018-03-05,2018-03-05-T-006,6,Committee of Supply Reporting Progress,,OS,
-2018-03-05,2018-03-05-T-007,7,Adjournment ,,OS,
-2018-03-05,2018-03-05-T-008,8,Revision of Means Test for Legal Aid,,WA,
+topic_id,date,topic_order,title,section_type
+2018-03-05-T-001,2018-03-05,1,Parking Places (Amendment) Bill,BI
+2018-03-05-T-002,2018-03-05,2,Estimates of Expenditure for the Financial Year 1 April 2018 to 31 March 2019,OS
+2018-03-05-T-003,2018-03-05,3,Committee of Supply – Head S (Ministry of Manpower),OS
+2018-03-05-T-004,2018-03-05,4,Committee of Supply – Head K (Ministry of Education),OS
+2018-03-05-T-005,2018-03-05,5,Committee of Supply – Head Q (Ministry of Communications and Information),OS
+2018-03-05-T-006,2018-03-05,6,Committee of Supply Reporting Progress,OS
+2018-03-05-T-007,2018-03-05,7,Adjournment ,OS
+2018-03-05-T-008,2018-03-05,8,Revision of Means Test for Legal Aid,WA

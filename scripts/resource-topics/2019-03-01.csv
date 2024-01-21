@@ -1,12 +1,12 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-03-01,2019-03-01-T-001,1,Checks and Audits on CHAS Subsidy Calculations,,OA,
-2019-03-01,2019-03-01-T-002,2,Supplementary Estimates of Expenditure for FY2018/2019,Committee of Supply – Paper Cmd 20 of 2019,OS,
-2019-03-01,2019-03-01-T-003,3,Estimates of Expenditure for the Financial Year 1 April 2019 to 31 March 2020,Committee of Supply – Paper Cmd 19 of 2019,OS,
-2019-03-01,2019-03-01-T-004,4,Committee of Supply – Head J (Ministry of Defence),,OS,
-2019-03-01,2019-03-01-T-005,5,Committee of Supply – Head N (Ministry of Foreign Affairs),,OS,
-2019-03-01,2019-03-01-T-006,6,Committee of Supply – Head P (Ministry of Home Affairs),,OS,
-2019-03-01,2019-03-01-T-007,7,Committee of Supply – Head R (Ministry of Law),,OS,
-2019-03-01,2019-03-01-T-008,8,Committee of Supply Reporting Progress,,OS,
-2019-03-01,2019-03-01-T-009,9,Adjournment,,OS,
-2019-03-01,2019-03-01-T-010,10,Availability of Data on Cleaning Companies Applying Progressive Wage Model to Foreign Cleaners,,WA,
-2019-03-01,2019-03-01-T-011,11,Funding to Special Assistance Plan Schools and Non-Special Assistance Plan Schools,,WA,
+topic_id,date,topic_order,title,section_type
+2019-03-01-T-001,2019-03-01,1,Checks and Audits on CHAS Subsidy Calculations,OA
+2019-03-01-T-002,2019-03-01,2,Supplementary Estimates of Expenditure for FY2018/2019,OS
+2019-03-01-T-003,2019-03-01,3,Estimates of Expenditure for the Financial Year 1 April 2019 to 31 March 2020,OS
+2019-03-01-T-004,2019-03-01,4,Committee of Supply – Head J (Ministry of Defence),OS
+2019-03-01-T-005,2019-03-01,5,Committee of Supply – Head N (Ministry of Foreign Affairs),OS
+2019-03-01-T-006,2019-03-01,6,Committee of Supply – Head P (Ministry of Home Affairs),OS
+2019-03-01-T-007,2019-03-01,7,Committee of Supply – Head R (Ministry of Law),OS
+2019-03-01-T-008,2019-03-01,8,Committee of Supply Reporting Progress,OS
+2019-03-01-T-009,2019-03-01,9,Adjournment,OS
+2019-03-01-T-010,2019-03-01,10,Availability of Data on Cleaning Companies Applying Progressive Wage Model to Foreign Cleaners,WA
+2019-03-01-T-011,2019-03-01,11,Funding to Special Assistance Plan Schools and Non-Special Assistance Plan Schools,WA

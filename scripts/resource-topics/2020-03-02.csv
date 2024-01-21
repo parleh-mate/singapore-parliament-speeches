@@ -1,17 +1,17 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-03-02,2020-03-02-T-001,1,Heath Status of Singaporeans based in China in Light of COVID-19,,OA,
-2020-03-02,2020-03-02-T-002,2,Supplementary Estimates of Expenditure for FY2019/2020,Committee of Supply – Paper Cmd 25 of 2020,OS,
-2020-03-02,2020-03-02-T-003,3,Estimates of Expenditure for the Financial Year 1 April 2020 to 31 March 2021,Committee of Supply – Paper Cmd 24 of 2020,OS,
-2020-03-02,2020-03-02-T-004,4,Committee of Supply – Head P (Ministry of Home Affairs),,OS,
-2020-03-02,2020-03-02-T-005,5,Committee of Supply – Head J (Ministry of Defence),,OS,
-2020-03-02,2020-03-02-T-006,6,Committee of Supply – Head N (Ministry of Foreign Affairs),,OS,
-2020-03-02,2020-03-02-T-007,7,Committee of Supply – Head V (Ministry of Trade and Industry),,OS,
-2020-03-02,2020-03-02-T-008,8,Committee of Supply Reporting Progress,,OS,
-2020-03-02,2020-03-02-T-009,9,Adjournment,,OS,
-2020-03-02,2020-03-02-T-010,10,Conduct Study on Why Fathers are not Taking Their Paternity Leave,,WA,
-2020-03-02,2020-03-02-T-011,11,Factors Considered in Shortlisting and Selection of Design Proposal for Future NS Square,,WA,
-2020-03-02,2020-03-02-T-012,12,Measures to Reduce Active Dengue Clusters and Efforts to Protect Vulnerable Groups,,WA,
-2020-03-02,2020-03-02-T-013,13,Requirement for Employers to Declare Reasons for Salary Reduction from Amount Stated in In-principle Approval Letter,,WA,
-2020-03-02,2020-03-02-T-014,14,Number of Work Permit Holders Not Issued with Key Employment Terms from 2016 to 2019,,WA,
-2020-03-02,2020-03-02-T-015,15,Rationale for Requiring Work Permit Holder to Seek Approval to Marry Singapore Citizen or Permanent Resident,,WA,
-2020-03-02,2020-03-02-T-016,16,Statistics on Average Period of Stay and Age of Singaporeans in Aged Homes,,WA,
+topic_id,date,topic_order,title,section_type
+2020-03-02-T-001,2020-03-02,1,Heath Status of Singaporeans based in China in Light of COVID-19,OA
+2020-03-02-T-002,2020-03-02,2,Supplementary Estimates of Expenditure for FY2019/2020,OS
+2020-03-02-T-003,2020-03-02,3,Estimates of Expenditure for the Financial Year 1 April 2020 to 31 March 2021,OS
+2020-03-02-T-004,2020-03-02,4,Committee of Supply – Head P (Ministry of Home Affairs),OS
+2020-03-02-T-005,2020-03-02,5,Committee of Supply – Head J (Ministry of Defence),OS
+2020-03-02-T-006,2020-03-02,6,Committee of Supply – Head N (Ministry of Foreign Affairs),OS
+2020-03-02-T-007,2020-03-02,7,Committee of Supply – Head V (Ministry of Trade and Industry),OS
+2020-03-02-T-008,2020-03-02,8,Committee of Supply Reporting Progress,OS
+2020-03-02-T-009,2020-03-02,9,Adjournment,OS
+2020-03-02-T-010,2020-03-02,10,Conduct Study on Why Fathers are not Taking Their Paternity Leave,WA
+2020-03-02-T-011,2020-03-02,11,Factors Considered in Shortlisting and Selection of Design Proposal for Future NS Square,WA
+2020-03-02-T-012,2020-03-02,12,Measures to Reduce Active Dengue Clusters and Efforts to Protect Vulnerable Groups,WA
+2020-03-02-T-013,2020-03-02,13,Requirement for Employers to Declare Reasons for Salary Reduction from Amount Stated in In-principle Approval Letter,WA
+2020-03-02-T-014,2020-03-02,14,Number of Work Permit Holders Not Issued with Key Employment Terms from 2016 to 2019,WA
+2020-03-02-T-015,2020-03-02,15,Rationale for Requiring Work Permit Holder to Seek Approval to Marry Singapore Citizen or Permanent Resident,WA
+2020-03-02-T-016,2020-03-02,16,Statistics on Average Period of Stay and Age of Singaporeans in Aged Homes,WA

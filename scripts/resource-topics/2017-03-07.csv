@@ -1,7 +1,7 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2017-03-07,2017-03-07-T-001,1,Estimates of Expenditure for the Financial Year 1 April 2017 to 31 March 2018,Committee of Supply − Paper Cmd 8 of 2017,OS,
-2017-03-07,2017-03-07-T-002,2,Committee of Supply − Head K (Ministry of Education),,OS,
-2017-03-07,2017-03-07-T-003,3,Committee of Supply − Head M (Ministry of Finance),,OS,
-2017-03-07,2017-03-07-T-004,4,Committee of Supply − Head T (Ministry of National Development),,OS,
-2017-03-07,2017-03-07-T-005,5,Committee of Supply Reporting Progress,,OS,
-2017-03-07,2017-03-07-T-006,6,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2017-03-07-T-001,2017-03-07,1,Estimates of Expenditure for the Financial Year 1 April 2017 to 31 March 2018,OS
+2017-03-07-T-002,2017-03-07,2,Committee of Supply − Head K (Ministry of Education),OS
+2017-03-07-T-003,2017-03-07,3,Committee of Supply − Head M (Ministry of Finance),OS
+2017-03-07-T-004,2017-03-07,4,Committee of Supply − Head T (Ministry of National Development),OS
+2017-03-07-T-005,2017-03-07,5,Committee of Supply Reporting Progress,OS
+2017-03-07-T-006,2017-03-07,6,Adjournment,OS

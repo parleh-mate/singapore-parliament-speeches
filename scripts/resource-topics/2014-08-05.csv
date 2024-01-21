@@ -1,32 +1,32 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-08-05,2014-08-05-T-001,1,Singapore's Position on Ongoing Conflict in Gaza,,OA,
-2014-08-05,2014-08-05-T-002,2,System to Detect Non-payment of CPF Contributions,,OA,
-2014-08-05,2014-08-05-T-003,3,Medisave for Home-based Healthcare,,OA,
-2014-08-05,2014-08-05-T-004,4,Erroneous Payment of Financial Assistance to Persons after Death,,OA,
-2014-08-05,2014-08-05-T-005,5,Borrowing from Licensed Moneylenders and Profile of Borrowers,,OA,
-2014-08-05,2014-08-05-T-006,6,Decision on Locations of Speed Cameras and CCTVs,,OA,
-2014-08-05,2014-08-05-T-007,7,Options for Singaporeans to Set Aside Larger Sums than CPF Minimum Sum,,OA,
-2014-08-05,2014-08-05-T-008,8,Over-charging of Placement Fees for Foreign Domestic Workers,,OA,
-2014-08-05,2014-08-05-T-009,9,Unclaimed Baggage at Changi Airport,,OA,
-2014-08-05,2014-08-05-T-010,10,Government Audit of Waste Disposal by Offshore Fish Farms,,OA,
-2014-08-05,2014-08-05-T-011,11,HDB Flat Choice of Lower Income Elderly,,OA,
-2014-08-05,2014-08-05-T-012,12,Salary Components for New S Pass Pay Thresholds,,OA,
-2014-08-05,2014-08-05-T-013,13,Update on Singapore's Economic Restructuring Efforts and Growth Outlook,,OA,
-2014-08-05,2014-08-05-T-014,14,Transboundary Haze Pollution Bill,,BP,
-2014-08-05,2014-08-05-T-015,15,Attorney-General (Additional Functions) Bill,,BP,
-2014-08-05,2014-08-05-T-016,16,Land Acquisition (Amendment) Bill,,BP,
-2014-08-05,2014-08-05-T-017,17,Adjournment,,OS,
-2014-08-05,2014-08-05-T-018,18,Preparations for Singapore to Respond to Provisions in Trans-Pacific Partnership Agreement Related to Public Health and Environment,,WANA,
-2014-08-05,2014-08-05-T-019,19,Former Permanent Residents who Did Not Serve National Service,,WANA,
-2014-08-05,2014-08-05-T-020,20,Defining Social Norms,,WANA,
-2014-08-05,2014-08-05-T-021,21,Productivity and Innovation Credit Claims for Research and Development Work,,WANA,
-2014-08-05,2014-08-05-T-022,22,Government Subsidy for Healthier Essential Foods,,WANA,
-2014-08-05,2014-08-05-T-023,23,"Monitoring Payment of CPF Contributions for Non-contract, Ad Hoc and Part-time Workers",,WANA,
-2014-08-05,2014-08-05-T-024,24,Heavy Vehicle Parking Lots in Nee Soon,,WANA,
-2014-08-05,2014-08-05-T-025,25,Parking for Private Buses,,WANA,
-2014-08-05,2014-08-05-T-026,26,Foreign Worker Dependency Ratio Ceilings for Harbourcraft Industry and Land Reclamation Project,,WANA,
-2014-08-05,2014-08-05-T-027,27,Trans-Pacific Partnership Agreement's Impact on Singapore's Environmental Laws and Green Spaces,,WANA,
-2014-08-05,2014-08-05-T-028,28,Community Health Assist Scheme (CHAS),,WA,
-2014-08-05,2014-08-05-T-029,29,Cement Trucks Classified under Euro 1 and Euro 5 Emission Standards,,WA,
-2014-08-05,2014-08-05-T-030,30,Primary 1 School Registration under Phases 2B and 2C,,WA,
-2014-08-05,2014-08-05-T-031,31,Foreigners Working in Singapore,,WA,
+topic_id,date,topic_order,title,section_type
+2014-08-05-T-001,2014-08-05,1,Singapore's Position on Ongoing Conflict in Gaza,OA
+2014-08-05-T-002,2014-08-05,2,System to Detect Non-payment of CPF Contributions,OA
+2014-08-05-T-003,2014-08-05,3,Medisave for Home-based Healthcare,OA
+2014-08-05-T-004,2014-08-05,4,Erroneous Payment of Financial Assistance to Persons after Death,OA
+2014-08-05-T-005,2014-08-05,5,Borrowing from Licensed Moneylenders and Profile of Borrowers,OA
+2014-08-05-T-006,2014-08-05,6,Decision on Locations of Speed Cameras and CCTVs,OA
+2014-08-05-T-007,2014-08-05,7,Options for Singaporeans to Set Aside Larger Sums than CPF Minimum Sum,OA
+2014-08-05-T-008,2014-08-05,8,Over-charging of Placement Fees for Foreign Domestic Workers,OA
+2014-08-05-T-009,2014-08-05,9,Unclaimed Baggage at Changi Airport,OA
+2014-08-05-T-010,2014-08-05,10,Government Audit of Waste Disposal by Offshore Fish Farms,OA
+2014-08-05-T-011,2014-08-05,11,HDB Flat Choice of Lower Income Elderly,OA
+2014-08-05-T-012,2014-08-05,12,Salary Components for New S Pass Pay Thresholds,OA
+2014-08-05-T-013,2014-08-05,13,Update on Singapore's Economic Restructuring Efforts and Growth Outlook,OA
+2014-08-05-T-014,2014-08-05,14,Transboundary Haze Pollution Bill,BP
+2014-08-05-T-015,2014-08-05,15,Attorney-General (Additional Functions) Bill,BP
+2014-08-05-T-016,2014-08-05,16,Land Acquisition (Amendment) Bill,BP
+2014-08-05-T-017,2014-08-05,17,Adjournment,OS
+2014-08-05-T-018,2014-08-05,18,Preparations for Singapore to Respond to Provisions in Trans-Pacific Partnership Agreement Related to Public Health and Environment,WANA
+2014-08-05-T-019,2014-08-05,19,Former Permanent Residents who Did Not Serve National Service,WANA
+2014-08-05-T-020,2014-08-05,20,Defining Social Norms,WANA
+2014-08-05-T-021,2014-08-05,21,Productivity and Innovation Credit Claims for Research and Development Work,WANA
+2014-08-05-T-022,2014-08-05,22,Government Subsidy for Healthier Essential Foods,WANA
+2014-08-05-T-023,2014-08-05,23,"Monitoring Payment of CPF Contributions for Non-contract, Ad Hoc and Part-time Workers",WANA
+2014-08-05-T-024,2014-08-05,24,Heavy Vehicle Parking Lots in Nee Soon,WANA
+2014-08-05-T-025,2014-08-05,25,Parking for Private Buses,WANA
+2014-08-05-T-026,2014-08-05,26,Foreign Worker Dependency Ratio Ceilings for Harbourcraft Industry and Land Reclamation Project,WANA
+2014-08-05-T-027,2014-08-05,27,Trans-Pacific Partnership Agreement's Impact on Singapore's Environmental Laws and Green Spaces,WANA
+2014-08-05-T-028,2014-08-05,28,Community Health Assist Scheme (CHAS),WA
+2014-08-05-T-029,2014-08-05,29,Cement Trucks Classified under Euro 1 and Euro 5 Emission Standards,WA
+2014-08-05-T-030,2014-08-05,30,Primary 1 School Registration under Phases 2B and 2C,WA
+2014-08-05-T-031,2014-08-05,31,Foreigners Working in Singapore,WA

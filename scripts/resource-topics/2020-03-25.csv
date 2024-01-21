@@ -1,18 +1,18 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2020-03-25,2020-03-25-T-001,1,Measures in Parliament to Reduce Risk of Further Spread of COVID-19,Announcement by Mr Speaker,OS,
-2020-03-25,2020-03-25-T-002,2,Impact of COVID-19 on Singapore International Festival of Arts 2020,,OA,
-2020-03-25,2020-03-25-T-003,3,Number of Sexual Crime Offenders who Have Escaped Mandatory Caning Due to Age,,OA,
-2020-03-25,2020-03-25-T-004,4,Alternate Long-term Plans for SMEs with Factories in China,,OA,
-2020-03-25,2020-03-25-T-005,5,Impact of Plunge in Crude Oil Rates on Retail Prices at Petrol Pumps,,OA,
-2020-03-25,2020-03-25-T-006,6,Update on Whole-of-Government Response to COVID-19,Statements by Minister for Health and Minister for National Development,OS,
-2020-03-25,2020-03-25-T-007,7,Second Reading of Bills,,OS,
-2020-03-25,2020-03-25-T-008,8,Hindu Endowments (Amendment) Bill,,BP,
-2020-03-25,2020-03-25-T-009,9,Wild Animals and Birds (Amendment) Bill,,BP,
-2020-03-25,2020-03-25-T-010,10,Merchant Shipping (Maritime Labour Convention) (Amendment) Bill ,,BP,
-2020-03-25,2020-03-25-T-011,11,Working Together Towards a Zero-suicide Singapore,,OS,
-2020-03-25,2020-03-25-T-012,12,Number of Cases of Emergencies Attributed to Food Allergies Onboard Commercial Flights from Singapore,,WANA,
-2020-03-25,2020-03-25-T-013,13,Emphasis on Local Arts Scene in Singapore International Festival of Arts 2020,,WA,
-2020-03-25,2020-03-25-T-014,14,Trend Observed in Audienceship for Annual Singapore International Festival of Arts,,WA,
-2020-03-25,2020-03-25-T-015,15,"Number and Breakdown of Households under Public Rental Scheme, Interim Rental Housing Scheme and Parenthood Provisional Housing Scheme",,WA,
-2020-03-25,2020-03-25-T-016,16,Breakdown by Gender and Current Employment Status of Singaporeans Eligible for Budget 2020 Matched Retirement Savings Scheme and Average and Median Balances in CPF Accounts,,WA,
-2020-03-25,2020-03-25-T-017,17,Breakdown on Number of Persons Above Age 65 Receiving CPF Transfers from Their Child in Last Three Years,,WA,
+topic_id,date,topic_order,title,section_type
+2020-03-25-T-001,2020-03-25,1,Measures in Parliament to Reduce Risk of Further Spread of COVID-19,OS
+2020-03-25-T-002,2020-03-25,2,Impact of COVID-19 on Singapore International Festival of Arts 2020,OA
+2020-03-25-T-003,2020-03-25,3,Number of Sexual Crime Offenders who Have Escaped Mandatory Caning Due to Age,OA
+2020-03-25-T-004,2020-03-25,4,Alternate Long-term Plans for SMEs with Factories in China,OA
+2020-03-25-T-005,2020-03-25,5,Impact of Plunge in Crude Oil Rates on Retail Prices at Petrol Pumps,OA
+2020-03-25-T-006,2020-03-25,6,Update on Whole-of-Government Response to COVID-19,OS
+2020-03-25-T-007,2020-03-25,7,Second Reading of Bills,OS
+2020-03-25-T-008,2020-03-25,8,Hindu Endowments (Amendment) Bill,BP
+2020-03-25-T-009,2020-03-25,9,Wild Animals and Birds (Amendment) Bill,BP
+2020-03-25-T-010,2020-03-25,10,Merchant Shipping (Maritime Labour Convention) (Amendment) Bill ,BP
+2020-03-25-T-011,2020-03-25,11,Working Together Towards a Zero-suicide Singapore,OS
+2020-03-25-T-012,2020-03-25,12,Number of Cases of Emergencies Attributed to Food Allergies Onboard Commercial Flights from Singapore,WANA
+2020-03-25-T-013,2020-03-25,13,Emphasis on Local Arts Scene in Singapore International Festival of Arts 2020,WA
+2020-03-25-T-014,2020-03-25,14,Trend Observed in Audienceship for Annual Singapore International Festival of Arts,WA
+2020-03-25-T-015,2020-03-25,15,"Number and Breakdown of Households under Public Rental Scheme, Interim Rental Housing Scheme and Parenthood Provisional Housing Scheme",WA
+2020-03-25-T-016,2020-03-25,16,Breakdown by Gender and Current Employment Status of Singaporeans Eligible for Budget 2020 Matched Retirement Savings Scheme and Average and Median Balances in CPF Accounts,WA
+2020-03-25-T-017,2020-03-25,17,Breakdown on Number of Persons Above Age 65 Receiving CPF Transfers from Their Child in Last Three Years,WA

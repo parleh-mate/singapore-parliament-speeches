@@ -1,10 +1,10 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-02-28,2019-02-28-T-001,1,Debate on Annual Budget Statement,,OS,
-2019-02-28,2019-02-28-T-002,2,Commencement Time of Committee of Supply,Announcement by Mr Speaker,OS,
-2019-02-28,2019-02-28-T-003,3,Estimates Of Expenditure For The Financial Year 1 April 2019 to 31 March 2020,Committee of Supply - Paper Cmd 19 of 2019,OS,
-2019-02-28,2019-02-28-T-004,4,Committee of Supply − Head U (Prime Minister's Office),,OS,
-2019-02-28,2019-02-28-T-005,5,Committee of Supply - Head M (Ministry of Finance),,OS,
-2019-02-28,2019-02-28-T-006,6,Committee of Supply - Head J (Ministry of Defence),,OS,
-2019-02-28,2019-02-28-T-007,7,Committee of Supply Reporting Progress,,OS,
-2019-02-28,2019-02-28-T-008,8,Adjournment,,OS,
-2019-02-28,2019-02-28-T-009,9,Local Cleaners Directly Hired by F&B Establishments and Outside Progressive Wage Model,,WA,
+topic_id,date,topic_order,title,section_type
+2019-02-28-T-001,2019-02-28,1,Debate on Annual Budget Statement,OS
+2019-02-28-T-002,2019-02-28,2,Commencement Time of Committee of Supply,OS
+2019-02-28-T-003,2019-02-28,3,Estimates Of Expenditure For The Financial Year 1 April 2019 to 31 March 2020,OS
+2019-02-28-T-004,2019-02-28,4,Committee of Supply − Head U (Prime Minister's Office),OS
+2019-02-28-T-005,2019-02-28,5,Committee of Supply - Head M (Ministry of Finance),OS
+2019-02-28-T-006,2019-02-28,6,Committee of Supply - Head J (Ministry of Defence),OS
+2019-02-28-T-007,2019-02-28,7,Committee of Supply Reporting Progress,OS
+2019-02-28-T-008,2019-02-28,8,Adjournment,OS
+2019-02-28-T-009,2019-02-28,9,Local Cleaners Directly Hired by F&B Establishments and Outside Progressive Wage Model,WA

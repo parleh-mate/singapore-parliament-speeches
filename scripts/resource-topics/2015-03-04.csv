@@ -1,7 +1,7 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2015-03-04,2015-03-04-T-001,1,Time Allocation for Committee of Supply,Announcement by Mdm Speaker,OS,
-2015-03-04,2015-03-04-T-002,2,Debate on Annual Budget Statement,,OS,
-2015-03-04,2015-03-04-T-003,3,Adjournment of Debate,,OS,
-2015-03-04,2015-03-04-T-004,4,Adjournment,,OS,
-2015-03-04,2015-03-04-T-005,5,"""Community in Bloom"" Projects in Private Estates",,WA,
-2015-03-04,2015-03-04-T-006,6,Malaysian-registered Vehicles Picking Up Passengers and Tourists in Singapore,,WA,
+topic_id,date,topic_order,title,section_type
+2015-03-04-T-001,2015-03-04,1,Time Allocation for Committee of Supply,OS
+2015-03-04-T-002,2015-03-04,2,Debate on Annual Budget Statement,OS
+2015-03-04-T-003,2015-03-04,3,Adjournment of Debate,OS
+2015-03-04-T-004,2015-03-04,4,Adjournment,OS
+2015-03-04-T-005,2015-03-04,5,"""Community in Bloom"" Projects in Private Estates",WA
+2015-03-04-T-006,2015-03-04,6,Malaysian-registered Vehicles Picking Up Passengers and Tourists in Singapore,WA

@@ -1,15 +1,15 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-02-13,2019-02-13-T-001,1,Cancellation of Art Stage Singapore Shortly before Opening,,OA,
-2019-02-13,2019-02-13-T-002,2,ASEAN Members' Efforts at Recent Meeting to Address Challenges in Repatriating Refugees from Rakhine State,,OA,
-2019-02-13,2019-02-13-T-003,3,Proposal for Licensing Requirement for Pet Boarding Business,,OA,
-2019-02-13,2019-02-13-T-004,4,Ensuring Accuracy of Species Declarations for Shark’s Fin Shipments,,OA,
-2019-02-13,2019-02-13-T-005,5,Average Sale Price for Land Sold to Private Developers and HDB,,OA,
-2019-02-13,2019-02-13-T-006,6,Threat Level for Public Transport Facilities in Singapore,Assessment in light of latest Terrorism Threat Assessment Report,OA,
-2019-02-13,2019-02-13-T-007,7,Projected Share of Operating Costs for Thomson-East Coast MRT Line to be Covered by Fare Revenues Versus Government Subsidies,,OA,
-2019-02-13,2019-02-13-T-008,8,Minimising Risks when SGX-listed Companies Experience Sudden Deterioration in Financial Viability,,OA,
-2019-02-13,2019-02-13-T-009,9,Ageing with Purpose; Support for Care-givers,Motion,OS,
-2019-02-13,2019-02-13-T-010,10,Extension a Sitting ,Business motion,OS,
-2019-02-13,2019-02-13-T-011,11,Ageing with Purpose; Support for Care-givers,Motion,OS,
-2019-02-13,2019-02-13-T-012,12,Adjournment,,OS,
-2019-02-13,2019-02-13-T-013,13,Measures to Address Constituencies with Declining Population Size and Age,,WA,
-2019-02-13,2019-02-13-T-014,14,Personal Data Information Lapse Incidents Reported and Disclosed to Public,,WA,
+topic_id,date,topic_order,title,section_type
+2019-02-13-T-001,2019-02-13,1,Cancellation of Art Stage Singapore Shortly before Opening,OA
+2019-02-13-T-002,2019-02-13,2,ASEAN Members' Efforts at Recent Meeting to Address Challenges in Repatriating Refugees from Rakhine State,OA
+2019-02-13-T-003,2019-02-13,3,Proposal for Licensing Requirement for Pet Boarding Business,OA
+2019-02-13-T-004,2019-02-13,4,Ensuring Accuracy of Species Declarations for Shark’s Fin Shipments,OA
+2019-02-13-T-005,2019-02-13,5,Average Sale Price for Land Sold to Private Developers and HDB,OA
+2019-02-13-T-006,2019-02-13,6,Threat Level for Public Transport Facilities in Singapore,OA
+2019-02-13-T-007,2019-02-13,7,Projected Share of Operating Costs for Thomson-East Coast MRT Line to be Covered by Fare Revenues Versus Government Subsidies,OA
+2019-02-13-T-008,2019-02-13,8,Minimising Risks when SGX-listed Companies Experience Sudden Deterioration in Financial Viability,OA
+2019-02-13-T-009,2019-02-13,9,Ageing with Purpose; Support for Care-givers,OS
+2019-02-13-T-010,2019-02-13,10,Extension a Sitting ,OS
+2019-02-13-T-011,2019-02-13,11,Ageing with Purpose; Support for Care-givers,OS
+2019-02-13-T-012,2019-02-13,12,Adjournment,OS
+2019-02-13-T-013,2019-02-13,13,Measures to Address Constituencies with Declining Population Size and Age,WA
+2019-02-13-T-014,2019-02-13,14,Personal Data Information Lapse Incidents Reported and Disclosed to Public,WA

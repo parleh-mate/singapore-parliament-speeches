@@ -1,11 +1,11 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2019-03-05,2019-03-05-T-001,1,Estimates of Expenditure for The Financial Year 1 April 2019 to 31 March 2020,Committee of Supply – Paper Cmd 19 of 2019,OS,
-2019-03-05,2019-03-05-T-002,2,Committee of Supply – Head K (Ministry of Education),,OS,
-2019-03-05,2019-03-05-T-003,3,Committee of Supply – Head S (Ministry of Manpower),,OS,
-2019-03-05,2019-03-05-T-004,4,Committee of Supply – Head I (Ministry of Social and Family Development),,OS,
-2019-03-05,2019-03-05-T-005,5,Committee of Supply Reporting Progress,,OS,
-2019-03-05,2019-03-05-T-006,6,Adjournment,,OS,
-2019-03-05,2019-03-05-T-007,7,Total Cost of Providing Long-term Care in Singapore in Latest Available Financial Year,,WA,
-2019-03-05,2019-03-05-T-008,8,Recurrent Costs of Government's Healthcare and Long-term Care Expenditure,,WA,
-2019-03-05,2019-03-05-T-009,9,"Plans for Unused Former Primary School, Ex-Neighbourhood Police Centre and Decommissioned Petrol Station in Woodlands Town",,WA,
-2019-03-05,2019-03-05-T-010,10,Workers in Cleaning Sector on R1 (Higher Skilled) Scheme,,WA,
+topic_id,date,topic_order,title,section_type
+2019-03-05-T-001,2019-03-05,1,Estimates of Expenditure for The Financial Year 1 April 2019 to 31 March 2020,OS
+2019-03-05-T-002,2019-03-05,2,Committee of Supply – Head K (Ministry of Education),OS
+2019-03-05-T-003,2019-03-05,3,Committee of Supply – Head S (Ministry of Manpower),OS
+2019-03-05-T-004,2019-03-05,4,Committee of Supply – Head I (Ministry of Social and Family Development),OS
+2019-03-05-T-005,2019-03-05,5,Committee of Supply Reporting Progress,OS
+2019-03-05-T-006,2019-03-05,6,Adjournment,OS
+2019-03-05-T-007,2019-03-05,7,Total Cost of Providing Long-term Care in Singapore in Latest Available Financial Year,WA
+2019-03-05-T-008,2019-03-05,8,Recurrent Costs of Government's Healthcare and Long-term Care Expenditure,WA
+2019-03-05-T-009,2019-03-05,9,"Plans for Unused Former Primary School, Ex-Neighbourhood Police Centre and Decommissioned Petrol Station in Woodlands Town",WA
+2019-03-05-T-010,2019-03-05,10,Workers in Cleaning Sector on R1 (Higher Skilled) Scheme,WA

@@ -1,4 +1,4 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-05-30,2014-05-30-T-001,1,Debate on President's Address,Fifth Allotted Day,OS,
-2014-05-30,2014-05-30-T-002,2,Adjournment,,OS,
-2014-05-30,2014-05-30-T-003,3,Indonesian Fugitives in Singapore,,WA,
+topic_id,date,topic_order,title,section_type
+2014-05-30-T-001,2014-05-30,1,Debate on President's Address,OS
+2014-05-30-T-002,2014-05-30,2,Adjournment,OS
+2014-05-30-T-003,2014-05-30,3,Indonesian Fugitives in Singapore,WA

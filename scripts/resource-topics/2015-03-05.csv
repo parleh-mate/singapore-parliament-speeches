@@ -1,15 +1,15 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2015-03-05,2015-03-05-T-001,1,Rodent Management Measures,,OA,
-2015-03-05,2015-03-05-T-002,2,Environmental Impact Assessment for Cross-Island MRT Line,,OA,
-2015-03-05,2015-03-05-T-003,3,Proceedings on Estimates of Expenditure for FY2015/2016,,OS,
-2015-03-05,2015-03-05-T-004,4,Debate on Annual Budget Statement,,OS,
-2015-03-05,2015-03-05-T-005,5,Commencement Time of Committee of Supply,Announcement by Mdm Speaker,OS,
-2015-03-05,2015-03-05-T-006,6,Estimates of Expenditure for the Financial Year 1 April 2015 to 31 March 2016,Committee of Supply – Paper Cmd 1 of 2015,OS,
-2015-03-05,2015-03-05-T-007,7,Head N – Ministry of Foreign Affairs,Committee of Supply,OS,
-2015-03-05,2015-03-05-T-008,8,Head J – Ministry of Defence,Committee of Supply,OS,
-2015-03-05,2015-03-05-T-009,9,Head P – Ministry of Home Affairs,Committee of Supply,OS,
-2015-03-05,2015-03-05-T-010,10,Committee of Supply Reporting Progress,,OS,
-2015-03-05,2015-03-05-T-011,11,Adjournment,,OS,
-2015-03-05,2015-03-05-T-012,12,Town Council Managing Agents and Rates Charged Per Residential and Commercial Unit,,WA,
-2015-03-05,2015-03-05-T-013,13,Immersion Programmes to Encourage Cultural Exchanges in ASEAN,,WA,
-2015-03-05,2015-03-05-T-014,14,Information on Taxi Drivers,,WA,
+topic_id,date,topic_order,title,section_type
+2015-03-05-T-001,2015-03-05,1,Rodent Management Measures,OA
+2015-03-05-T-002,2015-03-05,2,Environmental Impact Assessment for Cross-Island MRT Line,OA
+2015-03-05-T-003,2015-03-05,3,Proceedings on Estimates of Expenditure for FY2015/2016,OS
+2015-03-05-T-004,2015-03-05,4,Debate on Annual Budget Statement,OS
+2015-03-05-T-005,2015-03-05,5,Commencement Time of Committee of Supply,OS
+2015-03-05-T-006,2015-03-05,6,Estimates of Expenditure for the Financial Year 1 April 2015 to 31 March 2016,OS
+2015-03-05-T-007,2015-03-05,7,Head N – Ministry of Foreign Affairs,OS
+2015-03-05-T-008,2015-03-05,8,Head J – Ministry of Defence,OS
+2015-03-05-T-009,2015-03-05,9,Head P – Ministry of Home Affairs,OS
+2015-03-05-T-010,2015-03-05,10,Committee of Supply Reporting Progress,OS
+2015-03-05-T-011,2015-03-05,11,Adjournment,OS
+2015-03-05-T-012,2015-03-05,12,Town Council Managing Agents and Rates Charged Per Residential and Commercial Unit,WA
+2015-03-05-T-013,2015-03-05,13,Immersion Programmes to Encourage Cultural Exchanges in ASEAN,WA
+2015-03-05-T-014,2015-03-05,14,Information on Taxi Drivers,WA

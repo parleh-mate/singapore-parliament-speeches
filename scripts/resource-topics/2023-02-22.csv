@@ -1,41 +1,41 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2023-02-22,2023-02-22-T-001,1,Instances where Rule Had Been Waived for 80% of Funds Raised for Foreign Charitable Purposes to be Applied towards Local Charitable Purposes,,OA,
-2023-02-22,2023-02-22-T-002,2,Ensuring Government Web Services and Data Hosted on Commercial Data Centres are Assured of Availability and Data Security,,OA,
-2023-02-22,2023-02-22-T-003,3,Guidelines for Marking Out Designated Smoking Areas within Orchard Road's No Smoking Zones,,OA,
-2023-02-22,2023-02-22-T-004,4,Review of Allowances for Full-time National Servicemen Given Inflationary Pressures,,OA,
-2023-02-22,2023-02-22-T-005,5,Help for Firms to Boost Productivity with Progressive Wage Model's Approach to Wage Increases,,OA,
-2023-02-22,2023-02-22-T-006,6,Review of Resources to be Deployed to Government Agencies to Handle Caseload with Increasing Number of Scams,,OA,
-2023-02-22,2023-02-22-T-007,7,Proposal for Enforcement Powers under Animal and Birds Act to Be Given to Selected Non-Government Animal Welfare Groups,,OA,
-2023-02-22,2023-02-22-T-008,8,Clarification by Minister for National Development,,OS,
-2023-02-22,2023-02-22-T-009,9,Personal Explanation,,OS,
-2023-02-22,2023-02-22-T-010,10,Supply Bill ,,BI,
-2023-02-22,2023-02-22-T-011,11,Supplementary Supply (FY2022) Bill,,BI,
-2023-02-22,2023-02-22-T-012,12,Debate on Annual Budget Statement,,OS,
-2023-02-22,2023-02-22-T-013,13,Exempted Business,Business Motion,OS,
-2023-02-22,2023-02-22-T-014,14,Debate on Annual Budget Statement,,OS,
-2023-02-22,2023-02-22-T-015,15,Adjournment of Debate,,OS,
-2023-02-22,2023-02-22-T-016,16,Impact of Relocating Bukit View Primary School,,OS,
-2023-02-22,2023-02-22-T-017,17,Size of Job Market for Information and Communications Sector,,WANA,
-2023-02-22,2023-02-22-T-018,18,Proportion of Public Service Agencies that Provide Unpaid Leave for Parents with Multiple or Pre-term Babies,,WANA,
-2023-02-22,2023-02-22-T-019,19,Further Actions on SPH Media Trust's Incorrect Circulation Numbers,,WANA,
-2023-02-22,2023-02-22-T-020,20,Flexibility to Spend Community Development Council Vouchers at Small Businesses,,WA,
-2023-02-22,2023-02-22-T-021,21,Fire Incidents Related to Kitchen Exhaust Ducts in Food and Beverage Establishments,,WA,
-2023-02-22,2023-02-22-T-022,22,Emergency Response Cases Reported or Attended through myResponder App and Plans to Increase App Subscription,,WA,
-2023-02-22,2023-02-22-T-023,23,"Review of Corruption, Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act 1992 to Reflect Lower Levels of Culpability for Offences Related to Mule Accounts for Scams",,WA,
-2023-02-22,2023-02-22-T-024,24,Data on Scams Reported in 2022,,WA,
-2023-02-22,2023-02-22-T-025,25,Cases of Individuals Who Do Not Affix New Address Labels to Their Identity Cards,,WA,
-2023-02-22,2023-02-22-T-026,26,Training for Operators and Owners of Coffee Shops and Hawker Stalls on Cleaning and Maintenance of Kitchen Exhaust Ducts,,WA,
-2023-02-22,2023-02-22-T-027,27,Plans to Expedite Construction of Hawker Centres in Constituencies with No Hawker Centre,,WA,
-2023-02-22,2023-02-22-T-028,28,Impact to Environment from Use of Biodegradable Plastics Versus Conventional Types of Plastics,,WA,
-2023-02-22,2023-02-22-T-029,29,Update on Review of Regulations and Services Standards in Funeral Services Industry,,WA,
-2023-02-22,2023-02-22-T-030,30,"Tracking Vacancies, Number of Applicants and Wait Time for Places in Special Education Schools",,WA,
-2023-02-22,2023-02-22-T-031,31,Data on Percentage of Students in UPLIFT Community Network and Enhanced STEP-UP Programmes Who Live in Public Rental Flats,,WA,
-2023-02-22,2023-02-22-T-032,32,Review of Basic Child Care Subsidy in Light of Increased Cost of Living,,WA,
-2023-02-22,2023-02-22-T-033,33,Proposal for Basic Child Care Subsidy to be Tiered with Increased Subsidies for Second and Third Children,,WA,
-2023-02-22,2023-02-22-T-034,34,Factors beyond Annual Value of Home in Assessing Medical Subsidies for Retirees,,WA,
-2023-02-22,2023-02-22-T-035,35,Proposal for Ban on Use of Gill Nets for Fishing,,WA,
-2023-02-22,2023-02-22-T-036,36,Proportion of HDB Flat Owners Who Have Made Full Repayment of HDB Mortgage Loans ahead of Loan Tenure,,WA,
-2023-02-22,2023-02-22-T-037,37,House Price to Income Rates in Other Cities for Dwellings with Comparable Floor Area of Average HDB Flat in Singapore,,WA,
-2023-02-22,2023-02-22-T-038,38,Raising CPF Ordinary Wage Ceilings,,WA,
-2023-02-22,2023-02-22-T-039,39,Percentage of CPF Members Who Defer Monthly Retirement Payouts beyond Age 65,,WA,
-2023-02-22,2023-02-22-T-040,40,Data on CPF Members Who Are Unable to Set Aside CPF Full Retirement Sum in Retirement Account,,WA,
+topic_id,date,topic_order,title,section_type
+2023-02-22-T-001,2023-02-22,1,Instances where Rule Had Been Waived for 80% of Funds Raised for Foreign Charitable Purposes to be Applied towards Local Charitable Purposes,OA
+2023-02-22-T-002,2023-02-22,2,Ensuring Government Web Services and Data Hosted on Commercial Data Centres are Assured of Availability and Data Security,OA
+2023-02-22-T-003,2023-02-22,3,Guidelines for Marking Out Designated Smoking Areas within Orchard Road's No Smoking Zones,OA
+2023-02-22-T-004,2023-02-22,4,Review of Allowances for Full-time National Servicemen Given Inflationary Pressures,OA
+2023-02-22-T-005,2023-02-22,5,Help for Firms to Boost Productivity with Progressive Wage Model's Approach to Wage Increases,OA
+2023-02-22-T-006,2023-02-22,6,Review of Resources to be Deployed to Government Agencies to Handle Caseload with Increasing Number of Scams,OA
+2023-02-22-T-007,2023-02-22,7,Proposal for Enforcement Powers under Animal and Birds Act to Be Given to Selected Non-Government Animal Welfare Groups,OA
+2023-02-22-T-008,2023-02-22,8,Clarification by Minister for National Development,OS
+2023-02-22-T-009,2023-02-22,9,Personal Explanation,OS
+2023-02-22-T-010,2023-02-22,10,Supply Bill ,BI
+2023-02-22-T-011,2023-02-22,11,Supplementary Supply (FY2022) Bill,BI
+2023-02-22-T-012,2023-02-22,12,Debate on Annual Budget Statement,OS
+2023-02-22-T-013,2023-02-22,13,Exempted Business,OS
+2023-02-22-T-014,2023-02-22,14,Debate on Annual Budget Statement,OS
+2023-02-22-T-015,2023-02-22,15,Adjournment of Debate,OS
+2023-02-22-T-016,2023-02-22,16,Impact of Relocating Bukit View Primary School,OS
+2023-02-22-T-017,2023-02-22,17,Size of Job Market for Information and Communications Sector,WANA
+2023-02-22-T-018,2023-02-22,18,Proportion of Public Service Agencies that Provide Unpaid Leave for Parents with Multiple or Pre-term Babies,WANA
+2023-02-22-T-019,2023-02-22,19,Further Actions on SPH Media Trust's Incorrect Circulation Numbers,WANA
+2023-02-22-T-020,2023-02-22,20,Flexibility to Spend Community Development Council Vouchers at Small Businesses,WA
+2023-02-22-T-021,2023-02-22,21,Fire Incidents Related to Kitchen Exhaust Ducts in Food and Beverage Establishments,WA
+2023-02-22-T-022,2023-02-22,22,Emergency Response Cases Reported or Attended through myResponder App and Plans to Increase App Subscription,WA
+2023-02-22-T-023,2023-02-22,23,"Review of Corruption, Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act 1992 to Reflect Lower Levels of Culpability for Offences Related to Mule Accounts for Scams",WA
+2023-02-22-T-024,2023-02-22,24,Data on Scams Reported in 2022,WA
+2023-02-22-T-025,2023-02-22,25,Cases of Individuals Who Do Not Affix New Address Labels to Their Identity Cards,WA
+2023-02-22-T-026,2023-02-22,26,Training for Operators and Owners of Coffee Shops and Hawker Stalls on Cleaning and Maintenance of Kitchen Exhaust Ducts,WA
+2023-02-22-T-027,2023-02-22,27,Plans to Expedite Construction of Hawker Centres in Constituencies with No Hawker Centre,WA
+2023-02-22-T-028,2023-02-22,28,Impact to Environment from Use of Biodegradable Plastics Versus Conventional Types of Plastics,WA
+2023-02-22-T-029,2023-02-22,29,Update on Review of Regulations and Services Standards in Funeral Services Industry,WA
+2023-02-22-T-030,2023-02-22,30,"Tracking Vacancies, Number of Applicants and Wait Time for Places in Special Education Schools",WA
+2023-02-22-T-031,2023-02-22,31,Data on Percentage of Students in UPLIFT Community Network and Enhanced STEP-UP Programmes Who Live in Public Rental Flats,WA
+2023-02-22-T-032,2023-02-22,32,Review of Basic Child Care Subsidy in Light of Increased Cost of Living,WA
+2023-02-22-T-033,2023-02-22,33,Proposal for Basic Child Care Subsidy to be Tiered with Increased Subsidies for Second and Third Children,WA
+2023-02-22-T-034,2023-02-22,34,Factors beyond Annual Value of Home in Assessing Medical Subsidies for Retirees,WA
+2023-02-22-T-035,2023-02-22,35,Proposal for Ban on Use of Gill Nets for Fishing,WA
+2023-02-22-T-036,2023-02-22,36,Proportion of HDB Flat Owners Who Have Made Full Repayment of HDB Mortgage Loans ahead of Loan Tenure,WA
+2023-02-22-T-037,2023-02-22,37,House Price to Income Rates in Other Cities for Dwellings with Comparable Floor Area of Average HDB Flat in Singapore,WA
+2023-02-22-T-038,2023-02-22,38,Raising CPF Ordinary Wage Ceilings,WA
+2023-02-22-T-039,2023-02-22,39,Percentage of CPF Members Who Defer Monthly Retirement Payouts beyond Age 65,WA
+2023-02-22-T-040,2023-02-22,40,Data on CPF Members Who Are Unable to Set Aside CPF Full Retirement Sum in Retirement Account,WA

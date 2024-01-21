@@ -1,30 +1,30 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2023-02-24,2023-02-24-T-001,1,Inquiry into Death of SCDF NSF Firefighter in December 2022,,OA,
-2023-02-24,2023-02-24-T-002,2,Impact on Singapore due to EU Ban on Russian Oil Product Exports,,OA,
-2023-02-24,2023-02-24-T-003,3,Singapore's Support for Global Conservation Targets set at COP15 Biodiversity Conference,,OA,
-2023-02-24,2023-02-24-T-004,4,Protocols and Fee Levels for COVID-19 Treatment Administered by Private Practitioners,,OA,
-2023-02-24,2023-02-24-T-005,5,Disclosing Public Sector Scope 3 Emissions under GreenGov.SG Initiative,,OA,
-2023-02-24,2023-02-24-T-006,6,Singapore's Contribution to Loss and Damage Fund Set Up in COP27,,OA,
-2023-02-24,2023-02-24-T-007,7,Misuse of Drugs (Amendment) Bill,,BI,
-2023-02-24,2023-02-24-T-008,8,Constitution of the Republic of Singapore (Amendment) Bill,,BI,
-2023-02-24,2023-02-24-T-009,9,Debate on Annual Budget Statement,,OS,
-2023-02-24,2023-02-24-T-010,10,Commencement Time of Committee of Supply,Announcement by Mr Speaker,OS,
-2023-02-24,2023-02-24-T-011,11,Estimates of Expenditure for the Financial Year 1 April 2023 to 31 March 2024,Committee of Supply – Paper Cmd 20 of 2023,OS,
-2023-02-24,2023-02-24-T-012,12,Committee of Supply – Head U (Prime Minister's Office),A forward-looking Government,OS,
-2023-02-24,2023-02-24-T-013,13,Committee of Supply – Head M (Ministry of Finance),A forward-looking Government,OS,
-2023-02-24,2023-02-24-T-014,14,Committee of supply – Head J (Ministry of Defence),A safe and secure nation in turbulent times,OS,
-2023-02-24,2023-02-24-T-015,15,Exempted Business,Committee of Supply,OS,
-2023-02-24,2023-02-24-T-016,16,Committee of Supply – Head J (Ministry of Defence),A safe and secure nation in turbulent times,OS,
-2023-02-24,2023-02-24-T-017,17,Committee of Supply Reporting Progress,,OS,
-2023-02-24,2023-02-24-T-018,18,Adjournment,,OS,
-2023-02-24,2023-02-24-T-019,19,Singapore's Position on Papua New Guinea's Accession to ASEAN,,WA,
-2023-02-24,2023-02-24-T-020,20,Individuals Currently Monitored under Foreign Interference (Countermeasures) Act 2021,,WA,
-2023-02-24,2023-02-24-T-021,21,Non-Citizens Married to Singapore Citizens and Subsequently Took Up Citizenship,,WA,
-2023-02-24,2023-02-24-T-022,22,Protocol of Police in Handling Reports of Fraudulent Debit Card Transactions and Bank Account Withdrawals,,WA,
-2023-02-24,2023-02-24-T-023,23,Data on Work Permit Holders Charged with Crimes and Applying for Criminal Legal Aid,,WA,
-2023-02-24,2023-02-24-T-024,24,Breakdown of Grades of Officers Who Retired from Education Service,,WA,
-2023-02-24,2023-02-24-T-025,25,Update on Workgroup Formed to Review Maintenance of Parents Act 1995,,WA,
-2023-02-24,2023-02-24-T-026,26,Uploading of TraceTogether Device Data onto Ministry's Server,,WA,
-2023-02-24,2023-02-24-T-027,27,"Tracking of Children Contracting Hand, Foot and Mouth Disease",,WA,
-2023-02-24,2023-02-24-T-028,28,Data on Subsidised and Unsubsidised In-vitro Fertilisation Treatments,,WA,
-2023-02-24,2023-02-24-T-029,29,Data on Work Permit Holders Who Are Paid Electronically and Not Living in Dormitories,,WA,
+topic_id,date,topic_order,title,section_type
+2023-02-24-T-001,2023-02-24,1,Inquiry into Death of SCDF NSF Firefighter in December 2022,OA
+2023-02-24-T-002,2023-02-24,2,Impact on Singapore due to EU Ban on Russian Oil Product Exports,OA
+2023-02-24-T-003,2023-02-24,3,Singapore's Support for Global Conservation Targets set at COP15 Biodiversity Conference,OA
+2023-02-24-T-004,2023-02-24,4,Protocols and Fee Levels for COVID-19 Treatment Administered by Private Practitioners,OA
+2023-02-24-T-005,2023-02-24,5,Disclosing Public Sector Scope 3 Emissions under GreenGov.SG Initiative,OA
+2023-02-24-T-006,2023-02-24,6,Singapore's Contribution to Loss and Damage Fund Set Up in COP27,OA
+2023-02-24-T-007,2023-02-24,7,Misuse of Drugs (Amendment) Bill,BI
+2023-02-24-T-008,2023-02-24,8,Constitution of the Republic of Singapore (Amendment) Bill,BI
+2023-02-24-T-009,2023-02-24,9,Debate on Annual Budget Statement,OS
+2023-02-24-T-010,2023-02-24,10,Commencement Time of Committee of Supply,OS
+2023-02-24-T-011,2023-02-24,11,Estimates of Expenditure for the Financial Year 1 April 2023 to 31 March 2024,OS
+2023-02-24-T-012,2023-02-24,12,Committee of Supply – Head U (Prime Minister's Office),OS
+2023-02-24-T-013,2023-02-24,13,Committee of Supply – Head M (Ministry of Finance),OS
+2023-02-24-T-014,2023-02-24,14,Committee of supply – Head J (Ministry of Defence),OS
+2023-02-24-T-015,2023-02-24,15,Exempted Business,OS
+2023-02-24-T-016,2023-02-24,16,Committee of Supply – Head J (Ministry of Defence),OS
+2023-02-24-T-017,2023-02-24,17,Committee of Supply Reporting Progress,OS
+2023-02-24-T-018,2023-02-24,18,Adjournment,OS
+2023-02-24-T-019,2023-02-24,19,Singapore's Position on Papua New Guinea's Accession to ASEAN,WA
+2023-02-24-T-020,2023-02-24,20,Individuals Currently Monitored under Foreign Interference (Countermeasures) Act 2021,WA
+2023-02-24-T-021,2023-02-24,21,Non-Citizens Married to Singapore Citizens and Subsequently Took Up Citizenship,WA
+2023-02-24-T-022,2023-02-24,22,Protocol of Police in Handling Reports of Fraudulent Debit Card Transactions and Bank Account Withdrawals,WA
+2023-02-24-T-023,2023-02-24,23,Data on Work Permit Holders Charged with Crimes and Applying for Criminal Legal Aid,WA
+2023-02-24-T-024,2023-02-24,24,Breakdown of Grades of Officers Who Retired from Education Service,WA
+2023-02-24-T-025,2023-02-24,25,Update on Workgroup Formed to Review Maintenance of Parents Act 1995,WA
+2023-02-24-T-026,2023-02-24,26,Uploading of TraceTogether Device Data onto Ministry's Server,WA
+2023-02-24-T-027,2023-02-24,27,"Tracking of Children Contracting Hand, Foot and Mouth Disease",WA
+2023-02-24-T-028,2023-02-24,28,Data on Subsidised and Unsubsidised In-vitro Fertilisation Treatments,WA
+2023-02-24-T-029,2023-02-24,29,Data on Work Permit Holders Who Are Paid Electronically and Not Living in Dormitories,WA

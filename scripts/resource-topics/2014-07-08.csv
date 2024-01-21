@@ -1,20 +1,20 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-07-08,2014-07-08-T-001,1,CPF Minimum Sum Requirement and Singaporean's Retirement Adequacy,,OA,
-2014-07-08,2014-07-08-T-002,2,Investment of CPF Monies,,OA,
-2014-07-08,2014-07-08-T-003,3,Family Justice Bill,,BI,
-2014-07-08,2014-07-08-T-004,4,Copyright (Amendment) Bill,,BP,
-2014-07-08,2014-07-08-T-005,5,Mutual Assistance in Criminal Matters (Amendment) Bill,,BP,
-2014-07-08,2014-07-08-T-006,6,MediShield Life,Motion,OS,
-2014-07-08,2014-07-08-T-007,7,Extension of Sitting,,OS,
-2014-07-08,2014-07-08-T-008,8,MediShield Life,Motion,OS,
-2014-07-08,2014-07-08-T-009,9,Adjournment of Debate,,OS,
-2014-07-08,2014-07-08-T-010,10,Adjournment,,OS,
-2014-07-08,2014-07-08-T-011,11,Declining Trend in Singapore's Current Account Surplus to GDP Ratio,,WANA,
-2014-07-08,2014-07-08-T-012,12,Singapore Citizens Sponsored by Local Universities for Doctoral Studies,,WANA,
-2014-07-08,2014-07-08-T-013,13,Breakdown of Flat Types to be Built by HDB over Next Two Years,,WANA,
-2014-07-08,2014-07-08-T-014,14,Preventing Abuse of HDB's Proximity Priority Schemes,,WANA,
-2014-07-08,2014-07-08-T-015,15,Impact of MediShield Life on Pensioners,,WANA,
-2014-07-08,2014-07-08-T-016,16,Statistics on Youth Criminal Offences,,WA,
-2014-07-08,2014-07-08-T-017,17,First-timer Applicants for BTO Flats in Non-mature Estates,,WA,
-2014-07-08,2014-07-08-T-018,18,Fusion Analytics for Public Transport Emergency Response (FASTER) Project,,WA,
-2014-07-08,2014-07-08-T-019,19,Remuneration and Benefits Packages for Academic and Non-academic Staff in Autonomous Universities,,WA,
+topic_id,date,topic_order,title,section_type
+2014-07-08-T-001,2014-07-08,1,CPF Minimum Sum Requirement and Singaporean's Retirement Adequacy,OA
+2014-07-08-T-002,2014-07-08,2,Investment of CPF Monies,OA
+2014-07-08-T-003,2014-07-08,3,Family Justice Bill,BI
+2014-07-08-T-004,2014-07-08,4,Copyright (Amendment) Bill,BP
+2014-07-08-T-005,2014-07-08,5,Mutual Assistance in Criminal Matters (Amendment) Bill,BP
+2014-07-08-T-006,2014-07-08,6,MediShield Life,OS
+2014-07-08-T-007,2014-07-08,7,Extension of Sitting,OS
+2014-07-08-T-008,2014-07-08,8,MediShield Life,OS
+2014-07-08-T-009,2014-07-08,9,Adjournment of Debate,OS
+2014-07-08-T-010,2014-07-08,10,Adjournment,OS
+2014-07-08-T-011,2014-07-08,11,Declining Trend in Singapore's Current Account Surplus to GDP Ratio,WANA
+2014-07-08-T-012,2014-07-08,12,Singapore Citizens Sponsored by Local Universities for Doctoral Studies,WANA
+2014-07-08-T-013,2014-07-08,13,Breakdown of Flat Types to be Built by HDB over Next Two Years,WANA
+2014-07-08-T-014,2014-07-08,14,Preventing Abuse of HDB's Proximity Priority Schemes,WANA
+2014-07-08-T-015,2014-07-08,15,Impact of MediShield Life on Pensioners,WANA
+2014-07-08-T-016,2014-07-08,16,Statistics on Youth Criminal Offences,WA
+2014-07-08-T-017,2014-07-08,17,First-timer Applicants for BTO Flats in Non-mature Estates,WA
+2014-07-08-T-018,2014-07-08,18,Fusion Analytics for Public Transport Emergency Response (FASTER) Project,WA
+2014-07-08-T-019,2014-07-08,19,Remuneration and Benefits Packages for Academic and Non-academic Staff in Autonomous Universities,WA

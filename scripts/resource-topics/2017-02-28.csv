@@ -1,34 +1,34 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2017-02-28,2017-02-28-T-001,1,Features for Merged SkillsFuture and Jobs Bank Portals,,OA,
-2017-02-28,2017-02-28-T-002,2,Feedback Received from Earn and Learn Programmes,,OA,
-2017-02-28,2017-02-28-T-003,3,Impact of Algae Blooms and Oil Spills on Aim to Increase Locally Farmed Fish in Local Consumption,,OA,
-2017-02-28,2017-02-28-T-004,4,Funds for Culling Animals,,OA,
-2017-02-28,2017-02-28-T-005,5,Complaints of Excessive Charging by Doctors in Private Practice,,OA,
-2017-02-28,2017-02-28-T-006,6,Advice on Lasting Power of Attorney at Nursing Homes and Step-down Care Institutions,,OA,
-2017-02-28,2017-02-28-T-007,7,Supply Bill,,BI,
-2017-02-28,2017-02-28-T-008,8,Supplementary Supply (FY 2016) Bill,,BI,
-2017-02-28,2017-02-28-T-009,9,Trustees (Amendment) Bill,,BI,
-2017-02-28,2017-02-28-T-010,10,Companies (Amendment) Bill,,BI,
-2017-02-28,2017-02-28-T-011,11,Limited Liability Partnerships (Amendment) Bill,,BI,
-2017-02-28,2017-02-28-T-012,12,Rearrangement of Business,Suspension of Standing Orders,OS,
-2017-02-28,2017-02-28-T-013,13,Patents (Amendment) Bill,,BP,
-2017-02-28,2017-02-28-T-014,14,Architects (Amendment) Bill,,BP,
-2017-02-28,2017-02-28-T-015,15,Early Childhood Development Centres Bill,,BP,
-2017-02-28,2017-02-28-T-016,16,Debate on Annual Budget Statement,,OS,
-2017-02-28,2017-02-28-T-017,17,Exempted Business,Motion,OS,
-2017-02-28,2017-02-28-T-018,18,Debate on Annual Budget Statement,,OS,
-2017-02-28,2017-02-28-T-019,19,Adjournment of Debate,,OS,
-2017-02-28,2017-02-28-T-020,20,Adjournment,,OS,
-2017-02-28,2017-02-28-T-021,21,Enhancing Capabilities to Care for Children with Autism,,WANA,
-2017-02-28,2017-02-28-T-022,22,Multi-lingual Guide on Appointing Lasting Power of Attorney,,WANA,
-2017-02-28,2017-02-28-T-023,23,Deciding between Pedestrian Overhead Bridges and Pedestrian Crossing,,WANA,
-2017-02-28,2017-02-28-T-024,24,Bus Regularity Following Implementation of Bus Service Reliability Framework,,WANA,
-2017-02-28,2017-02-28-T-025,25,Crimes Committed by Persons who Act on Behalf of Companies,,WANA,
-2017-02-28,2017-02-28-T-026,26,Handling of Arson Attacks in MRT Trains,,WANA,
-2017-02-28,2017-02-28-T-027,27,Medical Chits from Doctors not in Company-assigned Panel,,WANA,
-2017-02-28,2017-02-28-T-028,28,Tree Inspections and Liability for Damages Related to Falling Trees,,WANA,
-2017-02-28,2017-02-28-T-029,29,Update on Ratification of EU-Singapore Free Trade Agreement EUSFTA,,WA,
-2017-02-28,2017-02-28-T-030,30,Plans to Deepen Singaporeans' ICT Capabilities,,WA,
-2017-02-28,2017-02-28-T-031,31,Groups Most Vulnerable to Online Drug Peddling and Recidivism Rate of Drug Abusers Aged 20 to 29,,WA,
-2017-02-28,2017-02-28-T-032,32,Recidivism Rates of Drug Rehabilitation and Long Term Imprisonment Cohorts Released from 2012 to 2014,,WA,
-2017-02-28,2017-02-28-T-033,33,Lasting Power of Attorneys (LPAs),,WA,
+topic_id,date,topic_order,title,section_type
+2017-02-28-T-001,2017-02-28,1,Features for Merged SkillsFuture and Jobs Bank Portals,OA
+2017-02-28-T-002,2017-02-28,2,Feedback Received from Earn and Learn Programmes,OA
+2017-02-28-T-003,2017-02-28,3,Impact of Algae Blooms and Oil Spills on Aim to Increase Locally Farmed Fish in Local Consumption,OA
+2017-02-28-T-004,2017-02-28,4,Funds for Culling Animals,OA
+2017-02-28-T-005,2017-02-28,5,Complaints of Excessive Charging by Doctors in Private Practice,OA
+2017-02-28-T-006,2017-02-28,6,Advice on Lasting Power of Attorney at Nursing Homes and Step-down Care Institutions,OA
+2017-02-28-T-007,2017-02-28,7,Supply Bill,BI
+2017-02-28-T-008,2017-02-28,8,Supplementary Supply (FY 2016) Bill,BI
+2017-02-28-T-009,2017-02-28,9,Trustees (Amendment) Bill,BI
+2017-02-28-T-010,2017-02-28,10,Companies (Amendment) Bill,BI
+2017-02-28-T-011,2017-02-28,11,Limited Liability Partnerships (Amendment) Bill,BI
+2017-02-28-T-012,2017-02-28,12,Rearrangement of Business,OS
+2017-02-28-T-013,2017-02-28,13,Patents (Amendment) Bill,BP
+2017-02-28-T-014,2017-02-28,14,Architects (Amendment) Bill,BP
+2017-02-28-T-015,2017-02-28,15,Early Childhood Development Centres Bill,BP
+2017-02-28-T-016,2017-02-28,16,Debate on Annual Budget Statement,OS
+2017-02-28-T-017,2017-02-28,17,Exempted Business,OS
+2017-02-28-T-018,2017-02-28,18,Debate on Annual Budget Statement,OS
+2017-02-28-T-019,2017-02-28,19,Adjournment of Debate,OS
+2017-02-28-T-020,2017-02-28,20,Adjournment,OS
+2017-02-28-T-021,2017-02-28,21,Enhancing Capabilities to Care for Children with Autism,WANA
+2017-02-28-T-022,2017-02-28,22,Multi-lingual Guide on Appointing Lasting Power of Attorney,WANA
+2017-02-28-T-023,2017-02-28,23,Deciding between Pedestrian Overhead Bridges and Pedestrian Crossing,WANA
+2017-02-28-T-024,2017-02-28,24,Bus Regularity Following Implementation of Bus Service Reliability Framework,WANA
+2017-02-28-T-025,2017-02-28,25,Crimes Committed by Persons who Act on Behalf of Companies,WANA
+2017-02-28-T-026,2017-02-28,26,Handling of Arson Attacks in MRT Trains,WANA
+2017-02-28-T-027,2017-02-28,27,Medical Chits from Doctors not in Company-assigned Panel,WANA
+2017-02-28-T-028,2017-02-28,28,Tree Inspections and Liability for Damages Related to Falling Trees,WANA
+2017-02-28-T-029,2017-02-28,29,Update on Ratification of EU-Singapore Free Trade Agreement EUSFTA,WA
+2017-02-28-T-030,2017-02-28,30,Plans to Deepen Singaporeans' ICT Capabilities,WA
+2017-02-28-T-031,2017-02-28,31,Groups Most Vulnerable to Online Drug Peddling and Recidivism Rate of Drug Abusers Aged 20 to 29,WA
+2017-02-28-T-032,2017-02-28,32,Recidivism Rates of Drug Rehabilitation and Long Term Imprisonment Cohorts Released from 2012 to 2014,WA
+2017-02-28-T-033,2017-02-28,33,Lasting Power of Attorneys (LPAs),WA

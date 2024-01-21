@@ -1,2 +1,2 @@
-Sitting_CID,Sitting_Date,Sitting_DateTime,Parliament_Number,Session_Number,Volume_Number,Sitting_Number
-013-002-094-118,2020-02-18,2020-02-18T13:00:00,13,2,94,118
+date,datetime,parliament,session,volume,sittings
+2020-02-18,2020-02-18T13:00:00,13,2,94,118

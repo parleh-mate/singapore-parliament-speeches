@@ -1,13 +1,13 @@
-Date,Topic_CID,Order,Title,Subtitle,Section_Type,Question_Count
-2014-03-05,2014-03-05-T-001,1,Progressive Wage Model for Other Sectors,,OA,
-2014-03-05,2014-03-05-T-002,2,Geographical Indications Bill,,BI,
-2014-03-05,2014-03-05-T-003,3,Proceedings on Estimates of Expenditure for FY 2014/2015,,OS,
-2014-03-05,2014-03-05-T-004,4,Debate on Annual Budget Statement,,OS,
-2014-03-05,2014-03-05-T-005,5,Commencement Time of Committee of Supply,Announcement by Mdm Speaker,OS,
-2014-03-05,2014-03-05-T-006,6,Estimates of Expenditure for the Financial Year 1 April 2014 to 31 March 2015,Committee of Supply – Paper Cmd 1 of 2014,OS,
-2014-03-05,2014-03-05-T-007,7,Committee of Supply – Head U (Prime Minister's Office),,OS,
-2014-03-05,2014-03-05-T-008,8,Committee of Supply – Head R (Ministry of Law),,OS,
-2014-03-05,2014-03-05-T-009,9,Committee of Supply – Head N (Ministry of Foreign Affairs),,OS,
-2014-03-05,2014-03-05-T-010,10,Committee of Supply – Head J (Ministry of Defence),,OS,
-2014-03-05,2014-03-05-T-011,11,Committee of Supply Reporting Progress,,OS,
-2014-03-05,2014-03-05-T-012,12,Adjournment,,OS,
+topic_id,date,topic_order,title,section_type
+2014-03-05-T-001,2014-03-05,1,Progressive Wage Model for Other Sectors,OA
+2014-03-05-T-002,2014-03-05,2,Geographical Indications Bill,BI
+2014-03-05-T-003,2014-03-05,3,Proceedings on Estimates of Expenditure for FY 2014/2015,OS
+2014-03-05-T-004,2014-03-05,4,Debate on Annual Budget Statement,OS
+2014-03-05-T-005,2014-03-05,5,Commencement Time of Committee of Supply,OS
+2014-03-05-T-006,2014-03-05,6,Estimates of Expenditure for the Financial Year 1 April 2014 to 31 March 2015,OS
+2014-03-05-T-007,2014-03-05,7,Committee of Supply – Head U (Prime Minister's Office),OS
+2014-03-05-T-008,2014-03-05,8,Committee of Supply – Head R (Ministry of Law),OS
+2014-03-05-T-009,2014-03-05,9,Committee of Supply – Head N (Ministry of Foreign Affairs),OS
+2014-03-05-T-010,2014-03-05,10,Committee of Supply – Head J (Ministry of Defence),OS
+2014-03-05-T-011,2014-03-05,11,Committee of Supply Reporting Progress,OS
+2014-03-05-T-012,2014-03-05,12,Adjournment,OS
