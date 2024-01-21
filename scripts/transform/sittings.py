@@ -1,8 +1,13 @@
 from datetime import datetime
 
 
-def cid(metadata):
-    return f"{metadata['parlimentNO']:03}-{metadata['sessionNO']:03}-{metadata['volumeNO']:03}-{metadata['sittingNO']:03}"
+def date_str(metadata):
+    date_string = metadata["sittingDate"]
+    date_format = "%d-%m-%Y"
+
+    date_object = datetime.strptime(date_string, date_format)
+
+    return date_object.strftime("%Y-%m-%d")
 
 
 def datetime_str(metadata):

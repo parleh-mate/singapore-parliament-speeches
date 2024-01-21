@@ -107,6 +107,14 @@ def speeches(date_list):
     return 0
 
 
+# 8.
+# Create facts incrementally
+
+
+def facts(date_list):
+    return 0
+
+
 # Main Run
 
 root_path = get_root_path()

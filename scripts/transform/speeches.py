@@ -4,7 +4,7 @@ import transform
 
 
 def speech_cid(row):
-    return f"{row['Topic_CID']}-S-{row['Speech_Order']:05}"
+    return f"{row['Topic_CID']}-S-{row['speech_order']:05}"
 
 
 def topic_dataframe(content, topic_cid, index):
@@ -17,8 +17,8 @@ def topic_dataframe(content, topic_cid, index):
     temp_df = pd.DataFrame(
         {
             "Topic_CID": [topic_cid] * len(speakers),
-            "Original_MP_Name": cleaned_speakers,
-            "MP_Name": speakers,
+            "Original_MP_Name": speakers,
+            "MP_Name": cleaned_speakers,
             "Text": texts,
             "Seq": sequences,
         }
