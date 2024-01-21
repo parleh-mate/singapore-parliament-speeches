@@ -26,6 +26,7 @@ def save_df(type, date_yyyymmdd, df):
 
     return 0
 
+
 def save_aggregated_model(model, df):
     filepath = get_model_filename(model)
 
