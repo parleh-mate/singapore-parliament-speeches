@@ -19,14 +19,13 @@ def dates_to_process(date_df):
 
     return date_list
 
-def read_gbq_table(dataset, model):
 
+def read_gbq_table(dataset, model):
     sql = f"""
     SELECT *
     FROM `{seeds.project_id}.{dataset}.{model}`
     """
 
-    df = pandas_gbq.read_gbq(sql, 
-                             project_id=seeds.project_id)
+    df = pandas_gbq.read_gbq(sql, project_id=seeds.project_id)
 
     return df

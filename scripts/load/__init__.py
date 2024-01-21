@@ -38,6 +38,7 @@ def save_aggregated_model(model, df):
 
     return 0
 
+
 def save_incremental_model(model, new_df):
     filepath = get_model_filename(model)
 
@@ -51,24 +52,28 @@ def save_incremental_model(model, new_df):
 
     return 0
 
-def save_aggregated_model_gbq(dataset, model, df):
 
-    pandas_gbq.to_gbq(df, 
-                      destination_table=f"{dataset}.{model}", 
-                      project_id=seeds.project_id, 
-                      if_exists='replace')
+def save_aggregated_model_gbq(dataset, model, df):
+    pandas_gbq.to_gbq(
+        df,
+        destination_table=f"{dataset}.{model}",
+        project_id=seeds.project_id,
+        if_exists="replace",
+    )
 
     print(f"Dataframe saved to: {dataset}.{model}\n")
 
     return 0
 
+
 def save_incremental_model_gbq(dataset, model, new_df):
-    
-    pandas_gbq.to_gbq(new_df,
-                      destination_table=f"{dataset}.{model}", 
-                      project_id=seeds.project_id, 
-                      if_exists='append')
-    
+    pandas_gbq.to_gbq(
+        new_df,
+        destination_table=f"{dataset}.{model}",
+        project_id=seeds.project_id,
+        if_exists="append",
+    )
+
     print(f"Dataframe saved to: {dataset}.{model} with {len(new_df)} rows added.\n")
 
     return 0
