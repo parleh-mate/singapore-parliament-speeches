@@ -1,10 +1,21 @@
 from bs4 import BeautifulSoup
 import pandas as pd
 import transform
+import re
 
 
 def speech_cid(row):
     return f"{row['Topic_CID']}-S-{row['speech_order']:05}"
+
+
+def clean_rows(temp_df):
+    page_number_pattern = re.compile(r"Page  \d+")
+    temp_df = temp_df[
+        ~temp_df["Text"].astype(str).str.contains(page_number_pattern)
+        & (temp_df["Text"].astype(str) != "")
+    ]
+
+    return temp_df
 
 
 def topic_dataframe(content, topic_cid, index):
@@ -23,6 +34,8 @@ def topic_dataframe(content, topic_cid, index):
             "Seq": sequences,
         }
     )
+
+    temp_df = clean_rows(temp_df)
 
     return temp_df
 
@@ -52,6 +65,6 @@ def process_content(soup):
                 )
                 sequences.append(sequence)
         except:
-            print("Error at: {index}")
+            print(f"Error at: {index}")
 
     return speakers, texts, sequences
