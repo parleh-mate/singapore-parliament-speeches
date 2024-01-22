@@ -1,4 +1,4 @@
-# Structured dataset for Singapore's Parliament Speeches
+# Structured Datasets for Singapore's Parliament Speeches
 This project aims to make parliament speeches from Singapore's Parliament Hansard structured and accessible.
 
 A structured format is an enabler. There are applications in computational linguistic analysis, classification, and political science *(Dritsa et. al., 2022)*. Further empirical research on parliamentary discourse and its wider societal impact in recent times is ever more important, given the decisive role of parlimanets and their rapidly changing relations with the public and media *(Erjavec et. al., 2023)*.
