@@ -155,6 +155,7 @@ while True:
             speeches(dates_to_process(seed_dates_path), debug=True)
         elif choice == 8:
             process_dates = dates_to_process(seed_dates_path)
+            get_json(process_dates)
             sittings(process_dates, debug=False)
             attendance(process_dates, debug=False)
             topics(process_dates, debug=False)
