@@ -1,16 +1,13 @@
-import pandas as pd
 from utils import get_root_path, join_path
 import extract
 import extract.check_new_date as check_new_date
 import extract.parl_json as parl_json
 import transform
-import transform.members as transform_members
 import load
 import load.sittings as load_sittings
 import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
-import load.models as load_models
 
 # 1.
 # Check for new dates
