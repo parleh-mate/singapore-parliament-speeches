@@ -11,8 +11,24 @@ def get_json_filename(date_yyyymmdd):
     return filepath
 
 
+def get_json_archive_filename(date_yyyymmdd):
+    filepath = join_path(
+        join_path(get_root_path(), "resource-archive-json"), f"{date_yyyymmdd}.json"
+    )
+
+    return filepath
+
+
 def get_json(date_yyyymmdd, section):
     filepath = get_json_filename(date_yyyymmdd)
+    with open(filepath, "r") as file:
+        data = json.load(file)
+
+    return data[section]
+
+
+def get_json_archive(date_yyyymmdd, section):
+    filepath = get_json_archive_filename(date_yyyymmdd)
     with open(filepath, "r") as file:
         data = json.load(file)
 
