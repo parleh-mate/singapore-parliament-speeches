@@ -73,9 +73,13 @@ def process_content(soup):
                     text = text + " " + p.find("span").get_text()
                 sequence = 1
             else:
-                speaker = speakers[-1] if index > 0 else ""
+                if len(speakers) > 0:
+                    speaker = speakers[-1] if index > 0 else ""
+                    sequence = sequences[-1] + 1 if index > 0 else 1
+                else:
+                    speaker = ""
+                    sequence = 1
                 text = str(p.text)
-                sequence = sequences[-1] + 1 if index > 0 else 1
 
             if text != "None":
                 speakers.append(speaker)
