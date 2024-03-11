@@ -9,6 +9,13 @@ def speech_cid(row):
 
 
 def clean_rows(temp_df):
+    # 1. remove "proc text" from header
+
+    proc_text_pattern = re.compile(r"proc text", flags=re.IGNORECASE)
+    temp_df["Text"] = temp_df["Text"].str.replace(proc_text_pattern, "")
+
+    # 2. drop rows which say "Page" and are blank
+
     page_number_pattern = re.compile(r"Page  \d+")
     temp_df = temp_df[
         ~temp_df["Text"].astype(str).str.contains(page_number_pattern)
