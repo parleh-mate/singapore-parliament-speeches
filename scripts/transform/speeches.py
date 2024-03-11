@@ -41,7 +41,8 @@ def topic_dataframe(content, topic_cid, index):
         }
     )
 
-    temp_df = clean_rows(temp_df)
+    if len(temp_df) > 0:
+        temp_df = clean_rows(temp_df)
 
     return temp_df
 
