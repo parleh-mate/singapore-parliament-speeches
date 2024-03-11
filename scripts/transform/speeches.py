@@ -20,7 +20,7 @@ def clean_rows(temp_df):
 
 def topic_dataframe(content, topic_cid, index):
     soup = BeautifulSoup(content, "html.parser")
-    speakers, texts, sequences = process_content(soup)
+    speakers, texts = process_content(soup)
     print(f"Topic: {topic_cid}, Index (of Topic List): {index}")
 
     cleaned_speakers = [transform.get_mp_name(speaker) for speaker in speakers]
@@ -31,7 +31,6 @@ def topic_dataframe(content, topic_cid, index):
             "Original_MP_Name": speakers,
             "MP_Name": cleaned_speakers,
             "Text": texts,
-            "Seq": sequences,
         }
     )
 
@@ -41,6 +40,8 @@ def topic_dataframe(content, topic_cid, index):
 
 
 def process_content(soup):
+    # 1. get content out
+
     speakers = []
     texts = []
     sequences = []
@@ -64,7 +65,22 @@ def process_content(soup):
                     text.strip().replace("\xa0", " ").replace(":", " ").strip()
                 )
                 sequences.append(sequence)
-        except:
-            print(f"Error at: {index}")
+        except Exception as e:
+            print(f"Error at: {index} - {e}")
 
-    return speakers, texts, sequences
+    # 2. combine texts by speaker
+
+    revised_speakers = []
+    revised_texts = []
+
+    last_speaker = None
+
+    for index in range(len(speakers)):
+        if last_speaker == speakers[index]:
+            revised_texts[-1] += " " + texts[index]
+        else:
+            revised_speakers.append(speakers[index])
+            revised_texts.append(texts[index])
+            last_speaker = speakers[index]
+
+    return revised_speakers, revised_texts
