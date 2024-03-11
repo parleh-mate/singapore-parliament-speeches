@@ -46,6 +46,17 @@ def topic_dataframe(content, topic_cid, index):
     return temp_df
 
 
+def count_words_and_characters(row):
+    text = row["Text"]
+    words = text.split()
+    num_words = len(words)
+    num_characters = len(
+        re.findall(r"[a-zA-Z]", text)
+    )  # count only alphabetic characters
+
+    return pd.Series({"num_words": num_words, "num_characters": num_characters})
+
+
 def process_content(soup):
     # 1. get content out
 
