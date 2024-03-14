@@ -5,7 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
-ORDER_PAPERS_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/order-paper?parliament=&displayType=All&fromDate=&toDate=&page=1&pageSize=10000"
+ORDER_PAPERS_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/order-paper?parliament=&displayType=All&fromDate=&toDate=&page=1&pageSize=10"
+PARLIAMENT_BASE_URL = "https://www.parliament.gov.sg"
 
 
 class OrderPaperParsingError(Exception):
@@ -90,21 +91,34 @@ def get_order_paper_data(order_paper_html: Tag) -> OrderPaperData:
     )
 
 
-def test():
-    with open("scripts/extract/order_papers.html", "r") as f:
-        order_papers_html = f.read()
+def download_order_paper(order_paper_url_path: str, save_path: str):
+    try:
+        response = requests.get(f"{PARLIAMENT_BASE_URL}{order_paper_url_path}")
+        with open(save_path, "wb") as f:
+            f.write(response.content)
+    except Exception:
+        raise OrderPaperAPIRequestError
 
-    order_papers_html = get_order_papers_html_elements(order_papers_html)
-    order_papers_pdf_data = [
-        get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
-    ]
+
+# def test():
+#     with open("scripts/extract/order_papers.html", "r") as f:
+#         order_papers_html = f.read()
+
+#     order_papers_html = get_order_papers_html_elements(order_papers_html)
+#     order_papers_pdf_data = [
+#         get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
+#     ]
+
 
 order_papers_full_html = get_order_papers_full_html()
 order_papers_html = get_order_papers_html_elements(order_papers_full_html)
-order_papers_pdf_data = [
+order_papers_data = [
     get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
 ]
-print(order_papers_pdf_data)
+for order_paper_data in order_papers_data:
+    download_order_paper(
+        order_paper_data.pdf_link, f"test/{order_paper_data.pdf_title}"
+    )
 
 
 # test()
