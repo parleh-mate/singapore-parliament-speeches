@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
-ORDER_PAPERS_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/order-paper?parliament=&displayType=All&fromDate=&toDate=&page=1&pageSize=10"
+ORDER_PAPERS_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/order-paper?parliament=&displayType=All&fromDate=&toDate=&page=1&pageSize=10000"
 PARLIAMENT_BASE_URL = "https://www.parliament.gov.sg"
 
 
@@ -100,25 +100,13 @@ def download_order_paper(order_paper_url_path: str, save_path: str):
         raise OrderPaperAPIRequestError
 
 
-# def test():
-#     with open("scripts/extract/order_papers.html", "r") as f:
-#         order_papers_html = f.read()
-
-#     order_papers_html = get_order_papers_html_elements(order_papers_html)
-#     order_papers_pdf_data = [
-#         get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
-#     ]
-
-
-order_papers_full_html = get_order_papers_full_html()
-order_papers_html = get_order_papers_html_elements(order_papers_full_html)
-order_papers_data = [
-    get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
-]
-for order_paper_data in order_papers_data:
-    download_order_paper(
-        order_paper_data.pdf_link, f"test/{order_paper_data.pdf_title}"
-    )
-
-
-# test()
+def download_all_order_papers() -> None:
+    order_papers_full_html = get_order_papers_full_html()
+    order_papers_html = get_order_papers_html_elements(order_papers_full_html)
+    order_papers_data = [
+        get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
+    ]
+    for order_paper_data in order_papers_data:
+        download_order_paper(
+            order_paper_data.pdf_link, f"test/{order_paper_data.pdf_title}.pdf"
+        )
