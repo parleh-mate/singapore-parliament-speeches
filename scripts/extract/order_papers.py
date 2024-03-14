@@ -1,93 +1,75 @@
-import csv
 from dataclasses import dataclass
-from datetime import datetime
-from enum import Enum, auto
-from time import strftime
-from typing import List, Optional
 
-import requests
+from bs4 import BeautifulSoup, ResultSet
+from bs4.element import Tag
 
-ORDER_PAPER_BASEURL = (
-    "https://www.parliament.gov.sg/docs/default-source/default-document-library/"
-)
-HANSARD_ANALYSIS_START_DATE = datetime(2012, 9, 10)
+
+class OrderPaperParsingError(Exception):
+    pass
 
 
 @dataclass
-class DatesCsv:
-    sitting_date: str
-    version: str
-    date_added: str
+class OrderPaperData:
+    pdf_link: str
+    title: str
+    description: str
 
 
-def get_dates_csv() -> List[DatesCsv]:
-    dates_csv: list[DatesCsv] = []
-    with open("scripts/seeds/dates.csv") as file:
-        line_count = 0
-        csv_reader = csv.reader(file)
-        for row in csv_reader:
-            if line_count == 0:
-                line_count += 1
-                continue
-            sitting_date, version, date_added = row
-            dates_csv.append(
-                DatesCsv(
-                    sitting_date=sitting_date, version=version, date_added=date_added
-                )
-            )
+def get_order_papers_html(html: str):
+    with open("scripts/extract/order_papers.html", "r") as f:
+        order_papers_page = f.read()
+    print(type(order_papers_page))
 
-    return dates_csv
-
-
-def get_parliament_sitting_dates(dates_csv: List[DatesCsv]) -> List[datetime]:
-    return [datetime.strptime(i.sitting_date, "%Y-%m-%d") for i in dates_csv]
-
-
-def get_filtered_dates(dates: List[datetime], start_date: datetime) -> List[datetime]:
-    return [date for date in dates if date > start_date]
-
-
-def get_order_paper_formatted_date(date: datetime) -> str:
-    return date.strftime("%-d-%b-%Y").lower()
-
-
-def get_order_paper_file_path(
-    order_paper_date: datetime, sitting_number: Optional[str] = None
-) -> str:
-    if sitting_number == "7 march 2024":
-        return f"orderpaper---{order_paper_date}.pdf"
-    if sitting_number == "12 march 2014":
-        return f"no-{sitting_number}_{order_paper_date}.pdf"
-
-
-# dates_csv = get_dates_csv()
-# sitting_dates = get_parliament_sitting_dates(dates_csv)
-# filtered_parliament_sitting_dates = get_filtered_dates(
-#     sitting_dates, HANSARD_ANALYSIS_START_DATE
-# )
-# print([get_order_paper_formatted_date(i) for i in filtered_parliament_sitting_dates])
-
-
-def is_downloadable(url: str) -> bool:
-    """
-    Does the url contain a downloadable resource
-    """
-    h = requests.head(url, allow_redirects=True)
-    header = h.headers
-    content_type = header.get("content-type")
-
-    if not content_type:
-        return False
-    if "text" in content_type.lower():
-        return False
-    if "html" in content_type.lower():
-        return False
-    return True
-
-
-def download_pdf(url: str, saved_path: str) -> None:
-    response = requests.get(
-        "https://www.parliament.gov.sg/docs/default-source/default-document-library/sup-no-7_7-mar-2013.pdf"
+    soup = BeautifulSoup(order_papers_page, "html.parser")
+    vote_proceedings_html = soup.find("div", class_="votes-proceedings-wrap")
+    order_papers_html = vote_proceedings_html.find_all(
+        "div", class_="col-md-6 col-xs-12"
     )
-    with open("./test.pdf", "wb") as f:
-        f.write(response.content)
+    return order_papers_html
+
+
+def get_order_paper_pdf_link(order_paper_html: Tag) -> str:
+    pdf_link_tag = order_paper_html.find("a")
+    if pdf_link_tag is None:
+        raise OrderPaperParsingError
+
+    pdf_link = pdf_link_tag.get("href")
+
+    if pdf_link_tag is None:
+        raise OrderPaperParsingError
+    return pdf_link
+
+
+def get_order_paper_title(order_paper_html: Tag) -> str:
+    title_tag = order_paper_html.find("a")
+    if title_tag is None:
+        raise OrderPaperParsingError
+
+    title = title_tag.get("title")
+
+    if title_tag is None:
+        raise OrderPaperParsingError
+    return title
+
+
+def get_order_paper_description(order_paper_html: Tag) -> str:
+    span_tag = order_paper_html.find("span")
+    if span_tag is None:
+        return ""
+
+    description = span_tag.text.strip()
+    return " ".join(description.split())
+
+
+def get_order_paper_data(order_paper_html: Tag) -> OrderPaperData:
+    pdf_link = get_order_paper_pdf_link(order_paper_html)
+    title = get_order_paper_title(order_paper_html)
+    description = get_order_paper_description(order_paper_html)
+
+    return OrderPaperData(pdf_link=pdf_link, title=title, description=description)
+
+with open("scripts/extract/order_papers.html", "r") as f:
+    order_papers_page = f.read()
+
+order_papers_html = get_order_papers_html(order_papers_page)
+order_papers_data = [get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html]
