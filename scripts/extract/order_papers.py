@@ -1,31 +1,42 @@
 from dataclasses import dataclass
+from typing import List
 
-from bs4 import BeautifulSoup, ResultSet
+import requests
+from bs4 import BeautifulSoup
 from bs4.element import Tag
+
+ORDER_PAPERS_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/order-paper?parliament=&displayType=All&fromDate=&toDate=&page=1&pageSize=10000"
 
 
 class OrderPaperParsingError(Exception):
     pass
 
 
+class OrderPaperAPIRequestError(Exception):
+    pass
+
+
 @dataclass
 class OrderPaperData:
     pdf_link: str
-    title: str
-    description: str
+    pdf_title: str
+    pdf_description: str
+    sitting_description: str
+    parliament_description: str
 
 
-def get_order_papers_html(html: str):
-    with open("scripts/extract/order_papers.html", "r") as f:
-        order_papers_page = f.read()
-    print(type(order_papers_page))
+def get_order_papers_full_html(order_papers_url: str = ORDER_PAPERS_DEFAULT_URL) -> str:
+    try:
+        response = requests.get(order_papers_url)
+        return response.text
+    except Exception:
+        raise OrderPaperAPIRequestError
 
-    soup = BeautifulSoup(order_papers_page, "html.parser")
-    vote_proceedings_html = soup.find("div", class_="votes-proceedings-wrap")
-    order_papers_html = vote_proceedings_html.find_all(
-        "div", class_="col-md-6 col-xs-12"
-    )
-    return order_papers_html
+
+def get_order_papers_html_elements(order_papers_full_html: str) -> List:
+    soup = BeautifulSoup(order_papers_full_html, "html.parser")
+    order_papers_html_elements = soup.find_all("div", class_="indv-votes")
+    return order_papers_html_elements
 
 
 def get_order_paper_pdf_link(order_paper_html: Tag) -> str:
@@ -62,14 +73,38 @@ def get_order_paper_description(order_paper_html: Tag) -> str:
 
 
 def get_order_paper_data(order_paper_html: Tag) -> OrderPaperData:
+    _, _, sitting_description_html, parliament_description_html = (
+        order_paper_html.find_all("div")
+    )
+
     pdf_link = get_order_paper_pdf_link(order_paper_html)
-    title = get_order_paper_title(order_paper_html)
-    description = get_order_paper_description(order_paper_html)
+    pdf_title = get_order_paper_title(order_paper_html)
+    pdf_description = get_order_paper_description(order_paper_html)
 
-    return OrderPaperData(pdf_link=pdf_link, title=title, description=description)
+    return OrderPaperData(
+        pdf_link=pdf_link,
+        pdf_title=pdf_title,
+        pdf_description=pdf_description,
+        sitting_description=sitting_description_html.text.strip(),
+        parliament_description=parliament_description_html.text.strip(),
+    )
 
-with open("scripts/extract/order_papers.html", "r") as f:
-    order_papers_page = f.read()
 
-order_papers_html = get_order_papers_html(order_papers_page)
-order_papers_data = [get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html]
+def test():
+    with open("scripts/extract/order_papers.html", "r") as f:
+        order_papers_html = f.read()
+
+    order_papers_html = get_order_papers_html_elements(order_papers_html)
+    order_papers_pdf_data = [
+        get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
+    ]
+
+order_papers_full_html = get_order_papers_full_html()
+order_papers_html = get_order_papers_html_elements(order_papers_full_html)
+order_papers_pdf_data = [
+    get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
+]
+print(order_papers_pdf_data)
+
+
+# test()
