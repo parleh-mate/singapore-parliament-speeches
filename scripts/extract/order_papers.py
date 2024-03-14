@@ -35,9 +35,42 @@ def get_dates_csv() -> List[DatesCsv]:
     return dates_csv
 
 
-def get_sitting_dates(dates_csv: List[DatesCsv]) -> List[datetime]:
-    return [datetime.strptime(i.sitting_date, "%Y-%m,%d") for i in dates_csv]
+def get_parliament_sitting_dates(dates_csv: List[DatesCsv]) -> List[datetime]:
+    return [datetime.strptime(i.sitting_date, "%Y-%m-%d") for i in dates_csv]
 
 
-def filter_dates(dates: List[datetime], start_date: datetime) -> List[datetime]:
+def get_filtered_dates(dates: List[datetime], start_date: datetime) -> List[datetime]:
     return [date for date in dates if date > start_date]
+
+
+# dates_csv = get_dates_csv()
+# sitting_dates = get_parliament_sitting_dates(dates_csv)
+# filtered_parliament_sitting_dates = get_filtered_dates(
+#     sitting_dates, HANSARD_ANALYSIS_START_DATE
+# )
+# print(filtered_parliament_sitting_dates)
+
+
+def is_downloadable(url: str) -> bool:
+    """
+    Does the url contain a downloadable resource
+    """
+    h = requests.head(url, allow_redirects=True)
+    header = h.headers
+    content_type = header.get("content-type")
+
+    if not content_type:
+        return False
+    if "text" in content_type.lower():
+        return False
+    if "html" in content_type.lower():
+        return False
+    return True
+
+
+def download_pdf(url: str, saved_path: str) -> None:
+    response = requests.get(
+        "https://www.parliament.gov.sg/docs/default-source/default-document-library/sup-no-7_7-mar-2013.pdf"
+    )
+    with open("./test.pdf", "wb") as f:
+        f.write(response.content)
