@@ -26,11 +26,11 @@ def save_df(type, date_yyyymmdd, df):
 def save_incremental_model_gbq(dataset, model, new_df):
     pandas_gbq.to_gbq(
         new_df,
-        destination_table=f"{dataset}.{model}",
+        destination_table=f"{dataset}.test_{model}",
         project_id=seeds.project_id,
         if_exists="append",
     )
 
-    print(f"Dataframe saved to: {dataset}.{model} with {len(new_df)} rows added.\n")
+    print(f"Dataframe saved to: {dataset}.test_{model} with {len(new_df)} rows added.\n")
 
     return 0

@@ -8,6 +8,11 @@ import load.sittings as load_sittings
 import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
+import os
+import sys
+
+# set environ for token
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
 
 # 1.
 # Check for new dates
@@ -132,7 +137,7 @@ root_path = get_root_path()
 
 seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 
-while True:
+""" while True:
     try:
         choice = int(
             input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
@@ -164,4 +169,15 @@ while True:
             continue
 
     except ValueError:
-        print("Invalid input. Please enter a number.")
+        print("Invalid input. Please enter a number.") """
+
+try:
+    process_dates = dates_to_process(seed_dates_path)
+    get_json(process_dates)
+    sittings(process_dates, debug=False)
+    attendance(process_dates, debug=False)
+    topics(process_dates, debug=False)
+    speeches(process_dates, debug=False)
+except Exception as e:
+    print(f"An error occurred: {e}")
+    sys.exit("Stopping the script due to an error.")
