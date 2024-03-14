@@ -1,12 +1,15 @@
 import csv
 from dataclasses import dataclass
 from datetime import datetime
+from enum import Enum, auto
 from time import strftime
-from typing import List
+from typing import List, Optional
 
 import requests
 
-ORDER_PAPER_BASEURL = "https://www.parliament.gov.sg/docs/default-source/default-document-library/orderpaper"
+ORDER_PAPER_BASEURL = (
+    "https://www.parliament.gov.sg/docs/default-source/default-document-library/"
+)
 HANSARD_ANALYSIS_START_DATE = datetime(2012, 9, 10)
 
 
@@ -46,6 +49,15 @@ def get_filtered_dates(dates: List[datetime], start_date: datetime) -> List[date
 
 def get_order_paper_formatted_date(date: datetime) -> str:
     return date.strftime("%-d-%b-%Y").lower()
+
+
+def get_order_paper_file_path(
+    order_paper_date: datetime, sitting_number: Optional[str] = None
+) -> str:
+    if sitting_number == "7 march 2024":
+        return f"orderpaper---{order_paper_date}.pdf"
+    if sitting_number == "12 march 2014":
+        return f"no-{sitting_number}_{order_paper_date}.pdf"
 
 
 # dates_csv = get_dates_csv()
