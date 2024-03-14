@@ -1,6 +1,7 @@
 import csv
 from dataclasses import dataclass
 from datetime import datetime
+from time import strftime
 from typing import List
 
 import requests
@@ -43,12 +44,16 @@ def get_filtered_dates(dates: List[datetime], start_date: datetime) -> List[date
     return [date for date in dates if date > start_date]
 
 
+def get_order_paper_formatted_date(date: datetime) -> str:
+    return date.strftime("%-d-%b-%Y").lower()
+
+
 # dates_csv = get_dates_csv()
 # sitting_dates = get_parliament_sitting_dates(dates_csv)
 # filtered_parliament_sitting_dates = get_filtered_dates(
 #     sitting_dates, HANSARD_ANALYSIS_START_DATE
 # )
-# print(filtered_parliament_sitting_dates)
+# print([get_order_paper_formatted_date(i) for i in filtered_parliament_sitting_dates])
 
 
 def is_downloadable(url: str) -> bool:
