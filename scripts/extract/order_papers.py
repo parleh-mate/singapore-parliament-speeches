@@ -128,7 +128,7 @@ def download_all_order_papers() -> None:
         order_paper_pdf_file_name = get_order_paper_pdf_file_name(order_paper_data)
         download_order_paper(
             order_paper_data.pdf_link,
-            f"scripts/resource-order-papers/{order_paper_pdf_file_name}.pdf",
+            f"scripts/resource-orderpaper-pdf/{order_paper_pdf_file_name}.pdf",
         )
         download_counter += 1
         print(f"{download_counter}/{len(order_papers_data)}")
