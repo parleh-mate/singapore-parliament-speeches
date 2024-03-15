@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from datetime import datetime
 from typing import List
 
 import requests
@@ -24,6 +25,7 @@ class OrderPaperData:
     pdf_description: str
     sitting_description: str
     parliament_description: str
+    is_order_paper_supplement: bool
 
 
 def get_order_papers_full_html(order_papers_url: str = ORDER_PAPERS_DEFAULT_URL) -> str:
@@ -73,6 +75,10 @@ def get_order_paper_description(order_paper_html: Tag) -> str:
     return " ".join(description.split())
 
 
+def get_is_order_paper_supplement(pdf_title) -> bool:
+    return "Sup." in pdf_title
+
+
 def get_order_paper_data(order_paper_html: Tag) -> OrderPaperData:
     _, _, sitting_description_html, parliament_description_html = (
         order_paper_html.find_all("div")
@@ -88,6 +94,7 @@ def get_order_paper_data(order_paper_html: Tag) -> OrderPaperData:
         pdf_description=pdf_description,
         sitting_description=sitting_description_html.text.strip(),
         parliament_description=parliament_description_html.text.strip(),
+        is_order_paper_supplement=get_is_order_paper_supplement(pdf_title),
     )
 
 
@@ -100,17 +107,31 @@ def download_order_paper(order_paper_url_path: str, save_path: str):
         raise OrderPaperAPIRequestError
 
 
+def get_order_paper_pdf_file_name(order_paper_data: OrderPaperData) -> str:
+    _, _, day, month, year = order_paper_data.sitting_description.split()
+    sitting_date_string = " ".join([day, month, year])
+    parsed_sitting_date = datetime.strptime(sitting_date_string, "%d %B %Y")
+    pdf_file_name_prepend = parsed_sitting_date.strftime("%Y-%m-%d")
+
+    return f'{pdf_file_name_prepend}{"-OPS" if order_paper_data.is_order_paper_supplement else ""}'
+
+
 def download_all_order_papers() -> None:
     order_papers_full_html = get_order_papers_full_html()
     order_papers_html = get_order_papers_html_elements(order_papers_full_html)
     order_papers_data = [
         get_order_paper_data(order_paper_html) for order_paper_html in order_papers_html
     ]
+
+    download_counter = 0
     for order_paper_data in order_papers_data:
+        order_paper_pdf_file_name = get_order_paper_pdf_file_name(order_paper_data)
         download_order_paper(
             order_paper_data.pdf_link,
-            f"scripts/resource-order-papers/{order_paper_data.pdf_title}.pdf",
+            f"scripts/resource-order-papers/{order_paper_pdf_file_name}.pdf",
         )
+        download_counter += 1
+        print(f"{download_counter}/{len(order_papers_data)}")
 
 
 download_all_order_papers()
