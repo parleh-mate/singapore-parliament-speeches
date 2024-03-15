@@ -47,7 +47,7 @@ def get_order_paper_pdf_link(order_paper_html: Tag) -> str:
 
     pdf_link = pdf_link_tag.get("href")
 
-    if pdf_link_tag is None:
+    if pdf_link is None:
         raise OrderPaperParsingError
     return pdf_link
 
@@ -59,7 +59,7 @@ def get_order_paper_title(order_paper_html: Tag) -> str:
 
     title = title_tag.get("title")
 
-    if title_tag is None:
+    if title is None:
         raise OrderPaperParsingError
     return title
 
@@ -108,5 +108,9 @@ def download_all_order_papers() -> None:
     ]
     for order_paper_data in order_papers_data:
         download_order_paper(
-            order_paper_data.pdf_link, f"test/{order_paper_data.pdf_title}.pdf"
+            order_paper_data.pdf_link,
+            f"scripts/resource-order-papers/{order_paper_data.pdf_title}.pdf",
         )
+
+
+download_all_order_papers()
