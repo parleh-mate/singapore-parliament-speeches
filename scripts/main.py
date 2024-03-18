@@ -180,4 +180,3 @@ try:
     speeches(process_dates, debug=False)
 except Exception as e:
     print(f"An error occurred: {e}")
-    sys.exit("Stopping the script due to an error.")
