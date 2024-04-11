@@ -3,6 +3,7 @@ import datetime
 from googleapiclient.http import MediaFileUpload
 import tempfile
 import json
+import googleapiclient
 
 ### Methods ###
 
@@ -39,25 +40,33 @@ def get_json(url):
     return response
 
 
-def upload_json(response_json, file, folder_id):
+def upload_json(response_json, file):
 
     # Upload the file
-        file_metadata = {
-            'name': file,
-            'parents': [folder_id]
-        }
 
-        # Create a temporary file; gdrive has to upload from path and not saved object
-        with tempfile.NamedTemporaryFile(delete=False, mode='w+', suffix='.json') as temp_file:
-             json.dump(response_json, temp_file)
-             temp_file_path = temp_file.name 
+    # link to folder: https://drive.google.com/drive/folders/1a5YFPZ0AcVraSBaMnoeGeKmGXom-6j7D?usp=drive_link
 
-        media = MediaFileUpload(temp_file_path, mimetype='application/json')
+    # create google api service
+    service = googleapiclient.discovery.build("drive", "v3")
 
-        # automatically overwrites if exists
+    folder_id = parl_json.find_folder_id(service, "resource_json")
 
-        uploaded_file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-        
-        print(f"Uploaded {filename} with ID: {uploaded_file.get('id')}")
-        
-        return 0
+    file_metadata = {
+        'name': file,
+        'parents': [folder_id]
+    }
+
+    # Create a temporary file; gdrive has to upload from path and not saved object
+    with tempfile.NamedTemporaryFile(delete=False, mode='w+', suffix='.json') as temp_file:
+            json.dump(response_json, temp_file)
+            temp_file_path = temp_file.name 
+
+    media = MediaFileUpload(temp_file_path, mimetype='application/json')
+
+    # automatically overwrites if exists
+
+    uploaded_file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+    
+    print(f"Uploaded {filename} with ID: {uploaded_file.get('id')}")
+    
+    return 0
