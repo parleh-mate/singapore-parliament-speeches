@@ -8,7 +8,7 @@ import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
 import os
-from googleapiclient.discovery import build
+import googleapiclient
 
 # set environ for project and token
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
