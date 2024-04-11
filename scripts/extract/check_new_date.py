@@ -78,4 +78,4 @@ def process():
         if_exists="replace",
     )
 
-    return append_df['Sitting_Date']
+    return append_df['Sitting_Date'].tolist()
