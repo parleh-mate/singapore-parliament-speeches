@@ -56,7 +56,7 @@ def process():
     # read from gbq instead of from filepath
 
     df = pandas_gbq.read_gbq(query_or_table = """
-                                    SELECT *
+                                    SELECT Sitting_Date
                                     FROM `singapore-parliament-speeches.raw.dates`
                                     """)
 
