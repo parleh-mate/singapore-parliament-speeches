@@ -12,6 +12,8 @@ def find_folder_id(service, folder_name):
     files = response.get('files', [])
     if files:
         return files[0]['id']  # Assuming the first match is the correct one
+    else:
+        print(f"Could not find {folder_name}")
     return None
 
 
