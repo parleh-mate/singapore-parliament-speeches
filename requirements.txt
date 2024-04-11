@@ -5,3 +5,4 @@ pandas-gbq==0.20.0
 requests==2.31.0
 selenium==4.14.0
 webdriver_manager==3.8.5
+google-api-python-client==2.125.0

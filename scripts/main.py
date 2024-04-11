@@ -1,4 +1,3 @@
-from utils import get_root_path, join_path
 import extract
 import extract.check_new_date as check_new_date
 import extract.parl_json as parl_json
@@ -9,21 +8,21 @@ import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
 import os
-import sys
+from googleapiclient.discovery import build
 
-# set environ for token
+# set environ for project and token
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
+os.environ["GOOGLE_CLOUD_PROJECT"] = "singapore-parliament-speeches"
 
 # 1.
 # Check for new dates
 
 
-def check_new_dates(seed_dates_path):
-    check_new_date.process(seed_dates_path)
+def check_new_dates():
+    new_dates = check_new_date.process()
+    return new_dates
 
-    return 0
-
-
+"""
 # 2.
 # Get dates to be processed
 
@@ -36,22 +35,25 @@ def dates_to_process(seed_dates_path):
 
     return date_list
 
+"""
+
 
 # 3.
 # Get JSON files for dates
 
+#upload files to gdrive
+
+service = build("drive", "v3")
+
+drive_folder_id = parl_json.find_folder_id(service, "resource_json")
 
 def get_json(date_list):
     for date in date_list:
         url = parl_json.parliament_url(parl_json.date_yyyymmdd_to_ddmmyyyy(date))
 
         response = parl_json.get_json(url)
-
-        filepath = join_path(
-            join_path(get_root_path(), "resource-json"), f"{date}.json"
-        )
-
-        parl_json.save_json(response.json(), filepath)
+        filename = f"{date}.json"
+        parl_json.upload_json(response.json(), filename, drive_folder_id)
 
     return 0
 
@@ -133,9 +135,7 @@ def speeches(date_list, debug=True):
 
 # Main Run
 
-root_path = get_root_path()
-
-seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
+#seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 
 """ while True:
     try:
@@ -172,7 +172,7 @@ seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
         print("Invalid input. Please enter a number.") """
 
 try:
-    process_dates = dates_to_process(seed_dates_path)
+    process_dates = check_new_dates()
     get_json(process_dates)
     sittings(process_dates, debug=False)
     attendance(process_dates, debug=False)

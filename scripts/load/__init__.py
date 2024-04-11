@@ -1,6 +1,5 @@
 import pandas as pd
 import pandas_gbq
-import seeds
 from utils import get_root_path, join_path
 import os
 
@@ -27,7 +26,6 @@ def save_incremental_model_gbq(dataset, model, new_df):
     pandas_gbq.to_gbq(
         new_df,
         destination_table=f"{dataset}.{model}",
-        project_id=seeds.project_id,
         if_exists="append",
     )
 
