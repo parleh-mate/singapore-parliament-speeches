@@ -43,7 +43,7 @@ def dates_to_process(seed_dates_path):
 
 #upload files to gdrive
 
-service = build("drive", "v3")
+service = googleapiclient.discovery.build("drive", "v3")
 
 drive_folder_id = parl_json.find_folder_id(service, "resource_json")
 
