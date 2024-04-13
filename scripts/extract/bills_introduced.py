@@ -1,13 +1,11 @@
 from dataclasses import dataclass
-from datetime import date, datetime
 from typing import List, Optional
 
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
-# BILLS_INTRODUCED_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/bills-introduced?keyword=&title=&year=&page=1&pageSize=10000"
-BILLS_INTRODUCED_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/bills-introduced?keyword=&title=&year=&page=1&pageSize=10"
+BILLS_INTRODUCED_DEFAULT_URL = "https://www.parliament.gov.sg/parliamentary-business/bills-introduced?keyword=&title=&year=&page=1&pageSize=10000"
 PARLIAMENT_BASE_URL = "https://www.parliament.gov.sg"
 
 
@@ -30,23 +28,23 @@ class BillsIntroducedData:
 
 
 def _get_bills_introduced_full_html(
-    order_papers_url: str = BILLS_INTRODUCED_DEFAULT_URL,
+    bills_introduced_url: str = BILLS_INTRODUCED_DEFAULT_URL,
 ) -> str:
     try:
-        response = requests.get(order_papers_url)
+        response = requests.get(bills_introduced_url)
         return response.text
     except Exception:
         raise BillsIntroducedAPIRequestError
 
 
-def _get_bills_introduced_html_elements(order_papers_full_html: str) -> List:
-    soup = BeautifulSoup(order_papers_full_html, "html.parser")
-    order_papers_html_elements = soup.find_all("div", class_="indv-bill")
-    return order_papers_html_elements
+def _get_bills_introduced_html_elements(bills_introduced_full_html: str) -> List:
+    soup = BeautifulSoup(bills_introduced_full_html, "html.parser")
+    bills_introduced_html_elements = soup.find_all("div", class_="indv-bill")
+    return bills_introduced_html_elements
 
 
-def _get_bills_introduced_pdf_link(order_paper_html: Tag) -> str:
-    pdf_link_tag = order_paper_html.find("a")
+def _get_bills_introduced_pdf_link(pdf_link_html: Tag) -> str:
+    pdf_link_tag = pdf_link_html.find("a")
     if pdf_link_tag is None:
         raise BillsIntroducedParsingError
 
@@ -55,15 +53,6 @@ def _get_bills_introduced_pdf_link(order_paper_html: Tag) -> str:
     if pdf_link is None:
         raise BillsIntroducedParsingError
     return pdf_link
-
-
-def _get_bills_introduced_title(order_paper_html: Tag) -> str:
-    span_tag = order_paper_html.find("span")
-    if span_tag is None:
-        return ""
-
-    description = span_tag.text.strip()
-    return " ".join(description.split())
 
 
 def _get_bill_no(bill_no_html: Tag) -> str:
@@ -94,22 +83,40 @@ def _get_date_passed(date_passed_html: Tag) -> Optional[str]:
         return None
 
 
-def _has_corrigenda(order_paper_html: Tag) -> bool:
-    return len(order_paper_html.find_all("div")) == 8
+def _get_bills_introduced_title(bills_introduced_html: Tag) -> str:
+    span_tag = bills_introduced_html.find("span")
+    if span_tag is None:
+        return ""
+
+    description = span_tag.text.strip()
+    return " ".join(description.split())
 
 
-def _get_bills_introduced_data(order_paper_html: Tag) -> BillsIntroducedData:
-    pdf_link = _get_bills_introduced_pdf_link(order_paper_html)
-    title = _get_bills_introduced_title(order_paper_html)
+def _has_corrigenda(bills_introduced_html: Tag) -> bool:
+    return len(bills_introduced_html.find_all("div")) == 8
+
+
+def _get_bills_introduced_data(bills_introduced_html: Tag) -> BillsIntroducedData:
+    html = (
+        [
+            *bills_introduced_html.find_all("div")[:3],
+            *bills_introduced_html.find_all("div")[4:],
+        ]
+        if _has_corrigenda(bills_introduced_html)
+        else bills_introduced_html.find_all("div")
+    )
     (
-        _,
-        _,
+        pdf_link_html,
+        title_html,
         bill_no_html,
         _,
         date_introduced_html,
         date_of_2nd_reading_html,
         date_passed_html,
-    ) = order_paper_html.find_all("div")
+    ) = html
+
+    pdf_link = _get_bills_introduced_pdf_link(pdf_link_html)
+    title = _get_bills_introduced_title(title_html)
     bill_no = _get_bill_no(bill_no_html)
     date_introduced = _get_date_introduced(date_introduced_html)
     date_of_2nd_reading = _get_date_of_2nd_reading(date_of_2nd_reading_html)
