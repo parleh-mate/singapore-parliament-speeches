@@ -155,7 +155,7 @@ def download_all_bills_introduced_data() -> None:
     for bills_introduced_data in all_bills_introduced_data:
         download_bills_introduced(
             bills_introduced_data.pdf_link,
-            f"scripts/extract/resource-bills-introduced/{bills_introduced_data.title}.pdf",
+            f"scripts/resource-bills-introduced/{bills_introduced_data.title}.pdf",
         )
         download_counter += 1
         print(f"{download_counter}/{len(all_bills_introduced_data)}")
