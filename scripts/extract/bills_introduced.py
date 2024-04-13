@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from datetime import datetime
-from typing import List
+from datetime import date, datetime
+from typing import List, Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -22,14 +22,14 @@ class BillsIntroducedAPIRequestError(Exception):
 @dataclass
 class BillsIntroducedData:
     pdf_link: str
-    pdf_title: str
+    title: str
     bill_no: str
     date_introduced: str
-    date_of_2nd_reading: str
-    date_passed: str
+    date_of_2nd_reading: Optional[str]
+    date_passed: Optional[str]
 
 
-def get_bills_introduced_full_html(
+def _get_bills_introduced_full_html(
     order_papers_url: str = BILLS_INTRODUCED_DEFAULT_URL,
 ) -> str:
     try:
@@ -39,13 +39,13 @@ def get_bills_introduced_full_html(
         raise BillsIntroducedAPIRequestError
 
 
-def get_bills_introduced_html_elements(order_papers_full_html: str) -> List:
+def _get_bills_introduced_html_elements(order_papers_full_html: str) -> List:
     soup = BeautifulSoup(order_papers_full_html, "html.parser")
     order_papers_html_elements = soup.find_all("div", class_="indv-bill")
     return order_papers_html_elements
 
 
-def get_bills_introduced_pdf_link(order_paper_html: Tag) -> str:
+def _get_bills_introduced_pdf_link(order_paper_html: Tag) -> str:
     pdf_link_tag = order_paper_html.find("a")
     if pdf_link_tag is None:
         raise BillsIntroducedParsingError
@@ -57,7 +57,7 @@ def get_bills_introduced_pdf_link(order_paper_html: Tag) -> str:
     return pdf_link
 
 
-def get_bills_introduced_title(order_paper_html: Tag) -> str:
+def _get_bills_introduced_title(order_paper_html: Tag) -> str:
     span_tag = order_paper_html.find("span")
     if span_tag is None:
         return ""
@@ -66,66 +66,92 @@ def get_bills_introduced_title(order_paper_html: Tag) -> str:
     return " ".join(description.split())
 
 
-# def get_bills_introduced_data(order_paper_html: Tag) -> BillsIntroducedData:
-#     _, _, sitting_description_html, parliament_description_html = (
-#         order_paper_html.find_all("div")
-#     )
-
-#     pdf_link = get_bills_introduced_pdf_link(order_paper_html)
-#     pdf_title = get_bills_introduced_title(order_paper_html)
-
-#     return BillsIntroducedData(
-#         pdf_link=pdf_link,
-#         pdf_title=pdf_title,
-#     bill_no=
-#     date_introduced=
-#     date_of_2nd_reading=
-#     date_passed=
-#     )
+def _get_bill_no(bill_no_html: Tag) -> str:
+    _, bill_no = bill_no_html.text.strip().split(": ")
+    return bill_no
 
 
-# def download_bills_introduced(bills_introduced_url_path: str, save_path: str):
-#     try:
-#         response = requests.get(f"{bills_introduced_url_path}")
-#         with open(save_path, "wb") as f:
-#             f.write(response.content)
-#     except Exception:
-#         raise BillsIntroducedAPIRequestError
+def _get_date_introduced(date_introduced_html: Tag) -> str:
+    _, raw_date_introduced = date_introduced_html.text.strip().split(": ")
+    date_introduced = raw_date_introduced.strip()
+    return date_introduced
 
 
-# def get_order_paper_pdf_file_name(order_paper_data: BillsIntroducedData) -> str:
-#     _, _, day, month, year = order_paper_data.sitting_description.split()
-#     sitting_date_string = " ".join([day, month, year])
-#     parsed_sitting_date = datetime.strptime(sitting_date_string, "%d %B %Y")
-#     pdf_file_name_prepend = parsed_sitting_date.strftime("%Y-%m-%d")
-
-#     return f'{pdf_file_name_prepend}{"-OPS" if order_paper_data.is_order_paper_supplement else ""}'
-
-
-# def download_all_order_papers() -> None:
-#     order_papers_full_html = get_bills_introduced_full_html()
-#     order_papers_html = get_bills_introduced_html_elements(order_papers_full_html)
-#     order_papers_data = [
-#         get_bills_introduced_data(order_paper_html) for order_paper_html in order_papers_html
-#     ]
-
-#     download_counter = 0
-#     for order_paper_data in order_papers_data:
-#         order_paper_pdf_file_name = get_order_paper_pdf_file_name(order_paper_data)
-#         download_bills_introduced(
-#             order_paper_data.pdf_link,
-#             f"scripts/resource-orderpaper-pdf/{order_paper_pdf_file_name}.pdf",
-#         )
-#         download_counter += 1
-#         print(f"{download_counter}/{len(order_papers_data)}")
+def _get_date_of_2nd_reading(date_of_2nd_reading_html: Tag) -> Optional[str]:
+    try:
+        _, date_of_2nd_reading_raw = date_of_2nd_reading_html.text.strip().split(": ")
+        date_of_2nd_reading = date_of_2nd_reading_raw.strip()
+        return date_of_2nd_reading
+    except ValueError:
+        return None
 
 
-# download_all_order_papers()
+def _get_date_passed(date_passed_html: Tag) -> Optional[str]:
+    try:
+        _, date_passed_raw = date_passed_html.text.strip().split(": ")
+        return date_passed_raw.strip()
+    except ValueError:
+        return None
 
-full_html = get_bills_introduced_full_html()
-html_elements = get_bills_introduced_html_elements(full_html)
-for i in html_elements:
-    pdf_link = get_bills_introduced_pdf_link(i)
-    title = get_bills_introduced_title(i)
-    print(pdf_link)
-    print(title)
+
+def _has_corrigenda(order_paper_html: Tag) -> bool:
+    return len(order_paper_html.find_all("div")) == 8
+
+
+def _get_bills_introduced_data(order_paper_html: Tag) -> BillsIntroducedData:
+    pdf_link = _get_bills_introduced_pdf_link(order_paper_html)
+    title = _get_bills_introduced_title(order_paper_html)
+    (
+        _,
+        _,
+        bill_no_html,
+        _,
+        date_introduced_html,
+        date_of_2nd_reading_html,
+        date_passed_html,
+    ) = order_paper_html.find_all("div")
+    bill_no = _get_bill_no(bill_no_html)
+    date_introduced = _get_date_introduced(date_introduced_html)
+    date_of_2nd_reading = _get_date_of_2nd_reading(date_of_2nd_reading_html)
+    date_passed = _get_date_passed(date_passed_html)
+    return BillsIntroducedData(
+        pdf_link=pdf_link,
+        title=title,
+        bill_no=bill_no,
+        date_introduced=date_introduced,
+        date_of_2nd_reading=date_of_2nd_reading,
+        date_passed=date_passed,
+    )
+
+
+def get_all_bills_introduced_data() -> List[BillsIntroducedData]:
+    full_html = _get_bills_introduced_full_html()
+    bills_introduced_html_elements = _get_bills_introduced_html_elements(full_html)
+    return [
+        _get_bills_introduced_data(bills_introduced_html_element)
+        for bills_introduced_html_element in bills_introduced_html_elements
+    ]
+
+
+def download_bills_introduced(bills_introduced_full_url: str, save_path: str) -> None:
+    try:
+        response = requests.get(f"{bills_introduced_full_url}")
+        with open(save_path, "wb") as f:
+            f.write(response.content)
+    except Exception:
+        raise BillsIntroducedAPIRequestError
+
+
+def download_all_bills_introduced_data() -> None:
+    all_bills_introduced_data = get_all_bills_introduced_data()
+    download_counter = 0
+    for bills_introduced_data in all_bills_introduced_data:
+        download_bills_introduced(
+            bills_introduced_data.pdf_link,
+            f"scripts/extract/resource-bills-introduced/{bills_introduced_data.title}.pdf",
+        )
+        download_counter += 1
+        print(f"{download_counter}/{len(all_bills_introduced_data)}")
+
+
+download_all_bills_introduced_data()
