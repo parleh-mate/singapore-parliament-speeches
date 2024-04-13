@@ -3,7 +3,7 @@ import datetime
 from googleapiclient.http import MediaFileUpload
 import tempfile
 import json
-import googleapiclient
+import googleapiclient.discovery
 
 ### Methods ###
 
@@ -15,7 +15,16 @@ def find_folder_id(service, folder_name):
         return files[0]['id']  # Assuming the first match is the correct one
     else:
         print(f"Could not find {folder_name}")
-    return None
+        return None
+    
+def find_file_id(service, folder_id, file_name):
+    query = f"name='{file_name}' and '{folder_id}' in parents and trashed=false"
+    response = service.files().list(q=query, fields='files(id)').execute()
+    for file in response.get('files', []):
+        return file['id']
+    else:
+        print(f"Could not find {file_name}")
+        return None
 
 
 def date_yyyymmdd_to_ddmmyyyy(date_yyyymmdd):
@@ -48,25 +57,30 @@ def upload_json(response_json, file):
 
     # create google api service
     service = googleapiclient.discovery.build("drive", "v3")
+    folder_id = find_folder_id(service, "resource_json")
 
-    folder_id = parl_json.find_folder_id(service, "resource_json")
+    # check if file already exists
+    file_id = find_file_id(service, folder_id, file)    
 
-    file_metadata = {
-        'name': file,
-        'parents': [folder_id]
-    }
+    if file_id is None:
 
-    # Create a temporary file; gdrive has to upload from path and not saved object
-    with tempfile.NamedTemporaryFile(delete=False, mode='w+', suffix='.json') as temp_file:
-            json.dump(response_json, temp_file)
-            temp_file_path = temp_file.name 
+        file_metadata = {
+            'name': file,
+            'parents': [folder_id]
+        }
 
-    media = MediaFileUpload(temp_file_path, mimetype='application/json')
+        # Create a temporary file; gdrive has to upload from path and not saved object
+        with tempfile.NamedTemporaryFile(delete=False, mode='w+', suffix='.json') as temp_file:
+                json.dump(response_json, temp_file)
+                temp_file_path = temp_file.name 
 
-    # automatically overwrites if exists
+        media = MediaFileUpload(temp_file_path, mimetype='application/json')
 
-    uploaded_file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-    
-    print(f"Uploaded {filename} with ID: {uploaded_file.get('id')}")
-    
+        uploaded_file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+        
+        print(f"Uploaded {file} with ID: {uploaded_file.get('id')}")
+
+    else:
+        print(f"File {file} already exists in Drive: upload aborted")
+
     return 0

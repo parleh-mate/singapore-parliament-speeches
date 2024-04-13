@@ -2,7 +2,7 @@
 scripts/test.py
 keys
 
-# gcp token
+# all tokens
 token/
 
 # Byte-compiled / optimized / DLL files

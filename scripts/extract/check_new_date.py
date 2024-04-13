@@ -11,7 +11,8 @@ version = 2
 ### Methods ###
 
 def last_date_checked(list_of_dates):
-    last_date = datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
+    #last_date = datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
+    last_date = max(list_of_dates)
     print(f"Last date read: {last_date.strftime('%Y-%m-%d')}")
     return last_date
 
@@ -47,9 +48,7 @@ def prepare_df_to_append(new_sitting_dates, version=2):
         }
     )
 
-
 ### Main Run ###
-
 
 def process():
 
@@ -64,18 +63,17 @@ def process():
 
     new_sitting_dates_list = new_parliament_sitting_dates(unchecked_dates_df)
 
+    # now check for duplicates
+
+    new_sitting_dates_list = list(set(new_sitting_dates_list) - set(df['Sitting_Date']))
+
     append_df = prepare_df_to_append(new_sitting_dates_list, version)
 
-    new_dates_df = pd.concat([df, append_df], ignore_index = True)
-
-    # check for duplicates
-    new_dates_df = new_dates_df.drop_duplicates(subset='Sitting_Date')
-
-    # reupload to gbq
+    # now append to gbq
     pandas_gbq.to_gbq(
-        new_dates_df,
+        append_df,
         destination_table="singapore-parliament-speeches.raw.dates",
-        if_exists="replace",
+        if_exists="append",
     )
 
     return append_df['Sitting_Date'].tolist()

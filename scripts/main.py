@@ -8,7 +8,7 @@ import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
 import os
-import googleapiclient
+import utils
 
 # set environ for project and token
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
@@ -43,28 +43,25 @@ def dates_to_process(seed_dates_path):
 
 #upload files to gdrive
 
-service = googleapiclient.discovery.build("drive", "v3")
-
-drive_folder_id = parl_json.find_folder_id(service, "resource_json")
-
 def get_json(date_list):
+    responses = {}
     for date in date_list:
         url = parl_json.parliament_url(parl_json.date_yyyymmdd_to_ddmmyyyy(date))
 
         response = parl_json.get_json(url)
+        response_json = response.json()
         filename = f"{date}.json"
-        parl_json.upload_json(response.json(), filename, drive_folder_id)
-
-    return 0
+        parl_json.upload_json(response_json, filename)
+        responses[date] = response_json
+    return(responses)
 
 
 # 4.
 # Create sittings by date
 
-
-def sittings(date_list, debug=True):
-    for date in date_list:
-        metadata = transform.get_json(date, "metadata")
+def sittings(json_responses, debug=True):
+    for date in json_responses:
+        metadata = json_responses[date]["metadata"]
         sittings_df = load_sittings.dataframe(metadata)
 
         if debug == True:
@@ -80,9 +77,9 @@ def sittings(date_list, debug=True):
 # Create attendance by date
 
 
-def attendance(date_list, debug=True):
-    for date in date_list:
-        attendance_list = transform.get_json(date, "attendanceList")
+def attendance(json_responses, debug=True):
+    for date in json_responses:
+        attendance_list = json_responses[date]["attendanceList"]
         attendance_df = load_attendance.dataframe(date, attendance_list)
 
         if debug == True:
@@ -98,9 +95,9 @@ def attendance(date_list, debug=True):
 # Create topics by date
 
 
-def topics(date_list, debug=True):
-    for date in date_list:
-        topics_list = transform.get_json(date, "takesSectionVOList")
+def topics(json_responses, debug=True):
+    for date in json_responses:
+        topics_list = json_responses[date]["takesSectionVOList"]
         topics_df = load_topics.dataframe(date, topics_list)
 
         if debug == True:
@@ -116,9 +113,9 @@ def topics(date_list, debug=True):
 # Create speeches by date
 
 
-def speeches(date_list, debug=True):
-    for date in date_list:
-        topics_list = transform.get_json(date, "takesSectionVOList")
+def speeches(json_responses, debug=True):
+    for date in json_responses:
+        topics_list = json_responses[date]["takesSectionVOList"]
         speeches_df = load_speeches.dataframe(date, topics_list)
 
         if debug == True:
@@ -173,10 +170,16 @@ def speeches(date_list, debug=True):
 
 try:
     process_dates = check_new_dates()
-    get_json(process_dates)
-    sittings(process_dates, debug=False)
-    attendance(process_dates, debug=False)
-    topics(process_dates, debug=False)
-    speeches(process_dates, debug=False)
+    json_out = get_json(process_dates)
+    sittings(json_out, debug=False)
+    attendance(json_out, debug=False)
+    topics(json_out, debug=False)
+    speeches(json_out, debug=False)
+    status = f"Scrape successful!"
+
 except Exception as e:
-    print(f"An error occurred: {e}")
+    status = f"An error occurred with process dates {process_dates}: {e}"
+    print(status)
+
+# send notification to telegram bot
+utils.send_telebot(status)
