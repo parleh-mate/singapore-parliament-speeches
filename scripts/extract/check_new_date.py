@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import datetime
 from datetime import date
-import os
+import pandas_gbq
 
 ### Variables ###
 
@@ -10,9 +10,9 @@ version = 2
 
 ### Methods ###
 
-
 def last_date_checked(list_of_dates):
-    last_date = datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
+    #last_date = datetime.datetime.strptime(max(list_of_dates), "%Y-%m-%d")
+    last_date = max(list_of_dates)
     print(f"Last date read: {last_date.strftime('%Y-%m-%d')}")
     return last_date
 
@@ -48,17 +48,32 @@ def prepare_df_to_append(new_sitting_dates, version=2):
         }
     )
 
-
 ### Main Run ###
 
+def process():
 
-def process(seeds_date_filepath):
-    df = pd.read_csv(seeds_date_filepath)
+    # read from gbq instead of from filepath
+
+    df = pandas_gbq.read_gbq(query_or_table = """
+                                    SELECT Sitting_Date
+                                    FROM `singapore-parliament-speeches.raw.dates`
+                                    """)
 
     unchecked_dates_df = unchecked_dates(last_date_checked(df["Sitting_Date"]))
+
     new_sitting_dates_list = new_parliament_sitting_dates(unchecked_dates_df)
 
-    append_df = prepare_df_to_append(new_sitting_dates_list, version)
-    append_df.to_csv(seeds_date_filepath, mode="a", index=False, header=False)
+    # now check for duplicates
 
-    return 0
+    new_sitting_dates_list = list(set(new_sitting_dates_list) - set(df['Sitting_Date']))
+
+    append_df = prepare_df_to_append(new_sitting_dates_list, version)
+
+    # now append to gbq
+    pandas_gbq.to_gbq(
+        append_df,
+        destination_table="singapore-parliament-speeches.raw.dates",
+        if_exists="append",
+    )
+
+    return append_df['Sitting_Date'].tolist()

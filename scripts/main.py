@@ -1,4 +1,3 @@
-from utils import get_root_path, join_path
 import extract
 import extract.check_new_date as check_new_date
 import extract.parl_json as parl_json
@@ -8,17 +7,22 @@ import load.sittings as load_sittings
 import load.attendance as load_attendance
 import load.topics as load_topics
 import load.speeches as load_speeches
+import os
+import utils
+
+# set environ for project and token
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
+os.environ["GOOGLE_CLOUD_PROJECT"] = "singapore-parliament-speeches"
 
 # 1.
 # Check for new dates
 
 
-def check_new_dates(seed_dates_path):
-    check_new_date.process(seed_dates_path)
+def check_new_dates():
+    new_dates = check_new_date.process()
+    return new_dates
 
-    return 0
-
-
+"""
 # 2.
 # Get dates to be processed
 
@@ -31,33 +35,33 @@ def dates_to_process(seed_dates_path):
 
     return date_list
 
+"""
+
 
 # 3.
 # Get JSON files for dates
 
+#upload files to gdrive
 
 def get_json(date_list):
+    responses = {}
     for date in date_list:
         url = parl_json.parliament_url(parl_json.date_yyyymmdd_to_ddmmyyyy(date))
 
         response = parl_json.get_json(url)
-
-        filepath = join_path(
-            join_path(get_root_path(), "resource-json"), f"{date}.json"
-        )
-
-        parl_json.save_json(response.json(), filepath)
-
-    return 0
+        response_json = response.json()
+        filename = f"{date}.json"
+        parl_json.upload_json(response_json, filename)
+        responses[date] = response_json
+    return(responses)
 
 
 # 4.
 # Create sittings by date
 
-
-def sittings(date_list, debug=True):
-    for date in date_list:
-        metadata = transform.get_json(date, "metadata")
+def sittings(json_responses, debug=True):
+    for date in json_responses:
+        metadata = json_responses[date]["metadata"]
         sittings_df = load_sittings.dataframe(metadata)
 
         if debug == True:
@@ -73,9 +77,9 @@ def sittings(date_list, debug=True):
 # Create attendance by date
 
 
-def attendance(date_list, debug=True):
-    for date in date_list:
-        attendance_list = transform.get_json(date, "attendanceList")
+def attendance(json_responses, debug=True):
+    for date in json_responses:
+        attendance_list = json_responses[date]["attendanceList"]
         attendance_df = load_attendance.dataframe(date, attendance_list)
 
         if debug == True:
@@ -91,9 +95,9 @@ def attendance(date_list, debug=True):
 # Create topics by date
 
 
-def topics(date_list, debug=True):
-    for date in date_list:
-        topics_list = transform.get_json(date, "takesSectionVOList")
+def topics(json_responses, debug=True):
+    for date in json_responses:
+        topics_list = json_responses[date]["takesSectionVOList"]
         topics_df = load_topics.dataframe(date, topics_list)
 
         if debug == True:
@@ -109,9 +113,9 @@ def topics(date_list, debug=True):
 # Create speeches by date
 
 
-def speeches(date_list, debug=True):
-    for date in date_list:
-        topics_list = transform.get_json(date, "takesSectionVOList")
+def speeches(json_responses, debug=True):
+    for date in json_responses:
+        topics_list = json_responses[date]["takesSectionVOList"]
         speeches_df = load_speeches.dataframe(date, topics_list)
 
         if debug == True:
@@ -128,11 +132,9 @@ def speeches(date_list, debug=True):
 
 # Main Run
 
-root_path = get_root_path()
+#seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 
-seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
-
-while True:
+""" while True:
     try:
         choice = int(
             input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
@@ -164,4 +166,20 @@ while True:
             continue
 
     except ValueError:
-        print("Invalid input. Please enter a number.")
+        print("Invalid input. Please enter a number.") """
+
+try:
+    process_dates = check_new_dates()
+    json_out = get_json(process_dates)
+    sittings(json_out, debug=False)
+    attendance(json_out, debug=False)
+    topics(json_out, debug=False)
+    speeches(json_out, debug=False)
+    status = f"Scrape successful!"
+
+except Exception as e:
+    status = f"An error occurred with process dates {process_dates}: {e}"
+    print(status)
+
+# send notification to telegram bot
+utils.send_telebot(status)
