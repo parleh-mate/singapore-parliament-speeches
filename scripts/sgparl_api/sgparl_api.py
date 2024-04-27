@@ -3,6 +3,7 @@ import pandas as pd
 from google.cloud import bigquery
 import pandas_gbq
 import os
+import time
 
 
 class ParliamentAPI:
@@ -64,7 +65,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "token/gcp_token.json"
 project_id = "singapore-parliament-speeches"
 
 query = """
-  select sitting_date from `singapore-parliament-speeches.sgparl_api.sitting_results` where sitting_date >= '2009-09-14'
+  select sitting_date from `singapore-parliament-speeches.sgparl_api.sitting_results` where sitting_date >= '2010-03-02'
   order by sitting_date
 """
 
@@ -72,6 +73,7 @@ sitting_dates_df = pandas_gbq.read_gbq(query, project_id)
 sitting_dates = sitting_dates_df["sitting_date"].to_list()
 
 total_pages = []
+df = pd.DataFrame()
 parliament_api = ParliamentAPI()
 
 for sitting_date in sitting_dates:
@@ -81,12 +83,19 @@ for sitting_date in sitting_dates:
         )
 
         if data["data"]:
-            print(f"Uploading: Sitting Date: {sitting_date}, Page: {page}")
+            print(f"Parsing: Sitting Date: {sitting_date}, Page: {page}")
             parliament_data = ParliamentData(data)
-            parliament_data.to_bigquery(
-                project_id=project_id, dataset_id="sgparl_api", table_id="speeches"
-            )
+            df = df.append(parliament_data.to_dataframe(), ignore_index=True)
         else:
             print(f"End at: Sitting Date: {sitting_date}, Page: {page-1}")
             total_pages.append(page - 1)
             break
+
+    pandas_gbq.to_gbq(
+        dataframe=df,
+        destination_table="singapore-parliament-speeches.sgparl_api.speeches",
+        project_id=project_id,
+        if_exists="append",
+    )
+
+    time.sleep(60)
