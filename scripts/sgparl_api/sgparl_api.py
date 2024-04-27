@@ -85,7 +85,7 @@ for sitting_date in sitting_dates:
         if data["data"]:
             print(f"Parsing: Sitting Date: {sitting_date}, Page: {page}")
             parliament_data = ParliamentData(data)
-            df = df.append(parliament_data.to_dataframe(), ignore_index=True)
+            df = pd.concat([df, parliament_data.to_dataframe()], ignore_index=True)
         else:
             print(f"End at: Sitting Date: {sitting_date}, Page: {page-1}")
             total_pages.append(page - 1)
