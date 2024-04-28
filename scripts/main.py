@@ -9,6 +9,7 @@ import load.topics as load_topics
 import load.speeches as load_speeches
 import os
 import utils
+import nltk
 
 # set environ for project and token
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
@@ -169,6 +170,10 @@ def speeches(json_responses, debug=True):
         print("Invalid input. Please enter a number.") """
 
 try:
+    # required for counting syllables and sentences
+    nltk.download('punkt')
+    nltk.download("cmudict")
+    
     process_dates = check_new_dates()
     json_out = get_json(process_dates)
     sittings(json_out, debug=False)
