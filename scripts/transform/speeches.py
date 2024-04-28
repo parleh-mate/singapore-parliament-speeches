@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import transform
 import re
+import nltk
+from nltk.corpus import cmudict
 
 
 def speech_cid(row):
@@ -56,6 +58,73 @@ def count_words_and_characters(row):
     )  # count only alphabetic characters
 
     return pd.Series({"num_words": num_words, "num_characters": num_characters})
+
+
+def calc_number_of_sentences(text):
+    # Split text into sentences
+    sentences = re.split(r"[.!?]+", text)
+    # Remove empty strings (e.g., caused by trailing punctuation)
+    sentences = [sentence for sentence in sentences if sentence]
+    return len(sentences)
+
+
+def count_syllables(word):
+    """Count the number of syllables in a word."""
+    nltk.download("cmudict")
+    pronouncing_dict = cmudict.dict()
+
+    if word.lower() in pronouncing_dict:
+        return max(
+            [
+                len(list(y for y in x if y[-1].isdigit()))
+                for x in pronouncing_dict[word.lower()]
+            ]
+        )
+    else:
+        # If the word is not found in the dictionary, use the provided heuristic
+        return calc_number_of_syllables_alt(word)
+
+
+def calc_number_of_syllables_alt(word):
+    # Define vowels
+    vowels = "aeiouy"
+    # Convert word to lowercase
+    word = word.lower()
+    # Initialize syllable count
+    count = 0
+    # Initialize flag to track if previous character was a vowel
+    prev_char_was_vowel = False
+
+    # Iterate through each character in the word
+    for char in word:
+        # Check if the character is a vowel
+        if char in vowels:
+            # Check if the previous character was not a vowel
+            if not prev_char_was_vowel:
+                # Increment syllable count for a new vowel sequence
+                count += 1
+            # Update the flag
+            prev_char_was_vowel = True
+        else:
+            # Update the flag if the character is not a vowel
+            prev_char_was_vowel = False
+
+    # Adjust syllable count for specific cases
+    if word.endswith(("e", "es", "ed")) and not word.endswith(("le", "ble", "ple")):
+        count -= 1
+    # Ensure at least one syllable for any word
+    if count == 0:
+        count = 1
+
+    # Return the calculated syllable count
+    return count
+
+
+def calc_number_of_syllables(text):
+    """Calculate the number of syllables in a given text."""
+    words = nltk.word_tokenize(text)
+    syllable_counts = [count_syllables(word) for word in words]
+    return sum(syllable_counts)
 
 
 def process_content(soup):

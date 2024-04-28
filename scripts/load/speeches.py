@@ -22,7 +22,13 @@ def processing(date_yyyymmdd, topics_list):
     df["speech_order"] = speech_orders
     df["speech_id"] = df.apply(speeches.speech_cid, axis=1)
 
+    # add number of sentences, syllables
+    df["num_sentences"] = df["Text"].apply(speeches.calc_number_of_sentences)
+    df["num_syllables"] = df["Text"].apply(speeches.calc_number_of_syllables)
+
+    # add number of words, characters
     result = df.apply(speeches.count_words_and_characters, axis=1)
+
     df = pd.concat([df, result[["num_words", "num_characters"]]], axis=1)
 
     return df
@@ -41,6 +47,8 @@ def dataframe(date_yyyymmdd, topics_list):
             "text": df["Text"],
             "num_words": df["num_words"],
             "num_characters": df["num_characters"],
+            "num_sentences": df["num_sentences"],
+            "num_syllables": df["num_syllables"],
         }
     )
 
