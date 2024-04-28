@@ -91,6 +91,8 @@ for sitting_date in sitting_dates:
             total_pages.append(page - 1)
             break
 
+    time.sleep(120)
+
     pandas_gbq.to_gbq(
         dataframe=df,
         destination_table="singapore-parliament-speeches.sgparl_api.speeches",
@@ -98,4 +100,4 @@ for sitting_date in sitting_dates:
         if_exists="append",
     )
 
-    time.sleep(60)
+    time.sleep(120)
