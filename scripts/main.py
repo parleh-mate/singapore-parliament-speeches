@@ -185,7 +185,7 @@ except Exception as e:
     status.append(f"An error occurred with process dates {process_dates}: {e}")
 
 # send notification to telegram bot
-if not status:  # check if status list is empty
+if not process_dates:  # check if dates list is empty
     status.append("Nothing was processed. No new dates.")
 status_message = "\n".join(status)
 print(status_message)
