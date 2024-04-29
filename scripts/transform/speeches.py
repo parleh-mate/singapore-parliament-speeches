@@ -69,23 +69,6 @@ def calc_number_of_sentences(text):
 
 
 def count_syllables(word):
-    """Count the number of syllables in a word."""
-    nltk.download("cmudict")
-    pronouncing_dict = cmudict.dict()
-
-    if word.lower() in pronouncing_dict:
-        return max(
-            [
-                len(list(y for y in x if y[-1].isdigit()))
-                for x in pronouncing_dict[word.lower()]
-            ]
-        )
-    else:
-        # If the word is not found in the dictionary, use the provided heuristic
-        return calc_number_of_syllables_alt(word)
-
-
-def calc_number_of_syllables_alt(word):
     # Define vowels
     vowels = "aeiouy"
     # Convert word to lowercase

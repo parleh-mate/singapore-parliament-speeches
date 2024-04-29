@@ -12,7 +12,7 @@ import utils
 import nltk
 
 # set environ for project and token
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "token/gcp_token.json"
 os.environ["GOOGLE_CLOUD_PROJECT"] = "singapore-parliament-speeches"
 
 # 1.
@@ -22,6 +22,7 @@ os.environ["GOOGLE_CLOUD_PROJECT"] = "singapore-parliament-speeches"
 def check_new_dates():
     new_dates = check_new_date.process()
     return new_dates
+
 
 """
 # 2.
@@ -42,34 +43,34 @@ def dates_to_process(seed_dates_path):
 # 3.
 # Get JSON files for dates
 
-#upload files to gdrive
+# upload files to gdrive
 
-def get_json(date_list):
-    responses = {}
-    for date in date_list:
-        url = parl_json.parliament_url(parl_json.date_yyyymmdd_to_ddmmyyyy(date))
 
-        response = parl_json.get_json(url)
-        response_json = response.json()
-        filename = f"{date}.json"
-        parl_json.upload_json(response_json, filename)
-        responses[date] = response_json
-    return(responses)
+def get_json(date):
+    url = parl_json.parliament_url(parl_json.date_yyyymmdd_to_ddmmyyyy(date))
+
+    response = parl_json.get_json(url)
+    response_json = response.json()
+    filename = f"{date}.json"
+    parl_json.upload_json(response_json, filename)
+
+    return response_json
 
 
 # 4.
 # Create sittings by date
 
-def sittings(json_responses, debug=True):
-    for date in json_responses:
-        metadata = json_responses[date]["metadata"]
-        sittings_df = load_sittings.dataframe(metadata)
 
-        if debug == True:
-            load.save_df("sittings", date, sittings_df)
+def sittings(json_responses, date, debug=True):
+    metadata = json_responses["metadata"]
+    sittings_df = load_sittings.dataframe(metadata)
+    print(f"processed sittings: {date}")
 
-        if debug == False:
-            load.save_incremental_model_gbq("raw", "sittings", sittings_df)
+    if debug == True:
+        load.save_df("sittings", date, sittings_df)
+
+    if debug == False:
+        load.save_incremental_model_gbq("raw", "sittings", sittings_df)
 
     return sittings_df
 
@@ -78,16 +79,16 @@ def sittings(json_responses, debug=True):
 # Create attendance by date
 
 
-def attendance(json_responses, debug=True):
-    for date in json_responses:
-        attendance_list = json_responses[date]["attendanceList"]
-        attendance_df = load_attendance.dataframe(date, attendance_list)
+def attendance(json_responses, date, debug=True):
+    attendance_list = json_responses["attendanceList"]
+    attendance_df = load_attendance.dataframe(date, attendance_list)
+    print(f"processed attendance: {date}")
 
-        if debug == True:
-            load.save_df("attendance", date, attendance_df)
+    if debug == True:
+        load.save_df("attendance", date, attendance_df)
 
-        if debug == False:
-            load.save_incremental_model_gbq("raw", "attendance", attendance_df)
+    if debug == False:
+        load.save_incremental_model_gbq("raw", "attendance", attendance_df)
 
     return attendance_df
 
@@ -96,16 +97,16 @@ def attendance(json_responses, debug=True):
 # Create topics by date
 
 
-def topics(json_responses, debug=True):
-    for date in json_responses:
-        topics_list = json_responses[date]["takesSectionVOList"]
-        topics_df = load_topics.dataframe(date, topics_list)
+def topics(json_responses, date, debug=True):
+    topics_list = json_responses["takesSectionVOList"]
+    topics_df = load_topics.dataframe(date, topics_list)
+    print(f"processed topics: {date}")
 
-        if debug == True:
-            load.save_df("topics", date, topics_df)
+    if debug == True:
+        load.save_df("topics", date, topics_df)
 
-        if debug == False:
-            load.save_incremental_model_gbq("raw", "topics", topics_df)
+    if debug == False:
+        load.save_incremental_model_gbq("raw", "topics", topics_df)
 
     return topics_df
 
@@ -114,16 +115,16 @@ def topics(json_responses, debug=True):
 # Create speeches by date
 
 
-def speeches(json_responses, debug=True):
-    for date in json_responses:
-        topics_list = json_responses[date]["takesSectionVOList"]
-        speeches_df = load_speeches.dataframe(date, topics_list)
+def speeches(json_responses, date, debug=True):
+    topics_list = json_responses["takesSectionVOList"]
+    speeches_df = load_speeches.dataframe(date, topics_list)
+    print(f"processed speeches: {date}")
 
-        if debug == True:
-            load.save_df("speeches", date, speeches_df)
+    if debug == True:
+        load.save_df("speeches", date, speeches_df)
 
-        if debug == False:
-            load.save_incremental_model_gbq("raw", "speeches", speeches_df)
+    if debug == False:
+        load.save_incremental_model_gbq("raw", "speeches", speeches_df)
 
     return speeches_df
 
@@ -133,7 +134,7 @@ def speeches(json_responses, debug=True):
 
 # Main Run
 
-#seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
+# seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 
 """ while True:
     try:
@@ -170,21 +171,23 @@ def speeches(json_responses, debug=True):
         print("Invalid input. Please enter a number.") """
 
 try:
-    # required for counting syllables and sentences
-    nltk.download('punkt')
-    nltk.download("cmudict")
-    
+    status = []
     process_dates = check_new_dates()
-    json_out = get_json(process_dates)
-    sittings(json_out, debug=False)
-    attendance(json_out, debug=False)
-    topics(json_out, debug=False)
-    speeches(json_out, debug=False)
-    status = f"Scrape successful!"
+    for process_date in process_dates:
+        json_out = get_json(process_dates)
+        sittings(json_out, process_date, debug=False)
+        attendance(json_out, process_date, debug=False)
+        topics(json_out, process_date, debug=False)
+        speeches(json_out, process_date, debug=False)
+        status.append(f"Scrape successful for {process_date}!")
 
 except Exception as e:
-    status = f"An error occurred with process dates {process_dates}: {e}"
-    print(status)
+    status.append(f"An error occurred with process dates {process_dates}: {e}")
 
 # send notification to telegram bot
-utils.send_telebot(status)
+if not process_dates:  # check if dates list is empty
+    status.append("Nothing was processed. No new dates.")
+status_message = "\n".join(status)
+print(status_message)
+
+utils.send_telebot(status_message)
