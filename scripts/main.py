@@ -12,7 +12,7 @@ import utils
 import nltk
 
 # set environ for project and token
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="token/gcp_token.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "token/gcp_token.json"
 os.environ["GOOGLE_CLOUD_PROJECT"] = "singapore-parliament-speeches"
 
 # 1.
@@ -22,6 +22,7 @@ os.environ["GOOGLE_CLOUD_PROJECT"] = "singapore-parliament-speeches"
 def check_new_dates():
     new_dates = check_new_date.process()
     return new_dates
+
 
 """
 # 2.
@@ -42,7 +43,8 @@ def dates_to_process(seed_dates_path):
 # 3.
 # Get JSON files for dates
 
-#upload files to gdrive
+# upload files to gdrive
+
 
 def get_json(date_list):
     responses = {}
@@ -54,11 +56,12 @@ def get_json(date_list):
         filename = f"{date}.json"
         parl_json.upload_json(response_json, filename)
         responses[date] = response_json
-    return(responses)
+    return responses
 
 
 # 4.
 # Create sittings by date
+
 
 def sittings(json_responses, debug=True):
     for date in json_responses:
@@ -133,7 +136,7 @@ def speeches(json_responses, debug=True):
 
 # Main Run
 
-#seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
+# seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
 
 """ while True:
     try:
@@ -170,10 +173,6 @@ def speeches(json_responses, debug=True):
         print("Invalid input. Please enter a number.") """
 
 try:
-    # required for counting syllables and sentences
-    nltk.download('punkt')
-    nltk.download("cmudict")
-    
     process_dates = check_new_dates()
     json_out = get_json(process_dates)
     sittings(json_out, debug=False)
