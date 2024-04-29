@@ -171,6 +171,7 @@ def speeches(json_responses, date, debug=True):
         print("Invalid input. Please enter a number.") """
 
 try:
+    status = []
     process_dates = check_new_dates()
     for process_date in process_dates:
         json_out = get_json(process_dates)
@@ -178,11 +179,15 @@ try:
         attendance(json_out, process_date, debug=False)
         topics(json_out, process_date, debug=False)
         speeches(json_out, process_date, debug=False)
-        status = f"Scrape successful for {process_date}!"
+        status.append(f"Scrape successful for {process_date}!")
 
 except Exception as e:
-    status = f"An error occurred with process dates {process_dates}: {e}"
-    print(status)
+    status.append(f"An error occurred with process dates {process_dates}: {e}")
 
 # send notification to telegram bot
-utils.send_telebot(status)
+if not status:  # check if status list is empty
+    status.append("Nothing was processed. No new dates.")
+status_message = "\n".join(status)
+print(status_message)
+
+utils.send_telebot(status_message)
