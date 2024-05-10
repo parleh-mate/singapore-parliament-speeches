@@ -120,7 +120,10 @@ def process_content(soup):
     for index, p in enumerate(soup.find_all("p")):
         try:
             if p.strong:
-                speaker = str(p.strong.text).strip()
+                if str(p.strong.text).strip() == "" and index > 0:
+                    speaker = speakers[-1]
+                else:
+                    speaker = str(p.strong.text).strip()
                 text = str(p.find("strong").next_sibling)
                 if p.find("span"):  # In cases where there are 'span's in the text
                     text = text + " " + p.find("span").get_text()
@@ -130,7 +133,12 @@ def process_content(soup):
                     speaker = speakers[-1] if index > 0 else ""
                     sequence = sequences[-1] + 1 if index > 0 else 1
                 else:
-                    speaker = ""
+                    # where the question stood in the name of the member,
+                    # the name is in the prior <p> tag
+                    if soup.find_all("p")[index - 1].strong.text.strip():
+                        speaker = soup.find_all("p")[index - 1].strong.text.strip()
+                    else:
+                        speaker = ""
                     sequence = 1
                 text = str(p.text)
 
