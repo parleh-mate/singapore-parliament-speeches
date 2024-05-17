@@ -174,7 +174,7 @@ try:
     status = []
     process_dates = check_new_dates()
     for process_date in process_dates:
-        json_out = get_json(process_dates)
+        json_out = get_json(process_date)
         sittings(json_out, process_date, debug=False)
         attendance(json_out, process_date, debug=False)
         topics(json_out, process_date, debug=False)
