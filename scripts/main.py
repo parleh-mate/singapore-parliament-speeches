@@ -10,6 +10,7 @@ import load.speeches as load_speeches
 import os
 import utils
 import nltk
+from utils import join_path, get_root_path
 
 # set environ for project and token
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "token/gcp_token.json"
@@ -24,7 +25,6 @@ def check_new_dates():
     return new_dates
 
 
-"""
 # 2.
 # Get dates to be processed
 
@@ -36,8 +36,6 @@ def dates_to_process(seed_dates_path):
     print(f"Dates to be processed: {date_list}\n")
 
     return date_list
-
-"""
 
 
 # 3.
@@ -51,8 +49,6 @@ def get_json(date):
 
     response = parl_json.get_json(url)
     response_json = response.json()
-    filename = f"{date}.json"
-    parl_json.upload_json(response_json, filename)
 
     return response_json
 
@@ -134,60 +130,58 @@ def speeches(json_responses, date, debug=True):
 
 # Main Run
 
-# seed_dates_path = join_path(join_path(root_path, "seeds"), "dates.csv")
+# seed_dates_path = join_path(join_path(get_root_path(), "seeds"), "dates.csv")
 
-""" while True:
-    try:
-        choice = int(
-            input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
-        )
-        if choice == 0:
-            break
-        elif choice == 1:
-            check_new_dates(seed_dates_path)
-        elif choice == 2:
-            dates_to_process(seed_dates_path)
-        elif choice == 3:
-            get_json(dates_to_process(seed_dates_path))
-        elif choice == 4:
-            sittings(dates_to_process(seed_dates_path), debug=True)
-        elif choice == 5:
-            attendance(dates_to_process(seed_dates_path), debug=True)
-        elif choice == 6:
-            topics(dates_to_process(seed_dates_path), debug=True)
-        elif choice == 7:
-            speeches(dates_to_process(seed_dates_path), debug=True)
-        elif choice == 8:
-            process_dates = dates_to_process(seed_dates_path)
-            get_json(process_dates)
-            sittings(process_dates, debug=False)
-            attendance(process_dates, debug=False)
-            topics(process_dates, debug=False)
-            speeches(process_dates, debug=False)
-        else:
-            continue
+# while True:
+#     try:
+#         choice = int(
+#             input("Enter the part of the code to execute (1, 2, 3, 4, 5, 6, 7, 8): ")
+#         )
+#         if choice == 0:
+#             break
+#         elif choice == 1:
+#             check_new_dates(seed_dates_path)
+#         elif choice == 2:
+#             dates_to_process(seed_dates_path)
+#         elif choice == 3:
+#             get_json(dates_to_process(seed_dates_path))
+#         elif choice == 4:
+#             sittings(dates_to_process(seed_dates_path), debug=True)
+#         elif choice == 5:
+#             attendance(dates_to_process(seed_dates_path), debug=True)
+#         elif choice == 6:
+#             topics(dates_to_process(seed_dates_path), debug=True)
+#         elif choice == 7:
+#             speeches(dates_to_process(seed_dates_path), debug=True)
+#         elif choice == 8:
+#             process_dates = dates_to_process(seed_dates_path)
+#             get_json(process_dates)
+#             sittings(process_dates, debug=False)
+#             attendance(process_dates, debug=False)
+#             topics(process_dates, debug=False)
+#             speeches(process_dates, debug=False)
+#         else:
+#             continue
 
-    except ValueError:
-        print("Invalid input. Please enter a number.") """
+#     except ValueError:
+#         print("Invalid input. Please enter a number.")
 
-try:
-    status = []
-    process_dates = check_new_dates()
-    for process_date in process_dates:
-        json_out = get_json(process_dates)
-        sittings(json_out, process_date, debug=False)
-        attendance(json_out, process_date, debug=False)
-        topics(json_out, process_date, debug=False)
-        speeches(json_out, process_date, debug=False)
-        status.append(f"Scrape successful for {process_date}!")
 
-except Exception as e:
-    status.append(f"An error occurred with process dates {process_dates}: {e}")
+status = []
+process_dates = dates_to_process(
+    join_path(join_path(get_root_path(), "seeds"), "dates.csv")
+)
+for process_date in process_dates:
+    json_out = get_json(process_date)
+    sittings(json_out, process_date, debug=False)
+    attendance(json_out, process_date, debug=False)
+    topics(json_out, process_date, debug=False)
+    speeches(json_out, process_date, debug=False)
 
-# send notification to telegram bot
-if not process_dates:  # check if dates list is empty
-    status.append("Nothing was processed. No new dates.")
-status_message = "\n".join(status)
-print(status_message)
+# # send notification to telegram bot
+# if not process_dates:  # check if dates list is empty
+#     status.append("Nothing was processed. No new dates.")
+# status_message = "\n".join(status)
+# print(status_message)
 
-utils.send_telebot(status_message)
+# utils.send_telebot(status_message)
