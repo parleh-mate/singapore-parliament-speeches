@@ -20,7 +20,7 @@ def clean_rows(temp_df):
     temp_df["Text"] = temp_df["Text"].str.replace("proc text", "", case=False)
 
     # 3. Remove "pages" from header
-    temp_df["Text"] = temp_df["Text"].str.replace(r"Page  \d+", "")
+    temp_df["Text"] = temp_df["Text"].str.replace(r"Page  \d+", "", regex=True)
 
     # 4. Drop blank rows
     temp_df = temp_df[temp_df["Text"].astype(str) != ""]
@@ -146,7 +146,11 @@ def process_content(soup):
             if text != "None":
                 speakers.append(speaker)
                 texts.append(
-                    text.strip().replace("\xa0", " ").replace(":", " ").strip()
+                    text.strip()
+                    .replace("\xa0", " ")
+                    .replace("\t", " ")
+                    .replace(":", " ")
+                    .strip()
                 )
                 sequences.append(sequence)
         except Exception as e:
