@@ -159,7 +159,9 @@ def process_content(soup):
     last_speaker = None
 
     for index in range(len(speakers)):
-        if last_speaker == speakers[index]:
+        if last_speaker == speakers[index] and not texts[index].strip().startswith(
+            "asked"
+        ):
             revised_texts[-1] += " " + texts[index]
         else:
             revised_speakers.append(speakers[index])
