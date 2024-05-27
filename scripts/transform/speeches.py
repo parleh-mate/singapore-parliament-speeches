@@ -173,12 +173,8 @@ def process_content(soup):
             and not texts[index].strip().lower().startswith("asked")
             and not "to ask" in texts[index].strip().lower()[:10]
         ):
-            print(
-                f"if: {not 'to ask' in texts[index].strip().lower()[:10]} {texts[index]}"
-            )
             revised_texts[-1] += " " + texts[index]
         else:
-            print(f"else: {texts[index]}")
             revised_speakers.append(speakers[index])
             revised_texts.append(texts[index])
             last_speaker = speakers[index]
