@@ -20,9 +20,12 @@ def clean_rows(temp_df):
     temp_df["Text"] = temp_df["Text"].str.replace("proc text", "", case=False)
 
     # 3. Remove "pages" from header
-    temp_df["Text"] = temp_df["Text"].str.replace(r"Page  \d+", "", regex=True)
+    temp_df["Text"] = temp_df["Text"].str.replace(r"Page  \d+", "")
 
-    # 4. Drop blank rows
+    # 4. Remove "None" from header
+    temp_df["Text"] = temp_df["Text"].str.replace("None", "")
+
+    # 5. Drop blank rows
     temp_df = temp_df[temp_df["Text"].astype(str) != ""]
 
     return temp_df
