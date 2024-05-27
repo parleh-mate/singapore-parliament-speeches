@@ -40,6 +40,7 @@ def topic_dataframe(content, topic_cid, index):
 
     temp_df = pd.DataFrame(
         {
+            "date": [topic_cid[:10]] * len(speakers),
             "Topic_CID": [topic_cid] * len(speakers),
             "Original_MP_Name": speakers,
             "MP_Name": cleaned_speakers,
