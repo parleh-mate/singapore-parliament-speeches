@@ -39,6 +39,7 @@ def dataframe(date_yyyymmdd, topics_list):
 
     speeches_df = pd.DataFrame(
         {
+            "date": df["date"],
             "speech_id": df["speech_id"],
             "topic_id": df["Topic_CID"],
             "speech_order": df["speech_order"],
