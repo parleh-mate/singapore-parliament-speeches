@@ -100,6 +100,8 @@ def speeches(json_responses, date, debug=True):
 # Main Run
 
 
+# For information on the arguments, refer to:
+# https://github.com/jeremychia/singapore-parliament-speeches/pull/10
 def run():
     parser = argparse.ArgumentParser(description="Process Singapore Parliament data.")
     parser.add_argument(
@@ -170,5 +172,7 @@ def run():
         utils.send_telebot(status_message)
 
 
+# For information on the arguments, refer to:
+# https://github.com/jeremychia/singapore-parliament-speeches/pull/10
 if __name__ == "__main__":
     run()
