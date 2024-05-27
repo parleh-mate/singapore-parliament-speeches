@@ -107,6 +107,7 @@ def run():
     parser.add_argument(
         "date_source",
         type=str,
+        nargs="*",
         choices=["local", "seeds_dates", "check_new_dates"],
         default="check_new_dates",
         help="Source of dates to process (default: check_new_dates)",
