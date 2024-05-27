@@ -146,16 +146,15 @@ def process_content(soup):
                     sequence = 1
                 text = str(p.text)
 
-            if text != "None":
-                speakers.append(speaker)
-                texts.append(
-                    text.strip()
-                    .replace("\xa0", " ")
-                    .replace("\t", " ")
-                    .replace(":", " ")
-                    .strip()
-                )
-                sequences.append(sequence)
+            speakers.append(speaker)
+            texts.append(
+                text.strip()
+                .replace("\xa0", " ")
+                .replace("\t", " ")
+                .replace(":", " ")
+                .strip()
+            )
+            sequences.append(sequence)
         except Exception as e:
             print(f"Error at: {index} - {e}")
 
