@@ -11,17 +11,21 @@ def speech_cid(row):
 
 
 def clean_rows(temp_df):
-    # 1. remove "proc text" from header
+    # 1. Remove HTML tags from header
+    temp_df["Text"] = temp_df["Text"].apply(
+        lambda x: BeautifulSoup(x, "html.parser").get_text()
+    )
 
-    proc_text_pattern = re.compile(r"proc text", flags=re.IGNORECASE)
-    temp_df["Text"] = temp_df["Text"].str.replace(proc_text_pattern, "")
+    # 2. Remove "proc text" from header
+    temp_df["Text"] = temp_df["Text"].str.replace("proc text", "", case=False)
 
-    # 2. remove "pages" from header
+    # 3. Remove "pages" from header
+    temp_df["Text"] = temp_df["Text"].str.replace(r"Page  \d+", "", regex=True)
 
-    page_number_pattern = re.compile(r"Page  \d+")
-    temp_df["Text"] = temp_df["Text"].str.replace(page_number_pattern, "")
+    # 4. Remove "None" from header
+    temp_df["Text"] = temp_df["Text"].str.replace("None", "")
 
-    # 3. drop blank rows
+    # 5. Drop blank rows
     temp_df = temp_df[temp_df["Text"].astype(str) != ""]
 
     return temp_df
@@ -36,6 +40,7 @@ def topic_dataframe(content, topic_cid, index):
 
     temp_df = pd.DataFrame(
         {
+            "date": [topic_cid[:10]] * len(speakers),
             "Topic_CID": [topic_cid] * len(speakers),
             "Original_MP_Name": speakers,
             "MP_Name": cleaned_speakers,
@@ -120,7 +125,10 @@ def process_content(soup):
     for index, p in enumerate(soup.find_all("p")):
         try:
             if p.strong:
-                if str(p.strong.text).strip() == "" and index > 0:
+                if (
+                    str(p.strong.text).strip() == ""
+                    or len(str(p.strong.text).strip()) < 3
+                ) and index > 0:
                     speaker = speakers[-1]
                 else:
                     speaker = str(p.strong.text).strip()
@@ -142,12 +150,15 @@ def process_content(soup):
                     sequence = 1
                 text = str(p.text)
 
-            if text != "None":
-                speakers.append(speaker)
-                texts.append(
-                    text.strip().replace("\xa0", " ").replace(":", " ").strip()
-                )
-                sequences.append(sequence)
+            speakers.append(speaker)
+            texts.append(
+                text.strip()
+                .replace("\xa0", " ")
+                .replace("\t", " ")
+                .replace(":", " ")
+                .strip()
+            )
+            sequences.append(sequence)
         except Exception as e:
             print(f"Error at: {index} - {e}")
 
@@ -159,7 +170,12 @@ def process_content(soup):
     last_speaker = None
 
     for index in range(len(speakers)):
-        if last_speaker == speakers[index]:
+        # other conditions are indicative of a question, and therefore should not be added to the next text
+        if (
+            last_speaker == speakers[index]
+            and not texts[index].strip().lower().startswith("asked")
+            and not "to ask" in texts[index].strip().lower()[:10]
+        ):
             revised_texts[-1] += " " + texts[index]
         else:
             revised_speakers.append(speakers[index])
