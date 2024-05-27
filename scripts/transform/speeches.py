@@ -11,17 +11,18 @@ def speech_cid(row):
 
 
 def clean_rows(temp_df):
-    # 1. remove "proc text" from header
+    # 1. Remove HTML tags from header
+    temp_df["Text"] = temp_df["Text"].apply(
+        lambda x: BeautifulSoup(x, "html.parser").get_text()
+    )
 
-    proc_text_pattern = re.compile(r"proc text", flags=re.IGNORECASE)
-    temp_df["Text"] = temp_df["Text"].str.replace(proc_text_pattern, "")
+    # 2. Remove "proc text" from header
+    temp_df["Text"] = temp_df["Text"].str.replace("proc text", "", case=False)
 
-    # 2. remove "pages" from header
+    # 3. Remove "pages" from header
+    temp_df["Text"] = temp_df["Text"].str.replace(r"Page  \d+", "")
 
-    page_number_pattern = re.compile(r"Page  \d+")
-    temp_df["Text"] = temp_df["Text"].str.replace(page_number_pattern, "")
-
-    # 3. drop blank rows
+    # 4. Drop blank rows
     temp_df = temp_df[temp_df["Text"].astype(str) != ""]
 
     return temp_df
