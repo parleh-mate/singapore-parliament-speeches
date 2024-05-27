@@ -125,7 +125,10 @@ def process_content(soup):
     for index, p in enumerate(soup.find_all("p")):
         try:
             if p.strong:
-                if str(p.strong.text).strip() == "" and index > 0:
+                if (
+                    str(p.strong.text).strip() == ""
+                    or len(str(p.strong.text).strip()) < 3
+                ) and index > 0:
                     speaker = speakers[-1]
                 else:
                     speaker = str(p.strong.text).strip()
