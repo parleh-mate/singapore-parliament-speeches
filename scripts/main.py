@@ -177,3 +177,4 @@ def run():
 # https://github.com/jeremychia/singapore-parliament-speeches/pull/10
 if __name__ == "__main__":
     run()
+    print("finished")
