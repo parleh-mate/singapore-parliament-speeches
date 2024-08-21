@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # Change this to your target branch
+      - add-CDCI-artifact-registry  # Change this to your target branch
 
 jobs:
   build:
@@ -19,15 +19,17 @@ jobs:
     - name: Log in to Google Cloud
       uses: google-github-actions/auth@v1
       with:
-        credentials_json: ${{ secrets.GCP_SA_KEY }}
+        credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT }}
 
-    - name: Set up Google Cloud Docker credential helper
-      run: gcloud auth configure-docker --quiet
-
-    - name: Build Docker image
+    - name: Get OAuth2 access token and login to Docker
       run: |
-        docker build -t us-central1-docker.pkg.dev/singapore-parliament-speeches/singapore-parliament-speeches/image:latest .
+        ACCESS_TOKEN=$(gcloud auth print-access-token)
+        echo "$ACCESS_TOKEN" | docker login -u oauth2accesstoken --password-stdin https://us-central1-docker.pkg.dev
 
-    - name: Push Docker image to Google Artifact Registry
+
+    - name: Build and push Docker image
       run: |
+        docker build --build-arg SECRET_TOKEN=${{ secrets.MY_SECRET_TOKEN }} \
+                     -t us-central1-docker.pkg.dev/singapore-parliament-speeches/singapore-parliament-speeches/image:latest \
+                     .
         docker push us-central1-docker.pkg.dev/singapore-parliament-speeches/singapore-parliament-speeches/image:latest
