@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - add-CDCI-artifact-registry  # Change this to your target branch
+      - main
 
 jobs:
   build:
