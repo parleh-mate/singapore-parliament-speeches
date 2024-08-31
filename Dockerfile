@@ -11,6 +11,7 @@ RUN mkdir -p /token
 ## copy files
 COPY nltk_req.py .
 RUN python nltk_req.py
+COPY /token /token
 RUN echo "$SECRET_TOKEN" > /token/gcp_token.json
 COPY /scripts/extract /scripts/extract
 COPY /scripts/load /scripts/load
