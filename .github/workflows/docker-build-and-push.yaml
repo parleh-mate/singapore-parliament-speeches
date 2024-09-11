@@ -31,6 +31,18 @@ jobs:
         cat <<EOF > ./gcp_token.json
         ${{ secrets.GCP_SERVICE_ACCOUNT }}
         EOF
+    
+     - name: Save telegram bot token
+       run: |
+        cat <<EOF > ./telegram_bot_token.txt
+        ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        EOF
+
+     - name: Save telegram chat id
+       run: |
+        cat <<EOF > ./telegram_chat_id.txt
+        ${{ secrets.TELEGRAM_CHAT_ID }}
+        EOF
 
     - name: Build and push Docker image
       run: |

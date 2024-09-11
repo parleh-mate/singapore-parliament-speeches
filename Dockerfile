@@ -12,6 +12,8 @@ RUN mkdir -p /token
 COPY nltk_req.py .
 RUN python nltk_req.py
 COPY gcp_token.json token/gcp_token.json
+COPY telegram_bot_token.txt token/telegram_bot_token.txt
+COPY telegram_chat_id.txt token/telegram_chat_id.txt
 COPY /scripts/extract /scripts/extract
 COPY /scripts/load /scripts/load
 COPY /scripts/resource-json /scripts/resource-json
