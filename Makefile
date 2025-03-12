@@ -1,0 +1,2 @@
+# run in bash
+@gcloud functions deploy fetch_raw_speeches --runtime python310 --trigger-http --allow-unauthenticated --entry-point fetch_raw_speeches --timeout=540s --memory=1GB --set-env-vars TELEGRAM_BOT_TOKEN="$TELEGRAM_BOT_TOKEN",TELEGRAM_CHAT_ID="$TELEGRAM_CHAT_ID"
