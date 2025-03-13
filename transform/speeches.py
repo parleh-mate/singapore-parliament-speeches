@@ -4,6 +4,11 @@ import transform
 import re
 import nltk
 from nltk.corpus import cmudict
+import os 
+
+# get root nltk data path
+nltk_data_path = os.path.join(os.getcwd(), 'nltk_data')
+nltk.data.path.append(nltk_data_path)
 
 
 def speech_cid(row):
